@@ -1,0 +1,417 @@
+rm: cannot remove '*.o': No such file or directory
+./476_34.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_34.c:66:23: warning: Dereference of null pointer (loaded from variable 'data')
+        printLongLine(*data);
+                      ^~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103239-37773-1' to examine bug reports.
+./476_21.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_21.c:63:22: warning: Dereference of null pointer (loaded from variable 'data')
+        printIntLine(*data);
+                     ^~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103239-37784-1' to examine bug reports.
+./476_12.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_12.c:60:51: warning: Access to field 'intOne' results in a dereference of a null pointer (loaded from variable 'twoIntsStructPointer')
+            if ((twoIntsStructPointer != NULL) & (twoIntsStructPointer->intOne == 5))
+                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103239-37795-1' to examine bug reports.
+./476_48.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_48.c:102:13: warning: Potential leak of memory pointed to by 'intPointer'
+            printIntLine(*intPointer);
+            ^~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103240-37806-1' to examine bug reports.
+./476_22.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_22.c:66:22: warning: Dereference of null pointer (loaded from variable 'data')
+        printIntLine(*data);
+                     ^~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103240-37817-1' to examine bug reports.
+./476_38.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_38.c:73:23: warning: Dereference of null pointer (loaded from variable 'data')
+        printLongLine(*data);
+                      ^~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103241-37829-1' to examine bug reports.
+./476_28.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_28.c:63:22: warning: Dereference of null pointer (loaded from variable 'data')
+        printIntLine(*data);
+                     ^~~~~
+./476_28.c:87:18: warning: The left operand of '!=' is a garbage value
+        if (data != NULL)
+            ~~~~ ^
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103241-37840-1' to examine bug reports.
+./476_14.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_14.c:60:51: warning: Access to field 'intOne' results in a dereference of a null pointer (loaded from variable 'twoIntsStructPointer')
+            if ((twoIntsStructPointer != NULL) & (twoIntsStructPointer->intOne == 5))
+                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103242-37851-1' to examine bug reports.
+./476_11.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_11.c:60:51: warning: Access to field 'intOne' results in a dereference of a null pointer (loaded from variable 'twoIntsStructPointer')
+            if ((twoIntsStructPointer != NULL) & (twoIntsStructPointer->intOne == 5))
+                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103242-37862-1' to examine bug reports.
+./476_5.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_5.c:63:51: warning: Access to field 'intOne' results in a dereference of a null pointer (loaded from variable 'twoIntsStructPointer')
+            if ((twoIntsStructPointer != NULL) & (twoIntsStructPointer->intOne == 5))
+                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103243-37873-1' to examine bug reports.
+./476_26.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_26.c:73:22: warning: Dereference of null pointer (loaded from variable 'data')
+        printIntLine(*data);
+                     ^~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103243-37884-1' to examine bug reports.
+./476_20.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_20.c:63:22: warning: Dereference of null pointer (loaded from variable 'data')
+        printIntLine(*data);
+                     ^~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103244-37896-1' to examine bug reports.
+./476_39.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_39.c:63:23: warning: Dereference of null pointer (loaded from variable 'data')
+        printLongLine(*data);
+                      ^~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103244-37907-1' to examine bug reports.
+./476_6.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_6.c:62:51: warning: Access to field 'intOne' results in a dereference of a null pointer (loaded from variable 'twoIntsStructPointer')
+            if ((twoIntsStructPointer != NULL) & (twoIntsStructPointer->intOne == 5))
+                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103245-37919-1' to examine bug reports.
+./476_24.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_24.c:65:22: warning: Dereference of null pointer (loaded from variable 'data')
+        printIntLine(*data);
+                     ^~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103245-37930-1' to examine bug reports.
+./476_9.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_9.c:60:51: warning: Access to field 'intOne' results in a dereference of a null pointer (loaded from variable 'twoIntsStructPointer')
+            if ((twoIntsStructPointer != NULL) & (twoIntsStructPointer->intOne == 5))
+                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103245-37941-1' to examine bug reports.
+./476_32.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_32.c:63:23: warning: Dereference of null pointer (loaded from variable 'data')
+        printLongLine(*data);
+                      ^~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103246-37952-1' to examine bug reports.
+./476_43.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_43.c:61:30: warning: Dereference of null pointer (loaded from variable 'intPointer')
+                printIntLine(*intPointer);
+                             ^~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103246-37963-1' to examine bug reports.
+./476_45.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_45.c:95:13: warning: Potential leak of memory pointed to by 'intPointer'
+            printIntLine(*intPointer);
+            ^~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103247-37974-1' to examine bug reports.
+./476_37.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_37.c:65:23: warning: Dereference of null pointer (loaded from variable 'data')
+        printLongLine(*data);
+                      ^~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103247-37985-1' to examine bug reports.
+./476_35.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_35.c:66:23: warning: Dereference of null pointer (loaded from variable 'data')
+        printLongLine(*data);
+                      ^~~~~
+./476_35.c:90:18: warning: The left operand of '!=' is a garbage value
+        if (data != NULL)
+            ~~~~ ^
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103248-37996-1' to examine bug reports.
+./476_2.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_2.c:60:51: warning: Access to field 'intOne' results in a dereference of a null pointer (loaded from variable 'twoIntsStructPointer')
+            if ((twoIntsStructPointer != NULL) & (twoIntsStructPointer->intOne == 5))
+                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103248-38007-1' to examine bug reports.
+./476_46.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_46.c:68:13: warning: Potential leak of memory pointed to by 'intPointer'
+            printIntLine(*intPointer);
+            ^~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103249-38018-1' to examine bug reports.
+./476_17.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_17.c:61:51: warning: Access to field 'intOne' results in a dereference of a null pointer (loaded from variable 'twoIntsStructPointer')
+            if ((twoIntsStructPointer != NULL) & (twoIntsStructPointer->intOne == 5))
+                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103249-38029-1' to examine bug reports.
+./476_27.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_27.c:63:22: warning: Dereference of null pointer (loaded from variable 'data')
+        printIntLine(*data);
+                     ^~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103250-38040-1' to examine bug reports.
+./476_33.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_33.c:63:23: warning: Dereference of null pointer (loaded from variable 'data')
+        printLongLine(*data);
+                      ^~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103250-38051-1' to examine bug reports.
+./476.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-103251-38062-1' because it contains no reports.
+scan-build: No bugs found.
+./476_29.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_29.c:63:22: warning: Dereference of null pointer (loaded from variable 'data')
+        printIntLine(*data);
+                     ^~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103251-38073-1' to examine bug reports.
+./476_30.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_30.c:71:22: warning: Dereference of null pointer (loaded from variable 'data')
+        printIntLine(*data);
+                     ^~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103252-38084-1' to examine bug reports.
+./476_36.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_36.c:65:23: warning: Dereference of null pointer (loaded from variable 'data')
+        printLongLine(*data);
+                      ^~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103252-38095-1' to examine bug reports.
+./476_7.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_7.c:62:51: warning: Access to field 'intOne' results in a dereference of a null pointer (loaded from variable 'twoIntsStructPointer')
+            if ((twoIntsStructPointer != NULL) & (twoIntsStructPointer->intOne == 5))
+                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103253-38107-1' to examine bug reports.
+./476_4.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_4.c:63:51: warning: Access to field 'intOne' results in a dereference of a null pointer (loaded from variable 'twoIntsStructPointer')
+            if ((twoIntsStructPointer != NULL) & (twoIntsStructPointer->intOne == 5))
+                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103253-38118-1' to examine bug reports.
+./476_16.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_16.c:60:51: warning: Access to field 'intOne' results in a dereference of a null pointer (loaded from variable 'twoIntsStructPointer')
+            if ((twoIntsStructPointer != NULL) & (twoIntsStructPointer->intOne == 5))
+                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103254-38129-1' to examine bug reports.
+./476_40.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_40.c:63:23: warning: Dereference of null pointer (loaded from variable 'data')
+        printLongLine(*data);
+                      ^~~~~
+./476_40.c:87:18: warning: The left operand of '!=' is a garbage value
+        if (data != NULL)
+            ~~~~ ^
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103254-38140-1' to examine bug reports.
+./476_3.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_3.c:60:51: warning: Access to field 'intOne' results in a dereference of a null pointer (loaded from variable 'twoIntsStructPointer')
+            if ((twoIntsStructPointer != NULL) & (twoIntsStructPointer->intOne == 5))
+                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103255-38151-1' to examine bug reports.
+./476_19.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_19.c:58:18: warning: Dereference of null pointer (loaded from variable 'data')
+    printIntLine(*data);
+                 ^~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103255-38162-1' to examine bug reports.
+./476_13.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_13.c:60:51: warning: Access to field 'intOne' results in a dereference of a null pointer (loaded from variable 'twoIntsStructPointer')
+            if ((twoIntsStructPointer != NULL) & (twoIntsStructPointer->intOne == 5))
+                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103256-38173-1' to examine bug reports.
+./476_50.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_50.c:92:13: warning: Potential leak of memory pointed to by 'intPointer'
+            printIntLine(*intPointer);
+            ^~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103256-38185-1' to examine bug reports.
+./476_42.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_42.c:61:30: warning: Dereference of null pointer (loaded from variable 'intPointer')
+                printIntLine(*intPointer);
+                             ^~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103257-38208-1' to examine bug reports.
+./476_1.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_1.c:58:47: warning: Access to field 'intOne' results in a dereference of a null pointer (loaded from variable 'twoIntsStructPointer')
+        if ((twoIntsStructPointer != NULL) & (twoIntsStructPointer->intOne == 5))
+                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103257-38219-1' to examine bug reports.
+./476_18.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_18.c:60:47: warning: Access to field 'intOne' results in a dereference of a null pointer (loaded from variable 'twoIntsStructPointer')
+        if ((twoIntsStructPointer != NULL) & (twoIntsStructPointer->intOne == 5))
+                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103258-38230-1' to examine bug reports.
+./476_47.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_47.c:68:13: warning: Potential leak of memory pointed to by 'intPointer'
+            printIntLine(*intPointer);
+            ^~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103258-38242-1' to examine bug reports.
+./476_25.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_25.c:65:22: warning: Dereference of null pointer (loaded from variable 'data')
+        printIntLine(*data);
+                     ^~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103259-38254-1' to examine bug reports.
+./476_15.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_15.c:61:47: warning: Access to field 'intOne' results in a dereference of a null pointer (loaded from variable 'twoIntsStructPointer')
+        if ((twoIntsStructPointer != NULL) & (twoIntsStructPointer->intOne == 5))
+                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103300-38265-1' to examine bug reports.
+./476_44.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_44.c:69:13: warning: Potential leak of memory pointed to by 'intPointer'
+            printIntLine(*intPointer);
+            ^~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103300-38282-1' to examine bug reports.
+./476_23.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_23.c:66:22: warning: Dereference of null pointer (loaded from variable 'data')
+        printIntLine(*data);
+                     ^~~~~
+./476_23.c:90:18: warning: The left operand of '!=' is a garbage value
+        if (data != NULL)
+            ~~~~ ^
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103301-38293-1' to examine bug reports.
+./476_31.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_31.c:58:19: warning: Dereference of null pointer (loaded from variable 'data')
+    printLongLine(*data);
+                  ^~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103301-38304-1' to examine bug reports.
+./476_10.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_10.c:60:51: warning: Access to field 'intOne' results in a dereference of a null pointer (loaded from variable 'twoIntsStructPointer')
+            if ((twoIntsStructPointer != NULL) & (twoIntsStructPointer->intOne == 5))
+                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103302-38315-1' to examine bug reports.
+./476_49.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_49.c:66:13: warning: Potential leak of memory pointed to by 'intPointer'
+            printIntLine(*intPointer);
+            ^~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103303-38326-1' to examine bug reports.
+./476_8.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_8.c:70:51: warning: Access to field 'intOne' results in a dereference of a null pointer (loaded from variable 'twoIntsStructPointer')
+            if ((twoIntsStructPointer != NULL) & (twoIntsStructPointer->intOne == 5))
+                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103303-38337-1' to examine bug reports.
+./476_41.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_41.c:59:26: warning: Dereference of null pointer (loaded from variable 'intPointer')
+            printIntLine(*intPointer);
+                         ^~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103304-38348-1' to examine bug reports.

@@ -1,0 +1,1069 @@
+/usr/lib/jvm/java-1.8.0-openjdk-amd64/bin/java -ea -Didea.test.cyclic.buffer.size=1048576 -javaagent:/home/guzuxing/Downloads/idea-IU-171.4424.56/lib/idea_rt.jar=37943:/home/guzuxing/Downloads/idea-IU-171.4424.56/bin -Dfile.encoding=UTF-8 -classpath /home/guzuxing/Downloads/idea-IU-171.4424.56/lib/idea_rt.jar:/home/guzuxing/Downloads/idea-IU-171.4424.56/plugins/junit/lib/junit-rt.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/cldrdata.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/icedtea-sound.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/jaccess.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/nashorn.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/sunec.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/management-agent.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar:/home/guzuxing/Documents/tsmart-v3/engine/out/test/classes:/home/guzuxing/Documents/tsmart-v3/engine/build/resources/test:/home/guzuxing/Documents/tsmart-v3/engine/out/production/classes:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/llvm-macosx-x86_64.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/guava.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/java-cup-runtime.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/llvm-linux-x86_64.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/org.osgi.core.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/com.microsoft.z3.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/jopt-simple.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/javasmt.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/javacpp.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/scala-library.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/princess-assertionless.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/org.osgi.compendium.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/smtinterpol.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/llvm-linux-x86.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/llvm.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/llvm-platform.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/smt-parser.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/common.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/javolution-core-java.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/jsr305.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/XMLReport.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/build-capture.jar:/home/guzuxing/Documents/tsmart-v3/mod-commons/out/production/classes:/home/guzuxing/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/4e031bb61df09069aeb2bffb4019e7a5034a4ee0/junit-4.11.jar:/home/guzuxing/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/19.0/6ce200f6b23222af3d8abb6b6459e6c44f4bb0e9/guava-19.0.jar:/home/guzuxing/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar:/home/guzuxing/.gradle/caches/modules-2/files-2.1/com.google.truth/truth/0.30/9d591b5a66eda81f0b88cf1c748ab8853d99b18b/truth-0.30.jar:/home/guzuxing/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar:/home/guzuxing/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.0.8/54e2d56cb157df08cbf183149bcf50c9f5151ed4/error_prone_annotations-2.0.8.jar com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 cn.edu.thu.tsmart.integrated.ITC_191_Test
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/itc/191/191_data_underflow_1.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+3 SCCs to deal with
+SCC(1): [data_underflow_001_bad]
+ +data_underflow_001_bad
+SCC(1): [data_underflow_001_good]
+ +data_underflow_001_good
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [data_underflow_001_bad, data_underflow_001_good, main]
+Loops     []
+----
+function: data_underflow_001_bad
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: data_underflow_001_good
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.202s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N25): +oo]
+> [1/1] entry: main ()
+N25 -{%retval = alloca i32, align 4}-> N27
+N27 -{store i32 0, i32* %retval, align 4}-> N28
+N28 -{call data_underflow_001_good}-> N13
+N13 -{%min = alloca i32, align 4}-> N15
+N15 -{%ret = alloca i32, align 4}-> N17
+N17 -{store i32 -2147483646, i32* %min, align 4}-> N19
+N19 -{%0 = load i32, i32* %min, align 4}-> N20
+N20 -{%sub = sub i32 %0, 2}-> N21
+N21 -{store i32 %sub, i32* %ret, align 4}-> N22
+N22 -{ret void}-> N12
+N12 -{Return edge from data_underflow_001_good to main}-> N29
+N29 -{call data_underflow_001_bad}-> N1
+N1 -{%min = alloca i32, align 4}-> N3
+N3 -{%ret = alloca i32, align 4}-> N5
+N5 -{store i32 -2147483647, i32* %min, align 4}-> N7
+N7 -{%0 = load i32, i32* %min, align 4}-> N8
+N8 -{%sub = sub i32 %0, 2}-> N9
+N9 -{store i32 %sub, i32* %ret, align 4}-> N10
+N10 -{ret void}-> N0
+N0 -{Return edge from data_underflow_001_bad to main}-> N30
+N30 -{ret i32 0}-> N24
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Integer Underflow
+At node  : N8
+On edge  : N8 -{%sub = sub i32 %0, 2}-> N9
+Message  : integer underflow
+> Start from entry function: main, At N25 of Function main
+> Entering function: data_underflow_001_good, On N28 -> N13 (call data_underflow_001_good)
+> Leaving function: data_underflow_001_good, On N12 -> N29 (Return edge from data_underflow_001_good to main)
+> Entering function: data_underflow_001_bad, On N29 -> N1 (call data_underflow_001_bad)
+<Defect> : N8 -> N9: [%sub = sub i32 %0, 2]
+N8 -> N9: [%sub = sub i32 %0, 2] <--
+-- end of trace --
+=====================================================
+CWE_191(Integer Underflow): 1
+	[./191_data_underflow_1.c 9] data_underflow_001_bad 		[N8 -{%sub = sub i32 %0, 2}-> N9]	(integer underflow)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/itc/191/191_data_underflow_2.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+3 SCCs to deal with
+SCC(1): [data_underflow_003_bad]
+ +data_underflow_003_bad
+SCC(1): [data_underflow_003_good]
+ +data_underflow_003_good
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [data_underflow_003_bad, data_underflow_003_good, main]
+Loops     []
+----
+function: data_underflow_003_bad
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: data_underflow_003_good
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.011s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N67): +oo]
+> [1/1] entry: main ()
+N67 -{%retval = alloca i32, align 4}-> N69
+N69 -{store i32 0, i32* %retval, align 4}-> N70
+N70 -{call data_underflow_003_good}-> N50
+N50 -{%min = alloca i32, align 4}-> N52
+N52 -{%ret = alloca i32, align 4}-> N54
+N54 -{store i32 -2147483646, i32* %min, align 4}-> N56
+N56 -{%0 = load i32, i32* %min, align 4}-> N57
+N57 -{%dec = add i32 %0, -1}-> N58
+N58 -{store i32 %dec, i32* %min, align 4}-> N59
+N59 -{%1 = load i32, i32* %min, align 4}-> N60
+N60 -{%dec1 = add i32 %1, -1}-> N61
+N61 -{store i32 %dec1, i32* %min, align 4}-> N62
+N62 -{%2 = load i32, i32* %min, align 4}-> N63
+N63 -{store i32 %2, i32* %ret, align 4}-> N64
+N64 -{ret void}-> N49
+N49 -{Return edge from data_underflow_003_good to main}-> N71
+N71 -{call data_underflow_003_bad}-> N33
+N33 -{%min = alloca i32, align 4}-> N35
+N35 -{%ret = alloca i32, align 4}-> N37
+N37 -{store i32 -2147483647, i32* %min, align 4}-> N39
+N39 -{%0 = load i32, i32* %min, align 4}-> N40
+N40 -{%dec = add i32 %0, -1}-> N41
+N41 -{store i32 %dec, i32* %min, align 4}-> N42
+N42 -{%1 = load i32, i32* %min, align 4}-> N43
+N43 -{%dec1 = add i32 %1, -1}-> N44
+N44 -{store i32 %dec1, i32* %min, align 4}-> N45
+N45 -{%2 = load i32, i32* %min, align 4}-> N46
+N46 -{store i32 %2, i32* %ret, align 4}-> N47
+N47 -{ret void}-> N32
+N32 -{Return edge from data_underflow_003_bad to main}-> N72
+N72 -{ret i32 0}-> N66
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Integer Underflow
+At node  : N43
+On edge  : N43 -{%dec1 = add i32 %1, -1}-> N44
+Message  : integer underflow
+> Start from entry function: main, At N67 of Function main
+> Entering function: data_underflow_003_good, On N70 -> N50 (call data_underflow_003_good)
+> Leaving function: data_underflow_003_good, On N49 -> N71 (Return edge from data_underflow_003_good to main)
+> Entering function: data_underflow_003_bad, On N71 -> N33 (call data_underflow_003_bad)
+<Defect> : N43 -> N44: [%dec1 = add i32 %1, -1]
+N43 -> N44: [%dec1 = add i32 %1, -1] <--
+-- end of trace --
+=====================================================
+CWE_191(Integer Underflow): 1
+	[./191_data_underflow_2.c 10] data_underflow_003_bad 		[N43 -{%dec1 = add i32 %1, -1}-> N44]	(integer underflow)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/itc/191/191_data_underflow_3.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+3 SCCs to deal with
+SCC(1): [data_underflow_004_bad]
+ +data_underflow_004_bad
+SCC(1): [data_underflow_004_good]
+ +data_underflow_004_good
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [main, data_underflow_004_bad, data_underflow_004_good]
+Loops     []
+----
+function: data_underflow_004_bad
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: data_underflow_004_good
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.008s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N99): +oo]
+> [1/1] entry: main ()
+N99 -{%retval = alloca i32, align 4}-> N101
+N101 -{store i32 0, i32* %retval, align 4}-> N102
+N102 -{call data_underflow_004_good}-> N87
+N87 -{%min = alloca i32, align 4}-> N89
+N89 -{%ret = alloca i32, align 4}-> N91
+N91 -{store i32 -2147483520, i32* %min, align 4}-> N93
+N93 -{%0 = load i32, i32* %min, align 4}-> N94
+N94 -{%sub = sub i32 %0, 128}-> N95
+N95 -{store i32 %sub, i32* %ret, align 4}-> N96
+N96 -{ret void}-> N86
+N86 -{Return edge from data_underflow_004_good to main}-> N103
+N103 -{call data_underflow_004_bad}-> N75
+N75 -{%min = alloca i32, align 4}-> N77
+N77 -{%ret = alloca i32, align 4}-> N79
+N79 -{store i32 -2147483521, i32* %min, align 4}-> N81
+N81 -{%0 = load i32, i32* %min, align 4}-> N82
+N82 -{%sub = sub i32 %0, 128}-> N83
+N83 -{store i32 %sub, i32* %ret, align 4}-> N84
+N84 -{ret void}-> N74
+N74 -{Return edge from data_underflow_004_bad to main}-> N104
+N104 -{ret i32 0}-> N98
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Integer Underflow
+At node  : N82
+On edge  : N82 -{%sub = sub i32 %0, 128}-> N83
+Message  : integer underflow
+> Start from entry function: main, At N99 of Function main
+> Entering function: data_underflow_004_good, On N102 -> N87 (call data_underflow_004_good)
+> Leaving function: data_underflow_004_good, On N86 -> N103 (Return edge from data_underflow_004_good to main)
+> Entering function: data_underflow_004_bad, On N103 -> N75 (call data_underflow_004_bad)
+<Defect> : N82 -> N83: [%sub = sub i32 %0, 128]
+N82 -> N83: [%sub = sub i32 %0, 128] <--
+-- end of trace --
+=====================================================
+CWE_191(Integer Underflow): 1
+	[./191_data_underflow_3.c 9] data_underflow_004_bad 		[N82 -{%sub = sub i32 %0, 128}-> N83]	(integer underflow)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/itc/191/191_data_underflow_4.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+3 SCCs to deal with
+SCC(1): [data_underflow_005_bad]
+ +data_underflow_005_bad
+SCC(1): [data_underflow_005_good]
+ +data_underflow_005_good
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [data_underflow_005_bad, data_underflow_005_good, main]
+Loops     []
+----
+function: data_underflow_005_bad
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: data_underflow_005_good
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.006s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N131): +oo]
+> [1/1] entry: main ()
+N131 -{%retval = alloca i32, align 4}-> N133
+N133 -{store i32 0, i32* %retval, align 4}-> N134
+N134 -{call data_underflow_005_good}-> N119
+N119 -{%min = alloca i32, align 4}-> N121
+N121 -{%ret = alloca i32, align 4}-> N123
+N123 -{store i32 -1073741824, i32* %min, align 4}-> N125
+N125 -{%0 = load i32, i32* %min, align 4}-> N126
+N126 -{%mul = mul i32 %0, 2}-> N127
+N127 -{store i32 %mul, i32* %ret, align 4}-> N128
+N128 -{ret void}-> N118
+N118 -{Return edge from data_underflow_005_good to main}-> N135
+N135 -{call data_underflow_005_bad}-> N107
+N107 -{%min = alloca i32, align 4}-> N109
+N109 -{%ret = alloca i32, align 4}-> N111
+N111 -{store i32 -1073741825, i32* %min, align 4}-> N113
+N113 -{%0 = load i32, i32* %min, align 4}-> N114
+N114 -{%mul = mul i32 %0, 2}-> N115
+N115 -{store i32 %mul, i32* %ret, align 4}-> N116
+N116 -{ret void}-> N106
+N106 -{Return edge from data_underflow_005_bad to main}-> N136
+N136 -{ret i32 0}-> N130
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Integer Underflow
+At node  : N114
+On edge  : N114 -{%mul = mul i32 %0, 2}-> N115
+Message  : integer underflow
+> Start from entry function: main, At N131 of Function main
+> Entering function: data_underflow_005_good, On N134 -> N119 (call data_underflow_005_good)
+> Leaving function: data_underflow_005_good, On N118 -> N135 (Return edge from data_underflow_005_good to main)
+> Entering function: data_underflow_005_bad, On N135 -> N107 (call data_underflow_005_bad)
+<Defect> : N114 -> N115: [%mul = mul i32 %0, 2]
+N114 -> N115: [%mul = mul i32 %0, 2] <--
+-- end of trace --
+=====================================================
+CWE_191(Integer Underflow): 1
+	[./191_data_underflow_4.c 9] data_underflow_005_bad 		[N114 -{%mul = mul i32 %0, 2}-> N115]	(integer underflow)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/itc/191/191_data_underflow_5.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+3 SCCs to deal with
+SCC(1): [data_underflow_009_bad]
+ +data_underflow_009_bad
+SCC(1): [data_underflow_009_good]
+ +data_underflow_009_good
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [main, data_underflow_009_bad, data_underflow_009_good]
+Loops     []
+----
+function: data_underflow_009_bad
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: data_underflow_009_good
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.004s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N167): +oo]
+> [1/1] entry: main ()
+N167 -{%retval = alloca i32, align 4}-> N169
+N169 -{store i32 0, i32* %retval, align 4}-> N170
+N170 -{call data_underflow_009_good}-> N153
+N153 -{%min = alloca i8, align 1}-> N155
+N155 -{%ret = alloca i8, align 1}-> N157
+N157 -{store i8 -126, i8* %min, align 1}-> N159
+N159 -{%0 = load i8, i8* %min, align 1}-> N160
+N160 -{%conv = sext i8 %0 to i32}-> N161
+N161 -{%sub = sub i32 %conv, 2}-> N162
+N162 -{%conv1 = trunc i32 %sub to i8}-> N163
+N163 -{store i8 %conv1, i8* %ret, align 1}-> N164
+N164 -{ret void}-> N152
+N152 -{Return edge from data_underflow_009_good to main}-> N171
+N171 -{call data_underflow_009_bad}-> N139
+N139 -{%min = alloca i8, align 1}-> N141
+N141 -{%ret = alloca i8, align 1}-> N143
+N143 -{store i8 -128, i8* %min, align 1}-> N145
+N145 -{%0 = load i8, i8* %min, align 1}-> N146
+N146 -{%conv = sext i8 %0 to i32}-> N147
+N147 -{%sub = sub i32 %conv, 2}-> N148
+N148 -{%conv1 = trunc i32 %sub to i8}-> N149
+N149 -{store i8 %conv1, i8* %ret, align 1}-> N150
+N150 -{ret void}-> N138
+N138 -{Return edge from data_underflow_009_bad to main}-> N172
+N172 -{ret i32 0}-> N166
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Integer Underflow
+At node  : N148
+On edge  : N148 -{%conv1 = trunc i32 %sub to i8}-> N149
+Message  : integer underflow
+> Start from entry function: main, At N167 of Function main
+> Entering function: data_underflow_009_good, On N170 -> N153 (call data_underflow_009_good)
+> Leaving function: data_underflow_009_good, On N152 -> N171 (Return edge from data_underflow_009_good to main)
+> Entering function: data_underflow_009_bad, On N171 -> N139 (call data_underflow_009_bad)
+<Defect> : N148 -> N149: [%conv1 = trunc i32 %sub to i8]
+N148 -> N149: [%conv1 = trunc i32 %sub to i8] <--
+-- end of trace --
+=====================================================
+CWE_191(Integer Underflow): 1
+	[./191_data_underflow_5.c 9] data_underflow_009_bad 		[N148 -{%conv1 = trunc i32 %sub to i8}-> N149]	(integer underflow)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/itc/191/191_data_underflow_6.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+4 SCCs to deal with
+SCC(1): [data_underflow_010_func_001]
+ +data_underflow_010_func_001
+SCC(1): [data_underflow_010_bad]
+ +data_underflow_010_bad
+SCC(1): [data_underflow_010_good]
+ +data_underflow_010_good
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [data_underflow_010_bad, data_underflow_010_func_001, data_underflow_010_good, main]
+Loops     []
+----
+function: data_underflow_010_bad
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: data_underflow_010_func_001
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: data_underflow_010_good
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.011s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N205): +oo]
+> [1/1] entry: main ()
+N205 -{%retval = alloca i32, align 4}-> N207
+N207 -{store i32 0, i32* %retval, align 4}-> N208
+N208 -{call data_underflow_010_good}-> N192
+N192 -{%min = alloca i32, align 4}-> N194
+N194 -{%ret = alloca i32, align 4}-> N196
+N196 -{store i32 -2147483646, i32* %min, align 4}-> N198
+N198 -{%0 = load i32, i32* %min, align 4}-> N199
+N199 -{call data_underflow_010_func_001}-> N188
+N188 -{ret i32 2}-> N187
+N187 -{Return edge from data_underflow_010_func_001 to data_underflow_010_good}-> N200
+N200 -{%sub = sub i32 %0, %call}-> N201
+N201 -{store i32 %sub, i32* %ret, align 4}-> N202
+N202 -{ret void}-> N191
+N191 -{Return edge from data_underflow_010_good to main}-> N209
+N209 -{call data_underflow_010_bad}-> N175
+N175 -{%min = alloca i32, align 4}-> N177
+N177 -{%ret = alloca i32, align 4}-> N179
+N179 -{store i32 -2147483647, i32* %min, align 4}-> N181
+N181 -{%0 = load i32, i32* %min, align 4}-> N182
+N182 -{call data_underflow_010_func_001}-> N188
+N188 -{ret i32 2}-> N187
+N187 -{Return edge from data_underflow_010_func_001 to data_underflow_010_bad}-> N183
+N183 -{%sub = sub i32 %0, %call}-> N184
+N184 -{store i32 %sub, i32* %ret, align 4}-> N185
+N185 -{ret void}-> N174
+N174 -{Return edge from data_underflow_010_bad to main}-> N210
+N210 -{ret i32 0}-> N204
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Integer Underflow
+At node  : N183
+On edge  : N183 -{%sub = sub i32 %0, %call}-> N184
+Message  : integer underflow
+> Start from entry function: main, At N205 of Function main
+> Entering function: data_underflow_010_good, On N208 -> N192 (call data_underflow_010_good)
+> Entering function: data_underflow_010_func_001, On N199 -> N188 (call data_underflow_010_func_001)
+> Leaving function: data_underflow_010_func_001, On N187 -> N200 (Return edge from data_underflow_010_func_001 to data_underflow_010_good)
+> Leaving function: data_underflow_010_good, On N191 -> N209 (Return edge from data_underflow_010_good to main)
+> Entering function: data_underflow_010_bad, On N209 -> N175 (call data_underflow_010_bad)
+> Entering function: data_underflow_010_func_001, On N182 -> N188 (call data_underflow_010_func_001)
+> Leaving function: data_underflow_010_func_001, On N187 -> N183 (Return edge from data_underflow_010_func_001 to data_underflow_010_bad)
+<Defect> : N183 -> N184: [%sub = sub i32 %0, %call]
+N183 -> N184: [%sub = sub i32 %0, %call] <--
+-- end of trace --
+=====================================================
+CWE_191(Integer Underflow): 1
+	[./191_data_underflow_6.c 14] data_underflow_010_bad 		[N183 -{%sub = sub i32 %0, %call}-> N184]	(integer underflow)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/itc/191/191_data_underflow_7.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+5 SCCs to deal with
+SCC(1): [data_underflow_011_func_001_bad]
+ +data_underflow_011_func_001_bad
+SCC(1): [data_underflow_011_bad]
+ +data_underflow_011_bad
+SCC(1): [data_underflow_011_func_001_good]
+ +data_underflow_011_func_001_good
+SCC(1): [data_underflow_011_good]
+ +data_underflow_011_good
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [data_underflow_011_func_001_good, data_underflow_011_good, main, data_underflow_011_bad, data_underflow_011_func_001_bad]
+Loops     []
+----
+function: data_underflow_011_bad
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: data_underflow_011_func_001_bad
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: data_underflow_011_func_001_good
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: data_underflow_011_good
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.007s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N255): +oo]
+> [1/1] entry: main ()
+N255 -{%retval = alloca i32, align 4}-> N257
+N257 -{store i32 0, i32* %retval, align 4}-> N258
+N258 -{call data_underflow_011_good}-> N250
+N250 -{call data_underflow_011_func_001_good}-> N234
+N234 -{%d.addr = alloca i32, align 4}-> N236
+N236 -{%min = alloca i32, align 4}-> N237
+N237 -{%ret = alloca i32, align 4}-> N238
+N238 -{store i32 %d, i32* %d.addr, align 4}-> N241
+N241 -{store i32 -2147483646, i32* %min, align 4}-> N243
+N243 -{%0 = load i32, i32* %min, align 4}-> N244
+N244 -{%1 = load i32, i32* %d.addr, align 4}-> N245
+N245 -{%sub = sub i32 %0, %1}-> N246
+N246 -{store i32 %sub, i32* %ret, align 4}-> N247
+N247 -{ret void}-> N233
+N233 -{Return edge from data_underflow_011_func_001_good to data_underflow_011_good}-> N252
+N252 -{ret void}-> N249
+N249 -{Return edge from data_underflow_011_good to main}-> N259
+N259 -{call data_underflow_011_bad}-> N213
+N213 -{call data_underflow_011_func_001_bad}-> N218
+N218 -{%d.addr = alloca i32, align 4}-> N220
+N220 -{%min = alloca i32, align 4}-> N221
+N221 -{%ret = alloca i32, align 4}-> N222
+N222 -{store i32 %d, i32* %d.addr, align 4}-> N225
+N225 -{store i32 -2147483647, i32* %min, align 4}-> N227
+N227 -{%0 = load i32, i32* %min, align 4}-> N228
+N228 -{%1 = load i32, i32* %d.addr, align 4}-> N229
+N229 -{%sub = sub i32 %0, %1}-> N230
+N230 -{store i32 %sub, i32* %ret, align 4}-> N231
+N231 -{ret void}-> N217
+N217 -{Return edge from data_underflow_011_func_001_bad to data_underflow_011_bad}-> N215
+N215 -{ret void}-> N212
+N212 -{Return edge from data_underflow_011_bad to main}-> N260
+N260 -{ret i32 0}-> N254
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Integer Underflow
+At node  : N229
+On edge  : N229 -{%sub = sub i32 %0, %1}-> N230
+Message  : integer underflow
+> Start from entry function: main, At N255 of Function main
+> Entering function: data_underflow_011_good, On N258 -> N250 (call data_underflow_011_good)
+> Entering function: data_underflow_011_func_001_good, On N250 -> N234 (call data_underflow_011_func_001_good)
+> Leaving function: data_underflow_011_func_001_good, On N233 -> N252 (Return edge from data_underflow_011_func_001_good to data_underflow_011_good)
+> Leaving function: data_underflow_011_good, On N249 -> N259 (Return edge from data_underflow_011_good to main)
+> Entering function: data_underflow_011_bad, On N259 -> N213 (call data_underflow_011_bad)
+> Entering function: data_underflow_011_func_001_bad, On N213 -> N218 (call data_underflow_011_func_001_bad)
+<Defect> : N229 -> N230: [%sub = sub i32 %0, %1]
+N229 -> N230: [%sub = sub i32 %0, %1] <--
+-- end of trace --
+=====================================================
+CWE_191(Integer Underflow): 1
+	[./191_data_underflow_7.c 9] data_underflow_011_func_001_bad 		[N229 -{%sub = sub i32 %0, %1}-> N230]	(integer underflow)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/itc/191/191_data_underflow_8.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+3 SCCs to deal with
+SCC(1): [data_underflow_006_bad]
+ +data_underflow_006_bad
+SCC(1): [data_underflow_006_good]
+ +data_underflow_006_good
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [data_underflow_006_bad, data_underflow_006_good, main]
+Loops     []
+----
+function: data_underflow_006_bad
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: data_underflow_006_good
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.01s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N277): +oo]
+> [1/1] entry: main ()
+N277 -{%retval = alloca i32, align 4}-> N279
+N279 -{store i32 0, i32* %retval, align 4}-> N280
+N280 -{call data_underflow_006_good}-> N270
+N270 -{%ret = alloca i32, align 4}-> N273
+N273 -{store i32 -2147483648, i32* %ret, align 4}-> N274
+N274 -{ret void}-> N269
+N269 -{Return edge from data_underflow_006_good to main}-> N281
+N281 -{call data_underflow_006_bad}-> N263
+N263 -{%ret = alloca i32, align 4}-> N266
+N266 -{store i32 2147483647, i32* %ret, align 4}-> N267
+N267 -{ret void}-> N262
+N262 -{Return edge from data_underflow_006_bad to main}-> N282
+N282 -{ret i32 0}-> N276
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+=====================================================
+Found 0 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+
+java.lang.AssertionError: unexpected number of reports 
+Expected :0
+Actual   :1
+ <Click to see difference>
+
+
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:555)
+	at cn.edu.thu.tsmart.helper.assertion.NumberAssert.is(NumberAssert.java:48)
+	at cn.edu.thu.tsmart.helper.assertion.NumberAssert.is(NumberAssert.java:44)
+	at cn.edu.thu.tsmart.integrated.ITC_191_Test.lambda$itc_191_bit_8$7(ITC_191_Test.java:130)
+	at cn.edu.thu.tsmart.helper.assertion.ReportSetAssert.satisfy(ReportSetAssert.java:79)
+	at cn.edu.thu.tsmart.integrated.ITC_191_Test.itc_191_bit_8(ITC_191_Test.java:129)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:51)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/itc/191/191_data_underflow_9.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+3 SCCs to deal with
+SCC(1): [data_underflow_012_bad]
+ +data_underflow_012_bad
+SCC(1): [data_underflow_012_good]
+ +data_underflow_012_good
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [data_underflow_012_good, main, data_underflow_012_bad]
+Loops     []
+----
+function: data_underflow_012_bad
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: data_underflow_012_good
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.018s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N321): +oo]
+> [1/1] entry: main ()
+N321 -{global: data_underflow_012_bad.dlist}-> N329
+N329 -{global: data_underflow_012_good.dlist}-> N328
+N328 -{%retval = alloca i32, align 4}-> N323
+N323 -{store i32 0, i32* %retval, align 4}-> N324
+N324 -{call data_underflow_012_good}-> N303
+N303 -{%min = alloca i32, align 4}-> N305
+N305 -{%dlist = alloca [4 x i32], align 16}-> N306
+N306 -{%ret = alloca i32, align 4}-> N308
+N308 -{store i32 -2147483646, i32* %min, align 4}-> N310
+N310 -{%0 = bitcast [4 x i32]* %dlist to i8*}-> N311
+N311 -{call void @llvm.memcpy.p0i8.p0i8.i64(i8* %0, i8* bitcast ([4 x i32]* @data_underflow_012_good.dlist to i8*), i8* 16, i8* 16, i8* false, i8* @llvm.memcpy.p0i8.p0i8.i64)}-> N313
+N313 -{%1 = load i32, i32* %min, align 4}-> N314
+N314 -{%arrayidx = getelementptr inbounds [4 x i32], [4 x i32]* %dlist, i64 0, i64 2}-> N315
+N315 -{%2 = load i32, i32* %arrayidx, align 8}-> N316
+N316 -{%add = add i32 %1, %2}-> N317
+N317 -{store i32 %add, i32* %ret, align 4}-> N318
+N318 -{ret void}-> N302
+N302 -{Return edge from data_underflow_012_good to main}-> N325
+N325 -{call data_underflow_012_bad}-> N285
+N285 -{%min = alloca i32, align 4}-> N287
+N287 -{%dlist = alloca [4 x i32], align 16}-> N288
+N288 -{%ret = alloca i32, align 4}-> N290
+N290 -{store i32 -2147483647, i32* %min, align 4}-> N292
+N292 -{%0 = bitcast [4 x i32]* %dlist to i8*}-> N293
+N293 -{call void @llvm.memcpy.p0i8.p0i8.i64(i8* %0, i8* bitcast ([4 x i32]* @data_underflow_012_bad.dlist to i8*), i8* 16, i8* 16, i8* false, i8* @llvm.memcpy.p0i8.p0i8.i64)}-> N295
+N295 -{%1 = load i32, i32* %min, align 4}-> N296
+N296 -{%arrayidx = getelementptr inbounds [4 x i32], [4 x i32]* %dlist, i64 0, i64 2}-> N297
+N297 -{%2 = load i32, i32* %arrayidx, align 8}-> N298
+N298 -{%add = add i32 %1, %2}-> N299
+N299 -{store i32 %add, i32* %ret, align 4}-> N300
+N300 -{ret void}-> N284
+N284 -{Return edge from data_underflow_012_bad to main}-> N326
+N326 -{ret i32 0}-> N320
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Integer Underflow
+At node  : N298
+On edge  : N298 -{%add = add i32 %1, %2}-> N299
+Message  : integer underflow
+> Start from entry function: main, At N321 of Function main
+> Entering function: data_underflow_012_good, On N324 -> N303 (call data_underflow_012_good)
+> Leaving function: data_underflow_012_good, On N302 -> N325 (Return edge from data_underflow_012_good to main)
+> Entering function: data_underflow_012_bad, On N325 -> N285 (call data_underflow_012_bad)
+<Defect> : N298 -> N299: [%add = add i32 %1, %2]
+N298 -> N299: [%add = add i32 %1, %2] <--
+-- end of trace --
+=====================================================
+CWE_191(Integer Underflow): 1
+	[./191_data_underflow_9.c 10] data_underflow_012_bad 		[N298 -{%add = add i32 %1, %2}-> N299]	(integer underflow)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+
+Process finished with exit code 255

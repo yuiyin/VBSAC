@@ -1,0 +1,1388 @@
+./476_34.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..................
+
+Found 1 issue
+
+476_34.c:68: error: NULL_DEREFERENCE
+  pointer `data` last assigned on line 63 could be null and is dereferenced at line 68, column 23.
+  66.       {
+  67.           /* POTENTIAL FLAW: Attempt to use data, which may be NULL */
+  68. >         printLongLine(*data);
+  69.       }
+  70.   }
+
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 1
+./476_21.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 1 issue
+
+476_21.c:65: error: NULL_DEREFERENCE
+  pointer `data` last assigned on line 60 could be null and is dereferenced at line 65, column 22.
+  63.       {
+  64.           /* POTENTIAL FLAW: Attempt to use data, which may be NULL */
+  65. >         printIntLine(*data);
+  66.       }
+  67.   }
+
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 1
+./476_12.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 1 issue
+
+476_12.c:62: error: NULL_DEREFERENCE
+  pointer `twoIntsStructPointer` last assigned on line 59 could be null and is dereferenced at line 62, column 51.
+  60.               /* FLAW: Using a single & in the if statement will cause both sides of the expression to be evaluated
+  61.                * thus causing a NPD */
+  62. >             if ((twoIntsStructPointer != NULL) & (twoIntsStructPointer->intOne == 5))
+  63.               {
+  64.                   printLine("intOne == 5");
+
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 1
+./476_48.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..................
+
+Found 3 issues
+
+476_48.c:98: error: DEAD_STORE
+  The value written to &intPointer is never used.
+  96.       {
+  97.           {
+  98. >             int *intPointer = NULL;
+  99.               intPointer = (int *)malloc(sizeof(int));
+  100.               *intPointer = 5;
+
+476_48.c:104: error: MEMORY_LEAK
+  memory dynamically allocated to `intPointer` by call to `malloc()` at line 99, column 33 is not reachable after line 104, column 13.
+  102.               /* FIX: Don't check for NULL since we wouldn't reach this line if the pointer was NULL */
+  103.               *intPointer = 10;
+  104. >             printIntLine(*intPointer);
+  105.           }
+  106.       }
+
+476_48.c:100: error: NULL_DEREFERENCE
+  pointer `intPointer` last assigned on line 99 could be null and is dereferenced at line 100, column 13.
+  98.               int *intPointer = NULL;
+  99.               intPointer = (int *)malloc(sizeof(int));
+  100. >             *intPointer = 5;
+  101.               printIntLine(*intPointer);
+  102.               /* FIX: Don't check for NULL since we wouldn't reach this line if the pointer was NULL */
+
+
+Summary of the reports
+
+       MEMORY_LEAK: 1
+  NULL_DEREFERENCE: 1
+        DEAD_STORE: 1
+./476_22.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..................
+
+Found 1 issue
+
+476_22.c:68: error: NULL_DEREFERENCE
+  pointer `data` last assigned on line 63 could be null and is dereferenced at line 68, column 22.
+  66.       {
+  67.           /* POTENTIAL FLAW: Attempt to use data, which may be NULL */
+  68. >         printIntLine(*data);
+  69.       }
+  70.   }
+
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 1
+./476_38.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..................
+
+Found 1 issue
+
+476_38.c:75: error: NULL_DEREFERENCE
+  pointer `data` last assigned on line 70 could be null and is dereferenced at line 75, column 23.
+  73.       {
+  74.           /* POTENTIAL FLAW: Attempt to use data, which may be NULL */
+  75. >         printLongLine(*data);
+  76.       }
+  77.   }
+
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 1
+./476_28.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 1 issue
+
+476_28.c:65: error: NULL_DEREFERENCE
+  pointer `data` last assigned on line 60 could be null and is dereferenced at line 65, column 22.
+  63.       {
+  64.           /* POTENTIAL FLAW: Attempt to use data, which may be NULL */
+  65. >         printIntLine(*data);
+  66.       }
+  67.   }
+
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 1
+./476_14.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 1 issue
+
+476_14.c:62: error: NULL_DEREFERENCE
+  pointer `twoIntsStructPointer` last assigned on line 59 could be null and is dereferenced at line 62, column 51.
+  60.               /* FLAW: Using a single & in the if statement will cause both sides of the expression to be evaluated
+  61.                * thus causing a NPD */
+  62. >             if ((twoIntsStructPointer != NULL) & (twoIntsStructPointer->intOne == 5))
+  63.               {
+  64.                   printLine("intOne == 5");
+
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 1
+./476_11.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 1 issue
+
+476_11.c:62: error: NULL_DEREFERENCE
+  pointer `twoIntsStructPointer` last assigned on line 59 could be null and is dereferenced at line 62, column 51.
+  60.               /* FLAW: Using a single & in the if statement will cause both sides of the expression to be evaluated
+  61.                * thus causing a NPD */
+  62. >             if ((twoIntsStructPointer != NULL) & (twoIntsStructPointer->intOne == 5))
+  63.               {
+  64.                   printLine("intOne == 5");
+
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 1
+./476_5.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..................
+
+Found 1 issue
+
+476_5.c:65: error: NULL_DEREFERENCE
+  pointer `twoIntsStructPointer` last assigned on line 62 could be null and is dereferenced at line 65, column 51.
+  63.               /* FLAW: Using a single & in the if statement will cause both sides of the expression to be evaluated
+  64.                * thus causing a NPD */
+  65. >             if ((twoIntsStructPointer != NULL) & (twoIntsStructPointer->intOne == 5))
+  66.               {
+  67.                   printLine("intOne == 5");
+
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 1
+./476_26.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..................
+
+Found 1 issue
+
+476_26.c:75: error: NULL_DEREFERENCE
+  pointer `data` last assigned on line 70 could be null and is dereferenced at line 75, column 22.
+  73.       {
+  74.           /* POTENTIAL FLAW: Attempt to use data, which may be NULL */
+  75. >         printIntLine(*data);
+  76.       }
+  77.   }
+
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 1
+./476_20.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 1 issue
+
+476_20.c:65: error: NULL_DEREFERENCE
+  pointer `data` last assigned on line 60 could be null and is dereferenced at line 65, column 22.
+  63.       {
+  64.           /* POTENTIAL FLAW: Attempt to use data, which may be NULL */
+  65. >         printIntLine(*data);
+  66.       }
+  67.   }
+
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 1
+./476_39.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 1 issue
+
+476_39.c:65: error: NULL_DEREFERENCE
+  pointer `data` last assigned on line 60 could be null and is dereferenced at line 65, column 23.
+  63.       {
+  64.           /* POTENTIAL FLAW: Attempt to use data, which may be NULL */
+  65. >         printLongLine(*data);
+  66.       }
+  67.   }
+
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 1
+./476_6.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.................
+
+Found 1 issue
+
+476_6.c:64: error: NULL_DEREFERENCE
+  pointer `twoIntsStructPointer` last assigned on line 61 could be null and is dereferenced at line 64, column 51.
+  62.               /* FLAW: Using a single & in the if statement will cause both sides of the expression to be evaluated
+  63.                * thus causing a NPD */
+  64. >             if ((twoIntsStructPointer != NULL) & (twoIntsStructPointer->intOne == 5))
+  65.               {
+  66.                   printLine("intOne == 5");
+
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 1
+./476_24.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.................
+
+Found 1 issue
+
+476_24.c:67: error: NULL_DEREFERENCE
+  pointer `data` last assigned on line 62 could be null and is dereferenced at line 67, column 22.
+  65.       {
+  66.           /* POTENTIAL FLAW: Attempt to use data, which may be NULL */
+  67. >         printIntLine(*data);
+  68.       }
+  69.   }
+
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 1
+./476_9.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 1 issue
+
+476_9.c:62: error: NULL_DEREFERENCE
+  pointer `twoIntsStructPointer` last assigned on line 59 could be null and is dereferenced at line 62, column 51.
+  60.               /* FLAW: Using a single & in the if statement will cause both sides of the expression to be evaluated
+  61.                * thus causing a NPD */
+  62. >             if ((twoIntsStructPointer != NULL) & (twoIntsStructPointer->intOne == 5))
+  63.               {
+  64.                   printLine("intOne == 5");
+
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 1
+./476_32.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 1 issue
+
+476_32.c:65: error: NULL_DEREFERENCE
+  pointer `data` last assigned on line 60 could be null and is dereferenced at line 65, column 23.
+  63.       {
+  64.           /* POTENTIAL FLAW: Attempt to use data, which may be NULL */
+  65. >         printLongLine(*data);
+  66.       }
+  67.   }
+
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 1
+./476_43.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 1 issue
+
+476_43.c:63: error: NULL_DEREFERENCE
+  pointer `intPointer` last assigned on line 60 could be null and is dereferenced at line 63, column 30.
+  61.               if (intPointer == NULL)
+  62.               {
+  63. >                 printIntLine(*intPointer);
+  64.               }
+  65.           }
+
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 1
+./476_45.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..................
+
+Found 3 issues
+
+476_45.c:91: error: DEAD_STORE
+  The value written to &intPointer is never used.
+  89.       {
+  90.           {
+  91. >             int *intPointer = NULL;
+  92.               intPointer = (int *)malloc(sizeof(int));
+  93.               *intPointer = 5;
+
+476_45.c:97: error: MEMORY_LEAK
+  memory dynamically allocated to `intPointer` by call to `malloc()` at line 92, column 33 is not reachable after line 97, column 13.
+  95.               /* FIX: Don't check for NULL since we wouldn't reach this line if the pointer was NULL */
+  96.               *intPointer = 10;
+  97. >             printIntLine(*intPointer);
+  98.           }
+  99.       }
+
+476_45.c:93: error: NULL_DEREFERENCE
+  pointer `intPointer` last assigned on line 92 could be null and is dereferenced at line 93, column 13.
+  91.               int *intPointer = NULL;
+  92.               intPointer = (int *)malloc(sizeof(int));
+  93. >             *intPointer = 5;
+  94.               printIntLine(*intPointer);
+  95.               /* FIX: Don't check for NULL since we wouldn't reach this line if the pointer was NULL */
+
+
+Summary of the reports
+
+       MEMORY_LEAK: 1
+  NULL_DEREFERENCE: 1
+        DEAD_STORE: 1
+./476_37.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.................
+
+Found 1 issue
+
+476_37.c:67: error: NULL_DEREFERENCE
+  pointer `data` last assigned on line 62 could be null and is dereferenced at line 67, column 23.
+  65.       {
+  66.           /* POTENTIAL FLAW: Attempt to use data, which may be NULL */
+  67. >         printLongLine(*data);
+  68.       }
+  69.   }
+
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 1
+./476_35.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..................
+
+Found 1 issue
+
+476_35.c:68: error: NULL_DEREFERENCE
+  pointer `data` last assigned on line 63 could be null and is dereferenced at line 68, column 23.
+  66.       {
+  67.           /* POTENTIAL FLAW: Attempt to use data, which may be NULL */
+  68. >         printLongLine(*data);
+  69.       }
+  70.   }
+
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 1
+./476_2.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 1 issue
+
+476_2.c:62: error: NULL_DEREFERENCE
+  pointer `twoIntsStructPointer` last assigned on line 59 could be null and is dereferenced at line 62, column 51.
+  60.               /* FLAW: Using a single & in the if statement will cause both sides of the expression to be evaluated
+  61.                * thus causing a NPD */
+  62. >             if ((twoIntsStructPointer != NULL) & (twoIntsStructPointer->intOne == 5))
+  63.               {
+  64.                   printLine("intOne == 5");
+
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 1
+./476_46.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.................
+
+Found 3 issues
+
+476_46.c:61: error: DEAD_STORE
+  The value written to &intPointer is never used.
+  59.       {
+  60.           {
+  61. >             int *intPointer = NULL;
+  62.               intPointer = (int *)malloc(sizeof(int));
+  63.               *intPointer = 5;
+
+476_46.c:70: error: MEMORY_LEAK
+  memory dynamically allocated to `intPointer` by call to `malloc()` at line 62, column 33 is not reachable after line 70, column 13.
+  68.                   *intPointer = 10;
+  69.               }
+  70. >             printIntLine(*intPointer);
+  71.           }
+  72.       }
+
+476_46.c:63: error: NULL_DEREFERENCE
+  pointer `intPointer` last assigned on line 62 could be null and is dereferenced at line 63, column 13.
+  61.               int *intPointer = NULL;
+  62.               intPointer = (int *)malloc(sizeof(int));
+  63. >             *intPointer = 5;
+  64.               printIntLine(*intPointer);
+  65.               /* FLAW: Check for NULL after dereferencing the pointer. This NULL check is unnecessary. */
+
+
+Summary of the reports
+
+       MEMORY_LEAK: 1
+  NULL_DEREFERENCE: 1
+        DEAD_STORE: 1
+./476_17.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 1 issue
+
+476_17.c:63: error: NULL_DEREFERENCE
+  pointer `twoIntsStructPointer` last assigned on line 60 could be null and is dereferenced at line 63, column 51.
+  61.               /* FLAW: Using a single & in the if statement will cause both sides of the expression to be evaluated
+  62.                * thus causing a NPD */
+  63. >             if ((twoIntsStructPointer != NULL) & (twoIntsStructPointer->intOne == 5))
+  64.               {
+  65.                   printLine("intOne == 5");
+
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 1
+./476_27.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 1 issue
+
+476_27.c:65: error: NULL_DEREFERENCE
+  pointer `data` last assigned on line 60 could be null and is dereferenced at line 65, column 22.
+  63.       {
+  64.           /* POTENTIAL FLAW: Attempt to use data, which may be NULL */
+  65. >         printIntLine(*data);
+  66.       }
+  67.   }
+
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 1
+./476_33.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 1 issue
+
+476_33.c:65: error: NULL_DEREFERENCE
+  pointer `data` last assigned on line 60 could be null and is dereferenced at line 65, column 23.
+  63.       {
+  64.           /* POTENTIAL FLAW: Attempt to use data, which may be NULL */
+  65. >         printLongLine(*data);
+  66.       }
+  67.   }
+
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 1
+./476.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.............
+
+  No issues found  
+./476_29.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 1 issue
+
+476_29.c:65: error: NULL_DEREFERENCE
+  pointer `data` last assigned on line 60 could be null and is dereferenced at line 65, column 22.
+  63.       {
+  64.           /* POTENTIAL FLAW: Attempt to use data, which may be NULL */
+  65. >         printIntLine(*data);
+  66.       }
+  67.   }
+
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 1
+./476_30.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 1 issue
+
+476_30.c:73: error: NULL_DEREFERENCE
+  pointer `data` last assigned on line 60 could be null and is dereferenced at line 73, column 22.
+  71.       {
+  72.           /* POTENTIAL FLAW: Attempt to use data, which may be NULL */
+  73. >         printIntLine(*data);
+  74.       }
+  75.       else
+
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 1
+./476_36.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.................
+
+Found 1 issue
+
+476_36.c:67: error: NULL_DEREFERENCE
+  pointer `data` last assigned on line 62 could be null and is dereferenced at line 67, column 23.
+  65.       {
+  66.           /* POTENTIAL FLAW: Attempt to use data, which may be NULL */
+  67. >         printLongLine(*data);
+  68.       }
+  69.   }
+
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 1
+./476_7.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.................
+
+Found 1 issue
+
+476_7.c:64: error: NULL_DEREFERENCE
+  pointer `twoIntsStructPointer` last assigned on line 61 could be null and is dereferenced at line 64, column 51.
+  62.               /* FLAW: Using a single & in the if statement will cause both sides of the expression to be evaluated
+  63.                * thus causing a NPD */
+  64. >             if ((twoIntsStructPointer != NULL) & (twoIntsStructPointer->intOne == 5))
+  65.               {
+  66.                   printLine("intOne == 5");
+
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 1
+./476_4.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..................
+
+Found 1 issue
+
+476_4.c:65: error: NULL_DEREFERENCE
+  pointer `twoIntsStructPointer` last assigned on line 62 could be null and is dereferenced at line 65, column 51.
+  63.               /* FLAW: Using a single & in the if statement will cause both sides of the expression to be evaluated
+  64.                * thus causing a NPD */
+  65. >             if ((twoIntsStructPointer != NULL) & (twoIntsStructPointer->intOne == 5))
+  66.               {
+  67.                   printLine("intOne == 5");
+
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 1
+./476_16.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 1 issue
+
+476_16.c:62: error: NULL_DEREFERENCE
+  pointer `twoIntsStructPointer` last assigned on line 59 could be null and is dereferenced at line 62, column 51.
+  60.               /* FLAW: Using a single & in the if statement will cause both sides of the expression to be evaluated
+  61.                * thus causing a NPD */
+  62. >             if ((twoIntsStructPointer != NULL) & (twoIntsStructPointer->intOne == 5))
+  63.               {
+  64.                   printLine("intOne == 5");
+
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 1
+./476_40.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 1 issue
+
+476_40.c:65: error: NULL_DEREFERENCE
+  pointer `data` last assigned on line 60 could be null and is dereferenced at line 65, column 23.
+  63.       {
+  64.           /* POTENTIAL FLAW: Attempt to use data, which may be NULL */
+  65. >         printLongLine(*data);
+  66.       }
+  67.   }
+
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 1
+./476_3.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 1 issue
+
+476_3.c:62: error: NULL_DEREFERENCE
+  pointer `twoIntsStructPointer` last assigned on line 59 could be null and is dereferenced at line 62, column 51.
+  60.               /* FLAW: Using a single & in the if statement will cause both sides of the expression to be evaluated
+  61.                * thus causing a NPD */
+  62. >             if ((twoIntsStructPointer != NULL) & (twoIntsStructPointer->intOne == 5))
+  63.               {
+  64.                   printLine("intOne == 5");
+
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 1
+./476_19.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 1 issue
+
+476_19.c:60: error: NULL_DEREFERENCE
+  pointer `data` last assigned on line 58 could be null and is dereferenced at line 60, column 18.
+  58.       data = NULL;
+  59.       /* POTENTIAL FLAW: Attempt to use data, which may be NULL */
+  60. >     printIntLine(*data);
+  61.   }
+  62.   
+
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 1
+./476_13.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 1 issue
+
+476_13.c:62: error: NULL_DEREFERENCE
+  pointer `twoIntsStructPointer` last assigned on line 59 could be null and is dereferenced at line 62, column 51.
+  60.               /* FLAW: Using a single & in the if statement will cause both sides of the expression to be evaluated
+  61.                * thus causing a NPD */
+  62. >             if ((twoIntsStructPointer != NULL) & (twoIntsStructPointer->intOne == 5))
+  63.               {
+  64.                   printLine("intOne == 5");
+
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 1
+./476_50.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 3 issues
+
+476_50.c:88: error: DEAD_STORE
+  The value written to &intPointer is never used.
+  86.       {
+  87.           {
+  88. >             int *intPointer = NULL;
+  89.               intPointer = (int *)malloc(sizeof(int));
+  90.               *intPointer = 5;
+
+476_50.c:94: error: MEMORY_LEAK
+  memory dynamically allocated to `intPointer` by call to `malloc()` at line 89, column 33 is not reachable after line 94, column 13.
+  92.               /* FIX: Don't check for NULL since we wouldn't reach this line if the pointer was NULL */
+  93.               *intPointer = 10;
+  94. >             printIntLine(*intPointer);
+  95.           }
+  96.       }
+
+476_50.c:90: error: NULL_DEREFERENCE
+  pointer `intPointer` last assigned on line 89 could be null and is dereferenced at line 90, column 13.
+  88.               int *intPointer = NULL;
+  89.               intPointer = (int *)malloc(sizeof(int));
+  90. >             *intPointer = 5;
+  91.               printIntLine(*intPointer);
+  92.               /* FIX: Don't check for NULL since we wouldn't reach this line if the pointer was NULL */
+
+
+Summary of the reports
+
+       MEMORY_LEAK: 1
+  NULL_DEREFERENCE: 1
+        DEAD_STORE: 1
+./476_42.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 1 issue
+
+476_42.c:63: error: NULL_DEREFERENCE
+  pointer `intPointer` last assigned on line 60 could be null and is dereferenced at line 63, column 30.
+  61.               if (intPointer == NULL)
+  62.               {
+  63. >                 printIntLine(*intPointer);
+  64.               }
+  65.           }
+
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 1
+./476_1.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 1 issue
+
+476_1.c:60: error: NULL_DEREFERENCE
+  pointer `twoIntsStructPointer` last assigned on line 57 could be null and is dereferenced at line 60, column 47.
+  58.           /* FLAW: Using a single & in the if statement will cause both sides of the expression to be evaluated
+  59.            * thus causing a NPD */
+  60. >         if ((twoIntsStructPointer != NULL) & (twoIntsStructPointer->intOne == 5))
+  61.           {
+  62.               printLine("intOne == 5");
+
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 1
+./476_18.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 1 issue
+
+476_18.c:62: error: NULL_DEREFERENCE
+  pointer `twoIntsStructPointer` last assigned on line 59 could be null and is dereferenced at line 62, column 47.
+  60.           /* FLAW: Using a single & in the if statement will cause both sides of the expression to be evaluated
+  61.            * thus causing a NPD */
+  62. >         if ((twoIntsStructPointer != NULL) & (twoIntsStructPointer->intOne == 5))
+  63.           {
+  64.               printLine("intOne == 5");
+
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 1
+./476_47.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.................
+
+Found 3 issues
+
+476_47.c:61: error: DEAD_STORE
+  The value written to &intPointer is never used.
+  59.       {
+  60.           {
+  61. >             int *intPointer = NULL;
+  62.               intPointer = (int *)malloc(sizeof(int));
+  63.               *intPointer = 5;
+
+476_47.c:70: error: MEMORY_LEAK
+  memory dynamically allocated to `intPointer` by call to `malloc()` at line 62, column 33 is not reachable after line 70, column 13.
+  68.                   *intPointer = 10;
+  69.               }
+  70. >             printIntLine(*intPointer);
+  71.           }
+  72.       }
+
+476_47.c:63: error: NULL_DEREFERENCE
+  pointer `intPointer` last assigned on line 62 could be null and is dereferenced at line 63, column 13.
+  61.               int *intPointer = NULL;
+  62.               intPointer = (int *)malloc(sizeof(int));
+  63. >             *intPointer = 5;
+  64.               printIntLine(*intPointer);
+  65.               /* FLAW: Check for NULL after dereferencing the pointer. This NULL check is unnecessary. */
+
+
+Summary of the reports
+
+       MEMORY_LEAK: 1
+  NULL_DEREFERENCE: 1
+        DEAD_STORE: 1
+./476_25.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.................
+
+Found 1 issue
+
+476_25.c:67: error: NULL_DEREFERENCE
+  pointer `data` last assigned on line 62 could be null and is dereferenced at line 67, column 22.
+  65.       {
+  66.           /* POTENTIAL FLAW: Attempt to use data, which may be NULL */
+  67. >         printIntLine(*data);
+  68.       }
+  69.   }
+
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 1
+./476_15.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 1 issue
+
+476_15.c:63: error: NULL_DEREFERENCE
+  pointer `twoIntsStructPointer` last assigned on line 60 could be null and is dereferenced at line 63, column 47.
+  61.           /* FLAW: Using a single & in the if statement will cause both sides of the expression to be evaluated
+  62.            * thus causing a NPD */
+  63. >         if ((twoIntsStructPointer != NULL) & (twoIntsStructPointer->intOne == 5))
+  64.           {
+  65.               printLine("intOne == 5");
+
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 1
+./476_44.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..................
+
+Found 3 issues
+
+476_44.c:62: error: DEAD_STORE
+  The value written to &intPointer is never used.
+  60.       {
+  61.           {
+  62. >             int *intPointer = NULL;
+  63.               intPointer = (int *)malloc(sizeof(int));
+  64.               *intPointer = 5;
+
+476_44.c:71: error: MEMORY_LEAK
+  memory dynamically allocated to `intPointer` by call to `malloc()` at line 63, column 33 is not reachable after line 71, column 13.
+  69.                   *intPointer = 10;
+  70.               }
+  71. >             printIntLine(*intPointer);
+  72.           }
+  73.       }
+
+476_44.c:64: error: NULL_DEREFERENCE
+  pointer `intPointer` last assigned on line 63 could be null and is dereferenced at line 64, column 13.
+  62.               int *intPointer = NULL;
+  63.               intPointer = (int *)malloc(sizeof(int));
+  64. >             *intPointer = 5;
+  65.               printIntLine(*intPointer);
+  66.               /* FLAW: Check for NULL after dereferencing the pointer. This NULL check is unnecessary. */
+
+
+Summary of the reports
+
+       MEMORY_LEAK: 1
+  NULL_DEREFERENCE: 1
+        DEAD_STORE: 1
+./476_23.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..................
+
+Found 1 issue
+
+476_23.c:68: error: NULL_DEREFERENCE
+  pointer `data` last assigned on line 63 could be null and is dereferenced at line 68, column 22.
+  66.       {
+  67.           /* POTENTIAL FLAW: Attempt to use data, which may be NULL */
+  68. >         printIntLine(*data);
+  69.       }
+  70.   }
+
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 1
+./476_31.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 1 issue
+
+476_31.c:60: error: NULL_DEREFERENCE
+  pointer `data` last assigned on line 58 could be null and is dereferenced at line 60, column 19.
+  58.       data = NULL;
+  59.       /* POTENTIAL FLAW: Attempt to use data, which may be NULL */
+  60. >     printLongLine(*data);
+  61.   }
+  62.   
+
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 1
+./476_10.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 1 issue
+
+476_10.c:62: error: NULL_DEREFERENCE
+  pointer `twoIntsStructPointer` last assigned on line 59 could be null and is dereferenced at line 62, column 51.
+  60.               /* FLAW: Using a single & in the if statement will cause both sides of the expression to be evaluated
+  61.                * thus causing a NPD */
+  62. >             if ((twoIntsStructPointer != NULL) & (twoIntsStructPointer->intOne == 5))
+  63.               {
+  64.                   printLine("intOne == 5");
+
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 1
+./476_49.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 3 issues
+
+476_49.c:59: error: DEAD_STORE
+  The value written to &intPointer is never used.
+  57.       {
+  58.           {
+  59. >             int *intPointer = NULL;
+  60.               intPointer = (int *)malloc(sizeof(int));
+  61.               *intPointer = 5;
+
+476_49.c:68: error: MEMORY_LEAK
+  memory dynamically allocated to `intPointer` by call to `malloc()` at line 60, column 33 is not reachable after line 68, column 13.
+  66.                   *intPointer = 10;
+  67.               }
+  68. >             printIntLine(*intPointer);
+  69.           }
+  70.       }
+
+476_49.c:61: error: NULL_DEREFERENCE
+  pointer `intPointer` last assigned on line 60 could be null and is dereferenced at line 61, column 13.
+  59.               int *intPointer = NULL;
+  60.               intPointer = (int *)malloc(sizeof(int));
+  61. >             *intPointer = 5;
+  62.               printIntLine(*intPointer);
+  63.               /* FLAW: Check for NULL after dereferencing the pointer. This NULL check is unnecessary. */
+
+
+Summary of the reports
+
+       MEMORY_LEAK: 1
+  NULL_DEREFERENCE: 1
+        DEAD_STORE: 1
+./476_8.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..................
+
+Found 1 issue
+
+476_8.c:72: error: NULL_DEREFERENCE
+  pointer `twoIntsStructPointer` last assigned on line 69 could be null and is dereferenced at line 72, column 51.
+  70.               /* FLAW: Using a single & in the if statement will cause both sides of the expression to be evaluated
+  71.                * thus causing a NPD */
+  72. >             if ((twoIntsStructPointer != NULL) & (twoIntsStructPointer->intOne == 5))
+  73.               {
+  74.                   printLine("intOne == 5");
+
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 1
+./476_41.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 1 issue
+
+476_41.c:61: error: NULL_DEREFERENCE
+  pointer `intPointer` last assigned on line 58 could be null and is dereferenced at line 61, column 26.
+  59.           if (intPointer == NULL)
+  60.           {
+  61. >             printIntLine(*intPointer);
+  62.           }
+  63.       }
+
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 1

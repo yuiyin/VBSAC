@@ -1,0 +1,97 @@
+[/home/guzuxing/Documents/benchmark/CWE/itc/369/369_zero_division_10.ll]
+CWE_369(Divide By Zero): 1
+	[./369_zero_division_10.c 10] zero_division_012_bad 		[N23 -{%div = sdiv i32 %0, %sub}-> N24]	(Divide By Zero)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/369/369_zero_division_11.ll]
+<Defect> : N63 -> N64: [%div = sdiv i32 %0, %call]
+CWE_369(Divide By Zero): 1
+	[./369_zero_division_11.c 14] zero_division_013_bad 		[N63 -{%div = sdiv i32 %0, %call}-> N64]	(Divide By Zero)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/369/369_zero_division_12.ll]
+CWE_369(Divide By Zero): 1
+	[./369_zero_division_12.c 9] zero_division_014_func_001 		[N113 -{%div = sdiv i32 %0, %1}-> N114]	(Divide By Zero)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/369/369_zero_division_13.ll]
+CWE_369(Divide By Zero): 1
+	[./369_zero_division_13.c 12] zero_division_015_bad 		[N146 -{%div = sdiv i32 %1, %2}-> N147]	(Divide By Zero)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/369/369_zero_division_14.ll]
+CWE_401(Memory Leak): 2
+	[./369_zero_division_14.c 66] main 		[N176 -{ret i32 0}-> N170]	(the heap object @H(zero_division_016_func_001_bad::call) is not referenced any more)
+	[./369_zero_division_14.c 66] main 		[N176 -{ret i32 0}-> N170]	(the heap object @H(zero_division_016_func_001_good::call) is not referenced any more)
+CWE_369(Divide By Zero): 1
+	[./369_zero_division_14.c 30] zero_division_016_bad 		[N198 -{%div = sdiv i32 %3, %4}-> N199]	(Divide By Zero)
+CWE_476(Null Pointer Dereference): 2
+	[./369_zero_division_14.c 42] zero_division_016_func_001_good 		[N217 -{store i32 1, i32* %1, align 4}-> N218]	(null pointer dereference)
+	[./369_zero_division_14.c 12] zero_division_016_func_001_bad 		[N208 -{store i32 -1, i32* %1, align 4}-> N209]	(null pointer dereference)
+Found 5 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/369/369_zero_division_15.ll]
+CWE_369(Divide By Zero): 1
+	[./369_zero_division_15.c 14] zero_division_005_bad 		[N284 -{%div = sdiv i32 %1, %2}-> N285]	(Divide By Zero)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/369/369_zero_division_1.ll]
+CWE_369(Divide By Zero): 1
+	[./369_zero_division_1.c 9] zero_division_001_bad 		[N324 -{%div = sdiv i32 %0, 0}-> N325]	(Divide By Zero)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/369/369_zero_division_2.ll]
+CWE_369(Divide By Zero): 1
+	[./369_zero_division_2.c 9] zero_division_002_bad 		[N356 -{%div = sdiv i32 %0, 0}-> N357]	(Divide By Zero)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/369/369_zero_division_3.ll]
+CWE_369(Divide By Zero): 1
+	[./369_zero_division_3.c 9] zero_division_003_bad 		[N392 -{%rem = srem i32 %0, 0}-> N393]	(Divide By Zero)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/369/369_zero_division_4.ll]
+CWE_369(Divide By Zero): 1
+	[./369_zero_division_4.c 9] zero_division_004_func_001_bad 		[N428 -{%rem = srem i32 %1, %0}-> N429]	(Divide By Zero)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/369/369_zero_division_5.ll]
+CWE_369(Divide By Zero): 1
+	[./369_zero_division_5.c 13] zero_division_006_bad 		[N472 -{%div = sdiv i32 %0, %2}-> N473]	(Divide By Zero)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/369/369_zero_division_6.ll]
+CWE_369(Divide By Zero): 1
+	[./369_zero_division_6.c 23] zero_division_007_bad 		[N513 -{%div = sdiv i32 %0, %1}-> N514]	(Divide By Zero)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/369/369_zero_division_7.ll]
+CWE_369(Divide By Zero): 1
+	[./369_zero_division_7.c 10] zero_division_009_bad 		[N563 -{%div = sdiv i32 %0, %1}-> N564]	(Divide By Zero)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/369/369_zero_division_8.ll]
+CWE_369(Divide By Zero): 1
+	[./369_zero_division_8.c 15] zero_division_010_bad 		[N604 -{%div = sdiv i32 %0, %1}-> N605]	(Divide By Zero)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/369/369_zero_division_9.ll]
+CWE_369(Divide By Zero): 1
+	[./369_zero_division_9.c 10] zero_division_011_bad 		[N653 -{%div = sdiv i32 %0, %sub}-> N654]	(Divide By Zero)
+Found 1 defects in all (0 duplicates ignored).
+
+

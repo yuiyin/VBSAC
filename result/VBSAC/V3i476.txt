@@ -1,0 +1,80 @@
+[/home/guzuxing/Documents/benchmark/CWE/itc/476/476_null_pointer_10.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_null_pointer_10.c 22] null_pointer_010_bad 		[N18 -{store i32 1, i32* %1, align 4}-> N19]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/476/476_null_pointer_11.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_null_pointer_11.c 24] null_pointer_011_bad 		[N59 -{store i32 1, i32* %2, align 4}-> N60]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/476/476_null_pointer_12.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_null_pointer_12.c 20] null_pointer_012_bad 		[N96 -{%arrayidx = getelementptr inbounds i32, i32* %0, i64 3}-> N97]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/476/476_null_pointer_13.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_null_pointer_13.c 30] null_pointer_013_bad 		[N134 -{store i32 2, i32* %2, align 4}-> N135]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/476/476_null_pointer_14.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_null_pointer_14.c 26] null_pointer_014_bad 		[N179 -{store i32 1, i32* %0, align 4}-> N180]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/476/476_null_pointer_1.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_null_pointer_1.c 20] null_pointer_001_bad 		[N231 -{store i32 1, i32* %0, align 4}-> N232]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/476/476_null_pointer_2.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_null_pointer_2.c 21] null_pointer_002_bad 		[N262 -{%1 = load i32, i32* %0, align 4}-> N263]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/476/476_null_pointer_3.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_null_pointer_3.c 22] null_pointer_003_bad 		[N302 -{store i32 1, i32* %1, align 4}-> N303]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/476/476_null_pointer_4.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_null_pointer_4.c 26] null_pointer_004_bad 		[N335 -{%a = getelementptr inbounds %struct.null_pointer_004_s_001, %struct.null_pointer_004_s_001* %0, i32 0, i32 0}-> N336]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/476/476_null_pointer_5.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_null_pointer_5.c 41] null_pointer_005_bad 		[N366 -{%a = getelementptr inbounds %struct.null_pointer_005_s_001, %struct.null_pointer_005_s_001* %s1, i32 0, i32 0}-> N367]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/476/476_null_pointer_6.ll]
+Found 0 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/476/476_null_pointer_7.ll]
+Found 0 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/476/476_null_pointer_8.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_null_pointer_8.c 26] null_pointer_008_bad 		[N467 -{store i32 1, i32* %0, align 4}-> N468]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/476/476_null_pointer_9.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_null_pointer_9.c 19] null_pointer_009_func_001_bad 		[N508 -{store i32 1, i32* %0, align 4}-> N509]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+

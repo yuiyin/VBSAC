@@ -1,0 +1,395 @@
+rm: cannot remove '*.o': No such file or directory
+./191_7.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./191_7.c:47:5: warning: Value stored to 'data' is never read
+    data = ' ';
+    ^      ~~~
+./191_7.c:72:5: warning: Value stored to 'data' is never read
+    data = ' ';
+    ^      ~~~
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101721-33595-1' to examine bug reports.
+./191_4.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./191_4.c:51:5: warning: Value stored to 'data' is never read
+    data = 0L;
+    ^      ~~
+./191_4.c:70:5: warning: Value stored to 'data' is never read
+    data = 0L;
+    ^      ~~
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101721-33606-1' to examine bug reports.
+./191_30.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-101722-33617-1' because it contains no reports.
+scan-build: No bugs found.
+./191_45.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-101722-33628-1' because it contains no reports.
+scan-build: No bugs found.
+./191_8.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./191_8.c:47:5: warning: Value stored to 'data' is never read
+    data = ' ';
+    ^      ~~~
+./191_8.c:70:5: warning: Value stored to 'data' is never read
+    data = ' ';
+    ^      ~~~
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101723-33639-1' to examine bug reports.
+./191_27.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./191_27.c:47:5: warning: Value stored to 'data' is never read
+    data = ' ';
+    ^      ~~~
+./191_27.c:71:5: warning: Value stored to 'data' is never read
+    data = ' ';
+    ^      ~~~
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101723-33650-1' to examine bug reports.
+./191_41.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-101723-33661-1' because it contains no reports.
+scan-build: No bugs found.
+./191_2.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./191_2.c:45:5: warning: Value stored to 'data' is never read
+    data = ' ';
+    ^      ~~~
+./191_2.c:64:5: warning: Value stored to 'data' is never read
+    data = ' ';
+    ^      ~~~
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101724-33672-1' to examine bug reports.
+./191_36.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./191_36.c:46:5: warning: Value stored to 'data' is never read
+    data = ' ';
+    ^      ~~~
+./191_36.c:69:5: warning: Value stored to 'data' is never read
+    data = ' ';
+    ^      ~~~
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101724-33683-1' to examine bug reports.
+./191_48.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-101725-33694-1' because it contains no reports.
+scan-build: No bugs found.
+./191_32.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-101725-33705-1' because it contains no reports.
+scan-build: No bugs found.
+./191_26.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./191_26.c:47:5: warning: Value stored to 'data' is never read
+    data = ' ';
+    ^      ~~~
+./191_26.c:65:5: warning: Value stored to 'data' is never read
+    data = ' ';
+    ^      ~~~
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101726-33716-1' to examine bug reports.
+./191_39.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./191_39.c:49:5: warning: Value stored to 'data' is never read
+    data = ' ';
+    ^      ~~~
+./191_39.c:72:5: warning: Value stored to 'data' is never read
+    data = ' ';
+    ^      ~~~
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101726-33727-1' to examine bug reports.
+./191_10.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-101726-33738-1' because it contains no reports.
+scan-build: No bugs found.
+./191_6.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./191_6.c:47:5: warning: Value stored to 'data' is never read
+    data = ' ';
+    ^      ~~~
+./191_6.c:65:5: warning: Value stored to 'data' is never read
+    data = ' ';
+    ^      ~~~
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101727-33749-1' to examine bug reports.
+./191_5.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-101727-33760-1' because it contains no reports.
+scan-build: No bugs found.
+./191_31.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./191_31.c:49:5: warning: Value stored to 'data' is never read
+    data = ' ';
+    ^      ~~~
+./191_31.c:73:5: warning: Value stored to 'data' is never read
+    data = ' ';
+    ^      ~~~
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101728-33771-1' to examine bug reports.
+./191_43.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-101728-33782-1' because it contains no reports.
+scan-build: No bugs found.
+./191_17.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./191_17.c:47:5: warning: Value stored to 'data' is never read
+    data = ' ';
+    ^      ~~~
+./191_17.c:68:5: warning: Value stored to 'data' is never read
+    data = ' ';
+    ^      ~~~
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101728-33793-1' to examine bug reports.
+./191_42.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./191_42.c:65:5: warning: Value stored to 'data' is never read
+    data = 0;
+    ^      ~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101729-33804-1' to examine bug reports.
+./191_35.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./191_35.c:47:5: warning: Value stored to 'data' is never read
+    data = ' ';
+    ^      ~~~
+./191_35.c:70:5: warning: Value stored to 'data' is never read
+    data = ' ';
+    ^      ~~~
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101729-33815-1' to examine bug reports.
+./191.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-101730-33826-1' because it contains no reports.
+scan-build: No bugs found.
+./191_28.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./191_28.c:47:5: warning: Value stored to 'data' is never read
+    data = ' ';
+    ^      ~~~
+./191_28.c:71:5: warning: Value stored to 'data' is never read
+    data = ' ';
+    ^      ~~~
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101730-33837-1' to examine bug reports.
+./191_18.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./191_18.c:47:5: warning: Value stored to 'data' is never read
+    data = ' ';
+    ^      ~~~
+./191_18.c:69:5: warning: Value stored to 'data' is never read
+    data = ' ';
+    ^      ~~~
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101731-33848-1' to examine bug reports.
+./191_44.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-101731-33860-1' because it contains no reports.
+scan-build: No bugs found.
+./191_38.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-101731-33871-1' because it contains no reports.
+scan-build: No bugs found.
+./191_15.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-101732-33882-1' because it contains no reports.
+scan-build: No bugs found.
+./191_22.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-101732-33893-1' because it contains no reports.
+scan-build: No bugs found.
+./191_3.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./191_3.c:46:5: warning: Value stored to 'data' is never read
+    data = 0;
+    ^      ~
+./191_3.c:66:5: warning: Value stored to 'data' is never read
+    data = 0;
+    ^      ~
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101733-33904-1' to examine bug reports.
+./191_47.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-101733-33915-1' because it contains no reports.
+scan-build: No bugs found.
+./191_50.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./191_50.c:64:5: warning: Value stored to 'data' is never read
+    data = 0;
+    ^      ~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101734-33926-1' to examine bug reports.
+./191_49.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-101734-33937-1' because it contains no reports.
+scan-build: No bugs found.
+./191_20.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-101734-33948-1' because it contains no reports.
+scan-build: No bugs found.
+./191_25.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-101735-33959-1' because it contains no reports.
+scan-build: No bugs found.
+./191_11.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./191_11.c:49:5: warning: Value stored to 'data' is never read
+    data = ' ';
+    ^      ~~~
+./191_11.c:73:5: warning: Value stored to 'data' is never read
+    data = ' ';
+    ^      ~~~
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101735-33970-1' to examine bug reports.
+./191_40.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-101736-33981-1' because it contains no reports.
+scan-build: No bugs found.
+./191_16.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./191_16.c:47:5: warning: Value stored to 'data' is never read
+    data = ' ';
+    ^      ~~~
+./191_16.c:63:5: warning: Value stored to 'data' is never read
+    data = ' ';
+    ^      ~~~
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101736-33992-1' to examine bug reports.
+./191_33.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-101737-34003-1' because it contains no reports.
+scan-build: No bugs found.
+./191_24.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./191_24.c:55:5: warning: Value stored to 'data' is never read
+    data = ' ';
+    ^      ~~~
+./191_24.c:77:5: warning: Value stored to 'data' is never read
+    data = ' ';
+    ^      ~~~
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101737-34014-1' to examine bug reports.
+./191_23.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-101737-34025-1' because it contains no reports.
+scan-build: No bugs found.
+./191_37.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./191_37.c:50:5: warning: Value stored to 'data' is never read
+    data = ' ';
+    ^      ~~~
+./191_37.c:73:5: warning: Value stored to 'data' is never read
+    data = ' ';
+    ^      ~~~
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101738-34036-1' to examine bug reports.
+./191_21.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./191_21.c:49:5: warning: Value stored to 'data' is never read
+    data = ' ';
+    ^      ~~~
+./191_21.c:73:5: warning: Value stored to 'data' is never read
+    data = ' ';
+    ^      ~~~
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101738-34047-1' to examine bug reports.
+./191_46.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-101739-34058-1' because it contains no reports.
+scan-build: No bugs found.
+./191_14.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./191_14.c:51:5: warning: Value stored to 'data' is never read
+    data = ' ';
+    ^      ~~~
+./191_14.c:74:5: warning: Value stored to 'data' is never read
+    data = ' ';
+    ^      ~~~
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101739-34069-1' to examine bug reports.
+./191_34.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./191_34.c:47:5: warning: Value stored to 'data' is never read
+    data = ' ';
+    ^      ~~~
+./191_34.c:64:5: warning: Value stored to 'data' is never read
+    data = ' ';
+    ^      ~~~
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101739-34080-1' to examine bug reports.
+./191_9.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./191_9.c:50:5: warning: Value stored to 'data' is never read
+    data = ' ';
+    ^      ~~~
+./191_9.c:76:5: warning: Value stored to 'data' is never read
+    data = ' ';
+    ^      ~~~
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101740-34091-1' to examine bug reports.
+./191_1.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./191_1.c:45:5: warning: Value stored to 'data' is never read
+    data = 0;
+    ^      ~
+./191_1.c:59:5: warning: Value stored to 'data' is never read
+    data = 0;
+    ^      ~
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101740-34102-1' to examine bug reports.
+./191_12.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-101741-34113-1' because it contains no reports.
+scan-build: No bugs found.
+./191_19.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./191_19.c:50:5: warning: Value stored to 'data' is never read
+    data = ' ';
+    ^      ~~~
+./191_19.c:72:5: warning: Value stored to 'data' is never read
+    data = ' ';
+    ^      ~~~
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101741-34124-1' to examine bug reports.
+./191_13.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-101742-34135-1' because it contains no reports.
+scan-build: No bugs found.
+./191_29.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./191_29.c:50:5: warning: Value stored to 'data' is never read
+    data = ' ';
+    ^      ~~~
+./191_29.c:74:5: warning: Value stored to 'data' is never read
+    data = ' ';
+    ^      ~~~
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101742-34146-1' to examine bug reports.

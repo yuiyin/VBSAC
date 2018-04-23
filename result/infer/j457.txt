@@ -1,0 +1,612 @@
+./457_30.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.................
+
+  No issues found  
+./457_25.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..................
+
+  No issues found  
+./457_5.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..................
+
+  No issues found  
+./457_50.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+  No issues found  
+./457_22.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F...................
+
+  No issues found  
+./457_20.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+  No issues found  
+./457_46.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+  No issues found  
+./457_43.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.................
+
+  No issues found  
+./457_41.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..................
+
+  No issues found  
+./457_38.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+  No issues found  
+./457_18.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+  No issues found  
+./457_37.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..................
+
+  No issues found  
+./457_40.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..................
+
+  No issues found  
+./457_3.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+  No issues found  
+./457_1.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+  No issues found  
+./457_12.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+  No issues found  
+./457_2.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+  No issues found  
+./457_33.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.................
+
+  No issues found  
+./457_48.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+  No issues found  
+./457_27.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.................
+
+  No issues found  
+./457_36.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.................
+
+  No issues found  
+./457_6.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.................
+
+  No issues found  
+./457_17.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+  No issues found  
+./457_4.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..................
+
+  No issues found  
+./457_23.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F...................
+
+  No issues found  
+./457_39.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+  No issues found  
+./457_10.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+  No issues found  
+./457_28.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.................
+
+  No issues found  
+./457_35.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.................
+
+  No issues found  
+./457_47.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+  No issues found  
+./457_45.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+  No issues found  
+./457_19.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+  No issues found  
+./457_15.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+  No issues found  
+./457_24.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..................
+
+  No issues found  
+./457_16.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+  No issues found  
+./457_21.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+  No issues found  
+./457_11.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+  No issues found  
+./457_31.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.................
+
+  No issues found  
+./457_9.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+  No issues found  
+./457_7.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.................
+
+  No issues found  
+./457_8.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..................
+
+  No issues found  
+./457_13.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+  No issues found  
+./457_26.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F...................
+
+  No issues found  
+./457_49.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+  No issues found  
+./457_29.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.................
+
+  No issues found  
+./457_32.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.................
+
+  No issues found  
+./457_34.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.................
+
+  No issues found  
+./457_44.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..................
+
+  No issues found  
+./457_42.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.................
+
+  No issues found  
+./457.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.............
+
+  No issues found  
+./457_14.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+  No issues found  

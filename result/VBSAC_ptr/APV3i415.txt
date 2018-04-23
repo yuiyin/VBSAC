@@ -1,0 +1,133 @@
+[/home/guzuxing/Documents/benchmark/CWE/itc/415/415_double_free_10.ll]
+CWE_416(Use After Free): 3
+	[./415_double_free_10.c 45] double_free_010_good 		[N50 -{call void @free(i8* %2, i8* @free)}-> N51]	(the memory is already freed)
+	[./415_double_free_10.c 26] double_free_010_bad 		[N18 -{call void @free(i8* %2, i8* @free)}-> N19]	(the memory is already freed)
+	[./415_double_free_10.c 29] double_free_010_bad 		[N24 -{call void @free(i8* %4, i8* @free)}-> N26]	(the memory is already freed)
+CWE_415(Double Free): 3
+	[./415_double_free_10.c 45] double_free_010_good 		[N50 -{call void @free(i8* %2, i8* @free)}-> N51]	(the memory is already freed)
+	[./415_double_free_10.c 26] double_free_010_bad 		[N18 -{call void @free(i8* %2, i8* @free)}-> N19]	(the memory is already freed)
+	[./415_double_free_10.c 29] double_free_010_bad 		[N24 -{call void @free(i8* %4, i8* @free)}-> N26]	(the memory is already freed)
+CWE_401(Memory Leak): 1
+	[./415_double_free_10.c 52] double_free_010_good 		[N32 -{Return edge from double_free_010_good to main}-> N66]	(the heap object @H(double_free_010_good::call) is not referenced any more)
+Found 7 defects in all (115 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/415/415_double_free_11.ll]
+CWE_416(Use After Free): 2
+	[./415_double_free_11.c 46] double_free_011_good 		[N139 -{call void @free(i8* %4, i8* @free)}-> N141]	(the memory is already freed)
+	[./415_double_free_11.c 27] double_free_011_bad 		[N97 -{call void @free(i8* %4, i8* @free)}-> N99]	(the memory is already freed)
+CWE_415(Double Free): 2
+	[./415_double_free_11.c 46] double_free_011_good 		[N139 -{call void @free(i8* %4, i8* @free)}-> N141]	(the memory is already freed)
+	[./415_double_free_11.c 27] double_free_011_bad 		[N97 -{call void @free(i8* %4, i8* @free)}-> N99]	(the memory is already freed)
+CWE_401(Memory Leak): 2
+	[./415_double_free_11.c 58] double_free_011_good 		[N111 -{Return edge from double_free_011_good to main}-> N158]	(the heap object @H(double_free_011_good::call) is not referenced any more)
+	[./415_double_free_11.c 59] double_free_011_bad 		[N69 -{Return edge from double_free_011_bad to main}-> N159]	(the heap object @H(double_free_011_bad::call) is not referenced any more)
+Found 6 defects in all (121 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/415/415_double_free_12.ll]
+CWE_416(Use After Free): 2
+	[./415_double_free_12.c 43] double_free_012_good 		[N211 -{call void @free(i8* %2, i8* @free)}-> N213]	(the memory is already freed)
+	[./415_double_free_12.c 26] double_free_012_bad 		[N180 -{call void @free(i8* %2, i8* @free)}-> N182]	(the memory is already freed)
+CWE_415(Double Free): 2
+	[./415_double_free_12.c 43] double_free_012_good 		[N211 -{call void @free(i8* %2, i8* @free)}-> N213]	(the memory is already freed)
+	[./415_double_free_12.c 26] double_free_012_bad 		[N180 -{call void @free(i8* %2, i8* @free)}-> N182]	(the memory is already freed)
+CWE_401(Memory Leak): 2
+	[./415_double_free_12.c 54] double_free_012_good 		[N192 -{Return edge from double_free_012_good to main}-> N228]	(the heap object @H(double_free_012_good::call) is not referenced any more)
+	[./415_double_free_12.c 55] double_free_012_bad 		[N161 -{Return edge from double_free_012_bad to main}-> N229]	(the heap object @H(double_free_012_bad::call) is not referenced any more)
+Found 6 defects in all (121 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/415/415_double_free_1.ll]
+CWE_416(Use After Free): 1
+	[./415_double_free_1.c 24] double_free_001_bad 		[N244 -{call void @free(i8* %2, i8* @free)}-> N246]	(the memory is already freed)
+CWE_415(Double Free): 1
+	[./415_double_free_1.c 24] double_free_001_bad 		[N244 -{call void @free(i8* %2, i8* @free)}-> N246]	(the memory is already freed)
+Found 2 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/415/415_double_free_2.ll]
+CWE_416(Use After Free): 6
+	[./415_double_free_2.c 48] double_free_002_good 		[N340 -{store i8 97, i8* %arrayidx, align 1}-> N341]	(the memory is already freed)
+	[./415_double_free_2.c 50] double_free_002_good 		[N345 -{call void @free(i8* %5, i8* @free)}-> N348]	(the memory is already freed)
+	[./415_double_free_2.c 52] double_free_002_good 		[N353 -{call void @free(i8* %7, i8* @free)}-> N355]	(the memory is already freed)
+	[./415_double_free_2.c 26] double_free_002_bad 		[N296 -{store i8 97, i8* %arrayidx, align 1}-> N297]	(the memory is already freed)
+	[./415_double_free_2.c 29] double_free_002_bad 		[N301 -{call void @free(i8* %5, i8* @free)}-> N304]	(the memory is already freed)
+	[./415_double_free_2.c 32] double_free_002_bad 		[N309 -{call void @free(i8* %7, i8* @free)}-> N311]	(the memory is already freed)
+CWE_415(Double Free): 4
+	[./415_double_free_2.c 50] double_free_002_good 		[N345 -{call void @free(i8* %5, i8* @free)}-> N348]	(the memory is already freed)
+	[./415_double_free_2.c 52] double_free_002_good 		[N353 -{call void @free(i8* %7, i8* @free)}-> N355]	(the memory is already freed)
+	[./415_double_free_2.c 29] double_free_002_bad 		[N301 -{call void @free(i8* %5, i8* @free)}-> N304]	(the memory is already freed)
+	[./415_double_free_2.c 32] double_free_002_bad 		[N309 -{call void @free(i8* %7, i8* @free)}-> N311]	(the memory is already freed)
+Found 10 defects in all (108 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/415/415_double_free_3.ll]
+CWE_416(Use After Free): 3
+	[./415_double_free_3.c 26] double_free_003_bad 		[N392 -{store i8 97, i8* %add.ptr, align 1}-> N393]	(the memory is already freed)
+	[./415_double_free_3.c 29] double_free_003_bad 		[N397 -{call void @free(i8* %5, i8* @free)}-> N400]	(the memory is already freed)
+	[./415_double_free_3.c 32] double_free_003_bad 		[N405 -{call void @free(i8* %7, i8* @free)}-> N407]	(the memory is already freed)
+CWE_415(Double Free): 2
+	[./415_double_free_3.c 29] double_free_003_bad 		[N397 -{call void @free(i8* %5, i8* @free)}-> N400]	(the memory is already freed)
+	[./415_double_free_3.c 32] double_free_003_bad 		[N405 -{call void @free(i8* %7, i8* @free)}-> N407]	(the memory is already freed)
+Found 5 defects in all (54 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/415/415_double_free_4.ll]
+CWE_416(Use After Free): 1
+	[./415_double_free_4.c 37] double_free_004_bad 		[N498 -{call void @free(i8* %6, i8* @free)}-> N500]	(the memory is already freed)
+CWE_415(Double Free): 1
+	[./415_double_free_4.c 37] double_free_004_bad 		[N498 -{call void @free(i8* %6, i8* @free)}-> N500]	(the memory is already freed)
+CWE_401(Memory Leak): 1
+	[./415_double_free_4.c 66] double_free_004_bad 		[N459 -{Return edge from double_free_004_bad to main}-> N552]	(the heap object @H(double_free_004_bad::call) is not referenced any more)
+Found 3 defects in all (2 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/415/415_double_free_5.ll]
+CWE_416(Use After Free): 1
+	[./415_double_free_5.c 25] double_free_005_bad 		[N570 -{call void @free(i8* %3, i8* @free)}-> N572]	(the memory is already freed)
+CWE_415(Double Free): 1
+	[./415_double_free_5.c 25] double_free_005_bad 		[N570 -{call void @free(i8* %3, i8* @free)}-> N572]	(the memory is already freed)
+Found 2 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/415/415_double_free_6.ll]
+CWE_416(Use After Free): 1
+	[./415_double_free_6.c 25] double_free_006_bad 		[N621 -{call void @free(i8* %2, i8* @free)}-> N623]	(the memory is already freed)
+CWE_415(Double Free): 1
+	[./415_double_free_6.c 25] double_free_006_bad 		[N621 -{call void @free(i8* %2, i8* @free)}-> N623]	(the memory is already freed)
+Found 2 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/415/415_double_free_7.ll]
+CWE_416(Use After Free): 2
+	[./415_double_free_7.c 44] double_free_007_good 		[N700 -{call void @free(i8* %3, i8* @free)}-> N702]	(the memory is already freed)
+	[./415_double_free_7.c 27] double_free_007_bad 		[N672 -{call void @free(i8* %3, i8* @free)}-> N674]	(the memory is already freed)
+CWE_415(Double Free): 2
+	[./415_double_free_7.c 44] double_free_007_good 		[N700 -{call void @free(i8* %3, i8* @free)}-> N702]	(the memory is already freed)
+	[./415_double_free_7.c 27] double_free_007_bad 		[N672 -{call void @free(i8* %3, i8* @free)}-> N674]	(the memory is already freed)
+Found 4 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/415/415_double_free_8.ll]
+CWE_416(Use After Free): 1
+	[./415_double_free_8.c 28] double_free_008_bad 		[N726 -{call void @free(i8* %1, i8* @free)}-> N728]	(the memory is already freed)
+CWE_415(Double Free): 1
+	[./415_double_free_8.c 28] double_free_008_bad 		[N726 -{call void @free(i8* %1, i8* @free)}-> N728]	(the memory is already freed)
+Found 2 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/415/415_double_free_9.ll]
+CWE_416(Use After Free): 4
+	[./415_double_free_9.c 45] double_free_009_good 		[N818 -{call void @free(i8* %2, i8* @free)}-> N819]	(the memory is already freed)
+	[./415_double_free_9.c 48] double_free_009_good 		[N824 -{call void @free(i8* %4, i8* @free)}-> N826]	(the memory is already freed)
+	[./415_double_free_9.c 26] double_free_009_bad 		[N786 -{call void @free(i8* %2, i8* @free)}-> N787]	(the memory is already freed)
+	[./415_double_free_9.c 29] double_free_009_bad 		[N792 -{call void @free(i8* %4, i8* @free)}-> N794]	(the memory is already freed)
+CWE_415(Double Free): 4
+	[./415_double_free_9.c 45] double_free_009_good 		[N818 -{call void @free(i8* %2, i8* @free)}-> N819]	(the memory is already freed)
+	[./415_double_free_9.c 48] double_free_009_good 		[N824 -{call void @free(i8* %4, i8* @free)}-> N826]	(the memory is already freed)
+	[./415_double_free_9.c 26] double_free_009_bad 		[N786 -{call void @free(i8* %2, i8* @free)}-> N787]	(the memory is already freed)
+	[./415_double_free_9.c 29] double_free_009_bad 		[N792 -{call void @free(i8* %4, i8* @free)}-> N794]	(the memory is already freed)
+Found 8 defects in all (72 duplicates ignored).
+
+

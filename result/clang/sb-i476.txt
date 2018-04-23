@@ -1,0 +1,99 @@
+rm: cannot remove '*.o': No such file or directory
+./476_null_pointer_3.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_null_pointer_3.c:22:7: warning: Dereference of null pointer
+        **pp = 1;/*Tool should detect this line as error*/ /*ERROR:NULL pointer dereference*/
+        ~~~~~^~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101606-32852-1' to examine bug reports.
+./476_null_pointer_1.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_null_pointer_1.c:20:5: warning: Dereference of null pointer (loaded from variable 'p')
+        *p = 1; /*Tool should detect this line as error*/ /*ERROR:NULL pointer dereference*/
+         ~ ^
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101606-32863-1' to examine bug reports.
+./476_null_pointer_12.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_null_pointer_12.c:20:7: warning: Array access (from variable 'p') results in a null pointer dereference
+        p[3] = 1; /*Tool should detect this line as error*/ /*ERROR:NULL pointer dereference*/
+        ~    ^
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101607-32874-1' to examine bug reports.
+./476_null_pointer_6.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-101607-32885-1' because it contains no reports.
+scan-build: No bugs found.
+./476_null_pointer_2.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_null_pointer_2.c:21:2: warning: Value stored to 'ret' is never read
+        ret = *p;/*Tool should detect this line as error*/ /*ERROR:NULL pointer dereference*/
+        ^     ~~
+./476_null_pointer_2.c:21:8: warning: Dereference of null pointer (loaded from variable 'p')
+        ret = *p;/*Tool should detect this line as error*/ /*ERROR:NULL pointer dereference*/
+              ^~
+./476_null_pointer_2.c:34:2: warning: Value stored to 'ret' is never read
+        ret = *p; /*Tool should not detect this line as error*/ /*NO ERROR:NULL pointer dereference*/
+        ^     ~~
+3 warnings generated.
+scan-build: 3 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101607-32896-1' to examine bug reports.
+./476_null_pointer_5.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_null_pointer_5.c:41:10: warning: Dereference of null pointer
+        p->s1.a = 1;/*Tool should detect this line as error*/ /*ERROR:NULL pointer dereference*/
+        ~~~~~~~~^~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101607-32907-1' to examine bug reports.
+./476_null_pointer_4.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_null_pointer_4.c:26:7: warning: Access to field 'a' results in a dereference of a null pointer (loaded from variable 'p')
+        p->a = 1;/*Tool should detect this line as error*/ /*ERROR:NULL pointer dereference*/
+        ~    ^
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101608-32918-1' to examine bug reports.
+./476_null_pointer_8.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-101608-32929-1' because it contains no reports.
+scan-build: No bugs found.
+./476_null_pointer_10.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_null_pointer_10.c:22:6: warning: Dereference of null pointer (loaded from variable 'p1')
+        *p1 = 1;/*Tool should detect this line as error*/ /*ERROR:NULL pointer dereference*/
+         ~~ ^
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101608-32940-1' to examine bug reports.
+./476_null_pointer_13.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-101608-32951-1' because it contains no reports.
+scan-build: No bugs found.
+./476_null_pointer_7.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_null_pointer_7.c:22:5: warning: Dereference of null pointer (loaded from variable 'p')
+        *p = 1;/*Tool should detect this line as error*/ /*ERROR:NULL pointer dereference*/
+         ~ ^
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101608-32962-1' to examine bug reports.
+./476_null_pointer_11.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_null_pointer_11.c:24:6: warning: Dereference of null pointer (loaded from variable 'p2')
+        *p2 = 1;/*Tool should detect this line as error*/ /*ERROR:NULL pointer dereference*/
+         ~~ ^
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101609-32973-1' to examine bug reports.
+./476_null_pointer_9.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./476_null_pointer_9.c:19:5: warning: Dereference of null pointer (loaded from variable 'p')
+        *p = 1;/*Tool should detect this line as error*/ /*ERROR:NULL pointer dereference*/
+         ~ ^
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101609-32984-1' to examine bug reports.

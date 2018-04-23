@@ -1,0 +1,609 @@
+./457_uninit_memory_access_4.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/itc/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F...
+
+Found 2 issues
+
+457_uninit_memory_access_4.c:23: error: DEAD_STORE
+  The value written to &k is never used.
+  21.   			}
+  22.   		}
+  23. > 	k = arr1[1][1];/*Tool should detect this line as error*/ /*ERROR:Uninitialized Memory Access*/
+  24.   }
+  25.   
+
+457_uninit_memory_access_4.c:45: error: DEAD_STORE
+  The value written to &k is never used.
+  43.   			}
+  44.   		}
+  45. > 	k = arr1[1][1]; /*Tool should not detect this line as error*/ /*No ERROR:Uninitialized Memory Access*/
+  46.   }
+  47.   
+
+
+Summary of the reports
+
+  DEAD_STORE: 2
+./457_uninit_memory_access_8.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/itc/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.....
+
+Found 2 issues
+
+457_uninit_memory_access_8.c:19: error: NULL_DEREFERENCE
+  pointer `_bad` last assigned on line 15 could be null and is dereferenced at line 19, column 3.
+  17.   	for(i=0;i<2;i++)
+  18.   	{
+  19. > 		_bad[i]=(long*) malloc(10*sizeof(long));
+  20.   	}
+  21.   	for(i=0;i<2;i++)
+
+457_uninit_memory_access_8.c:67: error: NULL_DEREFERENCE
+  pointer `_good` last assigned on line 63 could be null and is dereferenced at line 67, column 3.
+  65.   	for(i=0;i<2;i++)
+  66.   	{
+  67. > 		_good[i]=(long*) malloc(10*sizeof(long));
+  68.   	}
+  69.   	for(i=0;i<2;i++)
+
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 2
+./457_uninit_var_11.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/itc/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F...
+
+Found 2 issues
+
+457_uninit_var_11.c:17: error: DEAD_STORE
+  The value written to &ret is never used.
+  15.   	s.a = 2;
+  16.   	int ret;
+  17. > 	ret = s.a +s.uninit; /*Tool should detect this line as error*/ /*ERROR:Uninitialized Variable*/
+  18.   }
+  19.   
+
+457_uninit_var_11.c:28: error: DEAD_STORE
+  The value written to &ret is never used.
+  26.   	s.uninit = 2;
+  27.   	int ret;
+  28. > 	ret = s.a +s.uninit;
+  29.   
+  30.   
+
+
+Summary of the reports
+
+  DEAD_STORE: 2
+./457_uninit_var_13.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/itc/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.....
+
+Found 1 issue
+
+457_uninit_var_13.c:18: error: DEAD_STORE
+  The value written to &ret is never used.
+  16.       int a[3],ret;
+  17.       uninit_var_015_func_001_bad(a);
+  18. >     ret = a[1];/*Tool should detect this line as error*/ /*ERROR:Uninitialized Variable*/
+  19.   }
+  20.   
+
+
+Summary of the reports
+
+  DEAD_STORE: 1
+./457_uninit_var_4.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/itc/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.....
+
+Found 2 issues
+
+457_uninit_var_4.c:16: error: DEAD_STORE
+  The value written to &a is never used.
+  14.   void uninit_var_005_bad(){
+  15.   	int a;
+  16. > 	a = uninit_var_005_func_001_bad();
+  17.   }
+  18.   
+
+457_uninit_var_4.c:34: error: DEAD_STORE
+  The value written to &a is never used.
+  32.   {
+  33.   	int a;
+  34. > 	a = uninit_var_005_func_001_good();
+  35.   
+  36.   }
+
+
+Summary of the reports
+
+  DEAD_STORE: 2
+./457_uninit_memory_access_6.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/itc/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F...........
+
+Found 3 issues
+
+457_uninit_memory_access_6.c:43: error: DEAD_STORE
+  The value written to &temp is never used.
+  41.       int temp;
+  42.       if(num != 0) {
+  43. >         temp = num;
+  44.       }
+  45.   }
+
+457_uninit_memory_access_6.c:84: error: DEAD_STORE
+  The value written to &temp is never used.
+  82.   void uninit_memory_access_007_func_004_good(int num)
+  83.   {
+  84. >   int temp = 0;
+  85.       if(num != 0) {
+  86.           temp = num;
+
+457_uninit_memory_access_6.c:86: error: DEAD_STORE
+  The value written to &temp is never used.
+  84.     int temp = 0;
+  85.       if(num != 0) {
+  86. >         temp = num;
+  87.       }
+  88.   
+
+
+Summary of the reports
+
+  DEAD_STORE: 3
+./457_uninit_memory_access_7.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/itc/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.....
+
+Found 3 issues
+
+457_uninit_memory_access_7.c:22: error: DEAD_STORE
+  The value written to &s is never used.
+  20.   void uninit_memory_access_008_bad()
+  21.   {
+  22. > 	uninit_memory_access_008_s_001 *s = NULL;
+  23.   	s = uninit_memory_access_008_func_001_bad();
+  24.   	s->b = s->a;/*Tool should detect this line as error*/ /*ERROR:Uninitialized Memory Access*/
+
+457_uninit_memory_access_7.c:24: error: NULL_DEREFERENCE
+  pointer `s` last assigned on line 23 could be null and is dereferenced at line 24, column 9.
+  22.   	uninit_memory_access_008_s_001 *s = NULL;
+  23.   	s = uninit_memory_access_008_func_001_bad();
+  24. > 	s->b = s->a;/*Tool should detect this line as error*/ /*ERROR:Uninitialized Memory Access*/
+  25.   }
+  26.   
+
+457_uninit_memory_access_7.c:45: error: DEAD_STORE
+  The value written to &s is never used.
+  43.   void uninit_memory_access_008_good()
+  44.   {
+  45. > 	uninit_memory_access_008_s_001 *s = NULL;
+  46.   	s = uninit_memory_access_008_func_001_good();
+  47.   	if(s!=NULL)
+
+
+Summary of the reports
+
+        DEAD_STORE: 2
+  NULL_DEREFERENCE: 1
+./457_uninit_var_14.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/itc/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.....
+
+  No issues found  
+./457_uninit_var_8.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/itc/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.....
+
+  No issues found  
+./457_uninit_var_5.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/itc/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F...
+
+  No issues found  
+./457_uninit_var_10.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/itc/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.....
+
+Found 2 issues
+
+457_uninit_var_10.c:19: error: DEAD_STORE
+  The value written to &p is never used.
+  17.   	int p ;
+  18.   	arr[0] = 1;
+  19. > 	p= uninit_var_011_func_001_bad(arr,(sizeof(arr)/sizeof(int)));
+  20.   }
+  21.   
+
+457_uninit_var_10.c:39: error: DEAD_STORE
+  The value written to &p is never used.
+  37.   	int arr[] = {1, 2, 3, 4, 5, 6};
+  38.   	int p ;
+  39. > 	p= uninit_var_011_func_001_good(arr,(sizeof(arr)/sizeof(int)));
+  40.   
+  41.   }
+
+
+Summary of the reports
+
+  DEAD_STORE: 2
+./457_uninit_memory_access_3.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/itc/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.....
+
+Found 2 issues
+
+457_uninit_memory_access_3.c:9: error: DEAD_STORE
+  The value written to &error_log is never used.
+  7.   
+  8.   void _001_bad(const char *msg) {
+  9. >   const char *error_log = msg;
+  10.     char buffer[max_buffer];
+  11.   
+
+457_uninit_memory_access_3.c:23: error: DEAD_STORE
+  The value written to &error_log is never used.
+  21.   */
+  22.   void _001_good(const char *msg) {
+  23. >   const char *error_log = msg;
+  24.     char buffer[max_buffer];
+  25.   
+
+
+Summary of the reports
+
+  DEAD_STORE: 2
+./457_uninit_var_9.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/itc/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.....
+
+  No issues found  
+./457_uninit_var_7.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/itc/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F...
+
+  No issues found  
+./457_uninit_memory_access_5.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/itc/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.....
+
+Found 2 issues
+
+457_uninit_memory_access_5.c:30: error: MEMORY_LEAK
+  memory dynamically allocated to `str1` by call to `calloc()` at line 28, column 27 is not reachable after line 30, column 5.
+  28.       char *str1 = (char *) calloc(25,sizeof(char));
+  29.       char *str2 ;
+  30. >     uninit_memory_access_006_func_001_bad(str1, str2);
+  31.   }
+  32.   
+
+457_uninit_memory_access_5.c:58: error: MEMORY_LEAK
+  memory dynamically allocated to `str1` by call to `calloc()` at line 56, column 27 is not reachable after line 58, column 5.
+  56.       char *str1 = (char *) calloc(25,sizeof(char));
+  57.       char *str2 = "STRING";
+  58. >     uninit_memory_access_006_func_001_good(str1, str2);
+  59.   }
+  60.   
+
+
+Summary of the reports
+
+  MEMORY_LEAK: 2
+./457_uninit_var_3.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/itc/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F...
+
+Found 2 issues
+
+457_uninit_var_3.c:10: error: DEAD_STORE
+  The value written to &ret is never used.
+  8.   	int buf[5][6];
+  9.   	int ret;
+  10. > 	ret = buf[1][1];/*Tool should detect this line as error*/ /*ERROR:Uninitialized Variable*/
+  11.   }
+  12.   
+
+457_uninit_var_3.c:25: error: DEAD_STORE
+  The value written to &ret is never used.
+  23.   	                 {41,42,43,44,45,46}};
+  24.   	int ret;
+  25. > 	ret = buf[1][1]; /*Tool should not detect this line as error*/ /*No ERROR:Uninitialized Variable*/
+  26.   
+  27.   }
+
+
+Summary of the reports
+
+  DEAD_STORE: 2
+./457_uninit_memory_access_2.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/itc/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F...
+
+  No issues found  
+./457_uninit_var_1.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/itc/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F...
+
+Found 2 issues
+
+457_uninit_var_1.c:10: error: DEAD_STORE
+  The value written to &ret is never used.
+  8.   	int a ;
+  9.   	int ret;
+  10. > 	ret = a;/*Tool should detect this line as error*/ /*ERROR:Uninitialized Variable*/
+  11.   }
+  12.   
+
+457_uninit_var_1.c:21: error: DEAD_STORE
+  The value written to &ret is never used.
+  19.   	int a = 0;
+  20.   	int ret;
+  21. > 	ret = a; /*Tool should not detect this line as error*/ /*No ERROR:Uninitialized Variable*/
+  22.   
+  23.   }
+
+
+Summary of the reports
+
+  DEAD_STORE: 2
+./457_uninit_var_2.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/itc/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F...
+
+Found 2 issues
+
+457_uninit_var_2.c:10: error: DEAD_STORE
+  The value written to &ret is never used.
+  8.   	int buf[5];
+  9.   	int ret;
+  10. > 	ret = buf[3];/*Tool should detect this line as error*/ /*ERROR:Uninitialized Variable*/
+  11.   }
+  12.   
+
+457_uninit_var_2.c:21: error: DEAD_STORE
+  The value written to &ret is never used.
+  19.   	int buf[5] = {1, 2, 3, 4, 5};
+  20.   	int ret;
+  21. > 	ret = buf[3]; /*Tool should not detect this line as error*/ /*No ERROR:Uninitialized Variable*/
+  22.   
+  23.   }
+
+
+Summary of the reports
+
+  DEAD_STORE: 2
+./457_uninit_var_6.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/itc/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F...
+
+Found 2 issues
+
+457_uninit_var_6.c:18: error: DEAD_STORE
+  The value written to &ret is never used.
+  16.   	s.a = 1;
+  17.   	s.b = 1;
+  18. > 	ret = s.uninit;/*Tool should detect this line as error*/ /*ERROR:Uninitialized Variable*/
+  19.   }
+  20.   
+
+457_uninit_var_6.c:32: error: DEAD_STORE
+  The value written to &ret is never used.
+  30.   	s.b = 1;
+  31.   	s.uninit = 1;
+  32. > 	ret = s.uninit; /*Tool should not detect this line as error*/ /*No ERROR:Uninitialized Variable*/
+  33.   
+  34.   }
+
+
+Summary of the reports
+
+  DEAD_STORE: 2
+./457_uninit_var_12.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/itc/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.....
+
+Found 2 issues
+
+457_uninit_var_12.c:16: error: DEAD_STORE
+  The value written to &a is never used.
+  14.   void uninit_var_013_bad(){
+  15.       int a;
+  16. >     a = uninit_var_013_func_001_bad();
+  17.   }
+  18.   
+
+457_uninit_var_12.c:32: error: DEAD_STORE
+  The value written to &a is never used.
+  30.   {
+  31.       int a;
+  32. >     a = uninit_var_013_func_001_good();
+  33.   
+  34.   }
+
+
+Summary of the reports
+
+  DEAD_STORE: 2
+./457_uninit_memory_access_1.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/itc/457/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F...
+
+Found 2 issues
+
+457_uninit_memory_access_1.c:11: error: DEAD_STORE
+  The value written to &ret is never used.
+  9.   	unsigned long a;
+  10.   	unsigned long *ret;
+  11. > 	ret = &a;
+  12.   }
+  13.   
+
+457_uninit_memory_access_1.c:22: error: DEAD_STORE
+  The value written to &ret is never used.
+  20.   	unsigned long a = 10;
+  21.   	unsigned long *ret;
+  22. > 	ret = &a;
+  23.   }
+  24.   
+
+
+Summary of the reports
+
+  DEAD_STORE: 2

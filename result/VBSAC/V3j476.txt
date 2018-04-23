@@ -1,0 +1,316 @@
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_1.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_1.c 58] bad1 		[N9 -{%intOne = getelementptr inbounds %struct._twoIntsStruct, %struct._twoIntsStruct* %1, i32 0, i32 0}-> N10]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_2.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_2.c 60] bad2 		[N125 -{%intOne = getelementptr inbounds %struct._twoIntsStruct, %struct._twoIntsStruct* %1, i32 0, i32 0}-> N126]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_3.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_3.c 60] bad3 		[N241 -{%intOne = getelementptr inbounds %struct._twoIntsStruct, %struct._twoIntsStruct* %1, i32 0, i32 0}-> N242]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_4.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_4.c 63] bad4 		[N357 -{%intOne = getelementptr inbounds %struct._twoIntsStruct, %struct._twoIntsStruct* %1, i32 0, i32 0}-> N358]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_5.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_5.c 63] bad5 		[N476 -{%intOne = getelementptr inbounds %struct._twoIntsStruct, %struct._twoIntsStruct* %2, i32 0, i32 0}-> N477]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_6.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_6.c 62] bad6 		[N606 -{%intOne = getelementptr inbounds %struct._twoIntsStruct, %struct._twoIntsStruct* %1, i32 0, i32 0}-> N607]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_7.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_7.c 62] bad7 		[N725 -{%intOne = getelementptr inbounds %struct._twoIntsStruct, %struct._twoIntsStruct* %2, i32 0, i32 0}-> N726]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_8.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_8.c 70] bad8 		[N857 -{%intOne = getelementptr inbounds %struct._twoIntsStruct, %struct._twoIntsStruct* %1, i32 0, i32 0}-> N858]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_9.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_9.c 60] bad9 		[N993 -{%intOne = getelementptr inbounds %struct._twoIntsStruct, %struct._twoIntsStruct* %1, i32 0, i32 0}-> N994]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_10.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_10.c 60] bad10 		[N1112 -{%intOne = getelementptr inbounds %struct._twoIntsStruct, %struct._twoIntsStruct* %2, i32 0, i32 0}-> N1113]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_11.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_11.c 60] bad11 		[N1243 -{%intOne = getelementptr inbounds %struct._twoIntsStruct, %struct._twoIntsStruct* %1, i32 0, i32 0}-> N1244]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_12.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_12.c 60] bad12 		[N1375 -{%intOne = getelementptr inbounds %struct._twoIntsStruct, %struct._twoIntsStruct* %1, i32 0, i32 0}-> N1376]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_13.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_13.c 60] bad13 		[N1535 -{%intOne = getelementptr inbounds %struct._twoIntsStruct, %struct._twoIntsStruct* %1, i32 0, i32 0}-> N1536]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_14.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_14.c 60] bad14 		[N1654 -{%intOne = getelementptr inbounds %struct._twoIntsStruct, %struct._twoIntsStruct* %2, i32 0, i32 0}-> N1655]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_15.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_15.c 61] bad15 		[N1782 -{%intOne = getelementptr inbounds %struct._twoIntsStruct, %struct._twoIntsStruct* %1, i32 0, i32 0}-> N1783]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_16.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_16.c 60] bad16 		[N1899 -{%intOne = getelementptr inbounds %struct._twoIntsStruct, %struct._twoIntsStruct* %1, i32 0, i32 0}-> N1900]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_17.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_17.c 61] bad17 		[N2025 -{%intOne = getelementptr inbounds %struct._twoIntsStruct, %struct._twoIntsStruct* %2, i32 0, i32 0}-> N2026]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_18.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_18.c 60] bad18 		[N2163 -{%intOne = getelementptr inbounds %struct._twoIntsStruct, %struct._twoIntsStruct* %1, i32 0, i32 0}-> N2164]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_19.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_19.c 58] bad19 		[N2277 -{%1 = load i32, i32* %0, align 4}-> N2278]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_20.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_20.c 63] bad20 		[N2372 -{%1 = load i32, i32* %0, align 4}-> N2373]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_21.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_21.c 63] bad21 		[N2473 -{%1 = load i32, i32* %0, align 4}-> N2474]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_22.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_22.c 66] bad22 		[N2574 -{%1 = load i32, i32* %0, align 4}-> N2575]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_23.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_23.c 66] bad23 		[N2682 -{%3 = load i32, i32* %2, align 4}-> N2683]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_24.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_24.c 65] bad24 		[N2805 -{%1 = load i32, i32* %0, align 4}-> N2806]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_25.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_25.c 65] bad25 		[N2913 -{%3 = load i32, i32* %2, align 4}-> N2914]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_26.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_26.c 73] bad26 		[N3042 -{%1 = load i32, i32* %0, align 4}-> N3043]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_27.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_27.c 63] bad27 		[N3171 -{%1 = load i32, i32* %0, align 4}-> N3172]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_28.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_28.c 63] bad28 		[N3279 -{%3 = load i32, i32* %2, align 4}-> N3280]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_29.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_29.c 63] bad29 		[N3407 -{%1 = load i32, i32* %0, align 4}-> N3408]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_30.ll]
+CWE_457(Use of Uninitialized Variable): 1
+	[./476_30.c 71] bad30 		[N3540 -{%1 = load i32, i32* %0, align 4}-> N3541]	(use of uninitialized variable)
+CWE_476(Null Pointer Dereference): 1
+	[./476_30.c 71] bad30 		[N3540 -{%1 = load i32, i32* %0, align 4}-> N3541]	(null pointer dereference)
+Found 2 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_31.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_31.c 58] bad31 		[N3684 -{%1 = load i64, i64* %0, align 8}-> N3685]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_32.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_32.c 63] bad32 		[N3779 -{%1 = load i64, i64* %0, align 8}-> N3780]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_33.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_33.c 63] bad33 		[N3880 -{%1 = load i64, i64* %0, align 8}-> N3881]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_34.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_34.c 66] bad34 		[N3981 -{%1 = load i64, i64* %0, align 8}-> N3982]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_35.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_35.c 66] bad35 		[N4089 -{%3 = load i64, i64* %2, align 8}-> N4090]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_36.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_36.c 65] bad36 		[N4212 -{%1 = load i64, i64* %0, align 8}-> N4213]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_37.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_37.c 65] bad37 		[N4320 -{%3 = load i64, i64* %2, align 8}-> N4321]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_38.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_38.c 73] bad38 		[N4449 -{%1 = load i64, i64* %0, align 8}-> N4450]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_39.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_39.c 63] bad39 		[N4578 -{%1 = load i64, i64* %0, align 8}-> N4579]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_40.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_40.c 63] bad40 		[N4686 -{%3 = load i64, i64* %2, align 8}-> N4687]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_41.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_41.c 59] bad41 		[N4810 -{%2 = load i32, i32* %1, align 4}-> N4811]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_42.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_42.c 61] bad42 		[N4913 -{%2 = load i32, i32* %1, align 4}-> N4914]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_43.ll]
+CWE_476(Null Pointer Dereference): 1
+	[./476_43.c 61] bad43 		[N5016 -{%2 = load i32, i32* %1, align 4}-> N5017]	(null pointer dereference)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_44.ll]
+CWE_401(Memory Leak): 1
+	[./476_44.c 101] bad44 		[N5110 -{Return edge from bad44 to main}-> N5168]	(the heap object @H(bad44::call) is not referenced any more)
+CWE_476(Null Pointer Dereference): 1
+	[./476_44.c 62] bad44 		[N5119 -{store i32 5, i32* %1, align 4}-> N5120]	(null pointer dereference)
+Found 2 defects in all (2 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_45.ll]
+CWE_401(Memory Leak): 1
+	[./476_45.c 102] good45 		[N5259 -{Return edge from good45 to main}-> N5290]	(the heap object @H(good45::call) is not referenced any more)
+CWE_476(Null Pointer Dereference): 1
+	[./476_45.c 91] good45 		[N5273 -{store i32 5, i32* %2, align 4}-> N5274]	(null pointer dereference)
+Found 2 defects in all (5 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_46.ll]
+CWE_401(Memory Leak): 1
+	[./476_46.c 101] bad46 		[N5348 -{Return edge from bad46 to main}-> N5406]	(the heap object @H(bad46::call) is not referenced any more)
+CWE_476(Null Pointer Dereference): 1
+	[./476_46.c 61] bad46 		[N5357 -{store i32 5, i32* %1, align 4}-> N5358]	(null pointer dereference)
+Found 2 defects in all (2 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_47.ll]
+CWE_401(Memory Leak): 1
+	[./476_47.c 101] bad47 		[N5461 -{Return edge from bad47 to main}-> N5533]	(the heap object @H(bad47::call) is not referenced any more)
+CWE_476(Null Pointer Dereference): 1
+	[./476_47.c 61] bad47 		[N5473 -{store i32 5, i32* %2, align 4}-> N5474]	(null pointer dereference)
+Found 2 defects in all (2 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_48.ll]
+CWE_401(Memory Leak): 1
+	[./476_48.c 109] good48 		[N5626 -{Return edge from good48 to main}-> N5657]	(the heap object @H(good48::call1) is not referenced any more)
+CWE_476(Null Pointer Dereference): 1
+	[./476_48.c 98] good48 		[N5640 -{store i32 5, i32* %1, align 4}-> N5641]	(null pointer dereference)
+Found 2 defects in all (6 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_49.ll]
+CWE_401(Memory Leak): 1
+	[./476_49.c 98] bad49 		[N5718 -{Return edge from bad49 to main}-> N5776]	(the heap object @H(bad49::call) is not referenced any more)
+CWE_476(Null Pointer Dereference): 1
+	[./476_49.c 59] bad49 		[N5727 -{store i32 5, i32* %1, align 4}-> N5728]	(null pointer dereference)
+Found 2 defects in all (2 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_50.ll]
+CWE_401(Memory Leak): 1
+	[./476_50.c 99] good50 		[N5867 -{Return edge from good50 to main}-> N5898]	(the heap object @H(good50::call) is not referenced any more)
+CWE_476(Null Pointer Dereference): 1
+	[./476_50.c 88] good50 		[N5881 -{store i32 5, i32* %2, align 4}-> N5882]	(null pointer dereference)
+Found 2 defects in all (5 duplicates ignored).
+
+

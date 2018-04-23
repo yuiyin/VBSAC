@@ -1,0 +1,405 @@
+rm: cannot remove '*.o': No such file or directory
+./457_30.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_30.c:72:9: warning: Function call argument is an uninitialized value
+        printIntLine(data);
+        ^~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103148-37129-1' to examine bug reports.
+./457_25.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_25.c:69:9: warning: Function call argument is an uninitialized value
+        printIntLine(data);
+        ^~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103148-37140-1' to examine bug reports.
+./457_5.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_5.c:66:9: warning: Function call argument is an uninitialized value
+        printLine(data);
+        ^~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103149-37151-1' to examine bug reports.
+./457_50.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_50.c:63:9: warning: Function call argument is an uninitialized value
+        printLongLine(data);
+        ^~~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103149-37162-1' to examine bug reports.
+./457_22.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_22.c:70:9: warning: Function call argument is an uninitialized value
+        printIntLine(data);
+        ^~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103149-37173-1' to examine bug reports.
+./457_20.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_20.c:63:9: warning: Function call argument is an uninitialized value
+        printIntLine(data);
+        ^~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103150-37184-1' to examine bug reports.
+./457_46.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_46.c:63:9: warning: Function call argument is an uninitialized value
+        printLongLine(data);
+        ^~~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103150-37195-1' to examine bug reports.
+./457_43.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_43.c:65:9: warning: Function call argument is an uninitialized value
+        printLongLine(data);
+        ^~~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103151-37206-1' to examine bug reports.
+./457_41.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_41.c:66:9: warning: Function call argument is an uninitialized value
+        printLongLine(data);
+        ^~~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103151-37217-1' to examine bug reports.
+./457_38.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_38.c:63:9: warning: Function call argument is an uninitialized value
+        printLongLine(data);
+        ^~~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103152-37228-1' to examine bug reports.
+./457_18.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_18.c:62:5: warning: Function call argument is an uninitialized value
+    printLine(data);
+    ^~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103152-37239-1' to examine bug reports.
+./457_37.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_37.c:58:5: warning: Function call argument is an uninitialized value
+    printLongLine(data);
+    ^~~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103153-37250-1' to examine bug reports.
+./457_40.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_40.c:66:9: warning: Function call argument is an uninitialized value
+        printLongLine(data);
+        ^~~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103153-37261-1' to examine bug reports.
+./457_3.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_3.c:63:9: warning: Function call argument is an uninitialized value
+        printLine(data);
+        ^~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103154-37273-1' to examine bug reports.
+./457_1.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_1.c:58:5: warning: Function call argument is an uninitialized value
+    printLine(data);
+    ^~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103154-37284-1' to examine bug reports.
+./457_12.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_12.c:68:9: warning: Function call argument is an uninitialized value
+        printLine(data);
+        ^~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103155-37295-1' to examine bug reports.
+./457_2.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_2.c:63:9: warning: Function call argument is an uninitialized value
+        printLine(data);
+        ^~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103155-37306-1' to examine bug reports.
+./457_33.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_33.c:74:9: warning: Function call argument is an uninitialized value
+        printIntLine(data);
+        ^~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103156-37331-1' to examine bug reports.
+./457_48.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_48.c:68:9: warning: Function call argument is an uninitialized value
+        printLongLine(data);
+        ^~~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103156-37342-1' to examine bug reports.
+./457_27.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_27.c:67:9: warning: Function call argument is an uninitialized value
+        printIntLine(data);
+        ^~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103157-37353-1' to examine bug reports.
+./457_36.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_36.c:66:5: warning: Function call argument is an uninitialized value
+    printIntLine(data);
+    ^~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103157-37376-1' to examine bug reports.
+./457_6.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_6.c:65:9: warning: Function call argument is an uninitialized value
+        printLine(data);
+        ^~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103158-37415-1' to examine bug reports.
+./457_17.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_17.c:64:9: warning: Function call argument is an uninitialized value
+        printLine(data);
+        ^~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103159-37426-1' to examine bug reports.
+./457_4.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_4.c:66:9: warning: Function call argument is an uninitialized value
+        printLine(data);
+        ^~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103200-37437-1' to examine bug reports.
+./457_23.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_23.c:70:9: warning: Function call argument is an uninitialized value
+        printIntLine(data);
+        ^~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103200-37449-1' to examine bug reports.
+./457_39.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_39.c:63:9: warning: Function call argument is an uninitialized value
+        printLongLine(data);
+        ^~~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103201-37461-1' to examine bug reports.
+./457_10.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_10.c:63:9: warning: Function call argument is an uninitialized value
+        printLine(data);
+        ^~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103202-37472-1' to examine bug reports.
+./457_28.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_28.c:67:9: warning: Function call argument is an uninitialized value
+        printIntLine(data);
+        ^~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103202-37486-1' to examine bug reports.
+./457_35.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_35.c:68:9: warning: Function call argument is an uninitialized value
+        printIntLine(data);
+        ^~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103203-37497-1' to examine bug reports.
+./457_47.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_47.c:63:9: warning: Function call argument is an uninitialized value
+        printLongLine(data);
+        ^~~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103204-37508-1' to examine bug reports.
+./457_45.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_45.c:63:9: warning: Function call argument is an uninitialized value
+        printLongLine(data);
+        ^~~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103204-37519-1' to examine bug reports.
+./457_19.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_19.c:58:5: warning: Function call argument is an uninitialized value
+    printIntLine(data);
+    ^~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103205-37535-1' to examine bug reports.
+./457_15.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_15.c:70:9: warning: Function call argument is an uninitialized value
+        printLine(data);
+        ^~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103205-37546-1' to examine bug reports.
+./457_24.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_24.c:69:9: warning: Function call argument is an uninitialized value
+        printIntLine(data);
+        ^~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103206-37557-1' to examine bug reports.
+./457_16.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_16.c:64:9: warning: Function call argument is an uninitialized value
+        printLine(data);
+        ^~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103207-37571-1' to examine bug reports.
+./457_21.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_21.c:63:9: warning: Function call argument is an uninitialized value
+        printIntLine(data);
+        ^~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103207-37582-1' to examine bug reports.
+./457_11.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_11.c:63:9: warning: Function call argument is an uninitialized value
+        printLine(data);
+        ^~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103208-37593-1' to examine bug reports.
+./457_31.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_31.c:67:9: warning: Function call argument is an uninitialized value
+        printIntLine(data);
+        ^~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103208-37604-1' to examine bug reports.
+./457_9.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_9.c:63:9: warning: Function call argument is an uninitialized value
+        printLine(data);
+        ^~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103209-37615-1' to examine bug reports.
+./457_7.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_7.c:65:9: warning: Function call argument is an uninitialized value
+        printLine(data);
+        ^~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103209-37626-1' to examine bug reports.
+./457_8.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_8.c:73:9: warning: Function call argument is an uninitialized value
+        printLine(data);
+        ^~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103210-37637-1' to examine bug reports.
+./457_13.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_13.c:63:9: warning: Function call argument is an uninitialized value
+        printLine(data);
+        ^~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103210-37648-1' to examine bug reports.
+./457_26.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_26.c:77:9: warning: Function call argument is an uninitialized value
+        printDoubleLine(data);
+        ^~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103211-37659-1' to examine bug reports.
+./457_49.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_49.c:63:9: warning: Function call argument is an uninitialized value
+        printLongLine(data);
+        ^~~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103211-37670-1' to examine bug reports.
+./457_29.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_29.c:67:9: warning: Function call argument is an uninitialized value
+        printIntLine(data);
+        ^~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103212-37681-1' to examine bug reports.
+./457_32.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_32.c:67:9: warning: Function call argument is an uninitialized value
+        printIntLine(data);
+        ^~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103212-37692-1' to examine bug reports.
+./457_34.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_34.c:68:9: warning: Function call argument is an uninitialized value
+        printIntLine(data);
+        ^~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103213-37703-1' to examine bug reports.
+./457_44.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_44.c:73:9: warning: Function call argument is an uninitialized value
+        printLongLine(data);
+        ^~~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103213-37715-1' to examine bug reports.
+./457_42.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_42.c:65:9: warning: Function call argument is an uninitialized value
+        printLongLine(data);
+        ^~~~~~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103214-37726-1' to examine bug reports.
+./457.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-103214-37737-1' because it contains no reports.
+scan-build: No bugs found.
+./457_14.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./457_14.c:63:9: warning: Function call argument is an uninitialized value
+        printLine(data);
+        ^~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-103215-37748-1' to examine bug reports.

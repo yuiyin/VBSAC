@@ -1,0 +1,386 @@
+./190_bit_shift_13.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./190_bit_shift_13.c:14:2: warning: Value stored to 'ret' is never read
+        ret = a << shift2;/*Tool should detect this line as error*/ /*ERROR:Bit shift error*/
+        ^     ~~~~~~~~~~~
+./190_bit_shift_13.c:14:10: warning: The result of the '<<' expression is undefined
+        ret = a << shift2;/*Tool should detect this line as error*/ /*ERROR:Bit shift error*/
+              ~~^~~~~~~~~
+./190_bit_shift_13.c:31:2: warning: Value stored to 'ret' is never read
+        ret = a << shift2;/*Tool should  Not detect this line as error*/ /*NO ERROR:Bit shift error*/
+        ^     ~~~~~~~~~~~
+3 warnings generated.
+scan-build: 3 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101358-31445-1' to examine bug reports.
+./190_data_overflow_13.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./190_data_overflow_13.c:9:2: warning: Value stored to 'ret' is never read
+        ret = max + d; /*Tool should detect this line as error*/ /*ERROR:Data Overflow*/
+        ^     ~~~~~~~
+./190_data_overflow_13.c:26:2: warning: Value stored to 'ret' is never read
+        ret = max + d;/*Tool should Not detect this line as error*/ /*No ERROR:Data Overflow*/
+        ^     ~~~~~~~
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101358-31457-1' to examine bug reports.
+./190_bit_shift_12.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./190_bit_shift_12.c:12:2: warning: Value stored to 'ret' is never read
+        ret = a << shift1;/*Tool should detect this line as error*/ /*ERROR:Bit shift error*/
+        ^     ~~~~~~~~~~~
+./190_bit_shift_12.c:12:10: warning: The result of the '<<' expression is undefined
+        ret = a << shift1;/*Tool should detect this line as error*/ /*ERROR:Bit shift error*/
+              ~~^~~~~~~~~
+./190_bit_shift_12.c:27:2: warning: Value stored to 'ret' is never read
+        ret = a << shift1;/*Tool should  Not detect this line as error*/ /*NO ERROR:Bit shift error*/
+        ^     ~~~~~~~~~~~
+3 warnings generated.
+scan-build: 3 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101358-31468-1' to examine bug reports.
+./190_data_overflow_5.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./190_data_overflow_5.c:9:2: warning: Value stored to 'ret' is never read
+        ret = max + 128;/*Tool should detect this line as error*/ /*ERROR:Data Overflow*/
+        ^     ~~~~~~~~~
+./190_data_overflow_5.c:21:2: warning: Value stored to 'ret' is never read
+        ret = max + 128;/*Tool should Not detect this line as error*/ /*No ERROR:Data Overflow*/
+        ^     ~~~~~~~~~
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101359-31479-1' to examine bug reports.
+./190_bit_shift_7.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./190_bit_shift_7.c:10:2: warning: Value stored to 'ret' is never read
+        ret = a << ((5 * shift) + 2);/*Tool should detect this line as error*/ /*ERROR:Bit shift error*/
+        ^     ~~~~~~~~~~~~~~~~~~~~~~
+./190_bit_shift_7.c:10:10: warning: The result of the '<<' expression is undefined
+        ret = a << ((5 * shift) + 2);/*Tool should detect this line as error*/ /*ERROR:Bit shift error*/
+              ~~^~~~~~~~~~~~~~~~~~~~
+./190_bit_shift_7.c:23:2: warning: Value stored to 'ret' is never read
+        ret = a << ((5 * shift) + 1);/*Tool should  Not detect this line as error*/ /*NO ERROR:Bit shift error*/
+        ^     ~~~~~~~~~~~~~~~~~~~~~~
+3 warnings generated.
+scan-build: 3 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101359-31490-1' to examine bug reports.
+./190_bit_shift_10.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./190_bit_shift_10.c:9:2: warning: Value stored to 'ret' is never read
+        ret = a << shift;/*Tool should detect this line as error*/ /*ERROR:Bit shift error*/
+        ^     ~~~~~~~~~~
+./190_bit_shift_10.c:9:10: warning: The result of the '<<' expression is undefined
+        ret = a << shift;/*Tool should detect this line as error*/ /*ERROR:Bit shift error*/
+              ~~^~~~~~~~
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101359-31501-1' to examine bug reports.
+./190_bit_shift_6.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./190_bit_shift_6.c:14:2: warning: Value stored to 'ret' is never read
+        ret = a << shift;/*Tool should detect this line as error*/ /*ERROR:Bit shift error*/
+        ^     ~~~~~~~~~~
+./190_bit_shift_6.c:28:2: warning: Value stored to 'ret' is never read
+        ret = a << shift;/*Tool should  Not detect this line as error*/ /*NO ERROR:Bit shift error*/
+        ^     ~~~~~~~~~~
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101359-31512-1' to examine bug reports.
+./190_data_overflow_10.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./190_data_overflow_10.c:9:2: warning: Value stored to 'ret' is never read
+        ret = (5 * max) + 3; /*Tool should detect this line as error*/ /*ERROR:Data Overflow*/
+        ^     ~~~~~~~~~~~~~
+./190_data_overflow_10.c:21:2: warning: Value stored to 'ret' is never read
+        ret = (5 * max) + 2;/*Tool should Not detect this line as error*/ /*No ERROR:Data Overflow*/
+        ^     ~~~~~~~~~~~~~
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101400-31523-1' to examine bug reports.
+./190_data_overflow_1.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./190_data_overflow_1.c:5:2: warning: Value stored to 'ret' is never read
+        ret = max + 1;/*Tool should detect this line as error*/ /*ERROR:Data Overflow*/
+        ^     ~~~~~~~
+./190_data_overflow_1.c:17:2: warning: Value stored to 'ret' is never read
+        ret = max + 2; /*Tool should Not detect this line as error*/ /*No ERROR:Data Overflow*/
+        ^     ~~~~~~~
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101400-31534-1' to examine bug reports.
+./190_data_overflow_16.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./190_data_overflow_16.c:10:2: warning: Value stored to 'ret' is never read
+        ret = max + dlist[1]; /*Tool should detect this line as error*/ /*ERROR:Data Overflow*/
+        ^     ~~~~~~~~~~~~~~
+./190_data_overflow_16.c:23:2: warning: Value stored to 'ret' is never read
+        ret = max + dlist[1];/*Tool should Not detect this line as error*/ /*No ERROR:Data Overflow*/
+        ^     ~~~~~~~~~~~~~~
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101400-31545-1' to examine bug reports.
+./190_data_overflow_9.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./190_data_overflow_9.c:14:2: warning: Value stored to 'ret' is never read
+        ret = max + d; /*Tool should detect this line as error*/ /*ERROR:Data Overflow*/
+        ^     ~~~~~~~
+./190_data_overflow_9.c:28:2: warning: Value stored to 'ret' is never read
+        ret = max + d;/*Tool should Not detect this line as error*/ /*No ERROR:Data Overflow*/
+        ^     ~~~~~~~
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101400-31556-1' to examine bug reports.
+./190_bit_shift_11.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./190_bit_shift_11.c:10:2: warning: Value stored to 'ret' is never read
+        ret = a << shifts[3];/*Tool should detect this line as error*/ /*ERROR:Bit shift error*/
+        ^     ~~~~~~~~~~~~~~
+./190_bit_shift_11.c:10:10: warning: The result of the '<<' expression is undefined
+        ret = a << shifts[3];/*Tool should detect this line as error*/ /*ERROR:Bit shift error*/
+              ~~^~~~~~~~~~~~
+./190_bit_shift_11.c:23:2: warning: Value stored to 'ret' is never read
+        ret = a << shifts[3];/*Tool should  Not detect this line as error*/ /*NO ERROR:Bit shift error*/
+        ^     ~~~~~~~~~~~~~~
+3 warnings generated.
+scan-build: 3 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101401-31567-1' to examine bug reports.
+./190_data_overflow_7.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./190_data_overflow_7.c:10:2: warning: Value stored to 'ret' is never read
+        ret = max + d;/*Tool should detect this line as error*/ /*ERROR:Data Overflow*/
+        ^     ~~~~~~~
+./190_data_overflow_7.c:23:2: warning: Value stored to 'ret' is never read
+        ret = max + d;/*Tool should Not detect this line as error*/ /*No ERROR:Data Overflow*/
+        ^     ~~~~~~~
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101401-31578-1' to examine bug reports.
+./190_data_overflow_2.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./190_data_overflow_2.c:9:2: warning: Value stored to 'ret' is never read
+        ret = max + 1;/*Tool should detect this line as error*/ /*ERROR:Data Overflow*/
+        ^     ~~~~~~~
+./190_data_overflow_2.c:21:2: warning: Value stored to 'ret' is never read
+        ret = max + 2; /*Tool should Not detect this line as error*/ /*No ERROR:Data Overflow*/
+        ^     ~~~~~~~
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101401-31589-1' to examine bug reports.
+./190_bit_shift_1.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./190_bit_shift_1.c: In function ‘bit_shift_001_bad’:
+./190_bit_shift_1.c:9:10: warning: left shift count >= width of type [-Wshift-count-overflow]
+  ret = a << 32;/*Tool should detect this line as error*/ /*ERROR:Bit shift error*/
+          ^
+./190_bit_shift_1.c:9:2: warning: Value stored to 'ret' is never read
+        ret = a << 32;/*Tool should detect this line as error*/ /*ERROR:Bit shift error*/
+        ^     ~~~~~~~
+./190_bit_shift_1.c:9:10: warning: The result of the '<<' expression is undefined
+        ret = a << 32;/*Tool should detect this line as error*/ /*ERROR:Bit shift error*/
+              ~~^~~~~
+./190_bit_shift_1.c:21:2: warning: Value stored to 'ret' is never read
+        ret = a << 10;/*Tool should  Not detect this line as error*/ /*NO ERROR:Bit shift error*/
+        ^     ~~~~~~~
+3 warnings generated.
+scan-build: 3 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101401-31600-1' to examine bug reports.
+./190_bit_shift_14.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./190_bit_shift_14.c: In function ‘bit_shift_017_bad’:
+./190_bit_shift_14.c:8:10: warning: left shift count >= width of type [-Wshift-count-overflow]
+  ret = 1 << 32;/*Tool should detect this line as error*/ /*ERROR:Bit shift error*/
+          ^
+./190_bit_shift_14.c:8:2: warning: Value stored to 'ret' is never read
+        ret = 1 << 32;/*Tool should detect this line as error*/ /*ERROR:Bit shift error*/
+        ^     ~~~~~~~
+./190_bit_shift_14.c:8:10: warning: The result of the '<<' expression is undefined
+        ret = 1 << 32;/*Tool should detect this line as error*/ /*ERROR:Bit shift error*/
+              ~~^~~~~
+./190_bit_shift_14.c:19:2: warning: Value stored to 'ret' is never read
+        ret = 1 << 10;/*Tool should  Not detect this line as error*/ /*NO ERROR:Bit shift error*/
+        ^     ~~~~~~~
+3 warnings generated.
+scan-build: 3 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101402-31611-1' to examine bug reports.
+./190_data_overflow_12.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./190_data_overflow_12.c:14:2: warning: Value stored to 'ret' is never read
+        ret = max + data_overflow_018_func_001(); /*Tool should detect this line as error*/ /*ERROR:Data Overflow*/
+        ^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./190_data_overflow_12.c:22:2: warning: Value stored to 'ret' is never read
+        ret = max + data_overflow_018_func_001();/*Tool should Not detect this line as error*/ /*No ERROR:Data Overflow*/
+        ^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101402-31622-1' to examine bug reports.
+./190_data_overflow_15.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./190_data_overflow_15.c:14:2: warning: Value stored to 'ret' is never read
+        ret = max + d2; /*Tool should detect this line as error*/ /*ERROR:Data Overflow*/
+        ^     ~~~~~~~~
+./190_data_overflow_15.c:31:2: warning: Value stored to 'ret' is never read
+        ret = max + d2;/*Tool should Not detect this line as error*/ /*No ERROR:Data Overflow*/
+        ^     ~~~~~~~~
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101402-31633-1' to examine bug reports.
+./190_bit_shift_8.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./190_bit_shift_8.c:10:2: warning: Value stored to 'ret' is never read
+        ret = a << ((shift * shift) + 7);/*Tool should detect this line as error*/ /*ERROR:Bit shift error*/
+        ^     ~~~~~~~~~~~~~~~~~~~~~~~~~~
+./190_bit_shift_8.c:10:10: warning: The result of the '<<' expression is undefined
+        ret = a << ((shift * shift) + 7);/*Tool should detect this line as error*/ /*ERROR:Bit shift error*/
+              ~~^~~~~~~~~~~~~~~~~~~~~~~~
+./190_bit_shift_8.c:23:2: warning: Value stored to 'ret' is never read
+        ret = a << ((shift * shift) + 6);/*Tool should  Not detect this line as error*/ /*NO ERROR:Bit shift error*/
+        ^     ~~~~~~~~~~~~~~~~~~~~~~~~~~
+3 warnings generated.
+scan-build: 3 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101402-31644-1' to examine bug reports.
+./190_bit_shift_2.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./190_bit_shift_2.c: In function ‘bit_shift_003_bad’:
+./190_bit_shift_2.c:9:10: warning: left shift count >= width of type [-Wshift-count-overflow]
+  ret = a << 32;/*Tool should detect this line as error*/ /*ERROR:Bit shift error*/
+          ^
+./190_bit_shift_2.c:9:2: warning: Value stored to 'ret' is never read
+        ret = a << 32;/*Tool should detect this line as error*/ /*ERROR:Bit shift error*/
+        ^     ~~~~~~~
+./190_bit_shift_2.c:9:10: warning: The result of the '<<' expression is undefined
+        ret = a << 32;/*Tool should detect this line as error*/ /*ERROR:Bit shift error*/
+              ~~^~~~~
+./190_bit_shift_2.c:21:2: warning: Value stored to 'ret' is never read
+        ret = a << 10; /*Tool should  Not detect this line as error*/ /*NO ERROR:Bit shift error*/
+        ^     ~~~~~~~
+3 warnings generated.
+scan-build: 3 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101402-31655-1' to examine bug reports.
+./190_bit_shift_4.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./190_bit_shift_4.c: In function ‘bit_shift_007_bad’:
+./190_bit_shift_4.c:9:10: warning: right shift count is negative [-Wshift-count-negative]
+  ret = a >> -1;/*Tool should detect this line as error*/ /*ERROR:Bit shift error*/
+          ^
+./190_bit_shift_4.c:9:2: warning: Value stored to 'ret' is never read
+        ret = a >> -1;/*Tool should detect this line as error*/ /*ERROR:Bit shift error*/
+        ^     ~~~~~~~
+./190_bit_shift_4.c:9:10: warning: The result of the '>>' expression is undefined
+        ret = a >> -1;/*Tool should detect this line as error*/ /*ERROR:Bit shift error*/
+              ~~^~~~~
+./190_bit_shift_4.c:21:2: warning: Value stored to 'ret' is never read
+        ret = a >> 10;/*Tool should  Not detect this line as error*/ /*NO ERROR:Bit shift error*/
+        ^     ~~~~~~~
+3 warnings generated.
+scan-build: 3 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101403-31666-1' to examine bug reports.
+./190_data_overflow_4.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./190_data_overflow_4.c:10:2: warning: Value stored to 'ret' is never read
+        ret = max;/*Tool should detect this line as error*/ /*ERROR:Data Overflow*/
+        ^     ~~~
+./190_data_overflow_4.c:23:2: warning: Value stored to 'ret' is never read
+        ret = max;/*Tool should Not detect this line as error*/ /*No ERROR:Data Overflow*/
+        ^     ~~~
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101403-31677-1' to examine bug reports.
+./190_data_overflow_8.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./190_data_overflow_8.c:10:2: warning: Value stored to 'ret' is never read
+        ret = max + d;/*Tool should detect this line as error*/ /*ERROR:Data Overflow*/
+        ^     ~~~~~~~
+./190_data_overflow_8.c:23:2: warning: Value stored to 'ret' is never read
+        ret = max + d;/*Tool should Not detect this line as error*/ /*No ERROR:Data Overflow*/
+        ^     ~~~~~~~
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101403-31688-1' to examine bug reports.
+./190_data_overflow_3.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./190_data_overflow_3.c:9:2: warning: Value stored to 'ret' is never read
+        ret = max + 1;/*Tool should detect this line as error*/ /*ERROR:Data Overflow*/
+        ^     ~~~~~~~
+./190_data_overflow_3.c:22:2: warning: Value stored to 'ret' is never read
+        ret = max + 1;/*Tool should Not detect this line as error*/ /*No ERROR:Data Overflow*/
+        ^     ~~~~~~~
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101403-31699-1' to examine bug reports.
+./190_data_overflow_6.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./190_data_overflow_6.c:9:2: warning: Value stored to 'ret' is never read
+        ret = max * 2;/*Tool should detect this line as error*/ /*ERROR:Data Overflow*/
+        ^     ~~~~~~~
+./190_data_overflow_6.c:21:2: warning: Value stored to 'ret' is never read
+        ret = max * 2;/*Tool should Not detect this line as error*/ /*No ERROR:Data Overflow*/
+        ^     ~~~~~~~
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101404-31710-1' to examine bug reports.
+./190_bit_shift_5.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./190_bit_shift_5.c:10:2: warning: Value stored to 'ret' is never read
+        ret = a << shift;/*Tool should detect this line as error*/ /*ERROR:Bit shift error*/
+        ^     ~~~~~~~~~~
+./190_bit_shift_5.c:10:10: warning: The result of the '<<' expression is undefined
+        ret = a << shift;/*Tool should detect this line as error*/ /*ERROR:Bit shift error*/
+              ~~^~~~~~~~
+./190_bit_shift_5.c:23:2: warning: Value stored to 'ret' is never read
+        ret = a << shift;/*Tool should  Not detect this line as error*/ /*NO ERROR:Bit shift error*/
+        ^     ~~~~~~~~~~
+3 warnings generated.
+scan-build: 3 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101404-31721-1' to examine bug reports.
+./190_data_overflow_14.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./190_data_overflow_14.c:12:2: warning: Value stored to 'ret' is never read
+        ret = max + d1; /*Tool should detect this line as error*/ /*ERROR:Data Overflow*/
+        ^     ~~~~~~~~
+./190_data_overflow_14.c:27:2: warning: Value stored to 'ret' is never read
+        ret = max + d1;/*Tool should Not detect this line as error*/ /*No ERROR:Data Overflow*/
+        ^     ~~~~~~~~
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101404-31732-1' to examine bug reports.
+./190_bit_shift_9.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./190_bit_shift_9.c:14:2: warning: Value stored to 'ret' is never read
+        ret = a << bit_shift_012_func_001_bad();/*Tool should detect this line as error*/ /*ERROR:Bit shift error*/
+        ^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./190_bit_shift_9.c:14:10: warning: The result of the '<<' expression is undefined
+        ret = a << bit_shift_012_func_001_bad();/*Tool should detect this line as error*/ /*ERROR:Bit shift error*/
+              ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./190_bit_shift_9.c:31:2: warning: Value stored to 'ret' is never read
+        ret = a << bit_shift_012_func_001_good();/*Tool should  Not detect this line as error*/ /*NO ERROR:Bit shift error*/
+        ^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3 warnings generated.
+scan-build: 3 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101404-31743-1' to examine bug reports.
+./190_data_overflow_11.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./190_data_overflow_11.c:9:2: warning: Value stored to 'ret' is never read
+        ret = (max * max) + 88048; /*Tool should detect this line as error*/ /*ERROR:Data Overflow*/
+        ^     ~~~~~~~~~~~~~~~~~~~
+./190_data_overflow_11.c:21:2: warning: Value stored to 'ret' is never read
+        ret = (max * max) + 88047;/*Tool should Not detect this line as error*/ /*No ERROR:Data Overflow*/
+        ^     ~~~~~~~~~~~~~~~~~~~
+2 warnings generated.
+scan-build: 2 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101405-31754-1' to examine bug reports.
+./190_bit_shift_3.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./190_bit_shift_3.c: In function ‘bit_shift_005_bad’:
+./190_bit_shift_3.c:9:10: warning: left shift count is negative [-Wshift-count-negative]
+  ret = a << -1;/*Tool should detect this line as error*/ /*ERROR:Bit shift error*/
+          ^
+./190_bit_shift_3.c:9:2: warning: Value stored to 'ret' is never read
+        ret = a << -1;/*Tool should detect this line as error*/ /*ERROR:Bit shift error*/
+        ^     ~~~~~~~
+./190_bit_shift_3.c:9:10: warning: The result of the '<<' expression is undefined
+        ret = a << -1;/*Tool should detect this line as error*/ /*ERROR:Bit shift error*/
+              ~~^~~~~
+./190_bit_shift_3.c:21:2: warning: Value stored to 'ret' is never read
+        ret = a << 10;/*Tool should  Not detect this line as error*/ /*NO ERROR:Bit shift error*/
+        ^     ~~~~~~~
+3 warnings generated.
+scan-build: 3 bugs found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-101405-31765-1' to examine bug reports.

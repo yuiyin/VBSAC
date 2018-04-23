@@ -1,0 +1,496 @@
+/home/guzuxing/Documents/benchmark/CWE/itc/190/190_bit_shift_1.c	11	err	V610 Undefined behavior. Check the shift operator '<<'. The right operand '32' is greater than or equal to the length in bits of the promoted left operand.
+/home/guzuxing/Documents/benchmark/CWE/itc/190/190_bit_shift_11.c	12	err	V610 Undefined behavior. Check the shift operator '<<'. The right operand 'shifts[3]' is greater than or equal to the length in bits of the promoted left operand.
+/home/guzuxing/Documents/benchmark/CWE/itc/190/190_bit_shift_12.c	14	err	V610 Undefined behavior. Check the shift operator '<<'. The right operand 'shift1' is greater than or equal to the length in bits of the promoted left operand.
+/home/guzuxing/Documents/benchmark/CWE/itc/190/190_bit_shift_13.c	16	err	V610 Undefined behavior. Check the shift operator '<<'. The right operand 'shift2' is greater than or equal to the length in bits of the promoted left operand.
+/home/guzuxing/Documents/benchmark/CWE/itc/190/190_bit_shift_14.c	10	err	V610 Undefined behavior. Check the shift operator '<<'. The right operand '32' is greater than or equal to the length in bits of the promoted left operand.
+/home/guzuxing/Documents/benchmark/CWE/itc/190/190_bit_shift_2.c	11	err	V610 Undefined behavior. Check the shift operator '<<'. The right operand '32' is greater than or equal to the length in bits of the promoted left operand.
+/home/guzuxing/Documents/benchmark/CWE/itc/190/190_bit_shift_3.c	11	err	V610 Undefined behavior. Check the shift operator '<<'. The right operand '-1' is negative.
+/home/guzuxing/Documents/benchmark/CWE/itc/190/190_bit_shift_4.c	11	err	V610 Undefined behavior. Check the shift operator '>>'. The right operand '-1' is negative.
+/home/guzuxing/Documents/benchmark/CWE/itc/190/190_bit_shift_5.c	12	err	V610 Undefined behavior. Check the shift operator '<<'. The right operand 'shift' is greater than or equal to the length in bits of the promoted left operand.
+/home/guzuxing/Documents/benchmark/CWE/itc/190/190_bit_shift_6.c	16	err	V610 Undefined behavior. Check the shift operator '<<'. The right operand ('shift' = [0..32767]) is greater than or equal to the length in bits of the promoted left operand.
+/home/guzuxing/Documents/benchmark/CWE/itc/190/190_bit_shift_7.c	12	err	V610 Undefined behavior. Check the shift operator '<<'. The right operand '((5 * shift) + 2)' is greater than or equal to the length in bits of the promoted left operand.
+/home/guzuxing/Documents/benchmark/CWE/itc/190/190_bit_shift_8.c	12	err	V610 Undefined behavior. Check the shift operator '<<'. The right operand '((shift * shift) + 7)' is greater than or equal to the length in bits of the promoted left operand.
+/home/guzuxing/Documents/benchmark/CWE/itc/190/190_bit_shift_9.c	16	err	V610 Undefined behavior. Check the shift operator '<<'. The right operand 'bit_shift_012_func_001_bad()' is greater than or equal to the length in bits of the promoted left operand.
+/home/guzuxing/Documents/benchmark/CWE/itc/190/190_data_overflow_1.c	7	warn	V569 Transformation of constant value 128. The value range of signed char type: [-128, 127].
+/home/guzuxing/Documents/benchmark/CWE/itc/191/191_data_underflow_5.c	11	err	V569 Truncation of constant value -130. The value range of signed char type: [-128, 127].
+/home/guzuxing/Documents/benchmark/CWE/itc/369/369_zero_division_1.c	11	err	V609 Divide by zero. Denominator '0' == 0.
+/home/guzuxing/Documents/benchmark/CWE/itc/369/369_zero_division_10.c	12	err	V609 Divide by zero. Denominator 'divisor * divisor - 4' == 0.
+/home/guzuxing/Documents/benchmark/CWE/itc/369/369_zero_division_11.c	16	err	V609 Divide by zero. Denominator 'zero_division_013_func_001_bad()' == 0.
+/home/guzuxing/Documents/benchmark/CWE/itc/369/369_zero_division_12.c	11	err	V609 Divide by zero. Denominator 'divisor' == 0. The 'zero_division_014_func_001' function processes value '0'. Inspect the first argument. Check lines: 11, 16.
+/home/guzuxing/Documents/benchmark/CWE/itc/369/369_zero_division_13.c	14	err	V609 Divide by zero. Denominator 'divisor1' == 0.
+/home/guzuxing/Documents/benchmark/CWE/itc/369/369_zero_division_14.c	14	warn	V522 There might be dereferencing of a potential null pointer 'zero_division_016_gbl_divisor_bad'. Check lines: 14, 13.
+/home/guzuxing/Documents/benchmark/CWE/itc/369/369_zero_division_14.c	44	warn	V522 There might be dereferencing of a potential null pointer 'zero_division_016_gbl_divisor_good'. Check lines: 44, 43.
+/home/guzuxing/Documents/benchmark/CWE/itc/369/369_zero_division_15.c	16	err	V609 Divide by zero. Denominator 'divisors[2]' == 0.
+/home/guzuxing/Documents/benchmark/CWE/itc/369/369_zero_division_2.c	11	err	V609 Divide by zero. Denominator '0' == 0.
+/home/guzuxing/Documents/benchmark/CWE/itc/369/369_zero_division_3.c	11	err	V609 Mod by zero. Denominator '0' == 0.
+/home/guzuxing/Documents/benchmark/CWE/itc/369/369_zero_division_7.c	12	err	V609 Divide by zero. Denominator 'divisor' == 0.
+/home/guzuxing/Documents/benchmark/CWE/itc/369/369_zero_division_8.c	17	err	V609 Divide by zero. Denominator range [0..32767].
+/home/guzuxing/Documents/benchmark/CWE/itc/369/369_zero_division_9.c	12	err	V609 Divide by zero. Denominator '2 * divisor - 4' == 0.
+/home/guzuxing/Documents/benchmark/CWE/itc/401/401_memory_leak_1.c	25	err	V773 The 'buf' pointer was assigned values twice without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/itc/401/401_memory_leak_12.c	66	warn	V522 There might be dereferencing of a potential null pointer 'p'. Check lines: 66, 61.
+/home/guzuxing/Documents/benchmark/CWE/itc/401/401_memory_leak_15.c	34	err	V773 Visibility scope of the 'str1' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/itc/401/401_memory_leak_16.c	21	warn	V707 Giving short names to global variables is considered to be bad practice. It is suggested to rename 'a' variable.
+/home/guzuxing/Documents/benchmark/CWE/itc/401/401_memory_leak_17.c	114	warn	V779 Unreachable code detected. It is possible that an error is present.
+/home/guzuxing/Documents/benchmark/CWE/itc/401/401_memory_leak_17.c	37	warn	V522 There might be dereferencing of a potential null pointer 'memory_leak_0017_gbl_doubleptr_bad'. Check lines: 37, 33.
+/home/guzuxing/Documents/benchmark/CWE/itc/401/401_memory_leak_17.c	55	warn	V779 Unreachable code detected. It is possible that an error is present.
+/home/guzuxing/Documents/benchmark/CWE/itc/401/401_memory_leak_17.c	97	warn	V522 There might be dereferencing of a potential null pointer 'memory_leak_0017_gbl_doubleptr_good'. Check lines: 97, 93.
+/home/guzuxing/Documents/benchmark/CWE/itc/401/401_memory_leak_18.c	32	warn	V522 There might be dereferencing of a potential null pointer 'memory_leak_0018dst_bad'. Check lines: 32, 29.
+/home/guzuxing/Documents/benchmark/CWE/itc/401/401_memory_leak_18.c	76	warn	V522 There might be dereferencing of a potential null pointer 'memory_leak_0018dst_good'. Check lines: 76, 73.
+/home/guzuxing/Documents/benchmark/CWE/itc/401/401_memory_leak_2.c	27	err	V773 The function was exited without releasing the 'ptr' pointer. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/itc/401/401_memory_leak_2.c	57	err	V1008 Consider inspecting the 'for' operator. No more than one iteration of the loop will be performed.
+/home/guzuxing/Documents/benchmark/CWE/itc/401/401_memory_leak_4.c	43	err	V773 The function was exited without releasing the 's' pointer. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/itc/401/401_memory_leak_4.c	47	err	V529 Odd semicolon ';' after 'for' operator.
+/home/guzuxing/Documents/benchmark/CWE/itc/401/401_memory_leak_5.c	34	err	V773 Visibility scope of the 'ptr' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/itc/401/401_memory_leak_6.c	44	err	V773 Visibility scope of the 'dptr' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/itc/415/415_double_free_1.c	26	err	V586 The 'free' function is called twice for deallocation of the same memory space. Inspect the first argument. Check lines: 24, 26.
+/home/guzuxing/Documents/benchmark/CWE/itc/415/415_double_free_10.c	50	err	V773 Visibility scope of the 'ptr' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/itc/415/415_double_free_11.c	32	err	V773 Visibility scope of the 'ptr' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/itc/415/415_double_free_11.c	51	err	V773 Visibility scope of the 'ptr' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/itc/415/415_double_free_12.c	30	err	V773 Visibility scope of the 'ptr' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/itc/415/415_double_free_12.c	47	err	V773 Visibility scope of the 'ptr' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/itc/415/415_double_free_4.c	39	warn	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/itc/415/415_double_free_4.c	40	err	V773 Visibility scope of the 'ptr' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/itc/415/415_double_free_5.c	27	err	V586 The 'free' function is called twice for deallocation of the same memory space. Inspect the first argument. Check lines: 24, 27.
+/home/guzuxing/Documents/benchmark/CWE/itc/415/415_double_free_6.c	27	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/itc/415/415_double_free_7.c	29	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/itc/457/457_uninit_memory_access_2.c	16	err	V614 Uninitialized pointer 'str2' used. Consider checking the second actual argument of the 'strcpy' function.
+/home/guzuxing/Documents/benchmark/CWE/itc/457/457_uninit_memory_access_3.c	16	err	V614 Uninitialized pointer 'str' used. Consider checking the first actual argument of the '_001_bad' function.
+/home/guzuxing/Documents/benchmark/CWE/itc/457/457_uninit_memory_access_5.c	30	err	V614 Uninitialized pointer 'str2' used. Consider checking the second actual argument of the 'uninit_memory_access_006_func_001_bad' function.
+/home/guzuxing/Documents/benchmark/CWE/itc/457/457_uninit_memory_access_6.c	20	err	V512 A call of the 'memset' function will lead to underflow of the buffer 'st->arr'.
+/home/guzuxing/Documents/benchmark/CWE/itc/457/457_uninit_memory_access_7.c	24	warn	V522 There might be dereferencing of a potential null pointer 's'.
+/home/guzuxing/Documents/benchmark/CWE/itc/457/457_uninit_memory_access_7.c	25	err	V773 Visibility scope of the 's' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/itc/457/457_uninit_memory_access_8.c	19	warn	V522 There might be dereferencing of a potential null pointer '_bad'. Check lines: 19, 15.
+/home/guzuxing/Documents/benchmark/CWE/itc/457/457_uninit_memory_access_8.c	67	warn	V522 There might be dereferencing of a potential null pointer '_good'. Check lines: 67, 63.
+/home/guzuxing/Documents/benchmark/CWE/itc/457/457_uninit_var_1.c	10	err	V614 Uninitialized variable 'a' used.
+/home/guzuxing/Documents/benchmark/CWE/itc/457/457_uninit_var_11.c	17	err	V614 Uninitialized variable 's.uninit' used.
+/home/guzuxing/Documents/benchmark/CWE/itc/457/457_uninit_var_12.c	11	err	V614 Uninitialized variable 'val' used.
+/home/guzuxing/Documents/benchmark/CWE/itc/457/457_uninit_var_2.c	10	err	V614 Uninitialized variable 'buf[3]' used.
+/home/guzuxing/Documents/benchmark/CWE/itc/457/457_uninit_var_3.c	10	err	V614 Uninitialized variable 'buf[1][1]' used.
+/home/guzuxing/Documents/benchmark/CWE/itc/457/457_uninit_var_4.c	11	err	V614 Uninitialized variable 'ret' used.
+/home/guzuxing/Documents/benchmark/CWE/itc/457/457_uninit_var_5.c	10	err	V614 Uninitialized variable 'a' used.
+/home/guzuxing/Documents/benchmark/CWE/itc/457/457_uninit_var_6.c	18	err	V614 Uninitialized variable 's.uninit' used.
+/home/guzuxing/Documents/benchmark/CWE/itc/457/457_uninit_var_7.c	38	err	V614 Uninitialized variable 'data' used.
+/home/guzuxing/Documents/benchmark/CWE/itc/457/457_uninit_var_8.c	11	err	V614 Uninitialized buffer 'ret' used. Consider checking the second actual argument of the 'strcpy' function.
+/home/guzuxing/Documents/benchmark/CWE/itc/457/457_uninit_var_9.c	12	err	V614 Uninitialized variable 'ret[i][j]' used.
+/home/guzuxing/Documents/benchmark/CWE/itc/476/476_null_pointer_1.c	22	err	V522 Dereferencing of the null pointer 'p' might take place.
+/home/guzuxing/Documents/benchmark/CWE/itc/476/476_null_pointer_10.c	24	err	V522 Dereferencing of the null pointer 'p1' might take place.
+/home/guzuxing/Documents/benchmark/CWE/itc/476/476_null_pointer_11.c	26	err	V522 Dereferencing of the null pointer 'p2' might take place.
+/home/guzuxing/Documents/benchmark/CWE/itc/476/476_null_pointer_12.c	22	err	V522 Dereferencing of the null pointer 'p' might take place.
+/home/guzuxing/Documents/benchmark/CWE/itc/476/476_null_pointer_13.c	32	err	V522 Dereferencing of the null pointer 'p' might take place.
+/home/guzuxing/Documents/benchmark/CWE/itc/476/476_null_pointer_13.c	32	warn	V519 The '* p' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 30, 32.
+/home/guzuxing/Documents/benchmark/CWE/itc/476/476_null_pointer_2.c	23	err	V522 Dereferencing of the null pointer 'p' might take place.
+/home/guzuxing/Documents/benchmark/CWE/itc/476/476_null_pointer_4.c	28	err	V522 Dereferencing of the null pointer 'p' might take place.
+/home/guzuxing/Documents/benchmark/CWE/itc/476/476_null_pointer_5.c	43	err	V522 Dereferencing of the null pointer 'p' might take place.
+/home/guzuxing/Documents/benchmark/CWE/itc/476/476_null_pointer_7.c	24	err	V522 Dereferencing of the null pointer 'p' might take place.
+/home/guzuxing/Documents/benchmark/CWE/itc/476/476_null_pointer_8.c	28	err	V522 Dereferencing of the null pointer 'p' might take place.
+/home/guzuxing/Documents/benchmark/CWE/itc/476/476_null_pointer_9.c	21	err	V522 Dereferencing of the null pointer 'p' might take place. The null pointer is passed into 'null_pointer_009_func_001_bad' function. Inspect the first argument. Check lines: 21, 26.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/190/190_1.c	38	warn	V519 The 'data' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 36, 38.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/190/190_12.c	112	err	V523 The 'then' statement is equivalent to the 'else' statement.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/190/190_12.c	130	err	V523 The 'then' statement is equivalent to the 'else' statement.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/190/190_19.c	108	warn	V519 The 'data' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 106, 108.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/190/190_19.c	119	warn	V519 The 'data' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 117, 119.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/190/190_20.c	71	warn	V519 The 'data' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 69, 71.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/190/190_20.c	90	warn	V519 The 'data' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 88, 90.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/190/190_22.c	52	warn	V519 The 'data' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 50, 52.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/190/190_22.c	71	warn	V519 The 'data' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 69, 71.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/190/190_23.c	72	warn	V519 The 'data' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 70, 72.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/190/190_23.c	82	warn	V519 The 'data' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 80, 82.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/190/190_27.c	75	warn	V519 The 'data' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 73, 75.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/190/190_27.c	86	warn	V519 The 'data' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 84, 86.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/190/190_28.c	84	warn	V519 The 'data' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 82, 84.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/190/190_28.c	93	warn	V519 The 'data' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 91, 93.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/190/190_29.c	68	warn	V519 The 'data' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 66, 68.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/190/190_29.c	80	warn	V519 The 'data' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 78, 80.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/190/190_30.c	56	warn	V519 The 'data' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 54, 56.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/190/190_31.c	57	warn	V519 The 'data' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 55, 57.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/190/190_39.c	118	err	V523 The 'then' statement is equivalent to the 'else' statement.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/190/190_39.c	136	err	V523 The 'then' statement is equivalent to the 'else' statement.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/190/190_4.c	55	warn	V569 Transformation of constant value 128. The value range of signed char type: [-128, 127].
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/190/190_4.c	82	warn	V569 Transformation of constant value 128. The value range of signed char type: [-128, 127].
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/190/190_49.c	91	warn	V519 The 'data' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 89, 91.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/190/190_6.c	54	err	V569 Truncation of constant value 16129. The value range of signed char type: [-128, 127].
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/190/190_6.c	79	err	V569 Truncation of constant value 16129. The value range of signed char type: [-128, 127].
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_1.c	49	warn	V519 The 'data' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 47, 49.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_1.c	63	warn	V519 The 'data' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 61, 63.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_11.c	62	err	V569 Truncation of constant value -140. The value range of signed char type: [-128, 127].
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_13.c	70	err	V569 Truncation of constant value -140. The value range of signed char type: [-128, 127].
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_14.c	63	err	V569 Truncation of constant value -140. The value range of signed char type: [-128, 127].
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_16.c	50	warn	V519 The 'data' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 49, 50.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_16.c	53	err	V569 Truncation of constant value -129. The value range of signed char type: [-128, 127].
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_16.c	67	warn	V519 The 'data' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 65, 67.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_17.c	58	err	V569 Truncation of constant value -129. The value range of signed char type: [-128, 127].
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_18.c	58	err	V569 Truncation of constant value -155. The value range of signed char type: [-128, 127].
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_19.c	61	err	V569 Truncation of constant value -155. The value range of signed char type: [-128, 127].
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_2.c	57	err	V569 Truncation of constant value -129. The value range of signed char type: [-128, 127].
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_2.c	82	err	V569 Truncation of constant value -129. The value range of signed char type: [-128, 127].
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_21.c	60	err	V569 Truncation of constant value -155. The value range of signed char type: [-128, 127].
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_23.c	68	err	V569 Truncation of constant value -155. The value range of signed char type: [-128, 127].
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_24.c	66	err	V569 Truncation of constant value -155. The value range of signed char type: [-128, 127].
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_26.c	51	warn	V519 The 'data' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 49, 51.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_26.c	55	err	V569 Truncation of constant value -256. The value range of signed char type: [-128, 127].
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_26.c	69	warn	V519 The 'data' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 67, 69.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_27.c	60	err	V569 Truncation of constant value -256. The value range of signed char type: [-128, 127].
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_27.c	91	err	V569 Truncation of constant value -256. The value range of signed char type: [-128, 127].
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_28.c	60	err	V569 Truncation of constant value -256. The value range of signed char type: [-128, 127].
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_28.c	91	err	V569 Truncation of constant value -256. The value range of signed char type: [-128, 127].
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_29.c	63	err	V569 Truncation of constant value -256. The value range of signed char type: [-128, 127].
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_29.c	94	err	V569 Truncation of constant value -256. The value range of signed char type: [-128, 127].
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_31.c	62	err	V569 Truncation of constant value -256. The value range of signed char type: [-128, 127].
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_31.c	93	err	V569 Truncation of constant value -256. The value range of signed char type: [-128, 127].
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_33.c	101	err	V569 Truncation of constant value -256. The value range of signed char type: [-128, 127].
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_33.c	70	err	V569 Truncation of constant value -256. The value range of signed char type: [-128, 127].
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_34.c	51	warn	V519 The 'data' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 49, 51.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_34.c	54	err	V569 Truncation of constant value -129. The value range of signed char type: [-128, 127].
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_34.c	68	warn	V519 The 'data' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 66, 68.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_35.c	59	err	V569 Truncation of constant value -129. The value range of signed char type: [-128, 127].
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_35.c	88	err	V569 Truncation of constant value -129. The value range of signed char type: [-128, 127].
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_36.c	58	err	V569 Truncation of constant value -129. The value range of signed char type: [-128, 127].
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_36.c	87	err	V569 Truncation of constant value -129. The value range of signed char type: [-128, 127].
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_37.c	62	err	V569 Truncation of constant value -129. The value range of signed char type: [-128, 127].
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_37.c	91	err	V569 Truncation of constant value -129. The value range of signed char type: [-128, 127].
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_39.c	61	err	V569 Truncation of constant value -129. The value range of signed char type: [-128, 127].
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_39.c	90	err	V569 Truncation of constant value -129. The value range of signed char type: [-128, 127].
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_41.c	69	err	V569 Truncation of constant value -129. The value range of signed char type: [-128, 127].
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_41.c	98	err	V569 Truncation of constant value -129. The value range of signed char type: [-128, 127].
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_42.c	69	warn	V519 The 'data' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 67, 69.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_50.c	68	warn	V519 The 'data' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 66, 68.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_6.c	51	warn	V519 The 'data' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 49, 51.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_6.c	55	err	V569 Truncation of constant value -140. The value range of signed char type: [-128, 127].
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_6.c	69	warn	V519 The 'data' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 67, 69.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_7.c	60	err	V569 Truncation of constant value -140. The value range of signed char type: [-128, 127].
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_8.c	60	err	V569 Truncation of constant value -140. The value range of signed char type: [-128, 127].
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/191/191_9.c	63	err	V569 Truncation of constant value -140. The value range of signed char type: [-128, 127].
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_12.c	108	err	V523 The 'then' statement is equivalent to the 'else' statement.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_12.c	91	err	V523 The 'then' statement is equivalent to the 'else' statement.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_20.c	83	warn	V519 The 'data' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 81, 83.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_22.c	64	warn	V519 The 'data' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 62, 64.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_23.c	58	warn	V519 The 'data' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 56, 58.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_25.c	68	warn	V519 The 'data' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 66, 68.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_37.c	109	err	V523 The 'then' statement is equivalent to the 'else' statement.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_37.c	92	err	V523 The 'then' statement is equivalent to the 'else' statement.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_45.c	88	warn	V519 The 'data' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 86, 88.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_47.c	64	warn	V519 The 'data' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 62, 64.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_48.c	58	warn	V519 The 'data' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 56, 58.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_50.c	68	warn	V519 The 'data' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 66, 68.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_1.c	66	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_10.c	101	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_10.c	72	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_11.c	72	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_12.c	101	warn	V575 The potential null pointer is passed into 'strcpy' function. Inspect the first argument. Check lines: 101, 99.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_12.c	105	err	V523 The 'then' statement is equivalent to the 'else' statement.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_12.c	118	err	V523 The 'then' statement is equivalent to the 'else' statement.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_13.c	72	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_14.c	101	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_14.c	72	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_15.c	120	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_15.c	84	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_16.c	66	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_17.c	72	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_18.c	72	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_19.c	75	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_2.c	72	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_20.c	104	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_20.c	75	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_21.c	74	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_22.c	103	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_22.c	74	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_23.c	82	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_24.c	72	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_25.c	72	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_26.c	101	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_26.c	72	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_27.c	72	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_28.c	106	err	V523 The 'then' statement is equivalent to the 'else' statement.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_28.c	120	err	V523 The 'then' statement is equivalent to the 'else' statement.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_29.c	72	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_3.c	72	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_30.c	101	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_30.c	72	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_31.c	120	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_31.c	84	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_32.c	59	warn	V701 realloc() possible leak: when realloc() fails in allocating memory, original pointer 'data' is lost. Consider assigning realloc() to a temporary pointer.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_32.c	66	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_33.c	61	warn	V701 realloc() possible leak: when realloc() fails in allocating memory, original pointer 'data' is lost. Consider assigning realloc() to a temporary pointer.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_33.c	72	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_33.c	85	warn	V701 realloc() possible leak: when realloc() fails in allocating memory, original pointer 'data' is lost. Consider assigning realloc() to a temporary pointer.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_34.c	61	warn	V701 realloc() possible leak: when realloc() fails in allocating memory, original pointer 'data' is lost. Consider assigning realloc() to a temporary pointer.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_34.c	72	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_34.c	84	warn	V701 realloc() possible leak: when realloc() fails in allocating memory, original pointer 'data' is lost. Consider assigning realloc() to a temporary pointer.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_35.c	64	warn	V701 realloc() possible leak: when realloc() fails in allocating memory, original pointer 'data' is lost. Consider assigning realloc() to a temporary pointer.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_35.c	75	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_35.c	88	warn	V701 realloc() possible leak: when realloc() fails in allocating memory, original pointer 'data' is lost. Consider assigning realloc() to a temporary pointer.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_36.c	105	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_36.c	64	warn	V701 realloc() possible leak: when realloc() fails in allocating memory, original pointer 'data' is lost. Consider assigning realloc() to a temporary pointer.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_36.c	75	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_36.c	89	warn	V701 realloc() possible leak: when realloc() fails in allocating memory, original pointer 'data' is lost. Consider assigning realloc() to a temporary pointer.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_37.c	63	warn	V701 realloc() possible leak: when realloc() fails in allocating memory, original pointer 'data' is lost. Consider assigning realloc() to a temporary pointer.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_37.c	74	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_37.c	87	warn	V701 realloc() possible leak: when realloc() fails in allocating memory, original pointer 'data' is lost. Consider assigning realloc() to a temporary pointer.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_38.c	103	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_38.c	63	warn	V701 realloc() possible leak: when realloc() fails in allocating memory, original pointer 'data' is lost. Consider assigning realloc() to a temporary pointer.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_38.c	74	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_38.c	87	warn	V701 realloc() possible leak: when realloc() fails in allocating memory, original pointer 'data' is lost. Consider assigning realloc() to a temporary pointer.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_39.c	71	warn	V701 realloc() possible leak: when realloc() fails in allocating memory, original pointer 'data' is lost. Consider assigning realloc() to a temporary pointer.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_39.c	82	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_39.c	95	warn	V701 realloc() possible leak: when realloc() fails in allocating memory, original pointer 'data' is lost. Consider assigning realloc() to a temporary pointer.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_4.c	75	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_40.c	61	warn	V701 realloc() possible leak: when realloc() fails in allocating memory, original pointer 'data' is lost. Consider assigning realloc() to a temporary pointer.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_40.c	72	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_40.c	85	warn	V701 realloc() possible leak: when realloc() fails in allocating memory, original pointer 'data' is lost. Consider assigning realloc() to a temporary pointer.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_41.c	101	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_41.c	61	warn	V701 realloc() possible leak: when realloc() fails in allocating memory, original pointer 'data' is lost. Consider assigning realloc() to a temporary pointer.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_41.c	72	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_41.c	85	warn	V701 realloc() possible leak: when realloc() fails in allocating memory, original pointer 'data' is lost. Consider assigning realloc() to a temporary pointer.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_42.c	61	warn	V701 realloc() possible leak: when realloc() fails in allocating memory, original pointer 'data' is lost. Consider assigning realloc() to a temporary pointer.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_42.c	72	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_42.c	85	warn	V701 realloc() possible leak: when realloc() fails in allocating memory, original pointer 'data' is lost. Consider assigning realloc() to a temporary pointer.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_43.c	66	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_44.c	72	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_45.c	72	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_46.c	75	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_47.c	104	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_47.c	75	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_48.c	74	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_49.c	103	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_49.c	74	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_5.c	104	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_5.c	75	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_50.c	82	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_6.c	74	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_7.c	103	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_7.c	74	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_8.c	82	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/401_9.c	72	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_1.c	64	err	V586 The 'free' function is called twice for deallocation of the same memory space. Inspect the first argument. Check lines: 62, 64.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_10.c	69	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_11.c	64	err	V586 The 'free' function is called twice for deallocation of the same memory space. Inspect the first argument. Check lines: 62, 64.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_12.c	69	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_13.c	69	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_14.c	72	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_15.c	72	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_16.c	71	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_17.c	71	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_18.c	79	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_19.c	69	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_2.c	69	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_20.c	69	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_21.c	64	err	V586 The 'free' function is called twice for deallocation of the same memory space. Inspect the first argument. Check lines: 62, 64.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_22.c	69	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_23.c	69	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_24.c	72	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_25.c	72	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_26.c	71	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_27.c	71	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_28.c	79	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_29.c	69	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_3.c	69	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_30.c	69	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_31.c	69	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_32.c	69	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_33.c	69	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_34.c	72	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_35.c	72	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_36.c	71	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_37.c	71	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_38.c	79	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_39.c	69	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_4.c	72	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_40.c	69	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_41.c	64	err	V586 The 'free' function is called twice for deallocation of the same memory space. Inspect the first argument. Check lines: 62, 64.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_42.c	69	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_43.c	69	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_44.c	72	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_45.c	72	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_46.c	71	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_47.c	71	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_48.c	79	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_49.c	69	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_5.c	72	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_50.c	69	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_6.c	71	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_7.c	71	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_8.c	79	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/415/415_9.c	69	err	V586 The 'free' function is called twice for deallocation of the same memory space.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_1.c	70	err	V774 The 'data' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_1.c	95	err	V773 Visibility scope of the 'data' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_10.c	79	err	V774 The 'data' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_11.c	79	err	V774 The 'data' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_12.c	78	err	V774 The 'data' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_13.c	71	err	V774 The 'data' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_14.c	76	err	V774 The 'data' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_15.c	76	err	V774 The 'data' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_16.c	79	err	V774 The 'data' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_17.c	79	err	V774 The 'data' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_18.c	78	err	V774 The 'data' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_19.c	78	err	V774 The 'data' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_2.c	71	err	V774 The 'data' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_20.c	86	err	V774 The 'data' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_21.c	76	err	V774 The 'data' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_22.c	76	err	V774 The 'data' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_23.c	81	err	V774 The 'data' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_24.c	81	err	V774 The 'data' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_25.c	84	err	V774 The 'data' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_26.c	84	err	V774 The 'data' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_27.c	83	err	V774 The 'data' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_28.c	83	err	V774 The 'data' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_29.c	92	err	V774 The 'data' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_3.c	71	err	V774 The 'data' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_30.c	81	err	V774 The 'data' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_31.c	110	warn	V774 The 'reversedString' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_31.c	69	err	V774 The 'reversedString' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_32.c	111	warn	V774 The 'reversedString' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_32.c	69	err	V774 The 'reversedString' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_33.c	111	warn	V774 The 'reversedString' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_33.c	69	err	V774 The 'reversedString' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_34.c	117	warn	V774 The 'reversedString' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_34.c	69	err	V774 The 'reversedString' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_35.c	117	warn	V774 The 'reversedString' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_35.c	69	err	V774 The 'reversedString' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_36.c	116	warn	V774 The 'reversedString' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_36.c	69	err	V774 The 'reversedString' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_37.c	116	warn	V774 The 'reversedString' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_37.c	69	err	V774 The 'reversedString' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_38.c	124	warn	V774 The 'reversedString' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_38.c	69	err	V774 The 'reversedString' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_39.c	111	warn	V774 The 'reversedString' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_39.c	69	err	V774 The 'reversedString' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_4.c	74	err	V774 The 'data' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_40.c	111	warn	V774 The 'reversedString' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_40.c	69	err	V774 The 'reversedString' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_41.c	83	err	V774 The 'data' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_42.c	61	err	V773 The 'data' pointer was assigned values twice without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_42.c	94	err	V773 The 'data' pointer was assigned values twice without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_43.c	62	err	V773 The 'data' pointer was assigned values twice without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_43.c	76	err	V522 Dereferencing of the null pointer 'data' might take place.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_43.c	93	err	V773 The 'data' pointer was assigned values twice without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_44.c	75	err	V774 The 'data' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_45.c	83	err	V774 The 'data' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_46.c	61	err	V773 The 'data' pointer was assigned values twice without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_46.c	94	err	V773 The 'data' pointer was assigned values twice without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_47.c	62	err	V773 The 'data' pointer was assigned values twice without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_47.c	77	err	V522 Dereferencing of the null pointer 'data' might take place.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_47.c	94	err	V773 The 'data' pointer was assigned values twice without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_48.c	75	err	V774 The 'data' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_49.c	112	warn	V774 The 'reversedString' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_49.c	69	err	V774 The 'reversedString' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_5.c	74	err	V774 The 'data' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_50.c	111	warn	V774 The 'reversedString' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_50.c	69	err	V774 The 'reversedString' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_6.c	73	err	V774 The 'data' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_7.c	70	err	V774 The 'data' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_8.c	76	err	V774 The 'data' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/416_9.c	76	err	V774 The 'data' pointer was used after the memory was released.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_1.c	60	err	V614 Uninitialized pointer 'data' used. Consider checking the first actual argument of the 'printLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_10.c	65	err	V614 Uninitialized pointer 'data' used. Consider checking the first actual argument of the 'printLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_11.c	65	err	V614 Uninitialized pointer 'data' used. Consider checking the first actual argument of the 'printLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_12.c	104	err	V523 The 'then' statement is equivalent to the 'else' statement.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_12.c	70	err	V614 Potentially uninitialized pointer 'data' used. Consider checking the first actual argument of the 'printLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_13.c	65	err	V614 Uninitialized pointer 'data' used. Consider checking the first actual argument of the 'printLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_14.c	65	err	V614 Uninitialized pointer 'data' used. Consider checking the first actual argument of the 'printLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_16.c	66	err	V614 Uninitialized pointer 'data' used. Consider checking the first actual argument of the 'printLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_17.c	66	err	V614 Uninitialized pointer 'data' used. Consider checking the first actual argument of the 'printLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_18.c	64	err	V614 Uninitialized pointer 'data' used. Consider checking the first actual argument of the 'printLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_19.c	60	err	V614 Uninitialized variable 'data' used. Consider checking the first actual argument of the 'printIntLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_2.c	65	err	V614 Uninitialized pointer 'data' used. Consider checking the first actual argument of the 'printLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_20.c	65	err	V614 Uninitialized variable 'data' used. Consider checking the first actual argument of the 'printIntLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_21.c	65	err	V614 Uninitialized variable 'data' used. Consider checking the first actual argument of the 'printIntLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_22.c	72	err	V614 Uninitialized variable 'data' used. Consider checking the first actual argument of the 'printIntLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_23.c	72	err	V614 Uninitialized variable 'data' used. Consider checking the first actual argument of the 'printIntLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_24.c	71	err	V614 Uninitialized variable 'data' used. Consider checking the first actual argument of the 'printIntLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_25.c	71	err	V614 Uninitialized variable 'data' used. Consider checking the first actual argument of the 'printIntLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_26.c	79	err	V614 Uninitialized variable 'data' used. Consider checking the first actual argument of the 'printDoubleLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_27.c	69	err	V614 Uninitialized variable 'data' used. Consider checking the first actual argument of the 'printIntLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_28.c	69	err	V614 Uninitialized variable 'data' used. Consider checking the first actual argument of the 'printIntLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_29.c	69	err	V614 Uninitialized variable 'data' used. Consider checking the first actual argument of the 'printIntLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_3.c	65	err	V614 Uninitialized pointer 'data' used. Consider checking the first actual argument of the 'printLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_30.c	108	err	V523 The 'then' statement is equivalent to the 'else' statement.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_30.c	74	warn	V614 Potentially uninitialized variable 'data' used. Consider checking the first actual argument of the 'printIntLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_31.c	69	err	V614 Uninitialized variable 'data' used. Consider checking the first actual argument of the 'printIntLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_32.c	69	err	V614 Uninitialized variable 'data' used. Consider checking the first actual argument of the 'printIntLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_34.c	70	err	V614 Uninitialized variable 'data' used. Consider checking the first actual argument of the 'printIntLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_35.c	70	err	V614 Uninitialized variable 'data' used. Consider checking the first actual argument of the 'printIntLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_36.c	68	err	V614 Uninitialized variable 'data' used. Consider checking the first actual argument of the 'printIntLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_37.c	60	err	V614 Uninitialized variable 'data' used. Consider checking the first actual argument of the 'printLongLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_38.c	65	err	V614 Uninitialized variable 'data' used. Consider checking the first actual argument of the 'printLongLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_39.c	65	err	V614 Uninitialized variable 'data' used. Consider checking the first actual argument of the 'printLongLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_4.c	68	err	V614 Uninitialized pointer 'data' used. Consider checking the first actual argument of the 'printLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_40.c	68	err	V614 Uninitialized variable 'data' used. Consider checking the first actual argument of the 'printLongLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_41.c	68	err	V614 Uninitialized variable 'data' used. Consider checking the first actual argument of the 'printLongLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_42.c	67	err	V614 Uninitialized variable 'data' used. Consider checking the first actual argument of the 'printLongLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_43.c	67	err	V614 Uninitialized variable 'data' used. Consider checking the first actual argument of the 'printLongLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_44.c	75	err	V614 Uninitialized variable 'data' used. Consider checking the first actual argument of the 'printLongLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_45.c	65	err	V614 Uninitialized variable 'data' used. Consider checking the first actual argument of the 'printLongLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_46.c	65	err	V614 Uninitialized variable 'data' used. Consider checking the first actual argument of the 'printLongLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_47.c	65	err	V614 Uninitialized variable 'data' used. Consider checking the first actual argument of the 'printLongLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_48.c	104	err	V523 The 'then' statement is equivalent to the 'else' statement.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_48.c	70	warn	V614 Potentially uninitialized variable 'data' used. Consider checking the first actual argument of the 'printLongLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_49.c	65	err	V614 Uninitialized variable 'data' used. Consider checking the first actual argument of the 'printLongLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_5.c	68	err	V614 Uninitialized pointer 'data' used. Consider checking the first actual argument of the 'printLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_50.c	65	err	V614 Uninitialized variable 'data' used. Consider checking the first actual argument of the 'printLongLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_6.c	67	err	V614 Uninitialized pointer 'data' used. Consider checking the first actual argument of the 'printLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_7.c	67	err	V614 Uninitialized pointer 'data' used. Consider checking the first actual argument of the 'printLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_8.c	75	err	V614 Uninitialized pointer 'data' used. Consider checking the first actual argument of the 'printLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/457/457_9.c	65	err	V614 Uninitialized pointer 'data' used. Consider checking the first actual argument of the 'printLine' function.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_1.c	60	err	V522 Dereferencing of the null pointer 'twoIntsStructPointer' might take place.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_10.c	62	err	V522 Dereferencing of the null pointer 'twoIntsStructPointer' might take place.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_11.c	62	err	V522 Dereferencing of the null pointer 'twoIntsStructPointer' might take place.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_12.c	101	err	V523 The 'then' statement is equivalent to the 'else' statement.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_12.c	62	err	V522 Dereferencing of the null pointer 'twoIntsStructPointer' might take place.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_13.c	62	err	V522 Dereferencing of the null pointer 'twoIntsStructPointer' might take place.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_14.c	62	err	V522 Dereferencing of the null pointer 'twoIntsStructPointer' might take place.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_15.c	63	err	V522 Dereferencing of the null pointer 'twoIntsStructPointer' might take place.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_16.c	62	err	V522 Dereferencing of the null pointer 'twoIntsStructPointer' might take place.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_17.c	63	err	V522 Dereferencing of the null pointer 'twoIntsStructPointer' might take place.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_18.c	62	err	V522 Dereferencing of the null pointer 'twoIntsStructPointer' might take place.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_19.c	60	err	V522 Dereferencing of the null pointer 'data' might take place.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_19.c	73	err	V506 Pointer to local variable 'tmpData' is stored outside the scope of this variable. Such a pointer will become invalid.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_2.c	62	err	V522 Dereferencing of the null pointer 'twoIntsStructPointer' might take place.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_20.c	65	err	V522 Dereferencing of the null pointer 'data' might take place.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_21.c	65	err	V522 Dereferencing of the null pointer 'data' might take place.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_22.c	68	err	V522 Dereferencing of the null pointer 'data' might take place.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_23.c	92	err	V614 Potentially uninitialized pointer 'data' used.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_24.c	67	err	V522 Dereferencing of the null pointer 'data' might take place.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_26.c	75	err	V522 Dereferencing of the null pointer 'data' might take place.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_27.c	65	err	V522 Dereferencing of the null pointer 'data' might take place.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_28.c	89	err	V614 Potentially uninitialized pointer 'data' used.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_29.c	65	err	V522 Dereferencing of the null pointer 'data' might take place.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_3.c	62	err	V522 Dereferencing of the null pointer 'twoIntsStructPointer' might take place.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_30.c	102	err	V523 The 'then' statement is equivalent to the 'else' statement.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_30.c	119	err	V523 The 'then' statement is equivalent to the 'else' statement.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_31.c	60	err	V522 Dereferencing of the null pointer 'data' might take place.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_31.c	73	err	V506 Pointer to local variable 'tmpData' is stored outside the scope of this variable. Such a pointer will become invalid.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_32.c	65	err	V522 Dereferencing of the null pointer 'data' might take place.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_33.c	65	err	V522 Dereferencing of the null pointer 'data' might take place.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_34.c	68	err	V522 Dereferencing of the null pointer 'data' might take place.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_35.c	92	err	V614 Potentially uninitialized pointer 'data' used.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_36.c	67	err	V522 Dereferencing of the null pointer 'data' might take place.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_38.c	75	err	V522 Dereferencing of the null pointer 'data' might take place.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_39.c	65	err	V522 Dereferencing of the null pointer 'data' might take place.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_4.c	65	err	V522 Dereferencing of the null pointer 'twoIntsStructPointer' might take place.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_40.c	89	err	V614 Potentially uninitialized pointer 'data' used.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_41.c	61	err	V522 Dereferencing of the null pointer 'intPointer' might take place.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_42.c	63	err	V522 Dereferencing of the null pointer 'intPointer' might take place.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_43.c	63	err	V522 Dereferencing of the null pointer 'intPointer' might take place.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_44.c	64	err	V595 The 'intPointer' pointer was utilized before it was verified against nullptr. Check lines: 64, 67.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_44.c	64	warn	V522 There might be dereferencing of a potential null pointer 'intPointer'. Check lines: 64, 63.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_44.c	72	err	V773 Visibility scope of the 'intPointer' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_45.c	93	warn	V522 There might be dereferencing of a potential null pointer 'intPointer'. Check lines: 93, 92.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_45.c	98	err	V773 Visibility scope of the 'intPointer' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_46.c	63	err	V595 The 'intPointer' pointer was utilized before it was verified against nullptr. Check lines: 63, 66.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_46.c	63	warn	V522 There might be dereferencing of a potential null pointer 'intPointer'. Check lines: 63, 62.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_46.c	71	err	V773 Visibility scope of the 'intPointer' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_47.c	63	err	V595 The 'intPointer' pointer was utilized before it was verified against nullptr. Check lines: 63, 66.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_47.c	63	warn	V522 There might be dereferencing of a potential null pointer 'intPointer'. Check lines: 63, 62.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_47.c	71	err	V773 Visibility scope of the 'intPointer' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_48.c	100	warn	V522 There might be dereferencing of a potential null pointer 'intPointer'. Check lines: 100, 99.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_48.c	105	err	V773 Visibility scope of the 'intPointer' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_49.c	61	err	V595 The 'intPointer' pointer was utilized before it was verified against nullptr. Check lines: 61, 64.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_49.c	61	warn	V522 There might be dereferencing of a potential null pointer 'intPointer'. Check lines: 61, 60.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_49.c	69	err	V773 Visibility scope of the 'intPointer' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_5.c	65	err	V522 Dereferencing of the null pointer 'twoIntsStructPointer' might take place.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_50.c	90	warn	V522 There might be dereferencing of a potential null pointer 'intPointer'. Check lines: 90, 89.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_50.c	95	err	V773 Visibility scope of the 'intPointer' pointer was exited without releasing the memory. A memory leak is possible.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_6.c	64	err	V522 Dereferencing of the null pointer 'twoIntsStructPointer' might take place.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_7.c	64	err	V522 Dereferencing of the null pointer 'twoIntsStructPointer' might take place.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_8.c	72	err	V522 Dereferencing of the null pointer 'twoIntsStructPointer' might take place.
+/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/476/476_9.c	62	err	V522 Dereferencing of the null pointer 'twoIntsStructPointer' might take place.

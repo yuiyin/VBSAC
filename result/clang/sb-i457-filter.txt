@@ -1,0 +1,17 @@
+./457_uninit_memory_access_2.c:14:3: warning: Function call argument is an uninitialized value
+./457_uninit_memory_access_3.c:14:2: warning: Function call argument is an uninitialized value
+./457_uninit_memory_access_4.c:21:4: warning: Assigned value is garbage or undefined
+./457_uninit_memory_access_5.c:28:5: warning: Function call argument is an uninitialized value
+./457_uninit_memory_access_7.c:22:7: warning: Assigned value is garbage or undefined
+./457_uninit_var_1.c:8:6: warning: Assigned value is garbage or undefined
+./457_uninit_var_10.c:9:10: warning: The right operand of '+' is a garbage value
+./457_uninit_var_11.c:15:12: warning: The right operand of '+' is a garbage value
+./457_uninit_var_12.c:9:2: warning: Undefined or garbage value returned to caller
+./457_uninit_var_13.c:16:9: warning: Assigned value is garbage or undefined
+./457_uninit_var_2.c:8:6: warning: Assigned value is garbage or undefined
+./457_uninit_var_3.c:8:6: warning: Assigned value is garbage or undefined
+./457_uninit_var_4.c:9:2: warning: Undefined or garbage value returned to caller
+./457_uninit_var_5.c:8:31: warning: Assigned value is garbage or undefined
+./457_uninit_var_6.c:16:6: warning: Assigned value is garbage or undefined
+./457_uninit_var_7.c:36:11: warning: The left expression of the compound assignment is an uninitialized value. The computed value will also be garbage
+./457_uninit_var_9.c:10:14: warning: Assigned value is garbage or undefined

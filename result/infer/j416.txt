@@ -1,0 +1,1814 @@
+./416_29.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F...................
+
+Found 1 issue
+
+416_29.c:105: error: DEAD_STORE
+  The value written to &data is never used.
+  103.       twoIntsStruct * data;
+  104.       /* Initialize data */
+  105. >     data = NULL;
+  106.       if(staticReturnsTrue())
+  107.       {
+
+
+Summary of the reports
+
+  DEAD_STORE: 1
+./416_7.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 3 issues
+
+416_7.c:58: error: DEAD_STORE
+  The value written to &data is never used.
+  56.       int * data;
+  57.       /* Initialize data */
+  58. >     data = NULL;
+  59.       data = (int *)malloc(100*sizeof(int));
+  60.       if (data != NULL) {
+
+416_7.c:70: error: USE_AFTER_FREE
+  pointer `data` last assigned on line 59 was freed by call to `free()` at line 68, column 9 and is dereferenced or freed at line 70, column 22.
+  68.           free(data);
+  69.       /* POTENTIAL FLAW: Use of data that may have been freed */
+  70. >         printIntLine(data[0]);
+  71.       /* POTENTIAL INCIDENTAL - Possible memory leak here if data was not freed */
+  72.       }
+
+416_7.c:83: error: DEAD_STORE
+  The value written to &data is never used.
+  81.       int * data;
+  82.       /* Initialize data */
+  83. >     data = NULL;
+  84.       data = (int *)malloc(100*sizeof(int));
+  85.       if (data != NULL) {
+
+
+Summary of the reports
+
+      DEAD_STORE: 2
+  USE_AFTER_FREE: 1
+./416_20.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..................
+
+Found 2 issues
+
+416_20.c:86: error: USE_AFTER_FREE
+  pointer `data` last assigned on line 71 was freed by call to `free()` at line 81, column 9 and is dereferenced or freed at line 86, column 23.
+  84.       {
+  85.           /* POTENTIAL FLAW: Use of data that may have been freed */
+  86. >         printLongLine(data[0]);
+  87.           /* POTENTIAL INCIDENTAL - Possible memory leak here if data was not freed */
+  88.       }
+
+416_20.c:99: error: DEAD_STORE
+  The value written to &data is never used.
+  97.       long * data;
+  98.       /* Initialize data */
+  99. >     data = NULL;
+  100.       if(staticReturnsTrue())
+  101.       {
+
+
+Summary of the reports
+
+  USE_AFTER_FREE: 1
+      DEAD_STORE: 1
+./416_45.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 2 issues
+
+416_45.c:83: error: USE_AFTER_FREE
+  pointer `data` last assigned on line 62 was freed by call to `free()` at line 72, column 9 and is dereferenced or freed at line 83, column 23.
+  81.       case 7:
+  82.           /* POTENTIAL FLAW: Use of data that may have been freed */
+  83. >         printLongLine(data[0]);
+  84.           /* POTENTIAL INCIDENTAL - Possible memory leak here if data was not freed */
+  85.           break;
+
+416_45.c:101: error: DEAD_STORE
+  The value written to &data is never used.
+  99.       long * data;
+  100.       /* Initialize data */
+  101. >     data = NULL;
+  102.       switch(6)
+  103.       {
+
+
+Summary of the reports
+
+  USE_AFTER_FREE: 1
+      DEAD_STORE: 1
+./416_9.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 2 issues
+
+416_9.c:76: error: USE_AFTER_FREE
+  pointer `data` last assigned on line 61 was freed by call to `free()` at line 71, column 9 and is dereferenced or freed at line 76, column 22.
+  74.       {
+  75.           /* POTENTIAL FLAW: Use of data that may have been freed */
+  76. >         printIntLine(data[0]);
+  77.           /* POTENTIAL INCIDENTAL - Possible memory leak here if data was not freed */
+  78.       }
+
+416_9.c:89: error: DEAD_STORE
+  The value written to &data is never used.
+  87.       int * data;
+  88.       /* Initialize data */
+  89. >     data = NULL;
+  90.       if(5==5)
+  91.       {
+
+
+Summary of the reports
+
+  USE_AFTER_FREE: 1
+      DEAD_STORE: 1
+./416_44.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 3 issues
+
+416_44.c:58: error: DEAD_STORE
+  The value written to &data is never used.
+  56.       int * data;
+  57.       /* Initialize data */
+  58. >     data = NULL;
+  59.       goto source;
+  60.   source:
+
+416_44.c:75: error: USE_AFTER_FREE
+  pointer `data` last assigned on line 61 was freed by call to `free()` at line 71, column 5 and is dereferenced or freed at line 75, column 18.
+  73.   sink:
+  74.       /* POTENTIAL FLAW: Use of data that may have been freed */
+  75. >     printIntLine(data[0]);
+  76.       /* POTENTIAL INCIDENTAL - Possible memory leak here if data was not freed */
+  77.   }
+
+416_44.c:87: error: DEAD_STORE
+  The value written to &data is never used.
+  85.       int * data;
+  86.       /* Initialize data */
+  87. >     data = NULL;
+  88.       goto source;
+  89.   source:
+
+
+Summary of the reports
+
+      DEAD_STORE: 2
+  USE_AFTER_FREE: 1
+./416_22.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.................
+
+Found 2 issues
+
+416_22.c:62: error: DEAD_STORE
+  The value written to &data is never used.
+  60.       twoIntsStruct * data;
+  61.       /* Initialize data */
+  62. >     data = NULL;
+  63.       data = (twoIntsStruct *)malloc(100*sizeof(twoIntsStruct));
+  64.       if (data == NULL) return;
+
+416_22.c:88: error: DEAD_STORE
+  The value written to &data is never used.
+  86.       twoIntsStruct * data;
+  87.       /* Initialize data */
+  88. >     data = NULL;
+  89.       data = (twoIntsStruct *)malloc(100*sizeof(twoIntsStruct));
+  90.       if (data == NULL) return;
+
+
+Summary of the reports
+
+  DEAD_STORE: 2
+./416_16.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..................
+
+Found 2 issues
+
+416_16.c:79: error: USE_AFTER_FREE
+  pointer `data` last assigned on line 64 was freed by call to `free()` at line 74, column 9 and is dereferenced or freed at line 79, column 23.
+  77.       {
+  78.           /* POTENTIAL FLAW: Use of data that may have been freed */
+  79. >         printLongLine(data[0]);
+  80.           /* POTENTIAL INCIDENTAL - Possible memory leak here if data was not freed */
+  81.       }
+
+416_16.c:92: error: DEAD_STORE
+  The value written to &data is never used.
+  90.       long * data;
+  91.       /* Initialize data */
+  92. >     data = NULL;
+  93.       if(STATIC_CONST_TRUE)
+  94.       {
+
+
+Summary of the reports
+
+  USE_AFTER_FREE: 1
+      DEAD_STORE: 1
+./416_48.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 3 issues
+
+416_48.c:58: error: DEAD_STORE
+  The value written to &data is never used.
+  56.       long * data;
+  57.       /* Initialize data */
+  58. >     data = NULL;
+  59.       goto source;
+  60.   source:
+
+416_48.c:75: error: USE_AFTER_FREE
+  pointer `data` last assigned on line 61 was freed by call to `free()` at line 71, column 5 and is dereferenced or freed at line 75, column 19.
+  73.   sink:
+  74.       /* POTENTIAL FLAW: Use of data that may have been freed */
+  75. >     printLongLine(data[0]);
+  76.       /* POTENTIAL INCIDENTAL - Possible memory leak here if data was not freed */
+  77.   }
+
+416_48.c:87: error: DEAD_STORE
+  The value written to &data is never used.
+  85.       long * data;
+  86.       /* Initialize data */
+  87. >     data = NULL;
+  88.       goto source;
+  89.   source:
+
+
+Summary of the reports
+
+      DEAD_STORE: 2
+  USE_AFTER_FREE: 1
+./416_39.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..................
+
+Found 4 issues
+
+416_39.c:54: error: DEAD_STORE
+  The value written to &i is never used.
+  52.   static char * helperBad(char * aString)
+  53.   {
+  54. >     size_t i = 0;
+  55.       size_t j;
+  56.       char * reversedString = NULL;
+
+416_39.c:56: error: DEAD_STORE
+  The value written to &reversedString is never used.
+  54.       size_t i = 0;
+  55.       size_t j;
+  56. >     char * reversedString = NULL;
+  57.       if (aString != NULL)
+  58.       {
+
+416_39.c:79: error: DEAD_STORE
+  The value written to &i is never used.
+  77.   static char * helperGood(char * aString)
+  78.   {
+  79. >     size_t i = 0;
+  80.       size_t j;
+  81.       char * reversedString = NULL;
+
+416_39.c:81: error: DEAD_STORE
+  The value written to &reversedString is never used.
+  79.       size_t i = 0;
+  80.       size_t j;
+  81. >     char * reversedString = NULL;
+  82.       if (aString != NULL)
+  83.       {
+
+
+Summary of the reports
+
+  DEAD_STORE: 4
+./416_28.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..................
+
+Found 1 issue
+
+416_28.c:96: error: DEAD_STORE
+  The value written to &data is never used.
+  94.       twoIntsStruct * data;
+  95.       /* Initialize data */
+  96. >     data = NULL;
+  97.       if(staticFive==5)
+  98.       {
+
+
+Summary of the reports
+
+  DEAD_STORE: 1
+./416_11.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..................
+
+Found 2 issues
+
+416_11.c:79: error: USE_AFTER_FREE
+  pointer `data` last assigned on line 64 was freed by call to `free()` at line 74, column 9 and is dereferenced or freed at line 79, column 22.
+  77.       {
+  78.           /* POTENTIAL FLAW: Use of data that may have been freed */
+  79. >         printIntLine(data[0]);
+  80.           /* POTENTIAL INCIDENTAL - Possible memory leak here if data was not freed */
+  81.       }
+
+416_11.c:92: error: DEAD_STORE
+  The value written to &data is never used.
+  90.       int * data;
+  91.       /* Initialize data */
+  92. >     data = NULL;
+  93.       if(staticTrue)
+  94.       {
+
+
+Summary of the reports
+
+  USE_AFTER_FREE: 1
+      DEAD_STORE: 1
+./416_40.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..................
+
+Found 4 issues
+
+416_40.c:54: error: DEAD_STORE
+  The value written to &i is never used.
+  52.   static char * helperBad(char * aString)
+  53.   {
+  54. >     size_t i = 0;
+  55.       size_t j;
+  56.       char * reversedString = NULL;
+
+416_40.c:56: error: DEAD_STORE
+  The value written to &reversedString is never used.
+  54.       size_t i = 0;
+  55.       size_t j;
+  56. >     char * reversedString = NULL;
+  57.       if (aString != NULL)
+  58.       {
+
+416_40.c:79: error: DEAD_STORE
+  The value written to &i is never used.
+  77.   static char * helperGood(char * aString)
+  78.   {
+  79. >     size_t i = 0;
+  80.       size_t j;
+  81.       char * reversedString = NULL;
+
+416_40.c:81: error: DEAD_STORE
+  The value written to &reversedString is never used.
+  79.       size_t i = 0;
+  80.       size_t j;
+  81. >     char * reversedString = NULL;
+  82.       if (aString != NULL)
+  83.       {
+
+
+Summary of the reports
+
+  DEAD_STORE: 4
+./416_36.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F...................
+
+Found 4 issues
+
+416_36.c:54: error: DEAD_STORE
+  The value written to &i is never used.
+  52.   static char * helperBad(char * aString)
+  53.   {
+  54. >     size_t i = 0;
+  55.       size_t j;
+  56.       char * reversedString = NULL;
+
+416_36.c:56: error: DEAD_STORE
+  The value written to &reversedString is never used.
+  54.       size_t i = 0;
+  55.       size_t j;
+  56. >     char * reversedString = NULL;
+  57.       if (aString != NULL)
+  58.       {
+
+416_36.c:79: error: DEAD_STORE
+  The value written to &i is never used.
+  77.   static char * helperGood(char * aString)
+  78.   {
+  79. >     size_t i = 0;
+  80.       size_t j;
+  81.       char * reversedString = NULL;
+
+416_36.c:81: error: DEAD_STORE
+  The value written to &reversedString is never used.
+  79.       size_t i = 0;
+  80.       size_t j;
+  81. >     char * reversedString = NULL;
+  82.       if (aString != NULL)
+  83.       {
+
+
+Summary of the reports
+
+  DEAD_STORE: 4
+./416_1.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 3 issues
+
+416_1.c:58: error: DEAD_STORE
+  The value written to &data is never used.
+  56.       char * data;
+  57.       /* Initialize data */
+  58. >     data = NULL;
+  59.       data = (char *)malloc(100*sizeof(char));
+  60.       if (data == NULL)
+
+416_1.c:82: error: DEAD_STORE
+  The value written to &data is never used.
+  80.       char * data;
+  81.       /* Initialize data */
+  82. >     data = NULL;
+  83.       data = (char *)malloc(100*sizeof(char));
+  84.       if (data == NULL)
+
+416_1.c:93: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `malloc()` at line 83, column 20 is not reachable after line 93, column 5.
+  91.       /* FIX: Do not free data in the source */
+  92.       /* POTENTIAL FLAW: Use of data that may have been freed */
+  93. >     printLine(data);
+  94.       /* POTENTIAL INCIDENTAL - Possible memory leak here if data was not freed */
+  95.   }
+
+
+Summary of the reports
+
+   DEAD_STORE: 2
+  MEMORY_LEAK: 1
+./416_33.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..................
+
+Found 4 issues
+
+416_33.c:54: error: DEAD_STORE
+  The value written to &i is never used.
+  52.   static char * helperBad(char * aString)
+  53.   {
+  54. >     size_t i = 0;
+  55.       size_t j;
+  56.       char * reversedString = NULL;
+
+416_33.c:56: error: DEAD_STORE
+  The value written to &reversedString is never used.
+  54.       size_t i = 0;
+  55.       size_t j;
+  56. >     char * reversedString = NULL;
+  57.       if (aString != NULL)
+  58.       {
+
+416_33.c:79: error: DEAD_STORE
+  The value written to &i is never used.
+  77.   static char * helperGood(char * aString)
+  78.   {
+  79. >     size_t i = 0;
+  80.       size_t j;
+  81.       char * reversedString = NULL;
+
+416_33.c:81: error: DEAD_STORE
+  The value written to &reversedString is never used.
+  79.       size_t i = 0;
+  80.       size_t j;
+  81. >     char * reversedString = NULL;
+  82.       if (aString != NULL)
+  83.       {
+
+
+Summary of the reports
+
+  DEAD_STORE: 4
+./416_24.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.................
+
+Found 1 issue
+
+416_24.c:94: error: DEAD_STORE
+  The value written to &data is never used.
+  92.       twoIntsStruct * data;
+  93.       /* Initialize data */
+  94. >     data = NULL;
+  95.       if(5==5)
+  96.       {
+
+
+Summary of the reports
+
+  DEAD_STORE: 1
+./416_32.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..................
+
+Found 4 issues
+
+416_32.c:54: error: DEAD_STORE
+  The value written to &i is never used.
+  52.   static char * helperBad(char * aString)
+  53.   {
+  54. >     size_t i = 0;
+  55.       size_t j;
+  56.       char * reversedString = NULL;
+
+416_32.c:56: error: DEAD_STORE
+  The value written to &reversedString is never used.
+  54.       size_t i = 0;
+  55.       size_t j;
+  56. >     char * reversedString = NULL;
+  57.       if (aString != NULL)
+  58.       {
+
+416_32.c:79: error: DEAD_STORE
+  The value written to &i is never used.
+  77.   static char * helperGood(char * aString)
+  78.   {
+  79. >     size_t i = 0;
+  80.       size_t j;
+  81.       char * reversedString = NULL;
+
+416_32.c:81: error: DEAD_STORE
+  The value written to &reversedString is never used.
+  79.       size_t i = 0;
+  80.       size_t j;
+  81. >     char * reversedString = NULL;
+  82.       if (aString != NULL)
+  83.       {
+
+
+Summary of the reports
+
+  DEAD_STORE: 4
+./416_47.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 2 issues
+
+416_47.c:77: error: USE_AFTER_FREE
+  pointer `data` last assigned on line 62 was freed by call to `free()` at line 72, column 9 and is dereferenced or freed at line 77, column 23.
+  75.       {
+  76.           /* POTENTIAL FLAW: Use of data that may have been freed */
+  77. >         printLongLine(data[0]);
+  78.           /* POTENTIAL INCIDENTAL - Possible memory leak here if data was not freed */
+  79.       }
+
+416_47.c:91: error: DEAD_STORE
+  The value written to &data is never used.
+  89.       long * data;
+  90.       /* Initialize data */
+  91. >     data = NULL;
+  92.       for(i = 0; i < 1; i++)
+  93.       {
+
+
+Summary of the reports
+
+  USE_AFTER_FREE: 1
+      DEAD_STORE: 1
+./416_19.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.................
+
+Found 2 issues
+
+416_19.c:78: error: USE_AFTER_FREE
+  pointer `data` last assigned on line 63 was freed by call to `free()` at line 73, column 9 and is dereferenced or freed at line 78, column 23.
+  76.       {
+  77.           /* POTENTIAL FLAW: Use of data that may have been freed */
+  78. >         printLongLine(data[0]);
+  79.           /* POTENTIAL INCIDENTAL - Possible memory leak here if data was not freed */
+  80.       }
+
+416_19.c:91: error: DEAD_STORE
+  The value written to &data is never used.
+  89.       long * data;
+  90.       /* Initialize data */
+  91. >     data = NULL;
+  92.       if(staticFive==5)
+  93.       {
+
+
+Summary of the reports
+
+  USE_AFTER_FREE: 1
+      DEAD_STORE: 1
+./416_42.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 2 issues
+
+416_42.c:77: error: USE_AFTER_FREE
+  pointer `data` last assigned on line 61 was freed by call to `free()` at line 71, column 9 and is dereferenced or freed at line 77, column 22.
+  75.       {
+  76.           /* POTENTIAL FLAW: Use of data that may have been freed */
+  77. >         printIntLine(data[0]);
+  78.           /* POTENTIAL INCIDENTAL - Possible memory leak here if data was not freed */
+  79.           break;
+
+416_42.c:91: error: DEAD_STORE
+  The value written to &data is never used.
+  89.       int * data;
+  90.       /* Initialize data */
+  91. >     data = NULL;
+  92.       while(1)
+  93.       {
+
+
+Summary of the reports
+
+  USE_AFTER_FREE: 1
+      DEAD_STORE: 1
+./416_4.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..................
+
+Found 1 issue
+
+416_4.c:87: error: DEAD_STORE
+  The value written to &data is never used.
+  85.       char * data;
+  86.       /* Initialize data */
+  87. >     data = NULL;
+  88.       if(STATIC_CONST_TRUE)
+  89.       {
+
+
+Summary of the reports
+
+  DEAD_STORE: 1
+./416_35.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F....................
+
+Found 4 issues
+
+416_35.c:54: error: DEAD_STORE
+  The value written to &i is never used.
+  52.   static char * helperBad(char * aString)
+  53.   {
+  54. >     size_t i = 0;
+  55.       size_t j;
+  56.       char * reversedString = NULL;
+
+416_35.c:56: error: DEAD_STORE
+  The value written to &reversedString is never used.
+  54.       size_t i = 0;
+  55.       size_t j;
+  56. >     char * reversedString = NULL;
+  57.       if (aString != NULL)
+  58.       {
+
+416_35.c:79: error: DEAD_STORE
+  The value written to &i is never used.
+  77.   static char * helperGood(char * aString)
+  78.   {
+  79. >     size_t i = 0;
+  80.       size_t j;
+  81.       char * reversedString = NULL;
+
+416_35.c:81: error: DEAD_STORE
+  The value written to &reversedString is never used.
+  79.       size_t i = 0;
+  80.       size_t j;
+  81. >     char * reversedString = NULL;
+  82.       if (aString != NULL)
+  83.       {
+
+
+Summary of the reports
+
+  DEAD_STORE: 4
+./416_23.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.................
+
+Found 1 issue
+
+416_23.c:94: error: DEAD_STORE
+  The value written to &data is never used.
+  92.       twoIntsStruct * data;
+  93.       /* Initialize data */
+  94. >     data = NULL;
+  95.       if(1)
+  96.       {
+
+
+Summary of the reports
+
+  DEAD_STORE: 1
+./416_31.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..................
+
+Found 4 issues
+
+416_31.c:54: error: DEAD_STORE
+  The value written to &i is never used.
+  52.   static char * helperBad(char * aString)
+  53.   {
+  54. >     size_t i = 0;
+  55.       size_t j;
+  56.       char * reversedString = NULL;
+
+416_31.c:56: error: DEAD_STORE
+  The value written to &reversedString is never used.
+  54.       size_t i = 0;
+  55.       size_t j;
+  56. >     char * reversedString = NULL;
+  57.       if (aString != NULL)
+  58.       {
+
+416_31.c:79: error: DEAD_STORE
+  The value written to &i is never used.
+  77.   static char * helperGood(char * aString)
+  78.   {
+  79. >     size_t i = 0;
+  80.       size_t j;
+  81.       char * reversedString = NULL;
+
+416_31.c:81: error: DEAD_STORE
+  The value written to &reversedString is never used.
+  79.       size_t i = 0;
+  80.       size_t j;
+  81. >     char * reversedString = NULL;
+  82.       if (aString != NULL)
+  83.       {
+
+
+Summary of the reports
+
+  DEAD_STORE: 4
+./416_6.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.................
+
+Found 1 issue
+
+416_6.c:86: error: DEAD_STORE
+  The value written to &data is never used.
+  84.       char * data;
+  85.       /* Initialize data */
+  86. >     data = NULL;
+  87.       if(STATIC_CONST_FIVE==5)
+  88.       {
+
+
+Summary of the reports
+
+  DEAD_STORE: 1
+./416_27.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..................
+
+Found 1 issue
+
+416_27.c:96: error: DEAD_STORE
+  The value written to &data is never used.
+  94.       twoIntsStruct * data;
+  95.       /* Initialize data */
+  96. >     data = NULL;
+  97.       if(STATIC_CONST_FIVE==5)
+  98.       {
+
+
+Summary of the reports
+
+  DEAD_STORE: 1
+./416_21.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 2 issues
+
+416_21.c:76: error: USE_AFTER_FREE
+  pointer `data` last assigned on line 61 was freed by call to `free()` at line 71, column 9 and is dereferenced or freed at line 76, column 23.
+  74.       {
+  75.           /* POTENTIAL FLAW: Use of data that may have been freed */
+  76. >         printLongLine(data[0]);
+  77.           /* POTENTIAL INCIDENTAL - Possible memory leak here if data was not freed */
+  78.       }
+
+416_21.c:89: error: DEAD_STORE
+  The value written to &data is never used.
+  87.       long * data;
+  88.       /* Initialize data */
+  89. >     data = NULL;
+  90.       if(GLOBAL_CONST_TRUE)
+  91.       {
+
+
+Summary of the reports
+
+  USE_AFTER_FREE: 1
+      DEAD_STORE: 1
+./416_38.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F....................
+
+Found 4 issues
+
+416_38.c:54: error: DEAD_STORE
+  The value written to &i is never used.
+  52.   static char * helperBad(char * aString)
+  53.   {
+  54. >     size_t i = 0;
+  55.       size_t j;
+  56.       char * reversedString = NULL;
+
+416_38.c:56: error: DEAD_STORE
+  The value written to &reversedString is never used.
+  54.       size_t i = 0;
+  55.       size_t j;
+  56. >     char * reversedString = NULL;
+  57.       if (aString != NULL)
+  58.       {
+
+416_38.c:79: error: DEAD_STORE
+  The value written to &i is never used.
+  77.   static char * helperGood(char * aString)
+  78.   {
+  79. >     size_t i = 0;
+  80.       size_t j;
+  81.       char * reversedString = NULL;
+
+416_38.c:81: error: DEAD_STORE
+  The value written to &reversedString is never used.
+  79.       size_t i = 0;
+  80.       size_t j;
+  81. >     char * reversedString = NULL;
+  82.       if (aString != NULL)
+  83.       {
+
+
+Summary of the reports
+
+  DEAD_STORE: 4
+./416_50.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..................
+
+Found 4 issues
+
+416_50.c:54: error: DEAD_STORE
+  The value written to &i is never used.
+  52.   static char * helperBad(char * aString)
+  53.   {
+  54. >     size_t i = 0;
+  55.       size_t j;
+  56.       char * reversedString = NULL;
+
+416_50.c:56: error: DEAD_STORE
+  The value written to &reversedString is never used.
+  54.       size_t i = 0;
+  55.       size_t j;
+  56. >     char * reversedString = NULL;
+  57.       if (aString != NULL)
+  58.       {
+
+416_50.c:79: error: DEAD_STORE
+  The value written to &i is never used.
+  77.   static char * helperGood(char * aString)
+  78.   {
+  79. >     size_t i = 0;
+  80.       size_t j;
+  81.       char * reversedString = NULL;
+
+416_50.c:81: error: DEAD_STORE
+  The value written to &reversedString is never used.
+  79.       size_t i = 0;
+  80.       size_t j;
+  81. >     char * reversedString = NULL;
+  82.       if (aString != NULL)
+  83.       {
+
+
+Summary of the reports
+
+  DEAD_STORE: 4
+./416_12.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.................
+
+Found 2 issues
+
+416_12.c:78: error: USE_AFTER_FREE
+  pointer `data` last assigned on line 63 was freed by call to `free()` at line 73, column 9 and is dereferenced or freed at line 78, column 22.
+  76.       {
+  77.           /* POTENTIAL FLAW: Use of data that may have been freed */
+  78. >         printIntLine(data[0]);
+  79.           /* POTENTIAL INCIDENTAL - Possible memory leak here if data was not freed */
+  80.       }
+
+416_12.c:91: error: DEAD_STORE
+  The value written to &data is never used.
+  89.       int * data;
+  90.       /* Initialize data */
+  91. >     data = NULL;
+  92.       if(STATIC_CONST_FIVE==5)
+  93.       {
+
+
+Summary of the reports
+
+  USE_AFTER_FREE: 1
+      DEAD_STORE: 1
+./416_46.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 2 issues
+
+416_46.c:77: error: USE_AFTER_FREE
+  pointer `data` last assigned on line 61 was freed by call to `free()` at line 71, column 9 and is dereferenced or freed at line 77, column 23.
+  75.       {
+  76.           /* POTENTIAL FLAW: Use of data that may have been freed */
+  77. >         printLongLine(data[0]);
+  78.           /* POTENTIAL INCIDENTAL - Possible memory leak here if data was not freed */
+  79.           break;
+
+416_46.c:91: error: DEAD_STORE
+  The value written to &data is never used.
+  89.       long * data;
+  90.       /* Initialize data */
+  91. >     data = NULL;
+  92.       while(1)
+  93.       {
+
+
+Summary of the reports
+
+  USE_AFTER_FREE: 1
+      DEAD_STORE: 1
+./416_34.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F....................
+
+Found 4 issues
+
+416_34.c:54: error: DEAD_STORE
+  The value written to &i is never used.
+  52.   static char * helperBad(char * aString)
+  53.   {
+  54. >     size_t i = 0;
+  55.       size_t j;
+  56.       char * reversedString = NULL;
+
+416_34.c:56: error: DEAD_STORE
+  The value written to &reversedString is never used.
+  54.       size_t i = 0;
+  55.       size_t j;
+  56. >     char * reversedString = NULL;
+  57.       if (aString != NULL)
+  58.       {
+
+416_34.c:79: error: DEAD_STORE
+  The value written to &i is never used.
+  77.   static char * helperGood(char * aString)
+  78.   {
+  79. >     size_t i = 0;
+  80.       size_t j;
+  81.       char * reversedString = NULL;
+
+416_34.c:81: error: DEAD_STORE
+  The value written to &reversedString is never used.
+  79.       size_t i = 0;
+  80.       size_t j;
+  81. >     char * reversedString = NULL;
+  82.       if (aString != NULL)
+  83.       {
+
+
+Summary of the reports
+
+  DEAD_STORE: 4
+./416_30.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.................
+
+Found 1 issue
+
+416_30.c:93: error: DEAD_STORE
+  The value written to &data is never used.
+  91.       twoIntsStruct * data;
+  92.       /* Initialize data */
+  93. >     data = NULL;
+  94.       if(GLOBAL_CONST_TRUE)
+  95.       {
+
+
+Summary of the reports
+
+  DEAD_STORE: 1
+./416_37.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F...................
+
+Found 4 issues
+
+416_37.c:54: error: DEAD_STORE
+  The value written to &i is never used.
+  52.   static char * helperBad(char * aString)
+  53.   {
+  54. >     size_t i = 0;
+  55.       size_t j;
+  56.       char * reversedString = NULL;
+
+416_37.c:56: error: DEAD_STORE
+  The value written to &reversedString is never used.
+  54.       size_t i = 0;
+  55.       size_t j;
+  56. >     char * reversedString = NULL;
+  57.       if (aString != NULL)
+  58.       {
+
+416_37.c:79: error: DEAD_STORE
+  The value written to &i is never used.
+  77.   static char * helperGood(char * aString)
+  78.   {
+  79. >     size_t i = 0;
+  80.       size_t j;
+  81.       char * reversedString = NULL;
+
+416_37.c:81: error: DEAD_STORE
+  The value written to &reversedString is never used.
+  79.       size_t i = 0;
+  80.       size_t j;
+  81. >     char * reversedString = NULL;
+  82.       if (aString != NULL)
+  83.       {
+
+
+Summary of the reports
+
+  DEAD_STORE: 4
+./416_10.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..................
+
+Found 2 issues
+
+416_10.c:79: error: USE_AFTER_FREE
+  pointer `data` last assigned on line 64 was freed by call to `free()` at line 74, column 9 and is dereferenced or freed at line 79, column 22.
+  77.       {
+  78.           /* POTENTIAL FLAW: Use of data that may have been freed */
+  79. >         printIntLine(data[0]);
+  80.           /* POTENTIAL INCIDENTAL - Possible memory leak here if data was not freed */
+  81.       }
+
+416_10.c:92: error: DEAD_STORE
+  The value written to &data is never used.
+  90.       int * data;
+  91.       /* Initialize data */
+  92. >     data = NULL;
+  93.       if(STATIC_CONST_TRUE)
+  94.       {
+
+
+Summary of the reports
+
+  USE_AFTER_FREE: 1
+      DEAD_STORE: 1
+./416_5.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..................
+
+Found 1 issue
+
+416_5.c:87: error: DEAD_STORE
+  The value written to &data is never used.
+  85.       char * data;
+  86.       /* Initialize data */
+  87. >     data = NULL;
+  88.       if(staticTrue)
+  89.       {
+
+
+Summary of the reports
+
+  DEAD_STORE: 1
+./416_41.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 2 issues
+
+416_41.c:83: error: USE_AFTER_FREE
+  pointer `data` last assigned on line 62 was freed by call to `free()` at line 72, column 9 and is dereferenced or freed at line 83, column 22.
+  81.       case 7:
+  82.           /* POTENTIAL FLAW: Use of data that may have been freed */
+  83. >         printIntLine(data[0]);
+  84.           /* POTENTIAL INCIDENTAL - Possible memory leak here if data was not freed */
+  85.           break;
+
+416_41.c:101: error: DEAD_STORE
+  The value written to &data is never used.
+  99.       int * data;
+  100.       /* Initialize data */
+  101. >     data = NULL;
+  102.       switch(6)
+  103.       {
+
+
+Summary of the reports
+
+  USE_AFTER_FREE: 1
+      DEAD_STORE: 1
+./416_8.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 2 issues
+
+416_8.c:76: error: USE_AFTER_FREE
+  pointer `data` last assigned on line 61 was freed by call to `free()` at line 71, column 9 and is dereferenced or freed at line 76, column 22.
+  74.       {
+  75.           /* POTENTIAL FLAW: Use of data that may have been freed */
+  76. >         printIntLine(data[0]);
+  77.           /* POTENTIAL INCIDENTAL - Possible memory leak here if data was not freed */
+  78.       }
+
+416_8.c:89: error: DEAD_STORE
+  The value written to &data is never used.
+  87.       int * data;
+  88.       /* Initialize data */
+  89. >     data = NULL;
+  90.       if(1)
+  91.       {
+
+
+Summary of the reports
+
+  USE_AFTER_FREE: 1
+      DEAD_STORE: 1
+./416_2.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 1 issue
+
+416_2.c:84: error: DEAD_STORE
+  The value written to &data is never used.
+  82.       char * data;
+  83.       /* Initialize data */
+  84. >     data = NULL;
+  85.       if(1)
+  86.       {
+
+
+Summary of the reports
+
+  DEAD_STORE: 1
+./416.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.............
+
+  No issues found  
+./416_43.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 2 issues
+
+416_43.c:76: error: USE_AFTER_FREE
+  pointer `data` last assigned on line 62 was freed by call to `free()` at line 72, column 9 and is dereferenced or freed at line 76, column 22.
+  74.   
+  75.           /* POTENTIAL FLAW: Use of data that may have been freed */
+  76. >         printIntLine(data[0]);
+  77.           /* POTENTIAL INCIDENTAL - Possible memory leak here if data was not freed */
+  78.       
+
+416_43.c:90: error: DEAD_STORE
+  The value written to &data is never used.
+  88.       int * data;
+  89.       /* Initialize data */
+  90. >     data = NULL;
+  91.       for(i = 0; i < 1; i++)
+  92.       {
+
+
+Summary of the reports
+
+  USE_AFTER_FREE: 1
+      DEAD_STORE: 1
+./416_13.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 3 issues
+
+416_13.c:58: error: DEAD_STORE
+  The value written to &data is never used.
+  56.       long * data;
+  57.       /* Initialize data */
+  58. >     data = NULL;
+  59.       data = (long *)malloc(100*sizeof(long));
+  60.       if (data == NULL) return;
+
+416_13.c:71: error: USE_AFTER_FREE
+  pointer `data` last assigned on line 59 was freed by call to `free()` at line 69, column 5 and is dereferenced or freed at line 71, column 19.
+  69.       free(data);
+  70.       /* POTENTIAL FLAW: Use of data that may have been freed */
+  71. >     printLongLine(data[0]);
+  72.       /* POTENTIAL INCIDENTAL - Possible memory leak here if data was not freed */
+  73.   }
+
+416_13.c:83: error: DEAD_STORE
+  The value written to &data is never used.
+  81.       long * data;
+  82.       /* Initialize data */
+  83. >     data = NULL;
+  84.       data = (long *)malloc(100*sizeof(long));
+  85.       if (data == NULL) return;
+
+
+Summary of the reports
+
+      DEAD_STORE: 2
+  USE_AFTER_FREE: 1
+./416_17.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..................
+
+Found 2 issues
+
+416_17.c:79: error: USE_AFTER_FREE
+  pointer `data` last assigned on line 64 was freed by call to `free()` at line 74, column 9 and is dereferenced or freed at line 79, column 23.
+  77.       {
+  78.           /* POTENTIAL FLAW: Use of data that may have been freed */
+  79. >         printLongLine(data[0]);
+  80.           /* POTENTIAL INCIDENTAL - Possible memory leak here if data was not freed */
+  81.       }
+
+416_17.c:92: error: DEAD_STORE
+  The value written to &data is never used.
+  90.       long * data;
+  91.       /* Initialize data */
+  92. >     data = NULL;
+  93.       if(staticTrue)
+  94.       {
+
+
+Summary of the reports
+
+  USE_AFTER_FREE: 1
+      DEAD_STORE: 1
+./416_14.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 2 issues
+
+416_14.c:76: error: USE_AFTER_FREE
+  pointer `data` last assigned on line 61 was freed by call to `free()` at line 71, column 9 and is dereferenced or freed at line 76, column 23.
+  74.       {
+  75.           /* POTENTIAL FLAW: Use of data that may have been freed */
+  76. >         printLongLine(data[0]);
+  77.           /* POTENTIAL INCIDENTAL - Possible memory leak here if data was not freed */
+  78.       }
+
+416_14.c:89: error: DEAD_STORE
+  The value written to &data is never used.
+  87.       long * data;
+  88.       /* Initialize data */
+  89. >     data = NULL;
+  90.       if(1)
+  91.       {
+
+
+Summary of the reports
+
+  USE_AFTER_FREE: 1
+      DEAD_STORE: 1
+./416_18.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.................
+
+Found 2 issues
+
+416_18.c:78: error: USE_AFTER_FREE
+  pointer `data` last assigned on line 63 was freed by call to `free()` at line 73, column 9 and is dereferenced or freed at line 78, column 23.
+  76.       {
+  77.           /* POTENTIAL FLAW: Use of data that may have been freed */
+  78. >         printLongLine(data[0]);
+  79.           /* POTENTIAL INCIDENTAL - Possible memory leak here if data was not freed */
+  80.       }
+
+416_18.c:91: error: DEAD_STORE
+  The value written to &data is never used.
+  89.       long * data;
+  90.       /* Initialize data */
+  91. >     data = NULL;
+  92.       if(STATIC_CONST_FIVE==5)
+  93.       {
+
+
+Summary of the reports
+
+  USE_AFTER_FREE: 1
+      DEAD_STORE: 1
+./416_15.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 2 issues
+
+416_15.c:76: error: USE_AFTER_FREE
+  pointer `data` last assigned on line 61 was freed by call to `free()` at line 71, column 9 and is dereferenced or freed at line 76, column 23.
+  74.       {
+  75.           /* POTENTIAL FLAW: Use of data that may have been freed */
+  76. >         printLongLine(data[0]);
+  77.           /* POTENTIAL INCIDENTAL - Possible memory leak here if data was not freed */
+  78.       }
+
+416_15.c:89: error: DEAD_STORE
+  The value written to &data is never used.
+  87.       long * data;
+  88.       /* Initialize data */
+  89. >     data = NULL;
+  90.       if(5==5)
+  91.       {
+
+
+Summary of the reports
+
+  USE_AFTER_FREE: 1
+      DEAD_STORE: 1
+./416_3.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 1 issue
+
+416_3.c:83: error: DEAD_STORE
+  The value written to &data is never used.
+  81.       char * data;
+  82.       /* Initialize data */
+  83. >     data = NULL;
+  84.       if(5==5)
+  85.       {
+
+
+Summary of the reports
+
+  DEAD_STORE: 1
+./416_49.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..................
+
+Found 4 issues
+
+416_49.c:54: error: DEAD_STORE
+  The value written to &i is never used.
+  52.   static char * helperBad(char * aString)
+  53.   {
+  54. >     size_t i = 0;
+  55.       size_t j;
+  56.       char * reversedString = NULL;
+
+416_49.c:56: error: DEAD_STORE
+  The value written to &reversedString is never used.
+  54.       size_t i = 0;
+  55.       size_t j;
+  56. >     char * reversedString = NULL;
+  57.       if (aString != NULL)
+  58.       {
+
+416_49.c:79: error: DEAD_STORE
+  The value written to &i is never used.
+  77.   static char * helperGood(char * aString)
+  78.   {
+  79. >     size_t i = 0;
+  80.       size_t j;
+  81.       char * reversedString = NULL;
+
+416_49.c:81: error: DEAD_STORE
+  The value written to &reversedString is never used.
+  79.       size_t i = 0;
+  80.       size_t j;
+  81. >     char * reversedString = NULL;
+  82.       if (aString != NULL)
+  83.       {
+
+
+Summary of the reports
+
+  DEAD_STORE: 4
+./416_25.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F...................
+
+Found 1 issue
+
+416_25.c:97: error: DEAD_STORE
+  The value written to &data is never used.
+  95.       twoIntsStruct * data;
+  96.       /* Initialize data */
+  97. >     data = NULL;
+  98.       if(STATIC_CONST_TRUE)
+  99.       {
+
+
+Summary of the reports
+
+  DEAD_STORE: 1
+./416_26.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/416/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F...................
+
+Found 1 issue
+
+416_26.c:97: error: DEAD_STORE
+  The value written to &data is never used.
+  95.       twoIntsStruct * data;
+  96.       /* Initialize data */
+  97. >     data = NULL;
+  98.       if(staticTrue)
+  99.       {
+
+
+Summary of the reports
+
+  DEAD_STORE: 1

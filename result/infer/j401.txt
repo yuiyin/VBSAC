@@ -1,0 +1,1781 @@
+./401_21.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F...............
+
+Found 2 issues
+
+401_21.c:59: error: DEAD_STORE
+  The value written to &data is never used.
+  57.   {
+  58.       char * data;
+  59. >     data = NULL;
+  60.       if(STATIC_CONST_FIVE==5)
+  61.       {
+
+401_21.c:67: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `malloc()` at line 63, column 24 is not reachable after line 67, column 9.
+  65.           /* Initialize and make use of data */
+  66.           strcpy(data, "A String");
+  67. >         printLine(data);
+  68.       }
+  69.       if(STATIC_CONST_FIVE==5)
+
+
+Summary of the reports
+
+  MEMORY_LEAK: 1
+   DEAD_STORE: 1
+./401_32.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..............
+
+Found 2 issues
+
+401_32.c:63: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `realloc()` at line 59, column 20 is not reachable after line 63, column 5.
+  61.       /* Initialize and make use of data */
+  62.       strcpy(data, "A String");
+  63. >     printLine(data);
+  64.       /* POTENTIAL FLAW: No deallocation */
+  65.       ; /* empty statement needed for some flow variants */
+
+401_32.c:75: error: DEAD_STORE
+  The value written to &data is never used.
+  73.   {
+  74.       char * data;
+  75. >     data = NULL;
+  76.       /* FIX: Use memory allocated on the stack with ALLOCA */
+  77.       data = (char *)ALLOCA(100*sizeof(char));
+
+
+Summary of the reports
+
+  MEMORY_LEAK: 1
+   DEAD_STORE: 1
+./401_38.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F...............
+
+Found 1 issue
+
+401_38.c:67: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `realloc()` at line 63, column 24 is not reachable after line 67, column 9.
+  65.           /* Initialize and make use of data */
+  66.           strcpy(data, "A String");
+  67. >         printLine(data);
+  68.       }
+  69.       if(staticFive==5)
+
+
+Summary of the reports
+
+  MEMORY_LEAK: 1
+./401_35.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 2 issues
+
+401_35.c:68: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `realloc()` at line 64, column 24 is not reachable after line 68, column 9.
+  66.           /* Initialize and make use of data */
+  67.           strcpy(data, "A String");
+  68. >         printLine(data);
+  69.       }
+  70.       if(STATIC_CONST_TRUE)
+
+401_35.c:97: error: MEMORY_LEAK
+  memory dynamically allocated by call to `realloc()` at line 88, column 24 is not reachable after line 97, column 9.
+  95.       {
+  96.           /* INCIDENTAL: CWE 561 Dead Code, the code below will never run */
+  97. >         printLine("Benign, fixed string");
+  98.       }
+  99.       else
+
+
+Summary of the reports
+
+  MEMORY_LEAK: 2
+./401_5.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 3 issues
+
+401_5.c:60: error: DEAD_STORE
+  The value written to &data is never used.
+  58.   {
+  59.       char * data;
+  60. >     data = NULL;
+  61.       if(staticTrue)
+  62.       {
+
+401_5.c:68: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `calloc()` at line 64, column 24 is not reachable after line 68, column 9.
+  66.           /* Initialize and make use of data */
+  67.           strcpy(data, "A String");
+  68. >         printLine(data);
+  69.       }
+  70.       if(staticTrue)
+
+401_5.c:97: error: MEMORY_LEAK
+  memory dynamically allocated by call to `calloc()` at line 88, column 24 is not reachable after line 97, column 9.
+  95.       {
+  96.           /* INCIDENTAL: CWE 561 Dead Code, the code below will never run */
+  97. >         printLine("Benign, fixed string");
+  98.       }
+  99.       else
+
+
+Summary of the reports
+
+  MEMORY_LEAK: 2
+   DEAD_STORE: 1
+./401_12.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..............
+
+Found 4 issues
+
+401_12.c:57: error: DEAD_STORE
+  The value written to &data is never used.
+  55.   {
+  56.       char * data;
+  57. >     data = NULL;
+  58.       if(globalReturnsTrueOrFalse())
+  59.       {
+
+401_12.c:95: error: DEAD_STORE
+  The value written to &data is never used.
+  93.   {
+  94.       char * data;
+  95. >     data = NULL;
+  96.       if(globalReturnsTrueOrFalse())
+  97.       {
+
+401_12.c:109: error: NULL_DEREFERENCE
+  pointer `data` last assigned on line 107 could be null and is dereferenced by call to `strcpy()` at line 109, column 9.
+  107.           data = (char *)calloc(100, sizeof(char));
+  108.           /* Initialize and make use of data */
+  109. >         strcpy(data, "A String");
+  110.           printLine(data);
+  111.       }
+
+401_12.c:101: error: NULL_DEREFERENCE
+  pointer `data` last assigned on line 99 could be null and is dereferenced by call to `strcpy()` at line 101, column 9.
+  99.           data = (char *)calloc(100, sizeof(char));
+  100.           /* Initialize and make use of data */
+  101. >         strcpy(data, "A String");
+  102.           printLine(data);
+  103.       }
+
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 2
+        DEAD_STORE: 2
+./401_49.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F...............
+
+Found 2 issues
+
+401_49.c:59: error: DEAD_STORE
+  The value written to &data is never used.
+  57.   {
+  58.       int * data;
+  59. >     data = NULL;
+  60.       if(staticFive==5)
+  61.       {
+
+401_49.c:67: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `calloc()` at line 63, column 23 is not reachable after line 67, column 9.
+  65.           /* Initialize and make use of data */
+  66.           data[0] = 5;
+  67. >         printIntLine(data[0]);
+  68.       }
+  69.       if(staticFive==5)
+
+
+Summary of the reports
+
+  MEMORY_LEAK: 1
+   DEAD_STORE: 1
+./401_31.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..............
+
+Found 2 issues
+
+401_31.c:57: error: DEAD_STORE
+  The value written to &data is never used.
+  55.   {
+  56.       char * data;
+  57. >     data = NULL;
+  58.       switch(6)
+  59.       {
+
+401_31.c:66: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `malloc()` at line 62, column 24 is not reachable after line 66, column 9.
+  64.           /* Initialize and make use of data */
+  65.           strcpy(data, "A String");
+  66. >         printLine(data);
+  67.           break;
+  68.       default:
+
+
+Summary of the reports
+
+  MEMORY_LEAK: 1
+   DEAD_STORE: 1
+./401_37.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F...............
+
+Found 1 issue
+
+401_37.c:67: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `realloc()` at line 63, column 24 is not reachable after line 67, column 9.
+  65.           /* Initialize and make use of data */
+  66.           strcpy(data, "A String");
+  67. >         printLine(data);
+  68.       }
+  69.       if(STATIC_CONST_FIVE==5)
+
+
+Summary of the reports
+
+  MEMORY_LEAK: 1
+./401_13.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..............
+
+Found 2 issues
+
+401_13.c:57: error: DEAD_STORE
+  The value written to &data is never used.
+  55.   {
+  56.       char * data;
+  57. >     data = NULL;
+  58.       if(GLOBAL_CONST_FIVE==5)
+  59.       {
+
+401_13.c:65: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `calloc()` at line 61, column 24 is not reachable after line 65, column 9.
+  63.           /* Initialize and make use of data */
+  64.           strcpy(data, "A String");
+  65. >         printLine(data);
+  66.       }
+  67.       if(GLOBAL_CONST_FIVE==5)
+
+
+Summary of the reports
+
+  MEMORY_LEAK: 1
+   DEAD_STORE: 1
+./401_16.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..............
+
+Found 3 issues
+
+401_16.c:57: error: DEAD_STORE
+  The value written to &data is never used.
+  55.   {
+  56.       char * data;
+  57. >     data = NULL;
+  58.       /* POTENTIAL FLAW: Allocate memory on the heap */
+  59.       data = (char *)malloc(100*sizeof(char));
+
+401_16.c:63: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `malloc()` at line 59, column 20 is not reachable after line 63, column 5.
+  61.       /* Initialize and make use of data */
+  62.       strcpy(data, "A String");
+  63. >     printLine(data);
+  64.       /* POTENTIAL FLAW: No deallocation */
+  65.       ; /* empty statement needed for some flow variants */
+
+401_16.c:75: error: DEAD_STORE
+  The value written to &data is never used.
+  73.   {
+  74.       char * data;
+  75. >     data = NULL;
+  76.       /* FIX: Use memory allocated on the stack with ALLOCA */
+  77.       data = (char *)ALLOCA(100*sizeof(char));
+
+
+Summary of the reports
+
+   DEAD_STORE: 2
+  MEMORY_LEAK: 1
+./401_42.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..............
+
+Found 1 issue
+
+401_42.c:65: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `realloc()` at line 61, column 24 is not reachable after line 65, column 9.
+  63.           /* Initialize and make use of data */
+  64.           strcpy(data, "A String");
+  65. >         printLine(data);
+  66.       }
+  67.       if(globalReturnsTrue())
+
+
+Summary of the reports
+
+  MEMORY_LEAK: 1
+./401_10.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..............
+
+Found 3 issues
+
+401_10.c:57: error: DEAD_STORE
+  The value written to &data is never used.
+  55.   {
+  56.       char * data;
+  57. >     data = NULL;
+  58.       if(globalTrue)
+  59.       {
+
+401_10.c:65: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `calloc()` at line 61, column 24 is not reachable after line 65, column 9.
+  63.           /* Initialize and make use of data */
+  64.           strcpy(data, "A String");
+  65. >         printLine(data);
+  66.       }
+  67.       if(globalTrue)
+
+401_10.c:94: error: MEMORY_LEAK
+  memory dynamically allocated by call to `calloc()` at line 85, column 24 is not reachable after line 94, column 9.
+  92.       {
+  93.           /* INCIDENTAL: CWE 561 Dead Code, the code below will never run */
+  94. >         printLine("Benign, fixed string");
+  95.       }
+  96.       else
+
+
+Summary of the reports
+
+  MEMORY_LEAK: 2
+   DEAD_STORE: 1
+./401_7.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F...............
+
+Found 2 issues
+
+401_7.c:59: error: DEAD_STORE
+  The value written to &data is never used.
+  57.   {
+  58.       char * data;
+  59. >     data = NULL;
+  60.       if(staticFive==5)
+  61.       {
+
+401_7.c:67: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `calloc()` at line 63, column 24 is not reachable after line 67, column 9.
+  65.           /* Initialize and make use of data */
+  66.           strcpy(data, "A String");
+  67. >         printLine(data);
+  68.       }
+  69.       if(staticFive==5)
+
+
+Summary of the reports
+
+  MEMORY_LEAK: 1
+   DEAD_STORE: 1
+./401_39.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 1 issue
+
+401_39.c:75: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `realloc()` at line 71, column 24 is not reachable after line 75, column 9.
+  73.           /* Initialize and make use of data */
+  74.           strcpy(data, "A String");
+  75. >         printLine(data);
+  76.       }
+  77.       if(staticReturnsTrue())
+
+
+Summary of the reports
+
+  MEMORY_LEAK: 1
+./401_11.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..............
+
+Found 2 issues
+
+401_11.c:57: error: DEAD_STORE
+  The value written to &data is never used.
+  55.   {
+  56.       char * data;
+  57. >     data = NULL;
+  58.       if(globalReturnsTrue())
+  59.       {
+
+401_11.c:65: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `calloc()` at line 61, column 24 is not reachable after line 65, column 9.
+  63.           /* Initialize and make use of data */
+  64.           strcpy(data, "A String");
+  65. >         printLine(data);
+  66.       }
+  67.       if(globalReturnsTrue())
+
+
+Summary of the reports
+
+  MEMORY_LEAK: 1
+   DEAD_STORE: 1
+./401.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.............
+
+  No issues found  
+./401_33.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..............
+
+Found 1 issue
+
+401_33.c:65: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `realloc()` at line 61, column 24 is not reachable after line 65, column 9.
+  63.           /* Initialize and make use of data */
+  64.           strcpy(data, "A String");
+  65. >         printLine(data);
+  66.       }
+  67.       if(1)
+
+
+Summary of the reports
+
+  MEMORY_LEAK: 1
+./401_45.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..............
+
+Found 2 issues
+
+401_45.c:57: error: DEAD_STORE
+  The value written to &data is never used.
+  55.   {
+  56.       int * data;
+  57. >     data = NULL;
+  58.       if(5==5)
+  59.       {
+
+401_45.c:65: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `calloc()` at line 61, column 23 is not reachable after line 65, column 9.
+  63.           /* Initialize and make use of data */
+  64.           data[0] = 5;
+  65. >         printIntLine(data[0]);
+  66.       }
+  67.       if(5==5)
+
+
+Summary of the reports
+
+  MEMORY_LEAK: 1
+   DEAD_STORE: 1
+./401_28.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..............
+
+Found 2 issues
+
+401_28.c:57: error: DEAD_STORE
+  The value written to &data is never used.
+  55.   {
+  56.       char * data;
+  57. >     data = NULL;
+  58.       if(globalReturnsTrueOrFalse())
+  59.       {
+
+401_28.c:95: error: DEAD_STORE
+  The value written to &data is never used.
+  93.   {
+  94.       char * data;
+  95. >     data = NULL;
+  96.       if(globalReturnsTrueOrFalse())
+  97.       {
+
+
+Summary of the reports
+
+  DEAD_STORE: 2
+./401_30.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..............
+
+Found 2 issues
+
+401_30.c:57: error: DEAD_STORE
+  The value written to &data is never used.
+  55.   {
+  56.       char * data;
+  57. >     data = NULL;
+  58.       if(globalFive==5)
+  59.       {
+
+401_30.c:65: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `malloc()` at line 61, column 24 is not reachable after line 65, column 9.
+  63.           /* Initialize and make use of data */
+  64.           strcpy(data, "A String");
+  65. >         printLine(data);
+  66.       }
+  67.       if(globalFive==5)
+
+
+Summary of the reports
+
+  MEMORY_LEAK: 1
+   DEAD_STORE: 1
+./401_24.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..............
+
+Found 3 issues
+
+401_24.c:57: error: DEAD_STORE
+  The value written to &data is never used.
+  55.   {
+  56.       char * data;
+  57. >     data = NULL;
+  58.       if(GLOBAL_CONST_TRUE)
+  59.       {
+
+401_24.c:65: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `malloc()` at line 61, column 24 is not reachable after line 65, column 9.
+  63.           /* Initialize and make use of data */
+  64.           strcpy(data, "A String");
+  65. >         printLine(data);
+  66.       }
+  67.       if(GLOBAL_CONST_TRUE)
+
+401_24.c:94: error: MEMORY_LEAK
+  memory dynamically allocated by call to `malloc()` at line 85, column 24 is not reachable after line 94, column 9.
+  92.       {
+  93.           /* INCIDENTAL: CWE 561 Dead Code, the code below will never run */
+  94. >         printLine("Benign, fixed string");
+  95.       }
+  96.       else
+
+
+Summary of the reports
+
+  MEMORY_LEAK: 2
+   DEAD_STORE: 1
+./401_29.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..............
+
+Found 2 issues
+
+401_29.c:57: error: DEAD_STORE
+  The value written to &data is never used.
+  55.   {
+  56.       char * data;
+  57. >     data = NULL;
+  58.       if(GLOBAL_CONST_FIVE==5)
+  59.       {
+
+401_29.c:65: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `malloc()` at line 61, column 24 is not reachable after line 65, column 9.
+  63.           /* Initialize and make use of data */
+  64.           strcpy(data, "A String");
+  65. >         printLine(data);
+  66.       }
+  67.       if(GLOBAL_CONST_FIVE==5)
+
+
+Summary of the reports
+
+  MEMORY_LEAK: 1
+   DEAD_STORE: 1
+./401_43.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..............
+
+Found 3 issues
+
+401_43.c:57: error: DEAD_STORE
+  The value written to &data is never used.
+  55.   {
+  56.       int * data;
+  57. >     data = NULL;
+  58.       /* POTENTIAL FLAW: Allocate memory on the heap */
+  59.       data = (int *)calloc(100, sizeof(int));
+
+401_43.c:63: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `calloc()` at line 59, column 19 is not reachable after line 63, column 5.
+  61.       /* Initialize and make use of data */
+  62.       data[0] = 5;
+  63. >     printIntLine(data[0]);
+  64.       /* POTENTIAL FLAW: No deallocation */
+  65.       ; /* empty statement needed for some flow variants */
+
+401_43.c:74: error: DEAD_STORE
+  The value written to &data is never used.
+  72.   {
+  73.       int * data;
+  74. >     data = NULL;
+  75.       /* FIX: Use memory allocated on the stack with ALLOCA */
+  76.       data = (int *)ALLOCA(100*sizeof(int));
+
+
+Summary of the reports
+
+   DEAD_STORE: 2
+  MEMORY_LEAK: 1
+./401_25.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..............
+
+Found 3 issues
+
+401_25.c:57: error: DEAD_STORE
+  The value written to &data is never used.
+  55.   {
+  56.       char * data;
+  57. >     data = NULL;
+  58.       if(GLOBAL_CONST_TRUE)
+  59.       {
+
+401_25.c:65: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `malloc()` at line 61, column 24 is not reachable after line 65, column 9.
+  63.           /* Initialize and make use of data */
+  64.           strcpy(data, "A String");
+  65. >         printLine(data);
+  66.       }
+  67.       if(GLOBAL_CONST_TRUE)
+
+401_25.c:94: error: MEMORY_LEAK
+  memory dynamically allocated by call to `malloc()` at line 85, column 24 is not reachable after line 94, column 9.
+  92.       {
+  93.           /* INCIDENTAL: CWE 561 Dead Code, the code below will never run */
+  94. >         printLine("Benign, fixed string");
+  95.       }
+  96.       else
+
+
+Summary of the reports
+
+  MEMORY_LEAK: 2
+   DEAD_STORE: 1
+./401_4.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 3 issues
+
+401_4.c:60: error: DEAD_STORE
+  The value written to &data is never used.
+  58.   {
+  59.       char * data;
+  60. >     data = NULL;
+  61.       if(STATIC_CONST_TRUE)
+  62.       {
+
+401_4.c:68: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `calloc()` at line 64, column 24 is not reachable after line 68, column 9.
+  66.           /* Initialize and make use of data */
+  67.           strcpy(data, "A String");
+  68. >         printLine(data);
+  69.       }
+  70.       if(STATIC_CONST_TRUE)
+
+401_4.c:97: error: MEMORY_LEAK
+  memory dynamically allocated by call to `calloc()` at line 88, column 24 is not reachable after line 97, column 9.
+  95.       {
+  96.           /* INCIDENTAL: CWE 561 Dead Code, the code below will never run */
+  97. >         printLine("Benign, fixed string");
+  98.       }
+  99.       else
+
+
+Summary of the reports
+
+  MEMORY_LEAK: 2
+   DEAD_STORE: 1
+./401_3.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..............
+
+Found 2 issues
+
+401_3.c:57: error: DEAD_STORE
+  The value written to &data is never used.
+  55.   {
+  56.       char * data;
+  57. >     data = NULL;
+  58.       if(5==5)
+  59.       {
+
+401_3.c:65: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `calloc()` at line 61, column 24 is not reachable after line 65, column 9.
+  63.           /* Initialize and make use of data */
+  64.           strcpy(data, "A String");
+  65. >         printLine(data);
+  66.       }
+  67.       if(5==5)
+
+
+Summary of the reports
+
+  MEMORY_LEAK: 1
+   DEAD_STORE: 1
+./401_46.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 3 issues
+
+401_46.c:60: error: DEAD_STORE
+  The value written to &data is never used.
+  58.   {
+  59.       int * data;
+  60. >     data = NULL;
+  61.       if(STATIC_CONST_TRUE)
+  62.       {
+
+401_46.c:68: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `calloc()` at line 64, column 23 is not reachable after line 68, column 9.
+  66.           /* Initialize and make use of data */
+  67.           data[0] = 5;
+  68. >         printIntLine(data[0]);
+  69.       }
+  70.       if(STATIC_CONST_TRUE)
+
+401_46.c:97: error: MEMORY_LEAK
+  memory dynamically allocated by call to `calloc()` at line 88, column 23 is not reachable after line 97, column 9.
+  95.       {
+  96.           /* INCIDENTAL: CWE 561 Dead Code, the code below will never run */
+  97. >         printLine("Benign, fixed string");
+  98.       }
+  99.       else
+
+
+Summary of the reports
+
+  MEMORY_LEAK: 2
+   DEAD_STORE: 1
+./401_18.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..............
+
+Found 2 issues
+
+401_18.c:57: error: DEAD_STORE
+  The value written to &data is never used.
+  55.   {
+  56.       char * data;
+  57. >     data = NULL;
+  58.       if(5==5)
+  59.       {
+
+401_18.c:65: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `malloc()` at line 61, column 24 is not reachable after line 65, column 9.
+  63.           /* Initialize and make use of data */
+  64.           strcpy(data, "A String");
+  65. >         printLine(data);
+  66.       }
+  67.       if(5==5)
+
+
+Summary of the reports
+
+  MEMORY_LEAK: 1
+   DEAD_STORE: 1
+./401_47.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 3 issues
+
+401_47.c:60: error: DEAD_STORE
+  The value written to &data is never used.
+  58.   {
+  59.       int * data;
+  60. >     data = NULL;
+  61.       if(staticTrue)
+  62.       {
+
+401_47.c:68: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `calloc()` at line 64, column 23 is not reachable after line 68, column 9.
+  66.           /* Initialize and make use of data */
+  67.           data[0] = 5;
+  68. >         printIntLine(data[0]);
+  69.       }
+  70.       if(staticTrue)
+
+401_47.c:97: error: MEMORY_LEAK
+  memory dynamically allocated by call to `calloc()` at line 88, column 23 is not reachable after line 97, column 9.
+  95.       {
+  96.           /* INCIDENTAL: CWE 561 Dead Code, the code below will never run */
+  97. >         printLine("Benign, fixed string");
+  98.       }
+  99.       else
+
+
+Summary of the reports
+
+  MEMORY_LEAK: 2
+   DEAD_STORE: 1
+./401_26.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..............
+
+Found 3 issues
+
+401_26.c:57: error: DEAD_STORE
+  The value written to &data is never used.
+  55.   {
+  56.       char * data;
+  57. >     data = NULL;
+  58.       if(globalTrue)
+  59.       {
+
+401_26.c:65: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `malloc()` at line 61, column 24 is not reachable after line 65, column 9.
+  63.           /* Initialize and make use of data */
+  64.           strcpy(data, "A String");
+  65. >         printLine(data);
+  66.       }
+  67.       if(globalTrue)
+
+401_26.c:94: error: MEMORY_LEAK
+  memory dynamically allocated by call to `malloc()` at line 85, column 24 is not reachable after line 94, column 9.
+  92.       {
+  93.           /* INCIDENTAL: CWE 561 Dead Code, the code below will never run */
+  94. >         printLine("Benign, fixed string");
+  95.       }
+  96.       else
+
+
+Summary of the reports
+
+  MEMORY_LEAK: 2
+   DEAD_STORE: 1
+./401_23.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 2 issues
+
+401_23.c:67: error: DEAD_STORE
+  The value written to &data is never used.
+  65.   {
+  66.       char * data;
+  67. >     data = NULL;
+  68.       if(staticReturnsTrue())
+  69.       {
+
+401_23.c:75: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `malloc()` at line 71, column 24 is not reachable after line 75, column 9.
+  73.           /* Initialize and make use of data */
+  74.           strcpy(data, "A String");
+  75. >         printLine(data);
+  76.       }
+  77.       if(staticReturnsTrue())
+
+
+Summary of the reports
+
+  MEMORY_LEAK: 1
+   DEAD_STORE: 1
+./401_9.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..............
+
+Found 3 issues
+
+401_9.c:57: error: DEAD_STORE
+  The value written to &data is never used.
+  55.   {
+  56.       char * data;
+  57. >     data = NULL;
+  58.       if(GLOBAL_CONST_TRUE)
+  59.       {
+
+401_9.c:65: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `calloc()` at line 61, column 24 is not reachable after line 65, column 9.
+  63.           /* Initialize and make use of data */
+  64.           strcpy(data, "A String");
+  65. >         printLine(data);
+  66.       }
+  67.       if(GLOBAL_CONST_TRUE)
+
+401_9.c:94: error: MEMORY_LEAK
+  memory dynamically allocated by call to `calloc()` at line 85, column 24 is not reachable after line 94, column 9.
+  92.       {
+  93.           /* INCIDENTAL: CWE 561 Dead Code, the code below will never run */
+  94. >         printLine("Benign, fixed string");
+  95.       }
+  96.       else
+
+
+Summary of the reports
+
+  MEMORY_LEAK: 2
+   DEAD_STORE: 1
+./401_41.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..............
+
+Found 2 issues
+
+401_41.c:65: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `realloc()` at line 61, column 24 is not reachable after line 65, column 9.
+  63.           /* Initialize and make use of data */
+  64.           strcpy(data, "A String");
+  65. >         printLine(data);
+  66.       }
+  67.       if(globalTrue)
+
+401_41.c:94: error: MEMORY_LEAK
+  memory dynamically allocated by call to `realloc()` at line 85, column 24 is not reachable after line 94, column 9.
+  92.       {
+  93.           /* INCIDENTAL: CWE 561 Dead Code, the code below will never run */
+  94. >         printLine("Benign, fixed string");
+  95.       }
+  96.       else
+
+
+Summary of the reports
+
+  MEMORY_LEAK: 2
+./401_20.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 3 issues
+
+401_20.c:60: error: DEAD_STORE
+  The value written to &data is never used.
+  58.   {
+  59.       char * data;
+  60. >     data = NULL;
+  61.       if(staticTrue)
+  62.       {
+
+401_20.c:68: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `malloc()` at line 64, column 24 is not reachable after line 68, column 9.
+  66.           /* Initialize and make use of data */
+  67.           strcpy(data, "A String");
+  68. >         printLine(data);
+  69.       }
+  70.       if(staticTrue)
+
+401_20.c:97: error: MEMORY_LEAK
+  memory dynamically allocated by call to `malloc()` at line 88, column 24 is not reachable after line 97, column 9.
+  95.       {
+  96.           /* INCIDENTAL: CWE 561 Dead Code, the code below will never run */
+  97. >         printLine("Benign, fixed string");
+  98.       }
+  99.       else
+
+
+Summary of the reports
+
+  MEMORY_LEAK: 2
+   DEAD_STORE: 1
+./401_22.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F...............
+
+Found 2 issues
+
+401_22.c:59: error: DEAD_STORE
+  The value written to &data is never used.
+  57.   {
+  58.       char * data;
+  59. >     data = NULL;
+  60.       if(staticFive==5)
+  61.       {
+
+401_22.c:67: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `malloc()` at line 63, column 24 is not reachable after line 67, column 9.
+  65.           /* Initialize and make use of data */
+  66.           strcpy(data, "A String");
+  67. >         printLine(data);
+  68.       }
+  69.       if(staticFive==5)
+
+
+Summary of the reports
+
+  MEMORY_LEAK: 1
+   DEAD_STORE: 1
+./401_19.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 3 issues
+
+401_19.c:60: error: DEAD_STORE
+  The value written to &data is never used.
+  58.   {
+  59.       char * data;
+  60. >     data = NULL;
+  61.       if(STATIC_CONST_TRUE)
+  62.       {
+
+401_19.c:68: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `malloc()` at line 64, column 24 is not reachable after line 68, column 9.
+  66.           /* Initialize and make use of data */
+  67.           strcpy(data, "A String");
+  68. >         printLine(data);
+  69.       }
+  70.       if(STATIC_CONST_TRUE)
+
+401_19.c:97: error: MEMORY_LEAK
+  memory dynamically allocated by call to `malloc()` at line 88, column 24 is not reachable after line 97, column 9.
+  95.       {
+  96.           /* INCIDENTAL: CWE 561 Dead Code, the code below will never run */
+  97. >         printLine("Benign, fixed string");
+  98.       }
+  99.       else
+
+
+Summary of the reports
+
+  MEMORY_LEAK: 2
+   DEAD_STORE: 1
+./401_1.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..............
+
+Found 3 issues
+
+401_1.c:57: error: DEAD_STORE
+  The value written to &data is never used.
+  55.   {
+  56.       char * data;
+  57. >     data = NULL;
+  58.       /* POTENTIAL FLAW: Allocate memory on the heap */
+  59.       data = (char *)calloc(100, sizeof(char));
+
+401_1.c:63: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `calloc()` at line 59, column 20 is not reachable after line 63, column 5.
+  61.       /* Initialize and make use of data */
+  62.       strcpy(data, "A String");
+  63. >     printLine(data);
+  64.       /* POTENTIAL FLAW: No deallocation */
+  65.       ; /* empty statement needed for some flow variants */
+
+401_1.c:75: error: DEAD_STORE
+  The value written to &data is never used.
+  73.   {
+  74.       char * data;
+  75. >     data = NULL;
+  76.       /* FIX: Use memory allocated on the stack with ALLOCA */
+  77.       data = (char *)ALLOCA(100*sizeof(char));
+
+
+Summary of the reports
+
+   DEAD_STORE: 2
+  MEMORY_LEAK: 1
+./401_48.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F...............
+
+Found 2 issues
+
+401_48.c:59: error: DEAD_STORE
+  The value written to &data is never used.
+  57.   {
+  58.       int * data;
+  59. >     data = NULL;
+  60.       if(STATIC_CONST_FIVE==5)
+  61.       {
+
+401_48.c:67: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `calloc()` at line 63, column 23 is not reachable after line 67, column 9.
+  65.           /* Initialize and make use of data */
+  66.           data[0] = 5;
+  67. >         printIntLine(data[0]);
+  68.       }
+  69.       if(STATIC_CONST_FIVE==5)
+
+
+Summary of the reports
+
+  MEMORY_LEAK: 1
+   DEAD_STORE: 1
+./401_15.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..............
+
+Found 2 issues
+
+401_15.c:57: error: DEAD_STORE
+  The value written to &data is never used.
+  55.   {
+  56.       char * data;
+  57. >     data = NULL;
+  58.       switch(6)
+  59.       {
+
+401_15.c:66: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `calloc()` at line 62, column 24 is not reachable after line 66, column 9.
+  64.           /* Initialize and make use of data */
+  65.           strcpy(data, "A String");
+  66. >         printLine(data);
+  67.           break;
+  68.       default:
+
+
+Summary of the reports
+
+  MEMORY_LEAK: 1
+   DEAD_STORE: 1
+./401_50.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 2 issues
+
+401_50.c:67: error: DEAD_STORE
+  The value written to &data is never used.
+  65.   {
+  66.       int * data;
+  67. >     data = NULL;
+  68.       if(staticReturnsTrue())
+  69.       {
+
+401_50.c:75: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `calloc()` at line 71, column 23 is not reachable after line 75, column 9.
+  73.           /* Initialize and make use of data */
+  74.           data[0] = 5;
+  75. >         printIntLine(data[0]);
+  76.       }
+  77.       if(staticReturnsTrue())
+
+
+Summary of the reports
+
+  MEMORY_LEAK: 1
+   DEAD_STORE: 1
+./401_36.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 2 issues
+
+401_36.c:68: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `realloc()` at line 64, column 24 is not reachable after line 68, column 9.
+  66.           /* Initialize and make use of data */
+  67.           strcpy(data, "A String");
+  68. >         printLine(data);
+  69.       }
+  70.       if(staticTrue)
+
+401_36.c:98: error: MEMORY_LEAK
+  memory dynamically allocated by call to `realloc()` at line 89, column 24 is not reachable after line 98, column 9.
+  96.       {
+  97.           /* INCIDENTAL: CWE 561 Dead Code, the code below will never run */
+  98. >         printLine("Benign, fixed string");
+  99.       }
+  100.       else
+
+
+Summary of the reports
+
+  MEMORY_LEAK: 2
+./401_34.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..............
+
+Found 1 issue
+
+401_34.c:65: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `realloc()` at line 61, column 24 is not reachable after line 65, column 9.
+  63.           /* Initialize and make use of data */
+  64.           strcpy(data, "A String");
+  65. >         printLine(data);
+  66.       }
+  67.       if(5==5)
+
+
+Summary of the reports
+
+  MEMORY_LEAK: 1
+./401_2.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..............
+
+Found 2 issues
+
+401_2.c:57: error: DEAD_STORE
+  The value written to &data is never used.
+  55.   {
+  56.       char * data;
+  57. >     data = NULL;
+  58.       if(1)
+  59.       {
+
+401_2.c:65: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `calloc()` at line 61, column 24 is not reachable after line 65, column 9.
+  63.           /* Initialize and make use of data */
+  64.           strcpy(data, "A String");
+  65. >         printLine(data);
+  66.       }
+  67.       if(1)
+
+
+Summary of the reports
+
+  MEMORY_LEAK: 1
+   DEAD_STORE: 1
+./401_40.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..............
+
+Found 2 issues
+
+401_40.c:65: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `realloc()` at line 61, column 24 is not reachable after line 65, column 9.
+  63.           /* Initialize and make use of data */
+  64.           strcpy(data, "A String");
+  65. >         printLine(data);
+  66.       }
+  67.       if(GLOBAL_CONST_TRUE)
+
+401_40.c:94: error: MEMORY_LEAK
+  memory dynamically allocated by call to `realloc()` at line 85, column 24 is not reachable after line 94, column 9.
+  92.       {
+  93.           /* INCIDENTAL: CWE 561 Dead Code, the code below will never run */
+  94. >         printLine("Benign, fixed string");
+  95.       }
+  96.       else
+
+
+Summary of the reports
+
+  MEMORY_LEAK: 2
+./401_6.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F...............
+
+Found 2 issues
+
+401_6.c:59: error: DEAD_STORE
+  The value written to &data is never used.
+  57.   {
+  58.       char * data;
+  59. >     data = NULL;
+  60.       if(STATIC_CONST_FIVE==5)
+  61.       {
+
+401_6.c:67: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `calloc()` at line 63, column 24 is not reachable after line 67, column 9.
+  65.           /* Initialize and make use of data */
+  66.           strcpy(data, "A String");
+  67. >         printLine(data);
+  68.       }
+  69.       if(STATIC_CONST_FIVE==5)
+
+
+Summary of the reports
+
+  MEMORY_LEAK: 1
+   DEAD_STORE: 1
+./401_17.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..............
+
+Found 2 issues
+
+401_17.c:57: error: DEAD_STORE
+  The value written to &data is never used.
+  55.   {
+  56.       char * data;
+  57. >     data = NULL;
+  58.       if(1)
+  59.       {
+
+401_17.c:65: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `malloc()` at line 61, column 24 is not reachable after line 65, column 9.
+  63.           /* Initialize and make use of data */
+  64.           strcpy(data, "A String");
+  65. >         printLine(data);
+  66.       }
+  67.       if(1)
+
+
+Summary of the reports
+
+  MEMORY_LEAK: 1
+   DEAD_STORE: 1
+./401_44.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..............
+
+Found 2 issues
+
+401_44.c:57: error: DEAD_STORE
+  The value written to &data is never used.
+  55.   {
+  56.       int * data;
+  57. >     data = NULL;
+  58.       if(1)
+  59.       {
+
+401_44.c:65: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `calloc()` at line 61, column 23 is not reachable after line 65, column 9.
+  63.           /* Initialize and make use of data */
+  64.           data[0] = 5;
+  65. >         printIntLine(data[0]);
+  66.       }
+  67.       if(1)
+
+
+Summary of the reports
+
+  MEMORY_LEAK: 1
+   DEAD_STORE: 1
+./401_27.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..............
+
+Found 2 issues
+
+401_27.c:57: error: DEAD_STORE
+  The value written to &data is never used.
+  55.   {
+  56.       char * data;
+  57. >     data = NULL;
+  58.       if(globalReturnsTrue())
+  59.       {
+
+401_27.c:65: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `malloc()` at line 61, column 24 is not reachable after line 65, column 9.
+  63.           /* Initialize and make use of data */
+  64.           strcpy(data, "A String");
+  65. >         printLine(data);
+  66.       }
+  67.       if(globalReturnsTrue())
+
+
+Summary of the reports
+
+  MEMORY_LEAK: 1
+   DEAD_STORE: 1
+./401_8.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+Found 2 issues
+
+401_8.c:67: error: DEAD_STORE
+  The value written to &data is never used.
+  65.   {
+  66.       char * data;
+  67. >     data = NULL;
+  68.       if(staticReturnsTrue())
+  69.       {
+
+401_8.c:75: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `calloc()` at line 71, column 24 is not reachable after line 75, column 9.
+  73.           /* Initialize and make use of data */
+  74.           strcpy(data, "A String");
+  75. >         printLine(data);
+  76.       }
+  77.       if(staticReturnsTrue())
+
+
+Summary of the reports
+
+  MEMORY_LEAK: 1
+   DEAD_STORE: 1
+./401_14.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/401/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..............
+
+Found 2 issues
+
+401_14.c:57: error: DEAD_STORE
+  The value written to &data is never used.
+  55.   {
+  56.       char * data;
+  57. >     data = NULL;
+  58.       if(globalFive==5)
+  59.       {
+
+401_14.c:65: error: MEMORY_LEAK
+  memory dynamically allocated to `data` by call to `calloc()` at line 61, column 24 is not reachable after line 65, column 9.
+  63.           /* Initialize and make use of data */
+  64.           strcpy(data, "A String");
+  65. >         printLine(data);
+  66.       }
+  67.       if(globalFive==5)
+
+
+Summary of the reports
+
+  MEMORY_LEAK: 1
+   DEAD_STORE: 1

@@ -1,0 +1,3242 @@
+/usr/lib/jvm/java-1.8.0-openjdk-amd64/bin/java -ea -Didea.test.cyclic.buffer.size=1048576 -javaagent:/home/guzuxing/Downloads/idea-IU-171.4424.56/lib/idea_rt.jar=33610:/home/guzuxing/Downloads/idea-IU-171.4424.56/bin -Dfile.encoding=UTF-8 -classpath /home/guzuxing/Downloads/idea-IU-171.4424.56/lib/idea_rt.jar:/home/guzuxing/Downloads/idea-IU-171.4424.56/plugins/junit/lib/junit-rt.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/cldrdata.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/icedtea-sound.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/jaccess.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/nashorn.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/sunec.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/management-agent.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar:/home/guzuxing/Documents/tsmart-v3/engine/out/test/classes:/home/guzuxing/Documents/tsmart-v3/engine/build/resources/test:/home/guzuxing/Documents/tsmart-v3/engine/out/production/classes:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/llvm-macosx-x86_64.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/guava.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/java-cup-runtime.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/llvm-linux-x86_64.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/org.osgi.core.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/com.microsoft.z3.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/jopt-simple.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/javasmt.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/javacpp.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/scala-library.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/princess-assertionless.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/org.osgi.compendium.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/smtinterpol.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/llvm-linux-x86.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/llvm.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/llvm-platform.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/smt-parser.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/common.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/javolution-core-java.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/jsr305.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/XMLReport.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/build-capture.jar:/home/guzuxing/Documents/tsmart-v3/mod-commons/out/production/classes:/home/guzuxing/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/4e031bb61df09069aeb2bffb4019e7a5034a4ee0/junit-4.11.jar:/home/guzuxing/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/19.0/6ce200f6b23222af3d8abb6b6459e6c44f4bb0e9/guava-19.0.jar:/home/guzuxing/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar:/home/guzuxing/.gradle/caches/modules-2/files-2.1/com.google.truth/truth/0.30/9d591b5a66eda81f0b88cf1c748ab8853d99b18b/truth-0.30.jar:/home/guzuxing/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar:/home/guzuxing/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.0.8/54e2d56cb157df08cbf183149bcf50c9f5151ed4/error_prone_annotations-2.0.8.jar com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 cn.edu.thu.tsmart.integrated.ITC_415_Test
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/itc/415/415_double_free_10.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+3 SCCs to deal with
+SCC(1): [double_free_010_bad]
+ +double_free_010_bad
+SCC(1): [double_free_010_good]
+ +double_free_010_good
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [double_free_010_bad, double_free_010_good, main]
+Loops     [N14, N46]
+----
+function: double_free_010_bad
+P+ = [] 
+P- = [H(double_free_010_bad::call)] 
+Point-To:
+
+Ret-Value: 
+----
+function: double_free_010_good
+P+ = [] 
+P- = [H(double_free_010_good::call)] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [H(double_free_010_bad::call), H(double_free_010_good::call)] 
+Point-To:
+
+Ret-Value: R
+----
+loop N14 in double_free_010_bad: 
+N14 -> P+ = [H(double_free_010_bad::call)], P- = [H(double_free_010_bad::call)] Point-To: L(double_free_010_bad::ptr) -> [H(double_free_010_bad::call)]
+N16 -> P+ = [H(double_free_010_bad::call)], P- = [H(double_free_010_bad::call)] Point-To: L(double_free_010_bad::ptr) -> [H(double_free_010_bad::call)]
+----
+loop N46 in double_free_010_good: 
+N46 -> P+ = [H(double_free_010_good::call)], P- = [H(double_free_010_good::call)] Point-To: L(double_free_010_good::ptr) -> [H(double_free_010_good::call)]
+N48 -> P+ = [H(double_free_010_good::call)], P- = [H(double_free_010_good::call)] Point-To: L(double_free_010_good::ptr) -> [H(double_free_010_good::call)]
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.213s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N62): +oo]
+> [1/1] entry: main ()
+N62 -{%retval = alloca i32, align 4}-> N64
+N64 -{store i32 0, i32* %retval, align 4}-> N65
+N65 -{call double_free_010_good}-> N33
+N33 -{%ptr = alloca i8*, align 8}-> N35
+N35 -{%flag = alloca i32, align 4}-> N37
+N37 -{%call = call i8* @malloc(i64 1, i64 @malloc)}-> N38
+N37 -{%call = call i8* @malloc(i64 1, i64 @malloc)}-> N38
+N38 -{store i8* %call, i8** %ptr, align 8}-> N39
+N38 -{store i8* %call, i8** %ptr, align 8}-> N39
+N39 -{%0 = load i8*, i8** %ptr, align 8}-> N40
+N39 -{%0 = load i8*, i8** %ptr, align 8}-> N40
+N40 -{%cmp = icmp eq i8* %0, null}-> N41
+N40 -{%cmp = icmp eq i8* %0, null}-> N41
+N41 -{[!(%cmp = icmp eq i8* %0, null)]}-> N58
+N41 -{[%cmp = icmp eq i8* %0, null]}-> N55
+N41 -{[!(%cmp = icmp eq i8* %0, null)]}-> N58
+N41 -{[%cmp = icmp eq i8* %0, null]}-> N55
+N58 -{store i32 1, i32* %flag, align 4}-> N46
+N46 -{%1 = load i32, i32* %flag, align 4}-> N47
+N46 -{@}-> N46
+N46 -{@}-> N48
+N47 -{%tobool = icmp ne i32 %1, 0}-> N48
+N48 -{[%tobool = icmp ne i32 %1, 0]}-> N59
+N48 -{[!(%tobool = icmp ne i32 %1, 0)]}-> N55
+N59 -{%2 = load i8*, i8** %ptr, align 8}-> N50
+N50 -{call void @free(i8* %2, i8* @free)}-> N51
+N51 -{%3 = load i32, i32* %flag, align 4}-> N52
+N52 -{%dec = add i32 %3, -1}-> N53
+N53 -{store i32 %dec, i32* %flag, align 4}-> N46
+N46 -{%1 = load i32, i32* %flag, align 4}-> N47
+N47 -{%tobool = icmp ne i32 %1, 0}-> N48
+N48 -{[%tobool = icmp ne i32 %1, 0]}-> N59
+N48 -{[!(%tobool = icmp ne i32 %1, 0)]}-> N55
+N55 -{ret void}-> N32
+N55 -{ret void}-> N32
+N32 -{Return edge from double_free_010_good to main}-> N66
+N32 -{Return edge from double_free_010_good to main}-> N66
+N66 -{call double_free_010_bad}-> N1
+N1 -{%ptr = alloca i8*, align 8}-> N3
+N3 -{%flag = alloca i32, align 4}-> N5
+N5 -{%call = call i8* @malloc(i64 1, i64 @malloc)}-> N6
+N5 -{%call = call i8* @malloc(i64 1, i64 @malloc)}-> N6
+N6 -{store i8* %call, i8** %ptr, align 8}-> N7
+N6 -{store i8* %call, i8** %ptr, align 8}-> N7
+N7 -{%0 = load i8*, i8** %ptr, align 8}-> N8
+N7 -{%0 = load i8*, i8** %ptr, align 8}-> N8
+N8 -{%cmp = icmp eq i8* %0, null}-> N9
+N8 -{%cmp = icmp eq i8* %0, null}-> N9
+N9 -{[!(%cmp = icmp eq i8* %0, null)]}-> N29
+N9 -{[%cmp = icmp eq i8* %0, null]}-> N26
+N9 -{[!(%cmp = icmp eq i8* %0, null)]}-> N29
+N9 -{[%cmp = icmp eq i8* %0, null]}-> N26
+N29 -{store i32 1, i32* %flag, align 4}-> N14
+N14 -{%1 = load i32, i32* %flag, align 4}-> N15
+N14 -{@}-> N14
+N14 -{@}-> N16
+N15 -{%tobool = icmp ne i32 %1, 0}-> N16
+N16 -{[%tobool = icmp ne i32 %1, 0]}-> N30
+N16 -{[!(%tobool = icmp ne i32 %1, 0)]}-> N31
+N30 -{%2 = load i8*, i8** %ptr, align 8}-> N18
+N18 -{call void @free(i8* %2, i8* @free)}-> N19
+N19 -{%3 = load i32, i32* %flag, align 4}-> N20
+N20 -{%dec = add i32 %3, -1}-> N21
+N21 -{store i32 %dec, i32* %flag, align 4}-> N14
+N14 -{%1 = load i32, i32* %flag, align 4}-> N15
+N15 -{%tobool = icmp ne i32 %1, 0}-> N16
+N16 -{[%tobool = icmp ne i32 %1, 0]}-> N30
+N16 -{[!(%tobool = icmp ne i32 %1, 0)]}-> N31
+N31 -{%4 = load i8*, i8** %ptr, align 8}-> N24
+N24 -{call void @free(i8* %4, i8* @free)}-> N26
+N26 -{ret void}-> N0
+N26 -{ret void}-> N0
+N0 -{Return edge from double_free_010_bad to main}-> N67
+N0 -{Return edge from double_free_010_bad to main}-> N67
+N67 -{ret i32 0}-> N61
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Double Free
+At node  : N24
+On edge  : N24 -{call void @free(i8* %4, i8* @free)}-> N26
+Message  : the memory is already freed
+> Start from entry function: main, At N62 of Function main
+> Entering function: double_free_010_good, On N65 -> N33 (call double_free_010_good)
+> takes the true branch, At N41 of Function double_free_010_good
+> Leaving function: double_free_010_good, On N32 -> N66 (Return edge from double_free_010_good to main)
+> Entering function: double_free_010_bad, On N66 -> N1 (call double_free_010_bad)
+> takes the false branch, At N9 of Function double_free_010_bad
+> takes the true branch, At N16 of Function double_free_010_bad
+> takes the false branch, At N16 of Function double_free_010_bad
+<Defect> : N24 -> N26: [call void @free(i8* %4, i8* @free)]
+N24 -> N26: [call void @free(i8* %4, i8* @free)] <--
+-- end of trace --
+-- start of trace --
+Weakness : Use After Free
+At node  : N24
+On edge  : N24 -{call void @free(i8* %4, i8* @free)}-> N26
+Message  : the memory is already freed
+> Start from entry function: main, At N62 of Function main
+> Entering function: double_free_010_good, On N65 -> N33 (call double_free_010_good)
+> takes the true branch, At N41 of Function double_free_010_good
+> Leaving function: double_free_010_good, On N32 -> N66 (Return edge from double_free_010_good to main)
+> Entering function: double_free_010_bad, On N66 -> N1 (call double_free_010_bad)
+> takes the false branch, At N9 of Function double_free_010_bad
+> takes the true branch, At N16 of Function double_free_010_bad
+> takes the false branch, At N16 of Function double_free_010_bad
+<Defect> : N24 -> N26: [call void @free(i8* %4, i8* @free)]
+N24 -> N26: [call void @free(i8* %4, i8* @free)] <--
+-- end of trace --
+=====================================================
+CWE_415(Double Free): 1
+	[./415_double_free_10.c 29] double_free_010_bad 		[N24 -{call void @free(i8* %4, i8* @free)}-> N26]	(the memory is already freed)
+
+CWE_416(Use After Free): 1
+	[./415_double_free_10.c 29] double_free_010_bad 		[N24 -{call void @free(i8* %4, i8* @free)}-> N26]	(the memory is already freed)
+
+Found 2 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/itc/415/415_double_free_11.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+3 SCCs to deal with
+SCC(1): [double_free_011_bad]
+ +double_free_011_bad
+SCC(1): [double_free_011_good]
+ +double_free_011_good
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [double_free_011_good, main, double_free_011_bad]
+Loops     [N99, N131]
+----
+function: double_free_011_bad
+P+ = [] 
+P- = [H(double_free_011_bad::call)] 
+Point-To:
+
+Ret-Value: 
+----
+function: double_free_011_good
+P+ = [] 
+P- = [H(double_free_011_good::call)] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [H(double_free_011_bad::call), H(double_free_011_good::call)] 
+Point-To:
+
+Ret-Value: R
+----
+loop N99 in double_free_011_bad: 
+N89 -> P+ = [H(double_free_011_bad::call)], P- = [H(double_free_011_bad::call)] Point-To: L(double_free_011_bad::ptr) -> [H(double_free_011_bad::call)]
+N92 -> P+ = [H(double_free_011_bad::call)], P- = [H(double_free_011_bad::call)] Point-To: L(double_free_011_bad::ptr) -> [H(double_free_011_bad::call)]
+----
+loop N131 in double_free_011_good: 
+N131 -> P+ = [H(double_free_011_good::call)], P- = [H(double_free_011_good::call)] Point-To: L(double_free_011_good::ptr) -> [H(double_free_011_good::call)]
+N134 -> P+ = [H(double_free_011_good::call)], P- = [H(double_free_011_good::call)] Point-To: L(double_free_011_good::ptr) -> [H(double_free_011_good::call)]
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.047s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N154): +oo]
+> [1/1] entry: main ()
+N154 -{%retval = alloca i32, align 4}-> N156
+N156 -{store i32 0, i32* %retval, align 4}-> N157
+N157 -{call double_free_011_good}-> N112
+N112 -{%ptr = alloca i8*, align 8}-> N114
+N114 -{%flag = alloca i32, align 4}-> N115
+N115 -{%a = alloca i32, align 4}-> N116
+N116 -{%b = alloca i32, align 4}-> N118
+N118 -{%call = call i8* @malloc(i64 1, i64 @malloc)}-> N119
+N118 -{%call = call i8* @malloc(i64 1, i64 @malloc)}-> N119
+N119 -{store i8* %call, i8** %ptr, align 8}-> N120
+N119 -{store i8* %call, i8** %ptr, align 8}-> N120
+N120 -{%0 = load i8*, i8** %ptr, align 8}-> N121
+N120 -{%0 = load i8*, i8** %ptr, align 8}-> N121
+N121 -{%cmp = icmp eq i8* %0, null}-> N122
+N121 -{%cmp = icmp eq i8* %0, null}-> N122
+N122 -{[!(%cmp = icmp eq i8* %0, null)]}-> N148
+N122 -{[%cmp = icmp eq i8* %0, null]}-> N145
+N122 -{[!(%cmp = icmp eq i8* %0, null)]}-> N148
+N122 -{[%cmp = icmp eq i8* %0, null]}-> N145
+N148 -{store i32 1, i32* %flag, align 4}-> N127
+N127 -{store i32 0, i32* %a, align 4}-> N129
+N129 -{store i32 1, i32* %b, align 4}-> N131
+N131 -{%1 = load i32, i32* %a, align 4}-> N132
+N131 -{@}-> N131
+N131 -{@}-> N134
+N132 -{%2 = load i32, i32* %b, align 4}-> N133
+N133 -{%cmp1 = icmp slt i32 %1, %2}-> N134
+N134 -{[!(%cmp1 = icmp slt i32 %1, %2)]}-> N145
+N134 -{[%cmp1 = icmp slt i32 %1, %2]}-> N149
+N134 -{[!(%cmp1 = icmp slt i32 %1, %2)]}-> N145
+N149 -{%3 = load i32, i32* %flag, align 4}-> N136
+N136 -{%cmp2 = icmp eq i32 %3, 1}-> N137
+N137 -{[%cmp2 = icmp eq i32 %3, 1]}-> N151
+N137 -{[!(%cmp2 = icmp eq i32 %3, 1)]}-> N141
+N151 -{%4 = load i8*, i8** %ptr, align 8}-> N139
+N139 -{call void @free(i8* %4, i8* @free)}-> N141
+N141 -{%5 = load i32, i32* %a, align 4}-> N142
+N142 -{%inc = add i32 %5, 1}-> N143
+N143 -{store i32 %inc, i32* %a, align 4}-> N131
+N131 -{%1 = load i32, i32* %a, align 4}-> N132
+N132 -{%2 = load i32, i32* %b, align 4}-> N133
+N133 -{%cmp1 = icmp slt i32 %1, %2}-> N134
+N134 -{[%cmp1 = icmp slt i32 %1, %2]}-> N149
+N134 -{[!(%cmp1 = icmp slt i32 %1, %2)]}-> N145
+N145 -{ret void}-> N111
+N145 -{ret void}-> N111
+N145 -{ret void}-> N111
+N111 -{Return edge from double_free_011_good to main}-> N158
+N111 -{Return edge from double_free_011_good to main}-> N158
+N111 -{Return edge from double_free_011_good to main}-> N158
+N158 -{call double_free_011_bad}-> N70
+N70 -{%ptr = alloca i8*, align 8}-> N72
+N72 -{%flag = alloca i32, align 4}-> N73
+N73 -{%a = alloca i32, align 4}-> N74
+N74 -{%b = alloca i32, align 4}-> N76
+N76 -{%call = call i8* @malloc(i64 1, i64 @malloc)}-> N77
+N76 -{%call = call i8* @malloc(i64 1, i64 @malloc)}-> N77
+N77 -{store i8* %call, i8** %ptr, align 8}-> N78
+N77 -{store i8* %call, i8** %ptr, align 8}-> N78
+N78 -{%0 = load i8*, i8** %ptr, align 8}-> N79
+N78 -{%0 = load i8*, i8** %ptr, align 8}-> N79
+N79 -{%cmp = icmp eq i8* %0, null}-> N80
+N79 -{%cmp = icmp eq i8* %0, null}-> N80
+N80 -{[!(%cmp = icmp eq i8* %0, null)]}-> N106
+N80 -{[%cmp = icmp eq i8* %0, null]}-> N103
+N80 -{[!(%cmp = icmp eq i8* %0, null)]}-> N106
+N80 -{[%cmp = icmp eq i8* %0, null]}-> N103
+N106 -{store i32 1, i32* %flag, align 4}-> N85
+N85 -{store i32 0, i32* %a, align 4}-> N87
+N87 -{store i32 2, i32* %b, align 4}-> N89
+N89 -{%1 = load i32, i32* %a, align 4}-> N90
+N89 -{@}-> N89
+N89 -{@}-> N92
+N90 -{%2 = load i32, i32* %b, align 4}-> N91
+N91 -{%cmp1 = icmp slt i32 %1, %2}-> N92
+N92 -{[!(%cmp1 = icmp slt i32 %1, %2)]}-> N103
+N92 -{[%cmp1 = icmp slt i32 %1, %2]}-> N107
+N92 -{[!(%cmp1 = icmp slt i32 %1, %2)]}-> N103
+N107 -{%3 = load i32, i32* %flag, align 4}-> N94
+N94 -{%cmp2 = icmp eq i32 %3, 1}-> N95
+N95 -{[%cmp2 = icmp eq i32 %3, 1]}-> N109
+N95 -{[!(%cmp2 = icmp eq i32 %3, 1)]}-> N99
+N109 -{%4 = load i8*, i8** %ptr, align 8}-> N97
+N97 -{call void @free(i8* %4, i8* @free)}-> N99
+N99 -{%5 = load i32, i32* %a, align 4}-> N100
+N100 -{%inc = add i32 %5, 1}-> N101
+N101 -{store i32 %inc, i32* %a, align 4}-> N89
+N89 -{%1 = load i32, i32* %a, align 4}-> N90
+N90 -{%2 = load i32, i32* %b, align 4}-> N91
+N91 -{%cmp1 = icmp slt i32 %1, %2}-> N92
+N92 -{[%cmp1 = icmp slt i32 %1, %2]}-> N107
+N92 -{[!(%cmp1 = icmp slt i32 %1, %2)]}-> N103
+N107 -{%3 = load i32, i32* %flag, align 4}-> N94
+N94 -{%cmp2 = icmp eq i32 %3, 1}-> N95
+N95 -{[%cmp2 = icmp eq i32 %3, 1]}-> N109
+N95 -{[!(%cmp2 = icmp eq i32 %3, 1)]}-> N99
+N109 -{%4 = load i8*, i8** %ptr, align 8}-> N97
+N97 -{call void @free(i8* %4, i8* @free)}-> N99
+N99 -{%5 = load i32, i32* %a, align 4}-> N100
+N100 -{%inc = add i32 %5, 1}-> N101
+N101 -{store i32 %inc, i32* %a, align 4}-> N89
+N89 -{%1 = load i32, i32* %a, align 4}-> N90
+N90 -{%2 = load i32, i32* %b, align 4}-> N91
+N91 -{%cmp1 = icmp slt i32 %1, %2}-> N92
+N92 -{[%cmp1 = icmp slt i32 %1, %2]}-> N107
+N92 -{[!(%cmp1 = icmp slt i32 %1, %2)]}-> N103
+N103 -{ret void}-> N69
+N103 -{ret void}-> N69
+N103 -{ret void}-> N69
+N69 -{Return edge from double_free_011_bad to main}-> N159
+N69 -{Return edge from double_free_011_bad to main}-> N159
+N69 -{Return edge from double_free_011_bad to main}-> N159
+N158 -{call double_free_011_bad}-> N70
+N70 -{%ptr = alloca i8*, align 8}-> N72
+N72 -{%flag = alloca i32, align 4}-> N73
+N73 -{%a = alloca i32, align 4}-> N74
+N74 -{%b = alloca i32, align 4}-> N76
+N76 -{%call = call i8* @malloc(i64 1, i64 @malloc)}-> N77
+N76 -{%call = call i8* @malloc(i64 1, i64 @malloc)}-> N77
+N77 -{store i8* %call, i8** %ptr, align 8}-> N78
+N77 -{store i8* %call, i8** %ptr, align 8}-> N78
+N78 -{%0 = load i8*, i8** %ptr, align 8}-> N79
+N78 -{%0 = load i8*, i8** %ptr, align 8}-> N79
+N79 -{%cmp = icmp eq i8* %0, null}-> N80
+N79 -{%cmp = icmp eq i8* %0, null}-> N80
+N80 -{[!(%cmp = icmp eq i8* %0, null)]}-> N106
+N80 -{[%cmp = icmp eq i8* %0, null]}-> N103
+N80 -{[!(%cmp = icmp eq i8* %0, null)]}-> N106
+N80 -{[%cmp = icmp eq i8* %0, null]}-> N103
+N106 -{store i32 1, i32* %flag, align 4}-> N85
+N85 -{store i32 0, i32* %a, align 4}-> N87
+N87 -{store i32 2, i32* %b, align 4}-> N89
+N89 -{%1 = load i32, i32* %a, align 4}-> N90
+N89 -{@}-> N89
+N89 -{@}-> N92
+N90 -{%2 = load i32, i32* %b, align 4}-> N91
+N91 -{%cmp1 = icmp slt i32 %1, %2}-> N92
+N92 -{[!(%cmp1 = icmp slt i32 %1, %2)]}-> N103
+N92 -{[%cmp1 = icmp slt i32 %1, %2]}-> N107
+N92 -{[!(%cmp1 = icmp slt i32 %1, %2)]}-> N103
+N107 -{%3 = load i32, i32* %flag, align 4}-> N94
+N94 -{%cmp2 = icmp eq i32 %3, 1}-> N95
+N95 -{[%cmp2 = icmp eq i32 %3, 1]}-> N109
+N95 -{[!(%cmp2 = icmp eq i32 %3, 1)]}-> N99
+N109 -{%4 = load i8*, i8** %ptr, align 8}-> N97
+N97 -{call void @free(i8* %4, i8* @free)}-> N99
+N99 -{%5 = load i32, i32* %a, align 4}-> N100
+N100 -{%inc = add i32 %5, 1}-> N101
+N101 -{store i32 %inc, i32* %a, align 4}-> N89
+N89 -{%1 = load i32, i32* %a, align 4}-> N90
+N90 -{%2 = load i32, i32* %b, align 4}-> N91
+N91 -{%cmp1 = icmp slt i32 %1, %2}-> N92
+N92 -{[%cmp1 = icmp slt i32 %1, %2]}-> N107
+N92 -{[!(%cmp1 = icmp slt i32 %1, %2)]}-> N103
+N107 -{%3 = load i32, i32* %flag, align 4}-> N94
+N94 -{%cmp2 = icmp eq i32 %3, 1}-> N95
+N95 -{[%cmp2 = icmp eq i32 %3, 1]}-> N109
+N95 -{[!(%cmp2 = icmp eq i32 %3, 1)]}-> N99
+N109 -{%4 = load i8*, i8** %ptr, align 8}-> N97
+N97 -{call void @free(i8* %4, i8* @free)}-> N99
+N99 -{%5 = load i32, i32* %a, align 4}-> N100
+N100 -{%inc = add i32 %5, 1}-> N101
+N101 -{store i32 %inc, i32* %a, align 4}-> N89
+N89 -{%1 = load i32, i32* %a, align 4}-> N90
+N90 -{%2 = load i32, i32* %b, align 4}-> N91
+N91 -{%cmp1 = icmp slt i32 %1, %2}-> N92
+N92 -{[%cmp1 = icmp slt i32 %1, %2]}-> N107
+N92 -{[!(%cmp1 = icmp slt i32 %1, %2)]}-> N103
+N103 -{ret void}-> N69
+N103 -{ret void}-> N69
+N103 -{ret void}-> N69
+N69 -{Return edge from double_free_011_bad to main}-> N159
+N69 -{Return edge from double_free_011_bad to main}-> N159
+N69 -{Return edge from double_free_011_bad to main}-> N159
+N159 -{ret i32 0}-> N153
+N159 -{ret i32 0}-> N153
+N159 -{ret i32 0}-> N153
+N159 -{ret i32 0}-> N153
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Double Free
+At node  : N97
+On edge  : N97 -{call void @free(i8* %4, i8* @free)}-> N99
+Message  : the memory is already freed
+> Start from entry function: main, At N154 of Function main
+> Entering function: double_free_011_good, On N157 -> N112 (call double_free_011_good)
+> takes the true branch, At N122 of Function double_free_011_good
+> Leaving function: double_free_011_good, On N111 -> N158 (Return edge from double_free_011_good to main)
+> Entering function: double_free_011_bad, On N158 -> N70 (call double_free_011_bad)
+> takes the false branch, At N80 of Function double_free_011_bad
+> takes the true branch, At N92 of Function double_free_011_bad
+> takes the true branch, At N95 of Function double_free_011_bad
+> takes the true branch, At N92 of Function double_free_011_bad
+> takes the true branch, At N95 of Function double_free_011_bad
+<Defect> : N97 -> N99: [call void @free(i8* %4, i8* @free)]
+N97 -> N99: [call void @free(i8* %4, i8* @free)] <--
+-- end of trace --
+-- start of trace --
+Weakness : Memory Leak
+At node  : N111
+On edge  : N111 -{Return edge from double_free_011_good to main}-> N158
+Message  : the heap object @H(double_free_011_good::call) is not referenced any more
+> Start from entry function: main, At N154 of Function main
+> Entering function: double_free_011_good, On N157 -> N112 (call double_free_011_good)
+> takes the false branch, At N122 of Function double_free_011_good
+> takes the false branch, At N134 of Function double_free_011_good
+<Defect> : N111 -> N158: [Return edge from double_free_011_good to main]
+N111 -> N158: [Return edge from double_free_011_good to main] <--
+-- end of trace --
+-- start of trace --
+Weakness : Memory Leak
+At node  : N69
+On edge  : N69 -{Return edge from double_free_011_bad to main}-> N159
+Message  : the heap object @H(double_free_011_bad::call) is not referenced any more
+> Start from entry function: main, At N154 of Function main
+> Entering function: double_free_011_good, On N157 -> N112 (call double_free_011_good)
+> takes the true branch, At N122 of Function double_free_011_good
+> Leaving function: double_free_011_good, On N111 -> N158 (Return edge from double_free_011_good to main)
+> Entering function: double_free_011_bad, On N158 -> N70 (call double_free_011_bad)
+> takes the false branch, At N80 of Function double_free_011_bad
+> takes the false branch, At N92 of Function double_free_011_bad
+<Defect> : N69 -> N159: [Return edge from double_free_011_bad to main]
+N69 -> N159: [Return edge from double_free_011_bad to main] <--
+-- end of trace --
+-- start of trace --
+Weakness : Use After Free
+At node  : N97
+On edge  : N97 -{call void @free(i8* %4, i8* @free)}-> N99
+Message  : the memory is already freed
+> Start from entry function: main, At N154 of Function main
+> Entering function: double_free_011_good, On N157 -> N112 (call double_free_011_good)
+> takes the true branch, At N122 of Function double_free_011_good
+> Leaving function: double_free_011_good, On N111 -> N158 (Return edge from double_free_011_good to main)
+> Entering function: double_free_011_bad, On N158 -> N70 (call double_free_011_bad)
+> takes the false branch, At N80 of Function double_free_011_bad
+> takes the true branch, At N92 of Function double_free_011_bad
+> takes the true branch, At N95 of Function double_free_011_bad
+> takes the true branch, At N92 of Function double_free_011_bad
+> takes the true branch, At N95 of Function double_free_011_bad
+<Defect> : N97 -> N99: [call void @free(i8* %4, i8* @free)]
+N97 -> N99: [call void @free(i8* %4, i8* @free)] <--
+-- end of trace --
+=====================================================
+CWE_415(Double Free): 1
+	[./415_double_free_11.c 27] double_free_011_bad 		[N97 -{call void @free(i8* %4, i8* @free)}-> N99]	(the memory is already freed)
+
+CWE_401(Memory Leak): 2
+	[./415_double_free_11.c 58] double_free_011_good 		[N111 -{Return edge from double_free_011_good to main}-> N158]	(the heap object @H(double_free_011_good::call) is not referenced any more)
+	[./415_double_free_11.c 59] double_free_011_bad 		[N69 -{Return edge from double_free_011_bad to main}-> N159]	(the heap object @H(double_free_011_bad::call) is not referenced any more)
+
+CWE_416(Use After Free): 1
+	[./415_double_free_11.c 27] double_free_011_bad 		[N97 -{call void @free(i8* %4, i8* @free)}-> N99]	(the memory is already freed)
+
+Found 4 defects in all (14 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/itc/415/415_double_free_12.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+3 SCCs to deal with
+SCC(1): [double_free_012_bad]
+ +double_free_012_bad
+SCC(1): [double_free_012_good]
+ +double_free_012_good
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [double_free_012_bad, double_free_012_good, main]
+Loops     [N207, N176]
+----
+function: double_free_012_bad
+P+ = [] 
+P- = [H(double_free_012_bad::call)] 
+Point-To:
+
+Ret-Value: 
+----
+function: double_free_012_good
+P+ = [] 
+P- = [H(double_free_012_good::call)] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [H(double_free_012_bad::call), H(double_free_012_good::call)] 
+Point-To:
+
+Ret-Value: R
+----
+loop N176 in double_free_012_bad: 
+N176 -> P+ = [H(double_free_012_bad::call)], P- = [H(double_free_012_bad::call)] Point-To: L(double_free_012_bad::ptr) -> [H(double_free_012_bad::call)]
+N178 -> P+ = [H(double_free_012_bad::call)], P- = [H(double_free_012_bad::call)] Point-To: L(double_free_012_bad::ptr) -> [H(double_free_012_bad::call)]
+----
+loop N207 in double_free_012_good: 
+N207 -> P+ = [H(double_free_012_good::call)], P- = [H(double_free_012_good::call)] Point-To: L(double_free_012_good::ptr) -> [H(double_free_012_good::call)]
+N209 -> P+ = [H(double_free_012_good::call)], P- = [H(double_free_012_good::call)] Point-To: L(double_free_012_good::ptr) -> [H(double_free_012_good::call)]
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.04s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N224): +oo]
+> [1/1] entry: main ()
+N224 -{%retval = alloca i32, align 4}-> N226
+N226 -{store i32 0, i32* %retval, align 4}-> N227
+N227 -{call double_free_012_good}-> N193
+N193 -{%ptr = alloca i8*, align 8}-> N195
+N195 -{%a = alloca i32, align 4}-> N197
+N197 -{%call = call i8* @malloc(i64 1, i64 @malloc)}-> N198
+N197 -{%call = call i8* @malloc(i64 1, i64 @malloc)}-> N198
+N198 -{store i8* %call, i8** %ptr, align 8}-> N199
+N198 -{store i8* %call, i8** %ptr, align 8}-> N199
+N199 -{%0 = load i8*, i8** %ptr, align 8}-> N200
+N199 -{%0 = load i8*, i8** %ptr, align 8}-> N200
+N200 -{%cmp = icmp eq i8* %0, null}-> N201
+N200 -{%cmp = icmp eq i8* %0, null}-> N201
+N201 -{[!(%cmp = icmp eq i8* %0, null)]}-> N220
+N201 -{[%cmp = icmp eq i8* %0, null]}-> N217
+N201 -{[!(%cmp = icmp eq i8* %0, null)]}-> N220
+N201 -{[%cmp = icmp eq i8* %0, null]}-> N217
+N220 -{store i32 0, i32* %a, align 4}-> N205
+N205 -{store i32 0, i32* %a, align 4}-> N207
+N207 -{%1 = load i32, i32* %a, align 4}-> N208
+N207 -{@}-> N207
+N207 -{@}-> N209
+N208 -{%cmp1 = icmp slt i32 %1, 1}-> N209
+N209 -{[%cmp1 = icmp slt i32 %1, 1]}-> N221
+N209 -{[!(%cmp1 = icmp slt i32 %1, 1)]}-> N217
+N221 -{%2 = load i8*, i8** %ptr, align 8}-> N211
+N211 -{call void @free(i8* %2, i8* @free)}-> N213
+N213 -{%3 = load i32, i32* %a, align 4}-> N214
+N214 -{%inc = add i32 %3, 1}-> N215
+N215 -{store i32 %inc, i32* %a, align 4}-> N207
+N207 -{%1 = load i32, i32* %a, align 4}-> N208
+N208 -{%cmp1 = icmp slt i32 %1, 1}-> N209
+N209 -{[%cmp1 = icmp slt i32 %1, 1]}-> N221
+N209 -{[!(%cmp1 = icmp slt i32 %1, 1)]}-> N217
+N217 -{ret void}-> N192
+N217 -{ret void}-> N192
+N192 -{Return edge from double_free_012_good to main}-> N228
+N192 -{Return edge from double_free_012_good to main}-> N228
+N228 -{call double_free_012_bad}-> N162
+N162 -{%ptr = alloca i8*, align 8}-> N164
+N164 -{%a = alloca i32, align 4}-> N166
+N166 -{%call = call i8* @malloc(i64 1, i64 @malloc)}-> N167
+N166 -{%call = call i8* @malloc(i64 1, i64 @malloc)}-> N167
+N167 -{store i8* %call, i8** %ptr, align 8}-> N168
+N167 -{store i8* %call, i8** %ptr, align 8}-> N168
+N168 -{%0 = load i8*, i8** %ptr, align 8}-> N169
+N168 -{%0 = load i8*, i8** %ptr, align 8}-> N169
+N169 -{%cmp = icmp eq i8* %0, null}-> N170
+N169 -{%cmp = icmp eq i8* %0, null}-> N170
+N170 -{[!(%cmp = icmp eq i8* %0, null)]}-> N189
+N170 -{[%cmp = icmp eq i8* %0, null]}-> N186
+N170 -{[!(%cmp = icmp eq i8* %0, null)]}-> N189
+N170 -{[%cmp = icmp eq i8* %0, null]}-> N186
+N189 -{store i32 0, i32* %a, align 4}-> N174
+N174 -{store i32 0, i32* %a, align 4}-> N176
+N176 -{%1 = load i32, i32* %a, align 4}-> N177
+N176 -{@}-> N176
+N176 -{@}-> N178
+N177 -{%cmp1 = icmp slt i32 %1, 2}-> N178
+N178 -{[%cmp1 = icmp slt i32 %1, 2]}-> N190
+N178 -{[!(%cmp1 = icmp slt i32 %1, 2)]}-> N186
+N190 -{%2 = load i8*, i8** %ptr, align 8}-> N180
+N180 -{call void @free(i8* %2, i8* @free)}-> N182
+N182 -{%3 = load i32, i32* %a, align 4}-> N183
+N183 -{%inc = add i32 %3, 1}-> N184
+N184 -{store i32 %inc, i32* %a, align 4}-> N176
+N176 -{%1 = load i32, i32* %a, align 4}-> N177
+N177 -{%cmp1 = icmp slt i32 %1, 2}-> N178
+N178 -{[%cmp1 = icmp slt i32 %1, 2]}-> N190
+N178 -{[!(%cmp1 = icmp slt i32 %1, 2)]}-> N186
+N190 -{%2 = load i8*, i8** %ptr, align 8}-> N180
+N180 -{call void @free(i8* %2, i8* @free)}-> N182
+N182 -{%3 = load i32, i32* %a, align 4}-> N183
+N183 -{%inc = add i32 %3, 1}-> N184
+N184 -{store i32 %inc, i32* %a, align 4}-> N176
+N176 -{%1 = load i32, i32* %a, align 4}-> N177
+N177 -{%cmp1 = icmp slt i32 %1, 2}-> N178
+N178 -{[%cmp1 = icmp slt i32 %1, 2]}-> N190
+N178 -{[!(%cmp1 = icmp slt i32 %1, 2)]}-> N186
+N186 -{ret void}-> N161
+N186 -{ret void}-> N161
+N161 -{Return edge from double_free_012_bad to main}-> N229
+N161 -{Return edge from double_free_012_bad to main}-> N229
+N229 -{ret i32 0}-> N223
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Double Free
+At node  : N180
+On edge  : N180 -{call void @free(i8* %2, i8* @free)}-> N182
+Message  : the memory is already freed
+> Start from entry function: main, At N224 of Function main
+> Entering function: double_free_012_good, On N227 -> N193 (call double_free_012_good)
+> takes the true branch, At N201 of Function double_free_012_good
+> Leaving function: double_free_012_good, On N192 -> N228 (Return edge from double_free_012_good to main)
+> Entering function: double_free_012_bad, On N228 -> N162 (call double_free_012_bad)
+> takes the false branch, At N170 of Function double_free_012_bad
+> takes the true branch, At N178 of Function double_free_012_bad
+> takes the true branch, At N178 of Function double_free_012_bad
+<Defect> : N180 -> N182: [call void @free(i8* %2, i8* @free)]
+N180 -> N182: [call void @free(i8* %2, i8* @free)] <--
+-- end of trace --
+-- start of trace --
+Weakness : Use After Free
+At node  : N180
+On edge  : N180 -{call void @free(i8* %2, i8* @free)}-> N182
+Message  : the memory is already freed
+> Start from entry function: main, At N224 of Function main
+> Entering function: double_free_012_good, On N227 -> N193 (call double_free_012_good)
+> takes the true branch, At N201 of Function double_free_012_good
+> Leaving function: double_free_012_good, On N192 -> N228 (Return edge from double_free_012_good to main)
+> Entering function: double_free_012_bad, On N228 -> N162 (call double_free_012_bad)
+> takes the false branch, At N170 of Function double_free_012_bad
+> takes the true branch, At N178 of Function double_free_012_bad
+> takes the true branch, At N178 of Function double_free_012_bad
+<Defect> : N180 -> N182: [call void @free(i8* %2, i8* @free)]
+N180 -> N182: [call void @free(i8* %2, i8* @free)] <--
+-- end of trace --
+=====================================================
+CWE_415(Double Free): 1
+	[./415_double_free_12.c 26] double_free_012_bad 		[N180 -{call void @free(i8* %2, i8* @free)}-> N182]	(the memory is already freed)
+
+CWE_416(Use After Free): 1
+	[./415_double_free_12.c 26] double_free_012_bad 		[N180 -{call void @free(i8* %2, i8* @free)}-> N182]	(the memory is already freed)
+
+Found 2 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/itc/415/415_double_free_1.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+3 SCCs to deal with
+SCC(1): [double_free_001_bad]
+ +double_free_001_bad
+SCC(1): [double_free_001_good]
+ +double_free_001_good
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [double_free_001_bad, double_free_001_good, main]
+Loops     []
+----
+function: double_free_001_bad
+P+ = [] 
+P- = [H(double_free_001_bad::call)] 
+Point-To:
+
+Ret-Value: 
+----
+function: double_free_001_good
+P+ = [] 
+P- = [H(double_free_001_good::call)] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [H(double_free_001_bad::call), H(double_free_001_good::call)] 
+Point-To:
+
+Ret-Value: R
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.01s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N268): +oo]
+> [1/1] entry: main ()
+N268 -{%retval = alloca i32, align 4}-> N270
+N270 -{store i32 0, i32* %retval, align 4}-> N271
+N271 -{call double_free_001_good}-> N251
+N251 -{%ptr = alloca i8*, align 8}-> N254
+N254 -{%call = call i8* @malloc(i64 1, i64 @malloc)}-> N255
+N254 -{%call = call i8* @malloc(i64 1, i64 @malloc)}-> N255
+N255 -{store i8* %call, i8** %ptr, align 8}-> N256
+N255 -{store i8* %call, i8** %ptr, align 8}-> N256
+N256 -{%0 = load i8*, i8** %ptr, align 8}-> N257
+N256 -{%0 = load i8*, i8** %ptr, align 8}-> N257
+N257 -{%cmp = icmp eq i8* %0, null}-> N258
+N257 -{%cmp = icmp eq i8* %0, null}-> N258
+N258 -{[!(%cmp = icmp eq i8* %0, null)]}-> N266
+N258 -{[%cmp = icmp eq i8* %0, null]}-> N263
+N258 -{[!(%cmp = icmp eq i8* %0, null)]}-> N266
+N258 -{[%cmp = icmp eq i8* %0, null]}-> N263
+N266 -{%1 = load i8*, i8** %ptr, align 8}-> N261
+N261 -{call void @free(i8* %1, i8* @free)}-> N263
+N263 -{ret void}-> N250
+N250 -{Return edge from double_free_001_good to main}-> N272
+N272 -{call double_free_001_bad}-> N232
+N232 -{%ptr = alloca i8*, align 8}-> N235
+N235 -{%call = call i8* @malloc(i64 1, i64 @malloc)}-> N236
+N235 -{%call = call i8* @malloc(i64 1, i64 @malloc)}-> N236
+N236 -{store i8* %call, i8** %ptr, align 8}-> N237
+N236 -{store i8* %call, i8** %ptr, align 8}-> N237
+N237 -{%0 = load i8*, i8** %ptr, align 8}-> N238
+N237 -{%0 = load i8*, i8** %ptr, align 8}-> N238
+N238 -{%cmp = icmp eq i8* %0, null}-> N239
+N238 -{%cmp = icmp eq i8* %0, null}-> N239
+N239 -{[!(%cmp = icmp eq i8* %0, null)]}-> N249
+N239 -{[%cmp = icmp eq i8* %0, null]}-> N246
+N239 -{[!(%cmp = icmp eq i8* %0, null)]}-> N249
+N239 -{[%cmp = icmp eq i8* %0, null]}-> N246
+N249 -{%1 = load i8*, i8** %ptr, align 8}-> N242
+N242 -{call void @free(i8* %1, i8* @free)}-> N243
+N243 -{%2 = load i8*, i8** %ptr, align 8}-> N244
+N244 -{call void @free(i8* %2, i8* @free)}-> N246
+N246 -{ret void}-> N231
+N231 -{Return edge from double_free_001_bad to main}-> N273
+N273 -{ret i32 0}-> N267
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Double Free
+At node  : N244
+On edge  : N244 -{call void @free(i8* %2, i8* @free)}-> N246
+Message  : the memory is already freed
+> Start from entry function: main, At N268 of Function main
+> Entering function: double_free_001_good, On N271 -> N251 (call double_free_001_good)
+> takes the true branch, At N258 of Function double_free_001_good
+> Leaving function: double_free_001_good, On N250 -> N272 (Return edge from double_free_001_good to main)
+> Entering function: double_free_001_bad, On N272 -> N232 (call double_free_001_bad)
+> takes the false branch, At N239 of Function double_free_001_bad
+<Defect> : N244 -> N246: [call void @free(i8* %2, i8* @free)]
+N244 -> N246: [call void @free(i8* %2, i8* @free)] <--
+-- end of trace --
+-- start of trace --
+Weakness : Use After Free
+At node  : N244
+On edge  : N244 -{call void @free(i8* %2, i8* @free)}-> N246
+Message  : the memory is already freed
+> Start from entry function: main, At N268 of Function main
+> Entering function: double_free_001_good, On N271 -> N251 (call double_free_001_good)
+> takes the true branch, At N258 of Function double_free_001_good
+> Leaving function: double_free_001_good, On N250 -> N272 (Return edge from double_free_001_good to main)
+> Entering function: double_free_001_bad, On N272 -> N232 (call double_free_001_bad)
+> takes the false branch, At N239 of Function double_free_001_bad
+<Defect> : N244 -> N246: [call void @free(i8* %2, i8* @free)]
+N244 -> N246: [call void @free(i8* %2, i8* @free)] <--
+-- end of trace --
+=====================================================
+CWE_415(Double Free): 1
+	[./415_double_free_1.c 24] double_free_001_bad 		[N244 -{call void @free(i8* %2, i8* @free)}-> N246]	(the memory is already freed)
+
+CWE_416(Use After Free): 1
+	[./415_double_free_1.c 24] double_free_001_bad 		[N244 -{call void @free(i8* %2, i8* @free)}-> N246]	(the memory is already freed)
+
+Found 2 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/itc/415/415_double_free_2.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+3 SCCs to deal with
+SCC(1): [double_free_002_bad]
+ +double_free_002_bad
+SCC(1): [double_free_002_good]
+ +double_free_002_good
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [main, double_free_002_bad, double_free_002_good]
+Loops     [N348, N289]
+----
+function: double_free_002_bad
+P+ = [] 
+P- = [H(double_free_002_bad::call)] 
+Point-To:
+
+Ret-Value: 
+----
+function: double_free_002_good
+P+ = [] 
+P- = [H(double_free_002_good::call)] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [H(double_free_002_bad::call), H(double_free_002_good::call)] 
+Point-To:
+
+Ret-Value: R
+----
+loop N289 in double_free_002_bad: 
+N289 -> P+ = [H(double_free_002_bad::call)], P- = [H(double_free_002_bad::call)] Point-To: L(double_free_002_bad::ptr) -> [H(double_free_002_bad::call)]
+N291 -> P+ = [H(double_free_002_bad::call)], P- = [H(double_free_002_bad::call)] Point-To: L(double_free_002_bad::ptr) -> [H(double_free_002_bad::call)]
+----
+loop N348 in double_free_002_good: 
+N333 -> P+ = [H(double_free_002_good::call)], P- = [H(double_free_002_good::call)] Point-To: L(double_free_002_good::ptr) -> [H(double_free_002_good::call)]
+N335 -> P+ = [H(double_free_002_good::call)], P- = [H(double_free_002_good::call)] Point-To: L(double_free_002_good::ptr) -> [H(double_free_002_good::call)]
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.062s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N364): +oo]
+> [1/1] entry: main ()
+N364 -{%retval = alloca i32, align 4}-> N366
+N366 -{store i32 0, i32* %retval, align 4}-> N367
+N367 -{call double_free_002_good}-> N320
+N320 -{%ptr = alloca i8*, align 8}-> N322
+N322 -{%i = alloca i32, align 4}-> N324
+N324 -{%call = call i8* @malloc(i64 10, i64 @malloc)}-> N325
+N324 -{%call = call i8* @malloc(i64 10, i64 @malloc)}-> N325
+N325 -{store i8* %call, i8** %ptr, align 8}-> N326
+N325 -{store i8* %call, i8** %ptr, align 8}-> N326
+N326 -{%0 = load i8*, i8** %ptr, align 8}-> N327
+N326 -{%0 = load i8*, i8** %ptr, align 8}-> N327
+N327 -{%cmp = icmp eq i8* %0, null}-> N328
+N327 -{%cmp = icmp eq i8* %0, null}-> N328
+N328 -{[!(%cmp = icmp eq i8* %0, null)]}-> N358
+N328 -{[%cmp = icmp eq i8* %0, null]}-> N355
+N328 -{[!(%cmp = icmp eq i8* %0, null)]}-> N358
+N328 -{[%cmp = icmp eq i8* %0, null]}-> N355
+N358 -{store i32 0, i32* %i, align 4}-> N333
+N333 -{%1 = load i32, i32* %i, align 4}-> N334
+N333 -{@}-> N333
+N333 -{@}-> N335
+N334 -{%cmp1 = icmp slt i32 %1, 10}-> N335
+N335 -{[%cmp1 = icmp slt i32 %1, 10]}-> N359
+N335 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N360
+N359 -{%2 = load i32, i32* %i, align 4}-> N337
+N337 -{%idxprom = sext i32 %2 to i64}-> N338
+N338 -{%3 = load i8*, i8** %ptr, align 8}-> N339
+N339 -{%arrayidx = getelementptr inbounds i8, i8* %3, i64 %idxprom}-> N340
+N340 -{store i8 97, i8* %arrayidx, align 1}-> N341
+N341 -{%4 = load i32, i32* %i, align 4}-> N342
+N342 -{%cmp2 = icmp eq i32 %4, 10}-> N343
+N343 -{[%cmp2 = icmp eq i32 %4, 10]}-> N361
+N343 -{[!(%cmp2 = icmp eq i32 %4, 10)]}-> N348
+N348 -{%6 = load i32, i32* %i, align 4}-> N349
+N349 -{%inc = add i32 %6, 1}-> N350
+N350 -{store i32 %inc, i32* %i, align 4}-> N333
+N333 -{%1 = load i32, i32* %i, align 4}-> N334
+N334 -{%cmp1 = icmp slt i32 %1, 10}-> N335
+N335 -{[%cmp1 = icmp slt i32 %1, 10]}-> N359
+N335 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N360
+N359 -{%2 = load i32, i32* %i, align 4}-> N337
+N337 -{%idxprom = sext i32 %2 to i64}-> N338
+N338 -{%3 = load i8*, i8** %ptr, align 8}-> N339
+N339 -{%arrayidx = getelementptr inbounds i8, i8* %3, i64 %idxprom}-> N340
+N340 -{store i8 97, i8* %arrayidx, align 1}-> N341
+N341 -{%4 = load i32, i32* %i, align 4}-> N342
+N342 -{%cmp2 = icmp eq i32 %4, 10}-> N343
+N343 -{[%cmp2 = icmp eq i32 %4, 10]}-> N361
+N343 -{[!(%cmp2 = icmp eq i32 %4, 10)]}-> N348
+N348 -{%6 = load i32, i32* %i, align 4}-> N349
+N349 -{%inc = add i32 %6, 1}-> N350
+N350 -{store i32 %inc, i32* %i, align 4}-> N333
+N333 -{%1 = load i32, i32* %i, align 4}-> N334
+N334 -{%cmp1 = icmp slt i32 %1, 10}-> N335
+N335 -{[%cmp1 = icmp slt i32 %1, 10]}-> N359
+N335 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N360
+N359 -{%2 = load i32, i32* %i, align 4}-> N337
+N337 -{%idxprom = sext i32 %2 to i64}-> N338
+N338 -{%3 = load i8*, i8** %ptr, align 8}-> N339
+N339 -{%arrayidx = getelementptr inbounds i8, i8* %3, i64 %idxprom}-> N340
+N340 -{store i8 97, i8* %arrayidx, align 1}-> N341
+N341 -{%4 = load i32, i32* %i, align 4}-> N342
+N342 -{%cmp2 = icmp eq i32 %4, 10}-> N343
+N343 -{[%cmp2 = icmp eq i32 %4, 10]}-> N361
+N343 -{[!(%cmp2 = icmp eq i32 %4, 10)]}-> N348
+N348 -{%6 = load i32, i32* %i, align 4}-> N349
+N349 -{%inc = add i32 %6, 1}-> N350
+N350 -{store i32 %inc, i32* %i, align 4}-> N333
+N333 -{%1 = load i32, i32* %i, align 4}-> N334
+N334 -{%cmp1 = icmp slt i32 %1, 10}-> N335
+N335 -{[%cmp1 = icmp slt i32 %1, 10]}-> N359
+N335 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N360
+N359 -{%2 = load i32, i32* %i, align 4}-> N337
+N337 -{%idxprom = sext i32 %2 to i64}-> N338
+N338 -{%3 = load i8*, i8** %ptr, align 8}-> N339
+N339 -{%arrayidx = getelementptr inbounds i8, i8* %3, i64 %idxprom}-> N340
+N340 -{store i8 97, i8* %arrayidx, align 1}-> N341
+N341 -{%4 = load i32, i32* %i, align 4}-> N342
+N342 -{%cmp2 = icmp eq i32 %4, 10}-> N343
+N343 -{[%cmp2 = icmp eq i32 %4, 10]}-> N361
+N343 -{[!(%cmp2 = icmp eq i32 %4, 10)]}-> N348
+N348 -{%6 = load i32, i32* %i, align 4}-> N349
+N349 -{%inc = add i32 %6, 1}-> N350
+N350 -{store i32 %inc, i32* %i, align 4}-> N333
+N333 -{%1 = load i32, i32* %i, align 4}-> N334
+N334 -{%cmp1 = icmp slt i32 %1, 10}-> N335
+N335 -{[%cmp1 = icmp slt i32 %1, 10]}-> N359
+N335 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N360
+N359 -{%2 = load i32, i32* %i, align 4}-> N337
+N337 -{%idxprom = sext i32 %2 to i64}-> N338
+N338 -{%3 = load i8*, i8** %ptr, align 8}-> N339
+N339 -{%arrayidx = getelementptr inbounds i8, i8* %3, i64 %idxprom}-> N340
+N340 -{store i8 97, i8* %arrayidx, align 1}-> N341
+N341 -{%4 = load i32, i32* %i, align 4}-> N342
+N342 -{%cmp2 = icmp eq i32 %4, 10}-> N343
+N343 -{[%cmp2 = icmp eq i32 %4, 10]}-> N361
+N343 -{[!(%cmp2 = icmp eq i32 %4, 10)]}-> N348
+N348 -{%6 = load i32, i32* %i, align 4}-> N349
+N349 -{%inc = add i32 %6, 1}-> N350
+N350 -{store i32 %inc, i32* %i, align 4}-> N333
+N333 -{%1 = load i32, i32* %i, align 4}-> N334
+N334 -{%cmp1 = icmp slt i32 %1, 10}-> N335
+N335 -{[%cmp1 = icmp slt i32 %1, 10]}-> N359
+N335 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N360
+N359 -{%2 = load i32, i32* %i, align 4}-> N337
+N337 -{%idxprom = sext i32 %2 to i64}-> N338
+N338 -{%3 = load i8*, i8** %ptr, align 8}-> N339
+N339 -{%arrayidx = getelementptr inbounds i8, i8* %3, i64 %idxprom}-> N340
+N340 -{store i8 97, i8* %arrayidx, align 1}-> N341
+N341 -{%4 = load i32, i32* %i, align 4}-> N342
+N342 -{%cmp2 = icmp eq i32 %4, 10}-> N343
+N343 -{[%cmp2 = icmp eq i32 %4, 10]}-> N361
+N343 -{[!(%cmp2 = icmp eq i32 %4, 10)]}-> N348
+N348 -{%6 = load i32, i32* %i, align 4}-> N349
+N349 -{%inc = add i32 %6, 1}-> N350
+N350 -{store i32 %inc, i32* %i, align 4}-> N333
+N333 -{%1 = load i32, i32* %i, align 4}-> N334
+N334 -{%cmp1 = icmp slt i32 %1, 10}-> N335
+N335 -{[%cmp1 = icmp slt i32 %1, 10]}-> N359
+N335 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N360
+N359 -{%2 = load i32, i32* %i, align 4}-> N337
+N337 -{%idxprom = sext i32 %2 to i64}-> N338
+N338 -{%3 = load i8*, i8** %ptr, align 8}-> N339
+N339 -{%arrayidx = getelementptr inbounds i8, i8* %3, i64 %idxprom}-> N340
+N340 -{store i8 97, i8* %arrayidx, align 1}-> N341
+N341 -{%4 = load i32, i32* %i, align 4}-> N342
+N342 -{%cmp2 = icmp eq i32 %4, 10}-> N343
+N343 -{[%cmp2 = icmp eq i32 %4, 10]}-> N361
+N343 -{[!(%cmp2 = icmp eq i32 %4, 10)]}-> N348
+N348 -{%6 = load i32, i32* %i, align 4}-> N349
+N349 -{%inc = add i32 %6, 1}-> N350
+N350 -{store i32 %inc, i32* %i, align 4}-> N333
+N333 -{%1 = load i32, i32* %i, align 4}-> N334
+N334 -{%cmp1 = icmp slt i32 %1, 10}-> N335
+N335 -{[%cmp1 = icmp slt i32 %1, 10]}-> N359
+N335 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N360
+N359 -{%2 = load i32, i32* %i, align 4}-> N337
+N337 -{%idxprom = sext i32 %2 to i64}-> N338
+N338 -{%3 = load i8*, i8** %ptr, align 8}-> N339
+N339 -{%arrayidx = getelementptr inbounds i8, i8* %3, i64 %idxprom}-> N340
+N340 -{store i8 97, i8* %arrayidx, align 1}-> N341
+N341 -{%4 = load i32, i32* %i, align 4}-> N342
+N342 -{%cmp2 = icmp eq i32 %4, 10}-> N343
+N343 -{[%cmp2 = icmp eq i32 %4, 10]}-> N361
+N343 -{[!(%cmp2 = icmp eq i32 %4, 10)]}-> N348
+N348 -{%6 = load i32, i32* %i, align 4}-> N349
+N349 -{%inc = add i32 %6, 1}-> N350
+N350 -{store i32 %inc, i32* %i, align 4}-> N333
+N333 -{%1 = load i32, i32* %i, align 4}-> N334
+N334 -{%cmp1 = icmp slt i32 %1, 10}-> N335
+N335 -{[%cmp1 = icmp slt i32 %1, 10]}-> N359
+N335 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N360
+N359 -{%2 = load i32, i32* %i, align 4}-> N337
+N337 -{%idxprom = sext i32 %2 to i64}-> N338
+N338 -{%3 = load i8*, i8** %ptr, align 8}-> N339
+N339 -{%arrayidx = getelementptr inbounds i8, i8* %3, i64 %idxprom}-> N340
+N340 -{store i8 97, i8* %arrayidx, align 1}-> N341
+N341 -{%4 = load i32, i32* %i, align 4}-> N342
+N342 -{%cmp2 = icmp eq i32 %4, 10}-> N343
+N343 -{[%cmp2 = icmp eq i32 %4, 10]}-> N361
+N343 -{[!(%cmp2 = icmp eq i32 %4, 10)]}-> N348
+N348 -{%6 = load i32, i32* %i, align 4}-> N349
+N349 -{%inc = add i32 %6, 1}-> N350
+N350 -{store i32 %inc, i32* %i, align 4}-> N333
+N333 -{%1 = load i32, i32* %i, align 4}-> N334
+N334 -{%cmp1 = icmp slt i32 %1, 10}-> N335
+N335 -{[%cmp1 = icmp slt i32 %1, 10]}-> N359
+N335 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N360
+N359 -{%2 = load i32, i32* %i, align 4}-> N337
+N337 -{%idxprom = sext i32 %2 to i64}-> N338
+N338 -{%3 = load i8*, i8** %ptr, align 8}-> N339
+N339 -{%arrayidx = getelementptr inbounds i8, i8* %3, i64 %idxprom}-> N340
+N340 -{store i8 97, i8* %arrayidx, align 1}-> N341
+N341 -{%4 = load i32, i32* %i, align 4}-> N342
+N342 -{%cmp2 = icmp eq i32 %4, 10}-> N343
+N343 -{[%cmp2 = icmp eq i32 %4, 10]}-> N361
+N343 -{[!(%cmp2 = icmp eq i32 %4, 10)]}-> N348
+N348 -{%6 = load i32, i32* %i, align 4}-> N349
+N349 -{%inc = add i32 %6, 1}-> N350
+N350 -{store i32 %inc, i32* %i, align 4}-> N333
+N333 -{%1 = load i32, i32* %i, align 4}-> N334
+N334 -{%cmp1 = icmp slt i32 %1, 10}-> N335
+N335 -{[%cmp1 = icmp slt i32 %1, 10]}-> N359
+N335 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N360
+N360 -{%7 = load i8*, i8** %ptr, align 8}-> N353
+N353 -{call void @free(i8* %7, i8* @free)}-> N355
+N355 -{ret void}-> N319
+N355 -{ret void}-> N319
+N319 -{Return edge from double_free_002_good to main}-> N368
+N319 -{Return edge from double_free_002_good to main}-> N368
+N368 -{call double_free_002_bad}-> N276
+N276 -{%ptr = alloca i8*, align 8}-> N278
+N278 -{%i = alloca i32, align 4}-> N280
+N280 -{%call = call i8* @malloc(i64 10, i64 @malloc)}-> N281
+N280 -{%call = call i8* @malloc(i64 10, i64 @malloc)}-> N281
+N281 -{store i8* %call, i8** %ptr, align 8}-> N282
+N281 -{store i8* %call, i8** %ptr, align 8}-> N282
+N282 -{%0 = load i8*, i8** %ptr, align 8}-> N283
+N282 -{%0 = load i8*, i8** %ptr, align 8}-> N283
+N283 -{%cmp = icmp eq i8* %0, null}-> N284
+N283 -{%cmp = icmp eq i8* %0, null}-> N284
+N284 -{[!(%cmp = icmp eq i8* %0, null)]}-> N314
+N284 -{[%cmp = icmp eq i8* %0, null]}-> N311
+N284 -{[!(%cmp = icmp eq i8* %0, null)]}-> N314
+N284 -{[%cmp = icmp eq i8* %0, null]}-> N311
+N314 -{store i32 0, i32* %i, align 4}-> N289
+N289 -{%1 = load i32, i32* %i, align 4}-> N290
+N289 -{@}-> N289
+N289 -{@}-> N291
+N290 -{%cmp1 = icmp slt i32 %1, 10}-> N291
+N291 -{[%cmp1 = icmp slt i32 %1, 10]}-> N315
+N291 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N316
+N315 -{%2 = load i32, i32* %i, align 4}-> N293
+N293 -{%idxprom = sext i32 %2 to i64}-> N294
+N294 -{%3 = load i8*, i8** %ptr, align 8}-> N295
+N295 -{%arrayidx = getelementptr inbounds i8, i8* %3, i64 %idxprom}-> N296
+N296 -{store i8 97, i8* %arrayidx, align 1}-> N297
+N297 -{%4 = load i32, i32* %i, align 4}-> N298
+N298 -{%cmp2 = icmp eq i32 %4, 9}-> N299
+N299 -{[%cmp2 = icmp eq i32 %4, 9]}-> N317
+N299 -{[!(%cmp2 = icmp eq i32 %4, 9)]}-> N304
+N304 -{%6 = load i32, i32* %i, align 4}-> N305
+N305 -{%inc = add i32 %6, 1}-> N306
+N306 -{store i32 %inc, i32* %i, align 4}-> N289
+N289 -{%1 = load i32, i32* %i, align 4}-> N290
+N290 -{%cmp1 = icmp slt i32 %1, 10}-> N291
+N291 -{[%cmp1 = icmp slt i32 %1, 10]}-> N315
+N291 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N316
+N315 -{%2 = load i32, i32* %i, align 4}-> N293
+N293 -{%idxprom = sext i32 %2 to i64}-> N294
+N294 -{%3 = load i8*, i8** %ptr, align 8}-> N295
+N295 -{%arrayidx = getelementptr inbounds i8, i8* %3, i64 %idxprom}-> N296
+N296 -{store i8 97, i8* %arrayidx, align 1}-> N297
+N297 -{%4 = load i32, i32* %i, align 4}-> N298
+N298 -{%cmp2 = icmp eq i32 %4, 9}-> N299
+N299 -{[%cmp2 = icmp eq i32 %4, 9]}-> N317
+N299 -{[!(%cmp2 = icmp eq i32 %4, 9)]}-> N304
+N304 -{%6 = load i32, i32* %i, align 4}-> N305
+N305 -{%inc = add i32 %6, 1}-> N306
+N306 -{store i32 %inc, i32* %i, align 4}-> N289
+N289 -{%1 = load i32, i32* %i, align 4}-> N290
+N290 -{%cmp1 = icmp slt i32 %1, 10}-> N291
+N291 -{[%cmp1 = icmp slt i32 %1, 10]}-> N315
+N291 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N316
+N315 -{%2 = load i32, i32* %i, align 4}-> N293
+N293 -{%idxprom = sext i32 %2 to i64}-> N294
+N294 -{%3 = load i8*, i8** %ptr, align 8}-> N295
+N295 -{%arrayidx = getelementptr inbounds i8, i8* %3, i64 %idxprom}-> N296
+N296 -{store i8 97, i8* %arrayidx, align 1}-> N297
+N297 -{%4 = load i32, i32* %i, align 4}-> N298
+N298 -{%cmp2 = icmp eq i32 %4, 9}-> N299
+N299 -{[%cmp2 = icmp eq i32 %4, 9]}-> N317
+N299 -{[!(%cmp2 = icmp eq i32 %4, 9)]}-> N304
+N304 -{%6 = load i32, i32* %i, align 4}-> N305
+N305 -{%inc = add i32 %6, 1}-> N306
+N306 -{store i32 %inc, i32* %i, align 4}-> N289
+N289 -{%1 = load i32, i32* %i, align 4}-> N290
+N290 -{%cmp1 = icmp slt i32 %1, 10}-> N291
+N291 -{[%cmp1 = icmp slt i32 %1, 10]}-> N315
+N291 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N316
+N315 -{%2 = load i32, i32* %i, align 4}-> N293
+N293 -{%idxprom = sext i32 %2 to i64}-> N294
+N294 -{%3 = load i8*, i8** %ptr, align 8}-> N295
+N295 -{%arrayidx = getelementptr inbounds i8, i8* %3, i64 %idxprom}-> N296
+N296 -{store i8 97, i8* %arrayidx, align 1}-> N297
+N297 -{%4 = load i32, i32* %i, align 4}-> N298
+N298 -{%cmp2 = icmp eq i32 %4, 9}-> N299
+N299 -{[%cmp2 = icmp eq i32 %4, 9]}-> N317
+N299 -{[!(%cmp2 = icmp eq i32 %4, 9)]}-> N304
+N304 -{%6 = load i32, i32* %i, align 4}-> N305
+N305 -{%inc = add i32 %6, 1}-> N306
+N306 -{store i32 %inc, i32* %i, align 4}-> N289
+N289 -{%1 = load i32, i32* %i, align 4}-> N290
+N290 -{%cmp1 = icmp slt i32 %1, 10}-> N291
+N291 -{[%cmp1 = icmp slt i32 %1, 10]}-> N315
+N291 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N316
+N315 -{%2 = load i32, i32* %i, align 4}-> N293
+N293 -{%idxprom = sext i32 %2 to i64}-> N294
+N294 -{%3 = load i8*, i8** %ptr, align 8}-> N295
+N295 -{%arrayidx = getelementptr inbounds i8, i8* %3, i64 %idxprom}-> N296
+N296 -{store i8 97, i8* %arrayidx, align 1}-> N297
+N297 -{%4 = load i32, i32* %i, align 4}-> N298
+N298 -{%cmp2 = icmp eq i32 %4, 9}-> N299
+N299 -{[%cmp2 = icmp eq i32 %4, 9]}-> N317
+N299 -{[!(%cmp2 = icmp eq i32 %4, 9)]}-> N304
+N304 -{%6 = load i32, i32* %i, align 4}-> N305
+N305 -{%inc = add i32 %6, 1}-> N306
+N306 -{store i32 %inc, i32* %i, align 4}-> N289
+N289 -{%1 = load i32, i32* %i, align 4}-> N290
+N290 -{%cmp1 = icmp slt i32 %1, 10}-> N291
+N291 -{[%cmp1 = icmp slt i32 %1, 10]}-> N315
+N291 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N316
+N315 -{%2 = load i32, i32* %i, align 4}-> N293
+N293 -{%idxprom = sext i32 %2 to i64}-> N294
+N294 -{%3 = load i8*, i8** %ptr, align 8}-> N295
+N295 -{%arrayidx = getelementptr inbounds i8, i8* %3, i64 %idxprom}-> N296
+N296 -{store i8 97, i8* %arrayidx, align 1}-> N297
+N297 -{%4 = load i32, i32* %i, align 4}-> N298
+N298 -{%cmp2 = icmp eq i32 %4, 9}-> N299
+N299 -{[%cmp2 = icmp eq i32 %4, 9]}-> N317
+N299 -{[!(%cmp2 = icmp eq i32 %4, 9)]}-> N304
+N304 -{%6 = load i32, i32* %i, align 4}-> N305
+N305 -{%inc = add i32 %6, 1}-> N306
+N306 -{store i32 %inc, i32* %i, align 4}-> N289
+N289 -{%1 = load i32, i32* %i, align 4}-> N290
+N290 -{%cmp1 = icmp slt i32 %1, 10}-> N291
+N291 -{[%cmp1 = icmp slt i32 %1, 10]}-> N315
+N291 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N316
+N315 -{%2 = load i32, i32* %i, align 4}-> N293
+N293 -{%idxprom = sext i32 %2 to i64}-> N294
+N294 -{%3 = load i8*, i8** %ptr, align 8}-> N295
+N295 -{%arrayidx = getelementptr inbounds i8, i8* %3, i64 %idxprom}-> N296
+N296 -{store i8 97, i8* %arrayidx, align 1}-> N297
+N297 -{%4 = load i32, i32* %i, align 4}-> N298
+N298 -{%cmp2 = icmp eq i32 %4, 9}-> N299
+N299 -{[%cmp2 = icmp eq i32 %4, 9]}-> N317
+N299 -{[!(%cmp2 = icmp eq i32 %4, 9)]}-> N304
+N304 -{%6 = load i32, i32* %i, align 4}-> N305
+N305 -{%inc = add i32 %6, 1}-> N306
+N306 -{store i32 %inc, i32* %i, align 4}-> N289
+N289 -{%1 = load i32, i32* %i, align 4}-> N290
+N290 -{%cmp1 = icmp slt i32 %1, 10}-> N291
+N291 -{[%cmp1 = icmp slt i32 %1, 10]}-> N315
+N291 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N316
+N315 -{%2 = load i32, i32* %i, align 4}-> N293
+N293 -{%idxprom = sext i32 %2 to i64}-> N294
+N294 -{%3 = load i8*, i8** %ptr, align 8}-> N295
+N295 -{%arrayidx = getelementptr inbounds i8, i8* %3, i64 %idxprom}-> N296
+N296 -{store i8 97, i8* %arrayidx, align 1}-> N297
+N297 -{%4 = load i32, i32* %i, align 4}-> N298
+N298 -{%cmp2 = icmp eq i32 %4, 9}-> N299
+N299 -{[%cmp2 = icmp eq i32 %4, 9]}-> N317
+N299 -{[!(%cmp2 = icmp eq i32 %4, 9)]}-> N304
+N304 -{%6 = load i32, i32* %i, align 4}-> N305
+N305 -{%inc = add i32 %6, 1}-> N306
+N306 -{store i32 %inc, i32* %i, align 4}-> N289
+N289 -{%1 = load i32, i32* %i, align 4}-> N290
+N290 -{%cmp1 = icmp slt i32 %1, 10}-> N291
+N291 -{[%cmp1 = icmp slt i32 %1, 10]}-> N315
+N291 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N316
+N315 -{%2 = load i32, i32* %i, align 4}-> N293
+N293 -{%idxprom = sext i32 %2 to i64}-> N294
+N294 -{%3 = load i8*, i8** %ptr, align 8}-> N295
+N295 -{%arrayidx = getelementptr inbounds i8, i8* %3, i64 %idxprom}-> N296
+N296 -{store i8 97, i8* %arrayidx, align 1}-> N297
+N297 -{%4 = load i32, i32* %i, align 4}-> N298
+N298 -{%cmp2 = icmp eq i32 %4, 9}-> N299
+N299 -{[%cmp2 = icmp eq i32 %4, 9]}-> N317
+N299 -{[!(%cmp2 = icmp eq i32 %4, 9)]}-> N304
+N304 -{%6 = load i32, i32* %i, align 4}-> N305
+N305 -{%inc = add i32 %6, 1}-> N306
+N306 -{store i32 %inc, i32* %i, align 4}-> N289
+N289 -{%1 = load i32, i32* %i, align 4}-> N290
+N290 -{%cmp1 = icmp slt i32 %1, 10}-> N291
+N291 -{[%cmp1 = icmp slt i32 %1, 10]}-> N315
+N291 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N316
+N315 -{%2 = load i32, i32* %i, align 4}-> N293
+N293 -{%idxprom = sext i32 %2 to i64}-> N294
+N294 -{%3 = load i8*, i8** %ptr, align 8}-> N295
+N295 -{%arrayidx = getelementptr inbounds i8, i8* %3, i64 %idxprom}-> N296
+N296 -{store i8 97, i8* %arrayidx, align 1}-> N297
+N297 -{%4 = load i32, i32* %i, align 4}-> N298
+N298 -{%cmp2 = icmp eq i32 %4, 9}-> N299
+N299 -{[%cmp2 = icmp eq i32 %4, 9]}-> N317
+N299 -{[!(%cmp2 = icmp eq i32 %4, 9)]}-> N304
+N317 -{%5 = load i8*, i8** %ptr, align 8}-> N301
+N301 -{call void @free(i8* %5, i8* @free)}-> N304
+N304 -{%6 = load i32, i32* %i, align 4}-> N305
+N305 -{%inc = add i32 %6, 1}-> N306
+N306 -{store i32 %inc, i32* %i, align 4}-> N289
+N289 -{%1 = load i32, i32* %i, align 4}-> N290
+N290 -{%cmp1 = icmp slt i32 %1, 10}-> N291
+N291 -{[%cmp1 = icmp slt i32 %1, 10]}-> N315
+N291 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N316
+N316 -{%7 = load i8*, i8** %ptr, align 8}-> N309
+N309 -{call void @free(i8* %7, i8* @free)}-> N311
+N311 -{ret void}-> N275
+N311 -{ret void}-> N275
+N275 -{Return edge from double_free_002_bad to main}-> N369
+N275 -{Return edge from double_free_002_bad to main}-> N369
+N369 -{ret i32 0}-> N363
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Double Free
+At node  : N309
+On edge  : N309 -{call void @free(i8* %7, i8* @free)}-> N311
+Message  : the memory is already freed
+> Start from entry function: main, At N364 of Function main
+> Entering function: double_free_002_good, On N367 -> N320 (call double_free_002_good)
+> takes the true branch, At N328 of Function double_free_002_good
+> Leaving function: double_free_002_good, On N319 -> N368 (Return edge from double_free_002_good to main)
+> Entering function: double_free_002_bad, On N368 -> N276 (call double_free_002_bad)
+> takes the false branch, At N284 of Function double_free_002_bad
+> takes the true branch, At N291 of Function double_free_002_bad
+> takes the false branch, At N299 of Function double_free_002_bad
+> takes the true branch, At N291 of Function double_free_002_bad
+> takes the false branch, At N299 of Function double_free_002_bad
+> takes the true branch, At N291 of Function double_free_002_bad
+> takes the false branch, At N299 of Function double_free_002_bad
+> takes the true branch, At N291 of Function double_free_002_bad
+> takes the false branch, At N299 of Function double_free_002_bad
+> takes the true branch, At N291 of Function double_free_002_bad
+> takes the false branch, At N299 of Function double_free_002_bad
+> takes the true branch, At N291 of Function double_free_002_bad
+> takes the false branch, At N299 of Function double_free_002_bad
+> takes the true branch, At N291 of Function double_free_002_bad
+> takes the false branch, At N299 of Function double_free_002_bad
+> takes the true branch, At N291 of Function double_free_002_bad
+> takes the false branch, At N299 of Function double_free_002_bad
+> takes the true branch, At N291 of Function double_free_002_bad
+> takes the false branch, At N299 of Function double_free_002_bad
+> takes the true branch, At N291 of Function double_free_002_bad
+> takes the true branch, At N299 of Function double_free_002_bad
+> takes the false branch, At N291 of Function double_free_002_bad
+<Defect> : N309 -> N311: [call void @free(i8* %7, i8* @free)]
+N309 -> N311: [call void @free(i8* %7, i8* @free)] <--
+-- end of trace --
+-- start of trace --
+Weakness : Use After Free
+At node  : N309
+On edge  : N309 -{call void @free(i8* %7, i8* @free)}-> N311
+Message  : the memory is already freed
+> Start from entry function: main, At N364 of Function main
+> Entering function: double_free_002_good, On N367 -> N320 (call double_free_002_good)
+> takes the true branch, At N328 of Function double_free_002_good
+> Leaving function: double_free_002_good, On N319 -> N368 (Return edge from double_free_002_good to main)
+> Entering function: double_free_002_bad, On N368 -> N276 (call double_free_002_bad)
+> takes the false branch, At N284 of Function double_free_002_bad
+> takes the true branch, At N291 of Function double_free_002_bad
+> takes the false branch, At N299 of Function double_free_002_bad
+> takes the true branch, At N291 of Function double_free_002_bad
+> takes the false branch, At N299 of Function double_free_002_bad
+> takes the true branch, At N291 of Function double_free_002_bad
+> takes the false branch, At N299 of Function double_free_002_bad
+> takes the true branch, At N291 of Function double_free_002_bad
+> takes the false branch, At N299 of Function double_free_002_bad
+> takes the true branch, At N291 of Function double_free_002_bad
+> takes the false branch, At N299 of Function double_free_002_bad
+> takes the true branch, At N291 of Function double_free_002_bad
+> takes the false branch, At N299 of Function double_free_002_bad
+> takes the true branch, At N291 of Function double_free_002_bad
+> takes the false branch, At N299 of Function double_free_002_bad
+> takes the true branch, At N291 of Function double_free_002_bad
+> takes the false branch, At N299 of Function double_free_002_bad
+> takes the true branch, At N291 of Function double_free_002_bad
+> takes the false branch, At N299 of Function double_free_002_bad
+> takes the true branch, At N291 of Function double_free_002_bad
+> takes the true branch, At N299 of Function double_free_002_bad
+> takes the false branch, At N291 of Function double_free_002_bad
+<Defect> : N309 -> N311: [call void @free(i8* %7, i8* @free)]
+N309 -> N311: [call void @free(i8* %7, i8* @free)] <--
+-- end of trace --
+=====================================================
+CWE_415(Double Free): 1
+	[./415_double_free_2.c 32] double_free_002_bad 		[N309 -{call void @free(i8* %7, i8* @free)}-> N311]	(the memory is already freed)
+
+CWE_416(Use After Free): 1
+	[./415_double_free_2.c 32] double_free_002_bad 		[N309 -{call void @free(i8* %7, i8* @free)}-> N311]	(the memory is already freed)
+
+Found 2 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/itc/415/415_double_free_3.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+3 SCCs to deal with
+SCC(1): [double_free_003_bad]
+ +double_free_003_bad
+SCC(1): [double_free_003_good]
+ +double_free_003_good
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [double_free_003_bad, double_free_003_good, main]
+Loops     [N385, N429]
+----
+function: double_free_003_bad
+P+ = [] 
+P- = [H(double_free_003_bad::call)] 
+Point-To:
+
+Ret-Value: 
+----
+function: double_free_003_good
+P+ = [] 
+P- = [H(double_free_003_good::call)] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [H(double_free_003_bad::call), H(double_free_003_good::call)] 
+Point-To:
+
+Ret-Value: R
+----
+loop N385 in double_free_003_bad: 
+N385 -> P+ = [H(double_free_003_bad::call)], P- = [H(double_free_003_bad::call)] Point-To: L(double_free_003_bad::ptr) -> [H(double_free_003_bad::call)]
+N387 -> P+ = [H(double_free_003_bad::call)], P- = [H(double_free_003_bad::call)] Point-To: L(double_free_003_bad::ptr) -> [H(double_free_003_bad::call)]
+----
+loop N429 in double_free_003_good: 
+N429 -> P+ = [H(double_free_003_good::call)], P- = [] Point-To: L(double_free_003_good::ptr) -> [H(double_free_003_good::call)]
+N431 -> P+ = [H(double_free_003_good::call)], P- = [] Point-To: L(double_free_003_good::ptr) -> [H(double_free_003_good::call)]
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.007s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N452): +oo]
+> [1/1] entry: main ()
+N452 -{%retval = alloca i32, align 4}-> N454
+N454 -{store i32 0, i32* %retval, align 4}-> N455
+N455 -{call double_free_003_good}-> N416
+N416 -{%ptr = alloca i8*, align 8}-> N418
+N418 -{%i = alloca i32, align 4}-> N420
+N420 -{%call = call i8* @malloc(i64 10, i64 @malloc)}-> N421
+N420 -{%call = call i8* @malloc(i64 10, i64 @malloc)}-> N421
+N421 -{store i8* %call, i8** %ptr, align 8}-> N422
+N421 -{store i8* %call, i8** %ptr, align 8}-> N422
+N422 -{%0 = load i8*, i8** %ptr, align 8}-> N423
+N422 -{%0 = load i8*, i8** %ptr, align 8}-> N423
+N423 -{%cmp = icmp eq i8* %0, null}-> N424
+N423 -{%cmp = icmp eq i8* %0, null}-> N424
+N424 -{[!(%cmp = icmp eq i8* %0, null)]}-> N448
+N424 -{[%cmp = icmp eq i8* %0, null]}-> N445
+N424 -{[!(%cmp = icmp eq i8* %0, null)]}-> N448
+N424 -{[%cmp = icmp eq i8* %0, null]}-> N445
+N448 -{store i32 0, i32* %i, align 4}-> N429
+N429 -{%1 = load i32, i32* %i, align 4}-> N430
+N429 -{@}-> N429
+N429 -{@}-> N431
+N430 -{%cmp1 = icmp slt i32 %1, 10}-> N431
+N431 -{[%cmp1 = icmp slt i32 %1, 10]}-> N449
+N431 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N450
+N449 -{%2 = load i8*, i8** %ptr, align 8}-> N433
+N433 -{%3 = load i32, i32* %i, align 4}-> N434
+N434 -{%idx.ext = sext i32 %3 to i64}-> N435
+N435 -{%add.ptr = getelementptr inbounds i8, i8* %2, i64 %idx.ext}-> N436
+N436 -{store i8 97, i8* %add.ptr, align 1}-> N438
+N438 -{%4 = load i32, i32* %i, align 4}-> N439
+N439 -{%inc = add i32 %4, 1}-> N440
+N440 -{store i32 %inc, i32* %i, align 4}-> N429
+N429 -{%1 = load i32, i32* %i, align 4}-> N430
+N430 -{%cmp1 = icmp slt i32 %1, 10}-> N431
+N431 -{[%cmp1 = icmp slt i32 %1, 10]}-> N449
+N431 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N450
+N449 -{%2 = load i8*, i8** %ptr, align 8}-> N433
+N433 -{%3 = load i32, i32* %i, align 4}-> N434
+N434 -{%idx.ext = sext i32 %3 to i64}-> N435
+N435 -{%add.ptr = getelementptr inbounds i8, i8* %2, i64 %idx.ext}-> N436
+N436 -{store i8 97, i8* %add.ptr, align 1}-> N438
+N438 -{%4 = load i32, i32* %i, align 4}-> N439
+N439 -{%inc = add i32 %4, 1}-> N440
+N440 -{store i32 %inc, i32* %i, align 4}-> N429
+N429 -{%1 = load i32, i32* %i, align 4}-> N430
+N430 -{%cmp1 = icmp slt i32 %1, 10}-> N431
+N431 -{[%cmp1 = icmp slt i32 %1, 10]}-> N449
+N431 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N450
+N449 -{%2 = load i8*, i8** %ptr, align 8}-> N433
+N433 -{%3 = load i32, i32* %i, align 4}-> N434
+N434 -{%idx.ext = sext i32 %3 to i64}-> N435
+N435 -{%add.ptr = getelementptr inbounds i8, i8* %2, i64 %idx.ext}-> N436
+N436 -{store i8 97, i8* %add.ptr, align 1}-> N438
+N438 -{%4 = load i32, i32* %i, align 4}-> N439
+N439 -{%inc = add i32 %4, 1}-> N440
+N440 -{store i32 %inc, i32* %i, align 4}-> N429
+N429 -{%1 = load i32, i32* %i, align 4}-> N430
+N430 -{%cmp1 = icmp slt i32 %1, 10}-> N431
+N431 -{[%cmp1 = icmp slt i32 %1, 10]}-> N449
+N431 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N450
+N449 -{%2 = load i8*, i8** %ptr, align 8}-> N433
+N433 -{%3 = load i32, i32* %i, align 4}-> N434
+N434 -{%idx.ext = sext i32 %3 to i64}-> N435
+N435 -{%add.ptr = getelementptr inbounds i8, i8* %2, i64 %idx.ext}-> N436
+N436 -{store i8 97, i8* %add.ptr, align 1}-> N438
+N438 -{%4 = load i32, i32* %i, align 4}-> N439
+N439 -{%inc = add i32 %4, 1}-> N440
+N440 -{store i32 %inc, i32* %i, align 4}-> N429
+N429 -{%1 = load i32, i32* %i, align 4}-> N430
+N430 -{%cmp1 = icmp slt i32 %1, 10}-> N431
+N431 -{[%cmp1 = icmp slt i32 %1, 10]}-> N449
+N431 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N450
+N449 -{%2 = load i8*, i8** %ptr, align 8}-> N433
+N433 -{%3 = load i32, i32* %i, align 4}-> N434
+N434 -{%idx.ext = sext i32 %3 to i64}-> N435
+N435 -{%add.ptr = getelementptr inbounds i8, i8* %2, i64 %idx.ext}-> N436
+N436 -{store i8 97, i8* %add.ptr, align 1}-> N438
+N438 -{%4 = load i32, i32* %i, align 4}-> N439
+N439 -{%inc = add i32 %4, 1}-> N440
+N440 -{store i32 %inc, i32* %i, align 4}-> N429
+N429 -{%1 = load i32, i32* %i, align 4}-> N430
+N430 -{%cmp1 = icmp slt i32 %1, 10}-> N431
+N431 -{[%cmp1 = icmp slt i32 %1, 10]}-> N449
+N431 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N450
+N449 -{%2 = load i8*, i8** %ptr, align 8}-> N433
+N433 -{%3 = load i32, i32* %i, align 4}-> N434
+N434 -{%idx.ext = sext i32 %3 to i64}-> N435
+N435 -{%add.ptr = getelementptr inbounds i8, i8* %2, i64 %idx.ext}-> N436
+N436 -{store i8 97, i8* %add.ptr, align 1}-> N438
+N438 -{%4 = load i32, i32* %i, align 4}-> N439
+N439 -{%inc = add i32 %4, 1}-> N440
+N440 -{store i32 %inc, i32* %i, align 4}-> N429
+N429 -{%1 = load i32, i32* %i, align 4}-> N430
+N430 -{%cmp1 = icmp slt i32 %1, 10}-> N431
+N431 -{[%cmp1 = icmp slt i32 %1, 10]}-> N449
+N431 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N450
+N449 -{%2 = load i8*, i8** %ptr, align 8}-> N433
+N433 -{%3 = load i32, i32* %i, align 4}-> N434
+N434 -{%idx.ext = sext i32 %3 to i64}-> N435
+N435 -{%add.ptr = getelementptr inbounds i8, i8* %2, i64 %idx.ext}-> N436
+N436 -{store i8 97, i8* %add.ptr, align 1}-> N438
+N438 -{%4 = load i32, i32* %i, align 4}-> N439
+N439 -{%inc = add i32 %4, 1}-> N440
+N440 -{store i32 %inc, i32* %i, align 4}-> N429
+N429 -{%1 = load i32, i32* %i, align 4}-> N430
+N430 -{%cmp1 = icmp slt i32 %1, 10}-> N431
+N431 -{[%cmp1 = icmp slt i32 %1, 10]}-> N449
+N431 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N450
+N449 -{%2 = load i8*, i8** %ptr, align 8}-> N433
+N433 -{%3 = load i32, i32* %i, align 4}-> N434
+N434 -{%idx.ext = sext i32 %3 to i64}-> N435
+N435 -{%add.ptr = getelementptr inbounds i8, i8* %2, i64 %idx.ext}-> N436
+N436 -{store i8 97, i8* %add.ptr, align 1}-> N438
+N438 -{%4 = load i32, i32* %i, align 4}-> N439
+N439 -{%inc = add i32 %4, 1}-> N440
+N440 -{store i32 %inc, i32* %i, align 4}-> N429
+N429 -{%1 = load i32, i32* %i, align 4}-> N430
+N430 -{%cmp1 = icmp slt i32 %1, 10}-> N431
+N431 -{[%cmp1 = icmp slt i32 %1, 10]}-> N449
+N431 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N450
+N449 -{%2 = load i8*, i8** %ptr, align 8}-> N433
+N433 -{%3 = load i32, i32* %i, align 4}-> N434
+N434 -{%idx.ext = sext i32 %3 to i64}-> N435
+N435 -{%add.ptr = getelementptr inbounds i8, i8* %2, i64 %idx.ext}-> N436
+N436 -{store i8 97, i8* %add.ptr, align 1}-> N438
+N438 -{%4 = load i32, i32* %i, align 4}-> N439
+N439 -{%inc = add i32 %4, 1}-> N440
+N440 -{store i32 %inc, i32* %i, align 4}-> N429
+N429 -{%1 = load i32, i32* %i, align 4}-> N430
+N430 -{%cmp1 = icmp slt i32 %1, 10}-> N431
+N431 -{[%cmp1 = icmp slt i32 %1, 10]}-> N449
+N431 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N450
+N449 -{%2 = load i8*, i8** %ptr, align 8}-> N433
+N433 -{%3 = load i32, i32* %i, align 4}-> N434
+N434 -{%idx.ext = sext i32 %3 to i64}-> N435
+N435 -{%add.ptr = getelementptr inbounds i8, i8* %2, i64 %idx.ext}-> N436
+N436 -{store i8 97, i8* %add.ptr, align 1}-> N438
+N438 -{%4 = load i32, i32* %i, align 4}-> N439
+N439 -{%inc = add i32 %4, 1}-> N440
+N440 -{store i32 %inc, i32* %i, align 4}-> N429
+N429 -{%1 = load i32, i32* %i, align 4}-> N430
+N430 -{%cmp1 = icmp slt i32 %1, 10}-> N431
+N431 -{[%cmp1 = icmp slt i32 %1, 10]}-> N449
+N431 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N450
+N450 -{%5 = load i8*, i8** %ptr, align 8}-> N443
+N443 -{call void @free(i8* %5, i8* @free)}-> N445
+N445 -{ret void}-> N415
+N445 -{ret void}-> N415
+N415 -{Return edge from double_free_003_good to main}-> N456
+N415 -{Return edge from double_free_003_good to main}-> N456
+N456 -{call double_free_003_bad}-> N372
+N372 -{%ptr = alloca i8*, align 8}-> N374
+N374 -{%i = alloca i32, align 4}-> N376
+N376 -{%call = call i8* @malloc(i64 10, i64 @malloc)}-> N377
+N376 -{%call = call i8* @malloc(i64 10, i64 @malloc)}-> N377
+N377 -{store i8* %call, i8** %ptr, align 8}-> N378
+N377 -{store i8* %call, i8** %ptr, align 8}-> N378
+N378 -{%0 = load i8*, i8** %ptr, align 8}-> N379
+N378 -{%0 = load i8*, i8** %ptr, align 8}-> N379
+N379 -{%cmp = icmp eq i8* %0, null}-> N380
+N379 -{%cmp = icmp eq i8* %0, null}-> N380
+N380 -{[!(%cmp = icmp eq i8* %0, null)]}-> N410
+N380 -{[%cmp = icmp eq i8* %0, null]}-> N407
+N380 -{[!(%cmp = icmp eq i8* %0, null)]}-> N410
+N380 -{[%cmp = icmp eq i8* %0, null]}-> N407
+N410 -{store i32 0, i32* %i, align 4}-> N385
+N385 -{%1 = load i32, i32* %i, align 4}-> N386
+N385 -{@}-> N385
+N385 -{@}-> N387
+N386 -{%cmp1 = icmp slt i32 %1, 10}-> N387
+N387 -{[%cmp1 = icmp slt i32 %1, 10]}-> N411
+N387 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N412
+N411 -{%2 = load i8*, i8** %ptr, align 8}-> N389
+N389 -{%3 = load i32, i32* %i, align 4}-> N390
+N390 -{%idx.ext = sext i32 %3 to i64}-> N391
+N391 -{%add.ptr = getelementptr inbounds i8, i8* %2, i64 %idx.ext}-> N392
+N392 -{store i8 97, i8* %add.ptr, align 1}-> N393
+N393 -{%4 = load i32, i32* %i, align 4}-> N394
+N394 -{%cmp2 = icmp eq i32 %4, 9}-> N395
+N395 -{[%cmp2 = icmp eq i32 %4, 9]}-> N413
+N395 -{[!(%cmp2 = icmp eq i32 %4, 9)]}-> N400
+N400 -{%6 = load i32, i32* %i, align 4}-> N401
+N401 -{%inc = add i32 %6, 1}-> N402
+N402 -{store i32 %inc, i32* %i, align 4}-> N385
+N385 -{%1 = load i32, i32* %i, align 4}-> N386
+N386 -{%cmp1 = icmp slt i32 %1, 10}-> N387
+N387 -{[%cmp1 = icmp slt i32 %1, 10]}-> N411
+N387 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N412
+N411 -{%2 = load i8*, i8** %ptr, align 8}-> N389
+N389 -{%3 = load i32, i32* %i, align 4}-> N390
+N390 -{%idx.ext = sext i32 %3 to i64}-> N391
+N391 -{%add.ptr = getelementptr inbounds i8, i8* %2, i64 %idx.ext}-> N392
+N392 -{store i8 97, i8* %add.ptr, align 1}-> N393
+N393 -{%4 = load i32, i32* %i, align 4}-> N394
+N394 -{%cmp2 = icmp eq i32 %4, 9}-> N395
+N395 -{[%cmp2 = icmp eq i32 %4, 9]}-> N413
+N395 -{[!(%cmp2 = icmp eq i32 %4, 9)]}-> N400
+N400 -{%6 = load i32, i32* %i, align 4}-> N401
+N401 -{%inc = add i32 %6, 1}-> N402
+N402 -{store i32 %inc, i32* %i, align 4}-> N385
+N385 -{%1 = load i32, i32* %i, align 4}-> N386
+N386 -{%cmp1 = icmp slt i32 %1, 10}-> N387
+N387 -{[%cmp1 = icmp slt i32 %1, 10]}-> N411
+N387 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N412
+N411 -{%2 = load i8*, i8** %ptr, align 8}-> N389
+N389 -{%3 = load i32, i32* %i, align 4}-> N390
+N390 -{%idx.ext = sext i32 %3 to i64}-> N391
+N391 -{%add.ptr = getelementptr inbounds i8, i8* %2, i64 %idx.ext}-> N392
+N392 -{store i8 97, i8* %add.ptr, align 1}-> N393
+N393 -{%4 = load i32, i32* %i, align 4}-> N394
+N394 -{%cmp2 = icmp eq i32 %4, 9}-> N395
+N395 -{[%cmp2 = icmp eq i32 %4, 9]}-> N413
+N395 -{[!(%cmp2 = icmp eq i32 %4, 9)]}-> N400
+N400 -{%6 = load i32, i32* %i, align 4}-> N401
+N401 -{%inc = add i32 %6, 1}-> N402
+N402 -{store i32 %inc, i32* %i, align 4}-> N385
+N385 -{%1 = load i32, i32* %i, align 4}-> N386
+N386 -{%cmp1 = icmp slt i32 %1, 10}-> N387
+N387 -{[%cmp1 = icmp slt i32 %1, 10]}-> N411
+N387 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N412
+N411 -{%2 = load i8*, i8** %ptr, align 8}-> N389
+N389 -{%3 = load i32, i32* %i, align 4}-> N390
+N390 -{%idx.ext = sext i32 %3 to i64}-> N391
+N391 -{%add.ptr = getelementptr inbounds i8, i8* %2, i64 %idx.ext}-> N392
+N392 -{store i8 97, i8* %add.ptr, align 1}-> N393
+N393 -{%4 = load i32, i32* %i, align 4}-> N394
+N394 -{%cmp2 = icmp eq i32 %4, 9}-> N395
+N395 -{[%cmp2 = icmp eq i32 %4, 9]}-> N413
+N395 -{[!(%cmp2 = icmp eq i32 %4, 9)]}-> N400
+N400 -{%6 = load i32, i32* %i, align 4}-> N401
+N401 -{%inc = add i32 %6, 1}-> N402
+N402 -{store i32 %inc, i32* %i, align 4}-> N385
+N385 -{%1 = load i32, i32* %i, align 4}-> N386
+N386 -{%cmp1 = icmp slt i32 %1, 10}-> N387
+N387 -{[%cmp1 = icmp slt i32 %1, 10]}-> N411
+N387 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N412
+N411 -{%2 = load i8*, i8** %ptr, align 8}-> N389
+N389 -{%3 = load i32, i32* %i, align 4}-> N390
+N390 -{%idx.ext = sext i32 %3 to i64}-> N391
+N391 -{%add.ptr = getelementptr inbounds i8, i8* %2, i64 %idx.ext}-> N392
+N392 -{store i8 97, i8* %add.ptr, align 1}-> N393
+N393 -{%4 = load i32, i32* %i, align 4}-> N394
+N394 -{%cmp2 = icmp eq i32 %4, 9}-> N395
+N395 -{[%cmp2 = icmp eq i32 %4, 9]}-> N413
+N395 -{[!(%cmp2 = icmp eq i32 %4, 9)]}-> N400
+N400 -{%6 = load i32, i32* %i, align 4}-> N401
+N401 -{%inc = add i32 %6, 1}-> N402
+N402 -{store i32 %inc, i32* %i, align 4}-> N385
+N385 -{%1 = load i32, i32* %i, align 4}-> N386
+N386 -{%cmp1 = icmp slt i32 %1, 10}-> N387
+N387 -{[%cmp1 = icmp slt i32 %1, 10]}-> N411
+N387 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N412
+N411 -{%2 = load i8*, i8** %ptr, align 8}-> N389
+N389 -{%3 = load i32, i32* %i, align 4}-> N390
+N390 -{%idx.ext = sext i32 %3 to i64}-> N391
+N391 -{%add.ptr = getelementptr inbounds i8, i8* %2, i64 %idx.ext}-> N392
+N392 -{store i8 97, i8* %add.ptr, align 1}-> N393
+N393 -{%4 = load i32, i32* %i, align 4}-> N394
+N394 -{%cmp2 = icmp eq i32 %4, 9}-> N395
+N395 -{[%cmp2 = icmp eq i32 %4, 9]}-> N413
+N395 -{[!(%cmp2 = icmp eq i32 %4, 9)]}-> N400
+N400 -{%6 = load i32, i32* %i, align 4}-> N401
+N401 -{%inc = add i32 %6, 1}-> N402
+N402 -{store i32 %inc, i32* %i, align 4}-> N385
+N385 -{%1 = load i32, i32* %i, align 4}-> N386
+N386 -{%cmp1 = icmp slt i32 %1, 10}-> N387
+N387 -{[%cmp1 = icmp slt i32 %1, 10]}-> N411
+N387 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N412
+N411 -{%2 = load i8*, i8** %ptr, align 8}-> N389
+N389 -{%3 = load i32, i32* %i, align 4}-> N390
+N390 -{%idx.ext = sext i32 %3 to i64}-> N391
+N391 -{%add.ptr = getelementptr inbounds i8, i8* %2, i64 %idx.ext}-> N392
+N392 -{store i8 97, i8* %add.ptr, align 1}-> N393
+N393 -{%4 = load i32, i32* %i, align 4}-> N394
+N394 -{%cmp2 = icmp eq i32 %4, 9}-> N395
+N395 -{[%cmp2 = icmp eq i32 %4, 9]}-> N413
+N395 -{[!(%cmp2 = icmp eq i32 %4, 9)]}-> N400
+N400 -{%6 = load i32, i32* %i, align 4}-> N401
+N401 -{%inc = add i32 %6, 1}-> N402
+N402 -{store i32 %inc, i32* %i, align 4}-> N385
+N385 -{%1 = load i32, i32* %i, align 4}-> N386
+N386 -{%cmp1 = icmp slt i32 %1, 10}-> N387
+N387 -{[%cmp1 = icmp slt i32 %1, 10]}-> N411
+N387 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N412
+N411 -{%2 = load i8*, i8** %ptr, align 8}-> N389
+N389 -{%3 = load i32, i32* %i, align 4}-> N390
+N390 -{%idx.ext = sext i32 %3 to i64}-> N391
+N391 -{%add.ptr = getelementptr inbounds i8, i8* %2, i64 %idx.ext}-> N392
+N392 -{store i8 97, i8* %add.ptr, align 1}-> N393
+N393 -{%4 = load i32, i32* %i, align 4}-> N394
+N394 -{%cmp2 = icmp eq i32 %4, 9}-> N395
+N395 -{[%cmp2 = icmp eq i32 %4, 9]}-> N413
+N395 -{[!(%cmp2 = icmp eq i32 %4, 9)]}-> N400
+N400 -{%6 = load i32, i32* %i, align 4}-> N401
+N401 -{%inc = add i32 %6, 1}-> N402
+N402 -{store i32 %inc, i32* %i, align 4}-> N385
+N385 -{%1 = load i32, i32* %i, align 4}-> N386
+N386 -{%cmp1 = icmp slt i32 %1, 10}-> N387
+N387 -{[%cmp1 = icmp slt i32 %1, 10]}-> N411
+N387 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N412
+N411 -{%2 = load i8*, i8** %ptr, align 8}-> N389
+N389 -{%3 = load i32, i32* %i, align 4}-> N390
+N390 -{%idx.ext = sext i32 %3 to i64}-> N391
+N391 -{%add.ptr = getelementptr inbounds i8, i8* %2, i64 %idx.ext}-> N392
+N392 -{store i8 97, i8* %add.ptr, align 1}-> N393
+N393 -{%4 = load i32, i32* %i, align 4}-> N394
+N394 -{%cmp2 = icmp eq i32 %4, 9}-> N395
+N395 -{[%cmp2 = icmp eq i32 %4, 9]}-> N413
+N395 -{[!(%cmp2 = icmp eq i32 %4, 9)]}-> N400
+N400 -{%6 = load i32, i32* %i, align 4}-> N401
+N401 -{%inc = add i32 %6, 1}-> N402
+N402 -{store i32 %inc, i32* %i, align 4}-> N385
+N385 -{%1 = load i32, i32* %i, align 4}-> N386
+N386 -{%cmp1 = icmp slt i32 %1, 10}-> N387
+N387 -{[%cmp1 = icmp slt i32 %1, 10]}-> N411
+N387 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N412
+N411 -{%2 = load i8*, i8** %ptr, align 8}-> N389
+N389 -{%3 = load i32, i32* %i, align 4}-> N390
+N390 -{%idx.ext = sext i32 %3 to i64}-> N391
+N391 -{%add.ptr = getelementptr inbounds i8, i8* %2, i64 %idx.ext}-> N392
+N392 -{store i8 97, i8* %add.ptr, align 1}-> N393
+N393 -{%4 = load i32, i32* %i, align 4}-> N394
+N394 -{%cmp2 = icmp eq i32 %4, 9}-> N395
+N395 -{[%cmp2 = icmp eq i32 %4, 9]}-> N413
+N395 -{[!(%cmp2 = icmp eq i32 %4, 9)]}-> N400
+N413 -{%5 = load i8*, i8** %ptr, align 8}-> N397
+N397 -{call void @free(i8* %5, i8* @free)}-> N400
+N400 -{%6 = load i32, i32* %i, align 4}-> N401
+N401 -{%inc = add i32 %6, 1}-> N402
+N402 -{store i32 %inc, i32* %i, align 4}-> N385
+N385 -{%1 = load i32, i32* %i, align 4}-> N386
+N386 -{%cmp1 = icmp slt i32 %1, 10}-> N387
+N387 -{[%cmp1 = icmp slt i32 %1, 10]}-> N411
+N387 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N412
+N412 -{%7 = load i8*, i8** %ptr, align 8}-> N405
+N405 -{call void @free(i8* %7, i8* @free)}-> N407
+N407 -{ret void}-> N371
+N407 -{ret void}-> N371
+N371 -{Return edge from double_free_003_bad to main}-> N457
+N371 -{Return edge from double_free_003_bad to main}-> N457
+N457 -{ret i32 0}-> N451
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Double Free
+At node  : N405
+On edge  : N405 -{call void @free(i8* %7, i8* @free)}-> N407
+Message  : the memory is already freed
+> Start from entry function: main, At N452 of Function main
+> Entering function: double_free_003_good, On N455 -> N416 (call double_free_003_good)
+> takes the true branch, At N424 of Function double_free_003_good
+> Leaving function: double_free_003_good, On N415 -> N456 (Return edge from double_free_003_good to main)
+> Entering function: double_free_003_bad, On N456 -> N372 (call double_free_003_bad)
+> takes the false branch, At N380 of Function double_free_003_bad
+> takes the true branch, At N387 of Function double_free_003_bad
+> takes the false branch, At N395 of Function double_free_003_bad
+> takes the true branch, At N387 of Function double_free_003_bad
+> takes the false branch, At N395 of Function double_free_003_bad
+> takes the true branch, At N387 of Function double_free_003_bad
+> takes the false branch, At N395 of Function double_free_003_bad
+> takes the true branch, At N387 of Function double_free_003_bad
+> takes the false branch, At N395 of Function double_free_003_bad
+> takes the true branch, At N387 of Function double_free_003_bad
+> takes the false branch, At N395 of Function double_free_003_bad
+> takes the true branch, At N387 of Function double_free_003_bad
+> takes the false branch, At N395 of Function double_free_003_bad
+> takes the true branch, At N387 of Function double_free_003_bad
+> takes the false branch, At N395 of Function double_free_003_bad
+> takes the true branch, At N387 of Function double_free_003_bad
+> takes the false branch, At N395 of Function double_free_003_bad
+> takes the true branch, At N387 of Function double_free_003_bad
+> takes the false branch, At N395 of Function double_free_003_bad
+> takes the true branch, At N387 of Function double_free_003_bad
+> takes the true branch, At N395 of Function double_free_003_bad
+> takes the false branch, At N387 of Function double_free_003_bad
+<Defect> : N405 -> N407: [call void @free(i8* %7, i8* @free)]
+N405 -> N407: [call void @free(i8* %7, i8* @free)] <--
+-- end of trace --
+-- start of trace --
+Weakness : Use After Free
+At node  : N405
+On edge  : N405 -{call void @free(i8* %7, i8* @free)}-> N407
+Message  : the memory is already freed
+> Start from entry function: main, At N452 of Function main
+> Entering function: double_free_003_good, On N455 -> N416 (call double_free_003_good)
+> takes the true branch, At N424 of Function double_free_003_good
+> Leaving function: double_free_003_good, On N415 -> N456 (Return edge from double_free_003_good to main)
+> Entering function: double_free_003_bad, On N456 -> N372 (call double_free_003_bad)
+> takes the false branch, At N380 of Function double_free_003_bad
+> takes the true branch, At N387 of Function double_free_003_bad
+> takes the false branch, At N395 of Function double_free_003_bad
+> takes the true branch, At N387 of Function double_free_003_bad
+> takes the false branch, At N395 of Function double_free_003_bad
+> takes the true branch, At N387 of Function double_free_003_bad
+> takes the false branch, At N395 of Function double_free_003_bad
+> takes the true branch, At N387 of Function double_free_003_bad
+> takes the false branch, At N395 of Function double_free_003_bad
+> takes the true branch, At N387 of Function double_free_003_bad
+> takes the false branch, At N395 of Function double_free_003_bad
+> takes the true branch, At N387 of Function double_free_003_bad
+> takes the false branch, At N395 of Function double_free_003_bad
+> takes the true branch, At N387 of Function double_free_003_bad
+> takes the false branch, At N395 of Function double_free_003_bad
+> takes the true branch, At N387 of Function double_free_003_bad
+> takes the false branch, At N395 of Function double_free_003_bad
+> takes the true branch, At N387 of Function double_free_003_bad
+> takes the false branch, At N395 of Function double_free_003_bad
+> takes the true branch, At N387 of Function double_free_003_bad
+> takes the true branch, At N395 of Function double_free_003_bad
+> takes the false branch, At N387 of Function double_free_003_bad
+<Defect> : N405 -> N407: [call void @free(i8* %7, i8* @free)]
+N405 -> N407: [call void @free(i8* %7, i8* @free)] <--
+-- end of trace --
+=====================================================
+CWE_415(Double Free): 1
+	[./415_double_free_3.c 32] double_free_003_bad 		[N405 -{call void @free(i8* %7, i8* @free)}-> N407]	(the memory is already freed)
+
+CWE_416(Use After Free): 1
+	[./415_double_free_3.c 32] double_free_003_bad 		[N405 -{call void @free(i8* %7, i8* @free)}-> N407]	(the memory is already freed)
+
+Found 2 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/itc/415/415_double_free_4.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+3 SCCs to deal with
+SCC(1): [double_free_004_bad]
+ +double_free_004_bad
+SCC(1): [double_free_004_good]
+ +double_free_004_good
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [double_free_004_good, main, double_free_004_bad]
+Loops     [N473, N524]
+----
+function: double_free_004_bad
+P+ = [] 
+P- = [H(double_free_004_bad::call)] 
+Point-To:
+
+Ret-Value: 
+----
+function: double_free_004_good
+P+ = [] 
+P- = [H(double_free_004_good::call)] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [H(double_free_004_bad::call), H(double_free_004_good::call)] 
+Point-To:
+
+Ret-Value: R
+----
+loop N473 in double_free_004_bad: 
+N473 -> P+ = [H(double_free_004_bad::call)], P- = [] Point-To: L(double_free_004_bad::ptr) -> [H(double_free_004_bad::call)]
+N475 -> P+ = [H(double_free_004_bad::call)], P- = [] Point-To: L(double_free_004_bad::ptr) -> [H(double_free_004_bad::call)]
+----
+loop N524 in double_free_004_good: 
+N524 -> P+ = [H(double_free_004_good::call)], P- = [] Point-To: L(double_free_004_good::ptr) -> [H(double_free_004_good::call)]
+N526 -> P+ = [H(double_free_004_good::call)], P- = [] Point-To: L(double_free_004_good::ptr) -> [H(double_free_004_good::call)]
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.009s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N547): +oo]
+> [1/1] entry: main ()
+N547 -{%retval = alloca i32, align 4}-> N549
+N549 -{store i32 0, i32* %retval, align 4}-> N550
+N550 -{call double_free_004_good}-> N511
+N511 -{%ptr = alloca i8*, align 8}-> N513
+N513 -{%i = alloca i32, align 4}-> N515
+N515 -{%call = call i8* @malloc(i64 10, i64 @malloc)}-> N516
+N515 -{%call = call i8* @malloc(i64 10, i64 @malloc)}-> N516
+N516 -{store i8* %call, i8** %ptr, align 8}-> N517
+N516 -{store i8* %call, i8** %ptr, align 8}-> N517
+N517 -{%0 = load i8*, i8** %ptr, align 8}-> N518
+N517 -{%0 = load i8*, i8** %ptr, align 8}-> N518
+N518 -{%cmp = icmp eq i8* %0, null}-> N519
+N518 -{%cmp = icmp eq i8* %0, null}-> N519
+N519 -{[!(%cmp = icmp eq i8* %0, null)]}-> N543
+N519 -{[%cmp = icmp eq i8* %0, null]}-> N540
+N519 -{[!(%cmp = icmp eq i8* %0, null)]}-> N543
+N519 -{[%cmp = icmp eq i8* %0, null]}-> N540
+N543 -{store i32 0, i32* %i, align 4}-> N524
+N524 -{%1 = load i32, i32* %i, align 4}-> N525
+N524 -{@}-> N524
+N524 -{@}-> N526
+N525 -{%cmp1 = icmp slt i32 %1, 10}-> N526
+N526 -{[%cmp1 = icmp slt i32 %1, 10]}-> N544
+N526 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N545
+N544 -{%2 = load i8*, i8** %ptr, align 8}-> N528
+N528 -{%3 = load i32, i32* %i, align 4}-> N529
+N529 -{%idx.ext = sext i32 %3 to i64}-> N530
+N530 -{%add.ptr = getelementptr inbounds i8, i8* %2, i64 %idx.ext}-> N531
+N531 -{store i8 97, i8* %add.ptr, align 1}-> N533
+N533 -{%4 = load i32, i32* %i, align 4}-> N534
+N534 -{%inc = add i32 %4, 1}-> N535
+N535 -{store i32 %inc, i32* %i, align 4}-> N524
+N524 -{%1 = load i32, i32* %i, align 4}-> N525
+N525 -{%cmp1 = icmp slt i32 %1, 10}-> N526
+N526 -{[%cmp1 = icmp slt i32 %1, 10]}-> N544
+N526 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N545
+N544 -{%2 = load i8*, i8** %ptr, align 8}-> N528
+N528 -{%3 = load i32, i32* %i, align 4}-> N529
+N529 -{%idx.ext = sext i32 %3 to i64}-> N530
+N530 -{%add.ptr = getelementptr inbounds i8, i8* %2, i64 %idx.ext}-> N531
+N531 -{store i8 97, i8* %add.ptr, align 1}-> N533
+N533 -{%4 = load i32, i32* %i, align 4}-> N534
+N534 -{%inc = add i32 %4, 1}-> N535
+N535 -{store i32 %inc, i32* %i, align 4}-> N524
+N524 -{%1 = load i32, i32* %i, align 4}-> N525
+N525 -{%cmp1 = icmp slt i32 %1, 10}-> N526
+N526 -{[%cmp1 = icmp slt i32 %1, 10]}-> N544
+N526 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N545
+N544 -{%2 = load i8*, i8** %ptr, align 8}-> N528
+N528 -{%3 = load i32, i32* %i, align 4}-> N529
+N529 -{%idx.ext = sext i32 %3 to i64}-> N530
+N530 -{%add.ptr = getelementptr inbounds i8, i8* %2, i64 %idx.ext}-> N531
+N531 -{store i8 97, i8* %add.ptr, align 1}-> N533
+N533 -{%4 = load i32, i32* %i, align 4}-> N534
+N534 -{%inc = add i32 %4, 1}-> N535
+N535 -{store i32 %inc, i32* %i, align 4}-> N524
+N524 -{%1 = load i32, i32* %i, align 4}-> N525
+N525 -{%cmp1 = icmp slt i32 %1, 10}-> N526
+N526 -{[%cmp1 = icmp slt i32 %1, 10]}-> N544
+N526 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N545
+N544 -{%2 = load i8*, i8** %ptr, align 8}-> N528
+N528 -{%3 = load i32, i32* %i, align 4}-> N529
+N529 -{%idx.ext = sext i32 %3 to i64}-> N530
+N530 -{%add.ptr = getelementptr inbounds i8, i8* %2, i64 %idx.ext}-> N531
+N531 -{store i8 97, i8* %add.ptr, align 1}-> N533
+N533 -{%4 = load i32, i32* %i, align 4}-> N534
+N534 -{%inc = add i32 %4, 1}-> N535
+N535 -{store i32 %inc, i32* %i, align 4}-> N524
+N524 -{%1 = load i32, i32* %i, align 4}-> N525
+N525 -{%cmp1 = icmp slt i32 %1, 10}-> N526
+N526 -{[%cmp1 = icmp slt i32 %1, 10]}-> N544
+N526 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N545
+N544 -{%2 = load i8*, i8** %ptr, align 8}-> N528
+N528 -{%3 = load i32, i32* %i, align 4}-> N529
+N529 -{%idx.ext = sext i32 %3 to i64}-> N530
+N530 -{%add.ptr = getelementptr inbounds i8, i8* %2, i64 %idx.ext}-> N531
+N531 -{store i8 97, i8* %add.ptr, align 1}-> N533
+N533 -{%4 = load i32, i32* %i, align 4}-> N534
+N534 -{%inc = add i32 %4, 1}-> N535
+N535 -{store i32 %inc, i32* %i, align 4}-> N524
+N524 -{%1 = load i32, i32* %i, align 4}-> N525
+N525 -{%cmp1 = icmp slt i32 %1, 10}-> N526
+N526 -{[%cmp1 = icmp slt i32 %1, 10]}-> N544
+N526 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N545
+N544 -{%2 = load i8*, i8** %ptr, align 8}-> N528
+N528 -{%3 = load i32, i32* %i, align 4}-> N529
+N529 -{%idx.ext = sext i32 %3 to i64}-> N530
+N530 -{%add.ptr = getelementptr inbounds i8, i8* %2, i64 %idx.ext}-> N531
+N531 -{store i8 97, i8* %add.ptr, align 1}-> N533
+N533 -{%4 = load i32, i32* %i, align 4}-> N534
+N534 -{%inc = add i32 %4, 1}-> N535
+N535 -{store i32 %inc, i32* %i, align 4}-> N524
+N524 -{%1 = load i32, i32* %i, align 4}-> N525
+N525 -{%cmp1 = icmp slt i32 %1, 10}-> N526
+N526 -{[%cmp1 = icmp slt i32 %1, 10]}-> N544
+N526 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N545
+N544 -{%2 = load i8*, i8** %ptr, align 8}-> N528
+N528 -{%3 = load i32, i32* %i, align 4}-> N529
+N529 -{%idx.ext = sext i32 %3 to i64}-> N530
+N530 -{%add.ptr = getelementptr inbounds i8, i8* %2, i64 %idx.ext}-> N531
+N531 -{store i8 97, i8* %add.ptr, align 1}-> N533
+N533 -{%4 = load i32, i32* %i, align 4}-> N534
+N534 -{%inc = add i32 %4, 1}-> N535
+N535 -{store i32 %inc, i32* %i, align 4}-> N524
+N524 -{%1 = load i32, i32* %i, align 4}-> N525
+N525 -{%cmp1 = icmp slt i32 %1, 10}-> N526
+N526 -{[%cmp1 = icmp slt i32 %1, 10]}-> N544
+N526 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N545
+N544 -{%2 = load i8*, i8** %ptr, align 8}-> N528
+N528 -{%3 = load i32, i32* %i, align 4}-> N529
+N529 -{%idx.ext = sext i32 %3 to i64}-> N530
+N530 -{%add.ptr = getelementptr inbounds i8, i8* %2, i64 %idx.ext}-> N531
+N531 -{store i8 97, i8* %add.ptr, align 1}-> N533
+N533 -{%4 = load i32, i32* %i, align 4}-> N534
+N534 -{%inc = add i32 %4, 1}-> N535
+N535 -{store i32 %inc, i32* %i, align 4}-> N524
+N524 -{%1 = load i32, i32* %i, align 4}-> N525
+N525 -{%cmp1 = icmp slt i32 %1, 10}-> N526
+N526 -{[%cmp1 = icmp slt i32 %1, 10]}-> N544
+N526 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N545
+N544 -{%2 = load i8*, i8** %ptr, align 8}-> N528
+N528 -{%3 = load i32, i32* %i, align 4}-> N529
+N529 -{%idx.ext = sext i32 %3 to i64}-> N530
+N530 -{%add.ptr = getelementptr inbounds i8, i8* %2, i64 %idx.ext}-> N531
+N531 -{store i8 97, i8* %add.ptr, align 1}-> N533
+N533 -{%4 = load i32, i32* %i, align 4}-> N534
+N534 -{%inc = add i32 %4, 1}-> N535
+N535 -{store i32 %inc, i32* %i, align 4}-> N524
+N524 -{%1 = load i32, i32* %i, align 4}-> N525
+N525 -{%cmp1 = icmp slt i32 %1, 10}-> N526
+N526 -{[%cmp1 = icmp slt i32 %1, 10]}-> N544
+N526 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N545
+N544 -{%2 = load i8*, i8** %ptr, align 8}-> N528
+N528 -{%3 = load i32, i32* %i, align 4}-> N529
+N529 -{%idx.ext = sext i32 %3 to i64}-> N530
+N530 -{%add.ptr = getelementptr inbounds i8, i8* %2, i64 %idx.ext}-> N531
+N531 -{store i8 97, i8* %add.ptr, align 1}-> N533
+N533 -{%4 = load i32, i32* %i, align 4}-> N534
+N534 -{%inc = add i32 %4, 1}-> N535
+N535 -{store i32 %inc, i32* %i, align 4}-> N524
+N524 -{%1 = load i32, i32* %i, align 4}-> N525
+N525 -{%cmp1 = icmp slt i32 %1, 10}-> N526
+N526 -{[%cmp1 = icmp slt i32 %1, 10]}-> N544
+N526 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N545
+N545 -{%5 = load i8*, i8** %ptr, align 8}-> N538
+N538 -{call void @free(i8* %5, i8* @free)}-> N540
+N540 -{ret void}-> N510
+N540 -{ret void}-> N510
+N510 -{Return edge from double_free_004_good to main}-> N551
+N510 -{Return edge from double_free_004_good to main}-> N551
+N551 -{call double_free_004_bad}-> N460
+N460 -{%ptr = alloca i8*, align 8}-> N462
+N462 -{%i = alloca i32, align 4}-> N464
+N464 -{%call = call i8* @malloc(i64 10, i64 @malloc)}-> N465
+N464 -{%call = call i8* @malloc(i64 10, i64 @malloc)}-> N465
+N465 -{store i8* %call, i8** %ptr, align 8}-> N466
+N465 -{store i8* %call, i8** %ptr, align 8}-> N466
+N466 -{%0 = load i8*, i8** %ptr, align 8}-> N467
+N466 -{%0 = load i8*, i8** %ptr, align 8}-> N467
+N467 -{%cmp = icmp eq i8* %0, null}-> N468
+N467 -{%cmp = icmp eq i8* %0, null}-> N468
+N468 -{[!(%cmp = icmp eq i8* %0, null)]}-> N503
+N468 -{[%cmp = icmp eq i8* %0, null]}-> N500
+N468 -{[!(%cmp = icmp eq i8* %0, null)]}-> N503
+N468 -{[%cmp = icmp eq i8* %0, null]}-> N500
+N503 -{store i32 0, i32* %i, align 4}-> N473
+N473 -{%1 = load i32, i32* %i, align 4}-> N474
+N473 -{@}-> N473
+N473 -{@}-> N475
+N474 -{%cmp1 = icmp slt i32 %1, 10}-> N475
+N475 -{[%cmp1 = icmp slt i32 %1, 10]}-> N504
+N475 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N505
+N504 -{%2 = load i8*, i8** %ptr, align 8}-> N477
+N477 -{%3 = load i32, i32* %i, align 4}-> N478
+N478 -{%idx.ext = sext i32 %3 to i64}-> N479
+N479 -{%add.ptr = getelementptr inbounds i8, i8* %2, i64 %idx.ext}-> N480
+N480 -{store i8 97, i8* %add.ptr, align 1}-> N482
+N482 -{%4 = load i32, i32* %i, align 4}-> N483
+N483 -{%inc = add i32 %4, 1}-> N484
+N484 -{store i32 %inc, i32* %i, align 4}-> N473
+N473 -{%1 = load i32, i32* %i, align 4}-> N474
+N474 -{%cmp1 = icmp slt i32 %1, 10}-> N475
+N475 -{[%cmp1 = icmp slt i32 %1, 10]}-> N504
+N475 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N505
+N504 -{%2 = load i8*, i8** %ptr, align 8}-> N477
+N477 -{%3 = load i32, i32* %i, align 4}-> N478
+N478 -{%idx.ext = sext i32 %3 to i64}-> N479
+N479 -{%add.ptr = getelementptr inbounds i8, i8* %2, i64 %idx.ext}-> N480
+N480 -{store i8 97, i8* %add.ptr, align 1}-> N482
+N482 -{%4 = load i32, i32* %i, align 4}-> N483
+N483 -{%inc = add i32 %4, 1}-> N484
+N484 -{store i32 %inc, i32* %i, align 4}-> N473
+N473 -{%1 = load i32, i32* %i, align 4}-> N474
+N474 -{%cmp1 = icmp slt i32 %1, 10}-> N475
+N475 -{[%cmp1 = icmp slt i32 %1, 10]}-> N504
+N475 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N505
+N504 -{%2 = load i8*, i8** %ptr, align 8}-> N477
+N477 -{%3 = load i32, i32* %i, align 4}-> N478
+N478 -{%idx.ext = sext i32 %3 to i64}-> N479
+N479 -{%add.ptr = getelementptr inbounds i8, i8* %2, i64 %idx.ext}-> N480
+N480 -{store i8 97, i8* %add.ptr, align 1}-> N482
+N482 -{%4 = load i32, i32* %i, align 4}-> N483
+N483 -{%inc = add i32 %4, 1}-> N484
+N484 -{store i32 %inc, i32* %i, align 4}-> N473
+N473 -{%1 = load i32, i32* %i, align 4}-> N474
+N474 -{%cmp1 = icmp slt i32 %1, 10}-> N475
+N475 -{[%cmp1 = icmp slt i32 %1, 10]}-> N504
+N475 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N505
+N504 -{%2 = load i8*, i8** %ptr, align 8}-> N477
+N477 -{%3 = load i32, i32* %i, align 4}-> N478
+N478 -{%idx.ext = sext i32 %3 to i64}-> N479
+N479 -{%add.ptr = getelementptr inbounds i8, i8* %2, i64 %idx.ext}-> N480
+N480 -{store i8 97, i8* %add.ptr, align 1}-> N482
+N482 -{%4 = load i32, i32* %i, align 4}-> N483
+N483 -{%inc = add i32 %4, 1}-> N484
+N484 -{store i32 %inc, i32* %i, align 4}-> N473
+N473 -{%1 = load i32, i32* %i, align 4}-> N474
+N474 -{%cmp1 = icmp slt i32 %1, 10}-> N475
+N475 -{[%cmp1 = icmp slt i32 %1, 10]}-> N504
+N475 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N505
+N504 -{%2 = load i8*, i8** %ptr, align 8}-> N477
+N477 -{%3 = load i32, i32* %i, align 4}-> N478
+N478 -{%idx.ext = sext i32 %3 to i64}-> N479
+N479 -{%add.ptr = getelementptr inbounds i8, i8* %2, i64 %idx.ext}-> N480
+N480 -{store i8 97, i8* %add.ptr, align 1}-> N482
+N482 -{%4 = load i32, i32* %i, align 4}-> N483
+N483 -{%inc = add i32 %4, 1}-> N484
+N484 -{store i32 %inc, i32* %i, align 4}-> N473
+N473 -{%1 = load i32, i32* %i, align 4}-> N474
+N474 -{%cmp1 = icmp slt i32 %1, 10}-> N475
+N475 -{[%cmp1 = icmp slt i32 %1, 10]}-> N504
+N475 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N505
+N504 -{%2 = load i8*, i8** %ptr, align 8}-> N477
+N477 -{%3 = load i32, i32* %i, align 4}-> N478
+N478 -{%idx.ext = sext i32 %3 to i64}-> N479
+N479 -{%add.ptr = getelementptr inbounds i8, i8* %2, i64 %idx.ext}-> N480
+N480 -{store i8 97, i8* %add.ptr, align 1}-> N482
+N482 -{%4 = load i32, i32* %i, align 4}-> N483
+N483 -{%inc = add i32 %4, 1}-> N484
+N484 -{store i32 %inc, i32* %i, align 4}-> N473
+N473 -{%1 = load i32, i32* %i, align 4}-> N474
+N474 -{%cmp1 = icmp slt i32 %1, 10}-> N475
+N475 -{[%cmp1 = icmp slt i32 %1, 10]}-> N504
+N475 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N505
+N504 -{%2 = load i8*, i8** %ptr, align 8}-> N477
+N477 -{%3 = load i32, i32* %i, align 4}-> N478
+N478 -{%idx.ext = sext i32 %3 to i64}-> N479
+N479 -{%add.ptr = getelementptr inbounds i8, i8* %2, i64 %idx.ext}-> N480
+N480 -{store i8 97, i8* %add.ptr, align 1}-> N482
+N482 -{%4 = load i32, i32* %i, align 4}-> N483
+N483 -{%inc = add i32 %4, 1}-> N484
+N484 -{store i32 %inc, i32* %i, align 4}-> N473
+N473 -{%1 = load i32, i32* %i, align 4}-> N474
+N474 -{%cmp1 = icmp slt i32 %1, 10}-> N475
+N475 -{[%cmp1 = icmp slt i32 %1, 10]}-> N504
+N475 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N505
+N504 -{%2 = load i8*, i8** %ptr, align 8}-> N477
+N477 -{%3 = load i32, i32* %i, align 4}-> N478
+N478 -{%idx.ext = sext i32 %3 to i64}-> N479
+N479 -{%add.ptr = getelementptr inbounds i8, i8* %2, i64 %idx.ext}-> N480
+N480 -{store i8 97, i8* %add.ptr, align 1}-> N482
+N482 -{%4 = load i32, i32* %i, align 4}-> N483
+N483 -{%inc = add i32 %4, 1}-> N484
+N484 -{store i32 %inc, i32* %i, align 4}-> N473
+N473 -{%1 = load i32, i32* %i, align 4}-> N474
+N474 -{%cmp1 = icmp slt i32 %1, 10}-> N475
+N475 -{[%cmp1 = icmp slt i32 %1, 10]}-> N504
+N475 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N505
+N504 -{%2 = load i8*, i8** %ptr, align 8}-> N477
+N477 -{%3 = load i32, i32* %i, align 4}-> N478
+N478 -{%idx.ext = sext i32 %3 to i64}-> N479
+N479 -{%add.ptr = getelementptr inbounds i8, i8* %2, i64 %idx.ext}-> N480
+N480 -{store i8 97, i8* %add.ptr, align 1}-> N482
+N482 -{%4 = load i32, i32* %i, align 4}-> N483
+N483 -{%inc = add i32 %4, 1}-> N484
+N484 -{store i32 %inc, i32* %i, align 4}-> N473
+N473 -{%1 = load i32, i32* %i, align 4}-> N474
+N474 -{%cmp1 = icmp slt i32 %1, 10}-> N475
+N475 -{[%cmp1 = icmp slt i32 %1, 10]}-> N504
+N475 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N505
+N504 -{%2 = load i8*, i8** %ptr, align 8}-> N477
+N477 -{%3 = load i32, i32* %i, align 4}-> N478
+N478 -{%idx.ext = sext i32 %3 to i64}-> N479
+N479 -{%add.ptr = getelementptr inbounds i8, i8* %2, i64 %idx.ext}-> N480
+N480 -{store i8 97, i8* %add.ptr, align 1}-> N482
+N482 -{%4 = load i32, i32* %i, align 4}-> N483
+N483 -{%inc = add i32 %4, 1}-> N484
+N484 -{store i32 %inc, i32* %i, align 4}-> N473
+N473 -{%1 = load i32, i32* %i, align 4}-> N474
+N474 -{%cmp1 = icmp slt i32 %1, 10}-> N475
+N475 -{[%cmp1 = icmp slt i32 %1, 10]}-> N504
+N475 -{[!(%cmp1 = icmp slt i32 %1, 10)]}-> N505
+N505 -{%call2 = call i32 @rand(i32 ()* @rand)}-> N487
+N487 -{%rem = srem i32 %call2, 2}-> N488
+N488 -{%cmp3 = icmp eq i32 %rem, 0}-> N489
+N489 -{[%cmp3 = icmp eq i32 %rem, 0]}-> N506
+N489 -{[!(%cmp3 = icmp eq i32 %rem, 0)]}-> N493
+N489 -{[%cmp3 = icmp eq i32 %rem, 0]}-> N506
+N489 -{[!(%cmp3 = icmp eq i32 %rem, 0)]}-> N493
+N506 -{%5 = load i8*, i8** %ptr, align 8}-> N491
+N491 -{call void @free(i8* %5, i8* @free)}-> N493
+N493 -{%call6 = call i32 @rand(i32 ()* @rand)}-> N494
+N493 -{%call6 = call i32 @rand(i32 ()* @rand)}-> N494
+N494 -{%rem7 = srem i32 %call6, 3}-> N495
+N494 -{%rem7 = srem i32 %call6, 3}-> N495
+N495 -{%cmp8 = icmp eq i32 %rem7, 0}-> N496
+N495 -{%cmp8 = icmp eq i32 %rem7, 0}-> N496
+N496 -{[%cmp8 = icmp eq i32 %rem7, 0]}-> N508
+N496 -{[!(%cmp8 = icmp eq i32 %rem7, 0)]}-> N500
+N496 -{[%cmp8 = icmp eq i32 %rem7, 0]}-> N508
+N496 -{[!(%cmp8 = icmp eq i32 %rem7, 0)]}-> N500
+N496 -{[%cmp8 = icmp eq i32 %rem7, 0]}-> N508
+N496 -{[!(%cmp8 = icmp eq i32 %rem7, 0)]}-> N500
+N496 -{[%cmp8 = icmp eq i32 %rem7, 0]}-> N508
+N496 -{[!(%cmp8 = icmp eq i32 %rem7, 0)]}-> N500
+N508 -{%6 = load i8*, i8** %ptr, align 8}-> N498
+N508 -{%6 = load i8*, i8** %ptr, align 8}-> N498
+N498 -{call void @free(i8* %6, i8* @free)}-> N500
+N498 -{call void @free(i8* %6, i8* @free)}-> N500
+N500 -{ret void}-> N459
+N500 -{ret void}-> N459
+N500 -{ret void}-> N459
+N459 -{Return edge from double_free_004_bad to main}-> N552
+N459 -{Return edge from double_free_004_bad to main}-> N552
+N459 -{Return edge from double_free_004_bad to main}-> N552
+N552 -{ret i32 0}-> N546
+N552 -{ret i32 0}-> N546
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Double Free
+At node  : N498
+On edge  : N498 -{call void @free(i8* %6, i8* @free)}-> N500
+Message  : the memory is already freed
+> Start from entry function: main, At N547 of Function main
+> Entering function: double_free_004_good, On N550 -> N511 (call double_free_004_good)
+> takes the true branch, At N519 of Function double_free_004_good
+> Leaving function: double_free_004_good, On N510 -> N551 (Return edge from double_free_004_good to main)
+> Entering function: double_free_004_bad, On N551 -> N460 (call double_free_004_bad)
+> takes the false branch, At N468 of Function double_free_004_bad
+> takes the true branch, At N475 of Function double_free_004_bad
+> takes the true branch, At N475 of Function double_free_004_bad
+> takes the true branch, At N475 of Function double_free_004_bad
+> takes the true branch, At N475 of Function double_free_004_bad
+> takes the true branch, At N475 of Function double_free_004_bad
+> takes the true branch, At N475 of Function double_free_004_bad
+> takes the true branch, At N475 of Function double_free_004_bad
+> takes the true branch, At N475 of Function double_free_004_bad
+> takes the true branch, At N475 of Function double_free_004_bad
+> takes the true branch, At N475 of Function double_free_004_bad
+> takes the false branch, At N475 of Function double_free_004_bad
+> takes the true branch, At N489 of Function double_free_004_bad
+> takes the true branch, At N496 of Function double_free_004_bad
+<Defect> : N498 -> N500: [call void @free(i8* %6, i8* @free)]
+N498 -> N500: [call void @free(i8* %6, i8* @free)] <--
+-- end of trace --
+-- start of trace --
+Weakness : Memory Leak
+At node  : N459
+On edge  : N459 -{Return edge from double_free_004_bad to main}-> N552
+Message  : the heap object @H(double_free_004_bad::call) is not referenced any more
+> Start from entry function: main, At N547 of Function main
+> Entering function: double_free_004_good, On N550 -> N511 (call double_free_004_good)
+> takes the true branch, At N519 of Function double_free_004_good
+> Leaving function: double_free_004_good, On N510 -> N551 (Return edge from double_free_004_good to main)
+> Entering function: double_free_004_bad, On N551 -> N460 (call double_free_004_bad)
+> takes the false branch, At N468 of Function double_free_004_bad
+> takes the true branch, At N475 of Function double_free_004_bad
+> takes the true branch, At N475 of Function double_free_004_bad
+> takes the true branch, At N475 of Function double_free_004_bad
+> takes the true branch, At N475 of Function double_free_004_bad
+> takes the true branch, At N475 of Function double_free_004_bad
+> takes the true branch, At N475 of Function double_free_004_bad
+> takes the true branch, At N475 of Function double_free_004_bad
+> takes the true branch, At N475 of Function double_free_004_bad
+> takes the true branch, At N475 of Function double_free_004_bad
+> takes the true branch, At N475 of Function double_free_004_bad
+> takes the false branch, At N475 of Function double_free_004_bad
+> takes the false branch, At N489 of Function double_free_004_bad
+> takes the false branch, At N496 of Function double_free_004_bad
+<Defect> : N459 -> N552: [Return edge from double_free_004_bad to main]
+N459 -> N552: [Return edge from double_free_004_bad to main] <--
+-- end of trace --
+-- start of trace --
+Weakness : Use After Free
+At node  : N498
+On edge  : N498 -{call void @free(i8* %6, i8* @free)}-> N500
+Message  : the memory is already freed
+> Start from entry function: main, At N547 of Function main
+> Entering function: double_free_004_good, On N550 -> N511 (call double_free_004_good)
+> takes the true branch, At N519 of Function double_free_004_good
+> Leaving function: double_free_004_good, On N510 -> N551 (Return edge from double_free_004_good to main)
+> Entering function: double_free_004_bad, On N551 -> N460 (call double_free_004_bad)
+> takes the false branch, At N468 of Function double_free_004_bad
+> takes the true branch, At N475 of Function double_free_004_bad
+> takes the true branch, At N475 of Function double_free_004_bad
+> takes the true branch, At N475 of Function double_free_004_bad
+> takes the true branch, At N475 of Function double_free_004_bad
+> takes the true branch, At N475 of Function double_free_004_bad
+> takes the true branch, At N475 of Function double_free_004_bad
+> takes the true branch, At N475 of Function double_free_004_bad
+> takes the true branch, At N475 of Function double_free_004_bad
+> takes the true branch, At N475 of Function double_free_004_bad
+> takes the true branch, At N475 of Function double_free_004_bad
+> takes the false branch, At N475 of Function double_free_004_bad
+> takes the true branch, At N489 of Function double_free_004_bad
+> takes the true branch, At N496 of Function double_free_004_bad
+<Defect> : N498 -> N500: [call void @free(i8* %6, i8* @free)]
+N498 -> N500: [call void @free(i8* %6, i8* @free)] <--
+-- end of trace --
+=====================================================
+CWE_415(Double Free): 1
+	[./415_double_free_4.c 37] double_free_004_bad 		[N498 -{call void @free(i8* %6, i8* @free)}-> N500]	(the memory is already freed)
+
+CWE_401(Memory Leak): 1
+	[./415_double_free_4.c 66] double_free_004_bad 		[N459 -{Return edge from double_free_004_bad to main}-> N552]	(the heap object @H(double_free_004_bad::call) is not referenced any more)
+
+CWE_416(Use After Free): 1
+	[./415_double_free_4.c 37] double_free_004_bad 		[N498 -{call void @free(i8* %6, i8* @free)}-> N500]	(the memory is already freed)
+
+Found 3 defects in all (2 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/itc/415/415_double_free_5.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+3 SCCs to deal with
+SCC(1): [double_free_005_bad]
+ +double_free_005_bad
+SCC(1): [double_free_005_good]
+ +double_free_005_good
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [double_free_005_bad, double_free_005_good, main]
+Loops     []
+----
+function: double_free_005_bad
+P+ = [] 
+P- = [H(double_free_005_bad::call)] 
+Point-To:
+
+Ret-Value: 
+----
+function: double_free_005_good
+P+ = [] 
+P- = [H(double_free_005_good::call)] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [H(double_free_005_bad::call), H(double_free_005_good::call)] 
+Point-To:
+
+Ret-Value: R
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.007s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N601): +oo]
+> [1/1] entry: main ()
+N601 -{%retval = alloca i32, align 4}-> N603
+N603 -{store i32 0, i32* %retval, align 4}-> N604
+N604 -{call double_free_005_good}-> N579
+N579 -{%ptr = alloca i8*, align 8}-> N582
+N582 -{%call = call i8* @malloc(i64 1, i64 @malloc)}-> N583
+N582 -{%call = call i8* @malloc(i64 1, i64 @malloc)}-> N583
+N583 -{store i8* %call, i8** %ptr, align 8}-> N584
+N583 -{store i8* %call, i8** %ptr, align 8}-> N584
+N584 -{%0 = load i8*, i8** %ptr, align 8}-> N585
+N584 -{%0 = load i8*, i8** %ptr, align 8}-> N585
+N585 -{%cmp = icmp eq i8* %0, null}-> N586
+N585 -{%cmp = icmp eq i8* %0, null}-> N586
+N586 -{[!(%cmp = icmp eq i8* %0, null)]}-> N597
+N586 -{[%cmp = icmp eq i8* %0, null]}-> N594
+N586 -{[!(%cmp = icmp eq i8* %0, null)]}-> N597
+N586 -{[%cmp = icmp eq i8* %0, null]}-> N594
+N597 -{%1 = load i8*, i8** %ptr, align 8}-> N589
+N589 -{%tobool = icmp ne i8* %1, null}-> N590
+N590 -{[%tobool = icmp ne i8* %1, null]}-> N598
+N590 -{[!(%tobool = icmp ne i8* %1, null)]}-> N594
+N598 -{%2 = load i8*, i8** %ptr, align 8}-> N592
+N592 -{call void @free(i8* %2, i8* @free)}-> N594
+N594 -{ret void}-> N578
+N594 -{ret void}-> N578
+N578 -{Return edge from double_free_005_good to main}-> N605
+N578 -{Return edge from double_free_005_good to main}-> N605
+N605 -{call double_free_005_bad}-> N555
+N555 -{%ptr = alloca i8*, align 8}-> N558
+N558 -{%call = call i8* @malloc(i64 1, i64 @malloc)}-> N559
+N558 -{%call = call i8* @malloc(i64 1, i64 @malloc)}-> N559
+N559 -{store i8* %call, i8** %ptr, align 8}-> N560
+N559 -{store i8* %call, i8** %ptr, align 8}-> N560
+N560 -{%0 = load i8*, i8** %ptr, align 8}-> N561
+N560 -{%0 = load i8*, i8** %ptr, align 8}-> N561
+N561 -{%cmp = icmp eq i8* %0, null}-> N562
+N561 -{%cmp = icmp eq i8* %0, null}-> N562
+N562 -{[!(%cmp = icmp eq i8* %0, null)]}-> N575
+N562 -{[%cmp = icmp eq i8* %0, null]}-> N572
+N562 -{[!(%cmp = icmp eq i8* %0, null)]}-> N575
+N562 -{[%cmp = icmp eq i8* %0, null]}-> N572
+N575 -{%1 = load i8*, i8** %ptr, align 8}-> N565
+N565 -{call void @free(i8* %1, i8* @free)}-> N566
+N566 -{%2 = load i8*, i8** %ptr, align 8}-> N567
+N567 -{%tobool = icmp ne i8* %2, null}-> N568
+N568 -{[%tobool = icmp ne i8* %2, null]}-> N576
+N568 -{[!(%tobool = icmp ne i8* %2, null)]}-> N572
+N576 -{%3 = load i8*, i8** %ptr, align 8}-> N570
+N570 -{call void @free(i8* %3, i8* @free)}-> N572
+N572 -{ret void}-> N554
+N572 -{ret void}-> N554
+N554 -{Return edge from double_free_005_bad to main}-> N606
+N554 -{Return edge from double_free_005_bad to main}-> N606
+N606 -{ret i32 0}-> N600
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Double Free
+At node  : N570
+On edge  : N570 -{call void @free(i8* %3, i8* @free)}-> N572
+Message  : the memory is already freed
+> Start from entry function: main, At N601 of Function main
+> Entering function: double_free_005_good, On N604 -> N579 (call double_free_005_good)
+> takes the true branch, At N586 of Function double_free_005_good
+> Leaving function: double_free_005_good, On N578 -> N605 (Return edge from double_free_005_good to main)
+> Entering function: double_free_005_bad, On N605 -> N555 (call double_free_005_bad)
+> takes the false branch, At N562 of Function double_free_005_bad
+> takes the true branch, At N568 of Function double_free_005_bad
+<Defect> : N570 -> N572: [call void @free(i8* %3, i8* @free)]
+N570 -> N572: [call void @free(i8* %3, i8* @free)] <--
+-- end of trace --
+-- start of trace --
+Weakness : Use After Free
+At node  : N570
+On edge  : N570 -{call void @free(i8* %3, i8* @free)}-> N572
+Message  : the memory is already freed
+> Start from entry function: main, At N601 of Function main
+> Entering function: double_free_005_good, On N604 -> N579 (call double_free_005_good)
+> takes the true branch, At N586 of Function double_free_005_good
+> Leaving function: double_free_005_good, On N578 -> N605 (Return edge from double_free_005_good to main)
+> Entering function: double_free_005_bad, On N605 -> N555 (call double_free_005_bad)
+> takes the false branch, At N562 of Function double_free_005_bad
+> takes the true branch, At N568 of Function double_free_005_bad
+<Defect> : N570 -> N572: [call void @free(i8* %3, i8* @free)]
+N570 -> N572: [call void @free(i8* %3, i8* @free)] <--
+-- end of trace --
+=====================================================
+CWE_415(Double Free): 1
+	[./415_double_free_5.c 25] double_free_005_bad 		[N570 -{call void @free(i8* %3, i8* @free)}-> N572]	(the memory is already freed)
+
+CWE_416(Use After Free): 1
+	[./415_double_free_5.c 25] double_free_005_bad 		[N570 -{call void @free(i8* %3, i8* @free)}-> N572]	(the memory is already freed)
+
+Found 2 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/itc/415/415_double_free_6.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+3 SCCs to deal with
+SCC(1): [double_free_006_bad]
+ +double_free_006_bad
+SCC(1): [double_free_006_good]
+ +double_free_006_good
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [double_free_006_bad, double_free_006_good, main]
+Loops     []
+----
+function: double_free_006_bad
+P+ = [] 
+P- = [H(double_free_006_bad::call)] 
+Point-To:
+
+Ret-Value: 
+----
+function: double_free_006_good
+P+ = [] 
+P- = [H(double_free_006_good::call)] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [H(double_free_006_bad::call), H(double_free_006_good::call)] 
+Point-To:
+
+Ret-Value: R
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.004s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N645): +oo]
+> [1/1] entry: main ()
+N645 -{%retval = alloca i32, align 4}-> N647
+N647 -{store i32 0, i32* %retval, align 4}-> N648
+N648 -{call double_free_006_good}-> N628
+N628 -{%ptr = alloca i8*, align 8}-> N631
+N631 -{%call = call i8* @malloc(i64 1, i64 @malloc)}-> N632
+N631 -{%call = call i8* @malloc(i64 1, i64 @malloc)}-> N632
+N632 -{store i8* %call, i8** %ptr, align 8}-> N633
+N632 -{store i8* %call, i8** %ptr, align 8}-> N633
+N633 -{%0 = load i8*, i8** %ptr, align 8}-> N634
+N633 -{%0 = load i8*, i8** %ptr, align 8}-> N634
+N634 -{%cmp = icmp eq i8* %0, null}-> N635
+N634 -{%cmp = icmp eq i8* %0, null}-> N635
+N635 -{[!(%cmp = icmp eq i8* %0, null)]}-> N643
+N635 -{[%cmp = icmp eq i8* %0, null]}-> N640
+N635 -{[!(%cmp = icmp eq i8* %0, null)]}-> N643
+N635 -{[%cmp = icmp eq i8* %0, null]}-> N640
+N643 -{%1 = load i8*, i8** %ptr, align 8}-> N638
+N638 -{call void @free(i8* %1, i8* @free)}-> N640
+N640 -{ret void}-> N627
+N627 -{Return edge from double_free_006_good to main}-> N649
+N649 -{call double_free_006_bad}-> N609
+N609 -{%ptr = alloca i8*, align 8}-> N612
+N612 -{%call = call i8* @malloc(i64 1, i64 @malloc)}-> N613
+N612 -{%call = call i8* @malloc(i64 1, i64 @malloc)}-> N613
+N613 -{store i8* %call, i8** %ptr, align 8}-> N614
+N613 -{store i8* %call, i8** %ptr, align 8}-> N614
+N614 -{%0 = load i8*, i8** %ptr, align 8}-> N615
+N614 -{%0 = load i8*, i8** %ptr, align 8}-> N615
+N615 -{%cmp = icmp eq i8* %0, null}-> N616
+N615 -{%cmp = icmp eq i8* %0, null}-> N616
+N616 -{[!(%cmp = icmp eq i8* %0, null)]}-> N626
+N616 -{[%cmp = icmp eq i8* %0, null]}-> N623
+N616 -{[!(%cmp = icmp eq i8* %0, null)]}-> N626
+N616 -{[%cmp = icmp eq i8* %0, null]}-> N623
+N626 -{%1 = load i8*, i8** %ptr, align 8}-> N619
+N619 -{call void @free(i8* %1, i8* @free)}-> N620
+N620 -{%2 = load i8*, i8** %ptr, align 8}-> N621
+N621 -{call void @free(i8* %2, i8* @free)}-> N623
+N623 -{ret void}-> N608
+N608 -{Return edge from double_free_006_bad to main}-> N650
+N650 -{ret i32 0}-> N644
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Double Free
+At node  : N621
+On edge  : N621 -{call void @free(i8* %2, i8* @free)}-> N623
+Message  : the memory is already freed
+> Start from entry function: main, At N645 of Function main
+> Entering function: double_free_006_good, On N648 -> N628 (call double_free_006_good)
+> takes the true branch, At N635 of Function double_free_006_good
+> Leaving function: double_free_006_good, On N627 -> N649 (Return edge from double_free_006_good to main)
+> Entering function: double_free_006_bad, On N649 -> N609 (call double_free_006_bad)
+> takes the false branch, At N616 of Function double_free_006_bad
+<Defect> : N621 -> N623: [call void @free(i8* %2, i8* @free)]
+N621 -> N623: [call void @free(i8* %2, i8* @free)] <--
+-- end of trace --
+-- start of trace --
+Weakness : Use After Free
+At node  : N621
+On edge  : N621 -{call void @free(i8* %2, i8* @free)}-> N623
+Message  : the memory is already freed
+> Start from entry function: main, At N645 of Function main
+> Entering function: double_free_006_good, On N648 -> N628 (call double_free_006_good)
+> takes the true branch, At N635 of Function double_free_006_good
+> Leaving function: double_free_006_good, On N627 -> N649 (Return edge from double_free_006_good to main)
+> Entering function: double_free_006_bad, On N649 -> N609 (call double_free_006_bad)
+> takes the false branch, At N616 of Function double_free_006_bad
+<Defect> : N621 -> N623: [call void @free(i8* %2, i8* @free)]
+N621 -> N623: [call void @free(i8* %2, i8* @free)] <--
+-- end of trace --
+=====================================================
+CWE_415(Double Free): 1
+	[./415_double_free_6.c 25] double_free_006_bad 		[N621 -{call void @free(i8* %2, i8* @free)}-> N623]	(the memory is already freed)
+
+CWE_416(Use After Free): 1
+	[./415_double_free_6.c 25] double_free_006_bad 		[N621 -{call void @free(i8* %2, i8* @free)}-> N623]	(the memory is already freed)
+
+Found 2 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/itc/415/415_double_free_7.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+3 SCCs to deal with
+SCC(1): [double_free_007_bad]
+ +double_free_007_bad
+SCC(1): [double_free_007_good]
+ +double_free_007_good
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [double_free_007_good, main, double_free_007_bad]
+Loops     []
+----
+function: double_free_007_bad
+P+ = [] 
+P- = [H(double_free_007_bad::call)] 
+Point-To:
+
+Ret-Value: 
+----
+function: double_free_007_good
+P+ = [] 
+P- = [H(double_free_007_good::call)] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [H(double_free_007_bad::call), H(double_free_007_good::call)] 
+Point-To:
+
+Ret-Value: R
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.01s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N709): +oo]
+> [1/1] entry: main ()
+N709 -{%retval = alloca i32, align 4}-> N711
+N711 -{store i32 0, i32* %retval, align 4}-> N712
+N712 -{call double_free_007_good}-> N681
+N681 -{%ptr = alloca i8*, align 8}-> N683
+N683 -{%flag = alloca i32, align 4}-> N685
+N685 -{%call = call i8* @malloc(i64 1, i64 @malloc)}-> N686
+N685 -{%call = call i8* @malloc(i64 1, i64 @malloc)}-> N686
+N686 -{store i8* %call, i8** %ptr, align 8}-> N687
+N686 -{store i8* %call, i8** %ptr, align 8}-> N687
+N687 -{%0 = load i8*, i8** %ptr, align 8}-> N688
+N687 -{%0 = load i8*, i8** %ptr, align 8}-> N688
+N688 -{%cmp = icmp eq i8* %0, null}-> N689
+N688 -{%cmp = icmp eq i8* %0, null}-> N689
+N689 -{[!(%cmp = icmp eq i8* %0, null)]}-> N705
+N689 -{[%cmp = icmp eq i8* %0, null]}-> N702
+N689 -{[!(%cmp = icmp eq i8* %0, null)]}-> N705
+N689 -{[%cmp = icmp eq i8* %0, null]}-> N702
+N705 -{store i32 0, i32* %flag, align 4}-> N693
+N693 -{%1 = load i32, i32* %flag, align 4}-> N694
+N694 -{%cmp1 = icmp slt i32 %1, 0}-> N695
+N695 -{[%cmp1 = icmp slt i32 %1, 0]}-> N706
+N695 -{[!(%cmp1 = icmp slt i32 %1, 0)]}-> N699
+N699 -{%3 = load i8*, i8** %ptr, align 8}-> N700
+N700 -{call void @free(i8* %3, i8* @free)}-> N702
+N702 -{ret void}-> N680
+N702 -{ret void}-> N680
+N680 -{Return edge from double_free_007_good to main}-> N713
+N680 -{Return edge from double_free_007_good to main}-> N713
+N713 -{call double_free_007_bad}-> N653
+N653 -{%ptr = alloca i8*, align 8}-> N655
+N655 -{%flag = alloca i32, align 4}-> N657
+N657 -{%call = call i8* @malloc(i64 1, i64 @malloc)}-> N658
+N657 -{%call = call i8* @malloc(i64 1, i64 @malloc)}-> N658
+N658 -{store i8* %call, i8** %ptr, align 8}-> N659
+N658 -{store i8* %call, i8** %ptr, align 8}-> N659
+N659 -{%0 = load i8*, i8** %ptr, align 8}-> N660
+N659 -{%0 = load i8*, i8** %ptr, align 8}-> N660
+N660 -{%cmp = icmp eq i8* %0, null}-> N661
+N660 -{%cmp = icmp eq i8* %0, null}-> N661
+N661 -{[!(%cmp = icmp eq i8* %0, null)]}-> N677
+N661 -{[%cmp = icmp eq i8* %0, null]}-> N674
+N661 -{[!(%cmp = icmp eq i8* %0, null)]}-> N677
+N661 -{[%cmp = icmp eq i8* %0, null]}-> N674
+N677 -{store i32 0, i32* %flag, align 4}-> N665
+N665 -{%1 = load i32, i32* %flag, align 4}-> N666
+N666 -{%cmp1 = icmp sge i32 %1, 0}-> N667
+N667 -{[%cmp1 = icmp sge i32 %1, 0]}-> N678
+N667 -{[!(%cmp1 = icmp sge i32 %1, 0)]}-> N671
+N678 -{%2 = load i8*, i8** %ptr, align 8}-> N669
+N669 -{call void @free(i8* %2, i8* @free)}-> N671
+N671 -{%3 = load i8*, i8** %ptr, align 8}-> N672
+N672 -{call void @free(i8* %3, i8* @free)}-> N674
+N674 -{ret void}-> N652
+N674 -{ret void}-> N652
+N652 -{Return edge from double_free_007_bad to main}-> N714
+N652 -{Return edge from double_free_007_bad to main}-> N714
+N714 -{ret i32 0}-> N708
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Double Free
+At node  : N672
+On edge  : N672 -{call void @free(i8* %3, i8* @free)}-> N674
+Message  : the memory is already freed
+> Start from entry function: main, At N709 of Function main
+> Entering function: double_free_007_good, On N712 -> N681 (call double_free_007_good)
+> takes the true branch, At N689 of Function double_free_007_good
+> Leaving function: double_free_007_good, On N680 -> N713 (Return edge from double_free_007_good to main)
+> Entering function: double_free_007_bad, On N713 -> N653 (call double_free_007_bad)
+> takes the false branch, At N661 of Function double_free_007_bad
+> takes the true branch, At N667 of Function double_free_007_bad
+<Defect> : N672 -> N674: [call void @free(i8* %3, i8* @free)]
+N672 -> N674: [call void @free(i8* %3, i8* @free)] <--
+-- end of trace --
+-- start of trace --
+Weakness : Use After Free
+At node  : N672
+On edge  : N672 -{call void @free(i8* %3, i8* @free)}-> N674
+Message  : the memory is already freed
+> Start from entry function: main, At N709 of Function main
+> Entering function: double_free_007_good, On N712 -> N681 (call double_free_007_good)
+> takes the true branch, At N689 of Function double_free_007_good
+> Leaving function: double_free_007_good, On N680 -> N713 (Return edge from double_free_007_good to main)
+> Entering function: double_free_007_bad, On N713 -> N653 (call double_free_007_bad)
+> takes the false branch, At N661 of Function double_free_007_bad
+> takes the true branch, At N667 of Function double_free_007_bad
+<Defect> : N672 -> N674: [call void @free(i8* %3, i8* @free)]
+N672 -> N674: [call void @free(i8* %3, i8* @free)] <--
+-- end of trace --
+=====================================================
+CWE_415(Double Free): 1
+	[./415_double_free_7.c 27] double_free_007_bad 		[N672 -{call void @free(i8* %3, i8* @free)}-> N674]	(the memory is already freed)
+
+CWE_416(Use After Free): 1
+	[./415_double_free_7.c 27] double_free_007_bad 		[N672 -{call void @free(i8* %3, i8* @free)}-> N674]	(the memory is already freed)
+
+Found 2 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/itc/415/415_double_free_8.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+5 SCCs to deal with
+SCC(1): [double_free_function_008_bad]
+ +double_free_function_008_bad
+SCC(1): [double_free_008_bad]
+ +double_free_008_bad
+SCC(1): [double_free_function_008_good]
+ +double_free_function_008_good
+SCC(1): [double_free_008_good]
+ +double_free_008_good
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [double_free_function_008_bad, double_free_function_008_good, main, double_free_008_bad, double_free_008_good]
+Loops     []
+----
+function: double_free_008_bad
+P+ = [H(double_free_008_bad::call)] 
+P- = [G(double_free_function_008_gbl_ptr_bad)(*), H(double_free_008_bad::call)] 
+Point-To:
+G(double_free_function_008_gbl_ptr_bad) -> [H(double_free_008_bad::call)]
+Ret-Value: 
+----
+function: double_free_008_good
+P+ = [H(double_free_008_good::call)] 
+P- = [G(double_free_function_008_gbl_ptr_good)(*)] 
+Point-To:
+G(double_free_function_008_gbl_ptr_good) -> [H(double_free_008_good::call)]
+Ret-Value: 
+----
+function: double_free_function_008_bad
+P+ = [] 
+P- = [G(double_free_function_008_gbl_ptr_bad)(*)] 
+Point-To:
+
+Ret-Value: 
+----
+function: double_free_function_008_good
+P+ = [] 
+P- = [G(double_free_function_008_gbl_ptr_good)(*)] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [H(double_free_008_bad::call), H(double_free_008_good::call)] 
+P- = [G(double_free_function_008_gbl_ptr_bad)(*), G(double_free_function_008_gbl_ptr_good)(*), H(double_free_008_bad::call)] 
+Point-To:
+G(double_free_function_008_gbl_ptr_bad) -> [H(double_free_008_bad::call)]
+G(double_free_function_008_gbl_ptr_good) -> [H(double_free_008_good::call)]
+Ret-Value: R
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.007s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N759): +oo]
+> [1/1] entry: main ()
+N759 -{global: double_free_function_008_gbl_ptr_bad}-> N767
+N767 -{global: double_free_function_008_gbl_ptr_good}-> N766
+N766 -{%retval = alloca i32, align 4}-> N761
+N761 -{store i32 0, i32* %retval, align 4}-> N762
+N762 -{call double_free_008_good}-> N733
+N733 -{%call = call i8* @malloc(i64 1, i64 @malloc)}-> N735
+N733 -{%call = call i8* @malloc(i64 1, i64 @malloc)}-> N735
+N735 -{store i8* %call, i8** @double_free_function_008_gbl_ptr_good, align 8}-> N736
+N735 -{store i8* %call, i8** @double_free_function_008_gbl_ptr_good, align 8}-> N736
+N736 -{%0 = load i8*, i8** @double_free_function_008_gbl_ptr_good, align 8}-> N737
+N736 -{%0 = load i8*, i8** @double_free_function_008_gbl_ptr_good, align 8}-> N737
+N737 -{%cmp = icmp eq i8* %0, null}-> N738
+N737 -{%cmp = icmp eq i8* %0, null}-> N738
+N738 -{[!(%cmp = icmp eq i8* %0, null)]}-> N745
+N738 -{[%cmp = icmp eq i8* %0, null]}-> N742
+N738 -{[!(%cmp = icmp eq i8* %0, null)]}-> N745
+N738 -{[%cmp = icmp eq i8* %0, null]}-> N742
+N745 -{call double_free_function_008_good}-> N753
+N753 -{%0 = load i8*, i8** @double_free_function_008_gbl_ptr_good, align 8}-> N755
+N755 -{call void @free(i8* %0, i8* @free)}-> N756
+N756 -{ret void}-> N752
+N752 -{Return edge from double_free_function_008_good to double_free_008_good}-> N742
+N742 -{ret void}-> N732
+N732 -{Return edge from double_free_008_good to main}-> N763
+N763 -{call double_free_008_bad}-> N717
+N717 -{%call = call i8* @malloc(i64 1, i64 @malloc)}-> N719
+N717 -{%call = call i8* @malloc(i64 1, i64 @malloc)}-> N719
+N719 -{store i8* %call, i8** @double_free_function_008_gbl_ptr_bad, align 8}-> N720
+N719 -{store i8* %call, i8** @double_free_function_008_gbl_ptr_bad, align 8}-> N720
+N720 -{%0 = load i8*, i8** @double_free_function_008_gbl_ptr_bad, align 8}-> N721
+N720 -{%0 = load i8*, i8** @double_free_function_008_gbl_ptr_bad, align 8}-> N721
+N721 -{%cmp = icmp eq i8* %0, null}-> N722
+N721 -{%cmp = icmp eq i8* %0, null}-> N722
+N722 -{[!(%cmp = icmp eq i8* %0, null)]}-> N731
+N722 -{[%cmp = icmp eq i8* %0, null]}-> N728
+N722 -{[!(%cmp = icmp eq i8* %0, null)]}-> N731
+N722 -{[%cmp = icmp eq i8* %0, null]}-> N728
+N731 -{call double_free_function_008_bad}-> N747
+N747 -{%0 = load i8*, i8** @double_free_function_008_gbl_ptr_bad, align 8}-> N749
+N749 -{call void @free(i8* %0, i8* @free)}-> N750
+N750 -{ret void}-> N746
+N746 -{Return edge from double_free_function_008_bad to double_free_008_bad}-> N725
+N725 -{%1 = load i8*, i8** @double_free_function_008_gbl_ptr_bad, align 8}-> N726
+N726 -{call void @free(i8* %1, i8* @free)}-> N728
+N728 -{ret void}-> N716
+N716 -{Return edge from double_free_008_bad to main}-> N764
+N764 -{ret i32 0}-> N758
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Double Free
+At node  : N726
+On edge  : N726 -{call void @free(i8* %1, i8* @free)}-> N728
+Message  : the memory is already freed
+> Start from entry function: main, At N759 of Function main
+> Entering function: double_free_008_good, On N762 -> N733 (call double_free_008_good)
+> takes the true branch, At N738 of Function double_free_008_good
+> Leaving function: double_free_008_good, On N732 -> N763 (Return edge from double_free_008_good to main)
+> Entering function: double_free_008_bad, On N763 -> N717 (call double_free_008_bad)
+> takes the false branch, At N722 of Function double_free_008_bad
+> Entering function: double_free_function_008_bad, On N731 -> N747 (call double_free_function_008_bad)
+> Leaving function: double_free_function_008_bad, On N746 -> N725 (Return edge from double_free_function_008_bad to double_free_008_bad)
+<Defect> : N726 -> N728: [call void @free(i8* %1, i8* @free)]
+N726 -> N728: [call void @free(i8* %1, i8* @free)] <--
+-- end of trace --
+-- start of trace --
+Weakness : Use After Free
+At node  : N726
+On edge  : N726 -{call void @free(i8* %1, i8* @free)}-> N728
+Message  : the memory is already freed
+> Start from entry function: main, At N759 of Function main
+> Entering function: double_free_008_good, On N762 -> N733 (call double_free_008_good)
+> takes the true branch, At N738 of Function double_free_008_good
+> Leaving function: double_free_008_good, On N732 -> N763 (Return edge from double_free_008_good to main)
+> Entering function: double_free_008_bad, On N763 -> N717 (call double_free_008_bad)
+> takes the false branch, At N722 of Function double_free_008_bad
+> Entering function: double_free_function_008_bad, On N731 -> N747 (call double_free_function_008_bad)
+> Leaving function: double_free_function_008_bad, On N746 -> N725 (Return edge from double_free_function_008_bad to double_free_008_bad)
+<Defect> : N726 -> N728: [call void @free(i8* %1, i8* @free)]
+N726 -> N728: [call void @free(i8* %1, i8* @free)] <--
+-- end of trace --
+=====================================================
+CWE_415(Double Free): 1
+	[./415_double_free_8.c 28] double_free_008_bad 		[N726 -{call void @free(i8* %1, i8* @free)}-> N728]	(the memory is already freed)
+
+CWE_416(Use After Free): 1
+	[./415_double_free_8.c 28] double_free_008_bad 		[N726 -{call void @free(i8* %1, i8* @free)}-> N728]	(the memory is already freed)
+
+Found 2 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/itc/415/415_double_free_9.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+3 SCCs to deal with
+SCC(1): [double_free_009_bad]
+ +double_free_009_bad
+SCC(1): [double_free_009_good]
+ +double_free_009_good
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [double_free_009_bad, double_free_009_good, main]
+Loops     [N782, N814]
+----
+function: double_free_009_bad
+P+ = [] 
+P- = [H(double_free_009_bad::call)] 
+Point-To:
+
+Ret-Value: 
+----
+function: double_free_009_good
+P+ = [] 
+P- = [H(double_free_009_good::call)] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [H(double_free_009_bad::call), H(double_free_009_good::call)] 
+Point-To:
+
+Ret-Value: R
+----
+loop N782 in double_free_009_bad: 
+N782 -> P+ = [H(double_free_009_bad::call)], P- = [H(double_free_009_bad::call)] Point-To: L(double_free_009_bad::ptr) -> [H(double_free_009_bad::call)]
+N784 -> P+ = [H(double_free_009_bad::call)], P- = [H(double_free_009_bad::call)] Point-To: L(double_free_009_bad::ptr) -> [H(double_free_009_bad::call)]
+----
+loop N814 in double_free_009_good: 
+N814 -> P+ = [H(double_free_009_good::call)], P- = [H(double_free_009_good::call)] Point-To: L(double_free_009_good::ptr) -> [H(double_free_009_good::call)]
+N816 -> P+ = [H(double_free_009_good::call)], P- = [H(double_free_009_good::call)] Point-To: L(double_free_009_good::ptr) -> [H(double_free_009_good::call)]
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.006s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N833): +oo]
+> [1/1] entry: main ()
+N833 -{%retval = alloca i32, align 4}-> N835
+N835 -{store i32 0, i32* %retval, align 4}-> N836
+N836 -{call double_free_009_good}-> N801
+N801 -{%ptr = alloca i8*, align 8}-> N803
+N803 -{%flag = alloca i32, align 4}-> N805
+N805 -{%call = call i8* @malloc(i64 1, i64 @malloc)}-> N806
+N805 -{%call = call i8* @malloc(i64 1, i64 @malloc)}-> N806
+N806 -{store i8* %call, i8** %ptr, align 8}-> N807
+N806 -{store i8* %call, i8** %ptr, align 8}-> N807
+N807 -{%0 = load i8*, i8** %ptr, align 8}-> N808
+N807 -{%0 = load i8*, i8** %ptr, align 8}-> N808
+N808 -{%cmp = icmp eq i8* %0, null}-> N809
+N808 -{%cmp = icmp eq i8* %0, null}-> N809
+N809 -{[!(%cmp = icmp eq i8* %0, null)]}-> N829
+N809 -{[%cmp = icmp eq i8* %0, null]}-> N826
+N809 -{[!(%cmp = icmp eq i8* %0, null)]}-> N829
+N809 -{[%cmp = icmp eq i8* %0, null]}-> N826
+N829 -{store i32 0, i32* %flag, align 4}-> N814
+N814 -{%1 = load i32, i32* %flag, align 4}-> N815
+N814 -{@}-> N814
+N814 -{@}-> N816
+N815 -{%cmp1 = icmp eq i32 %1, 1}-> N816
+N816 -{[%cmp1 = icmp eq i32 %1, 1]}-> N830
+N816 -{[!(%cmp1 = icmp eq i32 %1, 1)]}-> N831
+N831 -{%4 = load i8*, i8** %ptr, align 8}-> N824
+N824 -{call void @free(i8* %4, i8* @free)}-> N826
+N826 -{ret void}-> N800
+N826 -{ret void}-> N800
+N800 -{Return edge from double_free_009_good to main}-> N837
+N800 -{Return edge from double_free_009_good to main}-> N837
+N837 -{call double_free_009_bad}-> N769
+N769 -{%ptr = alloca i8*, align 8}-> N771
+N771 -{%flag = alloca i32, align 4}-> N773
+N773 -{%call = call i8* @malloc(i64 1, i64 @malloc)}-> N774
+N773 -{%call = call i8* @malloc(i64 1, i64 @malloc)}-> N774
+N774 -{store i8* %call, i8** %ptr, align 8}-> N775
+N774 -{store i8* %call, i8** %ptr, align 8}-> N775
+N775 -{%0 = load i8*, i8** %ptr, align 8}-> N776
+N775 -{%0 = load i8*, i8** %ptr, align 8}-> N776
+N776 -{%cmp = icmp eq i8* %0, null}-> N777
+N776 -{%cmp = icmp eq i8* %0, null}-> N777
+N777 -{[!(%cmp = icmp eq i8* %0, null)]}-> N797
+N777 -{[%cmp = icmp eq i8* %0, null]}-> N794
+N777 -{[!(%cmp = icmp eq i8* %0, null)]}-> N797
+N777 -{[%cmp = icmp eq i8* %0, null]}-> N794
+N797 -{store i32 0, i32* %flag, align 4}-> N782
+N782 -{%1 = load i32, i32* %flag, align 4}-> N783
+N782 -{@}-> N782
+N782 -{@}-> N784
+N783 -{%cmp1 = icmp eq i32 %1, 0}-> N784
+N784 -{[%cmp1 = icmp eq i32 %1, 0]}-> N798
+N784 -{[!(%cmp1 = icmp eq i32 %1, 0)]}-> N799
+N798 -{%2 = load i8*, i8** %ptr, align 8}-> N786
+N786 -{call void @free(i8* %2, i8* @free)}-> N787
+N787 -{%3 = load i32, i32* %flag, align 4}-> N788
+N788 -{%inc = add i32 %3, 1}-> N789
+N789 -{store i32 %inc, i32* %flag, align 4}-> N782
+N782 -{%1 = load i32, i32* %flag, align 4}-> N783
+N783 -{%cmp1 = icmp eq i32 %1, 0}-> N784
+N784 -{[%cmp1 = icmp eq i32 %1, 0]}-> N798
+N784 -{[!(%cmp1 = icmp eq i32 %1, 0)]}-> N799
+N799 -{%4 = load i8*, i8** %ptr, align 8}-> N792
+N792 -{call void @free(i8* %4, i8* @free)}-> N794
+N794 -{ret void}-> N768
+N794 -{ret void}-> N768
+N768 -{Return edge from double_free_009_bad to main}-> N838
+N768 -{Return edge from double_free_009_bad to main}-> N838
+N838 -{ret i32 0}-> N832
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Double Free
+At node  : N792
+On edge  : N792 -{call void @free(i8* %4, i8* @free)}-> N794
+Message  : the memory is already freed
+> Start from entry function: main, At N833 of Function main
+> Entering function: double_free_009_good, On N836 -> N801 (call double_free_009_good)
+> takes the true branch, At N809 of Function double_free_009_good
+> Leaving function: double_free_009_good, On N800 -> N837 (Return edge from double_free_009_good to main)
+> Entering function: double_free_009_bad, On N837 -> N769 (call double_free_009_bad)
+> takes the false branch, At N777 of Function double_free_009_bad
+> takes the true branch, At N784 of Function double_free_009_bad
+> takes the false branch, At N784 of Function double_free_009_bad
+<Defect> : N792 -> N794: [call void @free(i8* %4, i8* @free)]
+N792 -> N794: [call void @free(i8* %4, i8* @free)] <--
+-- end of trace --
+-- start of trace --
+Weakness : Use After Free
+At node  : N792
+On edge  : N792 -{call void @free(i8* %4, i8* @free)}-> N794
+Message  : the memory is already freed
+> Start from entry function: main, At N833 of Function main
+> Entering function: double_free_009_good, On N836 -> N801 (call double_free_009_good)
+> takes the true branch, At N809 of Function double_free_009_good
+> Leaving function: double_free_009_good, On N800 -> N837 (Return edge from double_free_009_good to main)
+> Entering function: double_free_009_bad, On N837 -> N769 (call double_free_009_bad)
+> takes the false branch, At N777 of Function double_free_009_bad
+> takes the true branch, At N784 of Function double_free_009_bad
+> takes the false branch, At N784 of Function double_free_009_bad
+<Defect> : N792 -> N794: [call void @free(i8* %4, i8* @free)]
+N792 -> N794: [call void @free(i8* %4, i8* @free)] <--
+-- end of trace --
+=====================================================
+CWE_415(Double Free): 1
+	[./415_double_free_9.c 29] double_free_009_bad 		[N792 -{call void @free(i8* %4, i8* @free)}-> N794]	(the memory is already freed)
+
+CWE_416(Use After Free): 1
+	[./415_double_free_9.c 29] double_free_009_bad 		[N792 -{call void @free(i8* %4, i8* @free)}-> N794]	(the memory is already freed)
+
+Found 2 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+
+Process finished with exit code 0

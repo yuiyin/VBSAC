@@ -1,0 +1,405 @@
+rm: cannot remove '*.o': No such file or directory
+./415_31.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_31.c:67:9: warning: Attempt to free released memory
+        free(data);
+        ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102453-35376-1' to examine bug reports.
+./415_2.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_2.c:67:9: warning: Attempt to free released memory
+        free(data);
+        ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102454-35387-1' to examine bug reports.
+./415_6.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_6.c:69:9: warning: Attempt to free released memory
+        free(data);
+        ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102454-35398-1' to examine bug reports.
+./415_44.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_44.c:70:9: warning: Attempt to free released memory
+        free(data);
+        ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102455-35409-1' to examine bug reports.
+./415_42.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_42.c:67:9: warning: Attempt to free released memory
+        free(data);
+        ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102455-35420-1' to examine bug reports.
+./415.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-102455-35431-1' because it contains no reports.
+scan-build: No bugs found.
+./415_14.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_14.c:70:9: warning: Attempt to free released memory
+        free(data);
+        ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102456-35442-1' to examine bug reports.
+./415_41.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_41.c:62:5: warning: Attempt to free released memory
+    free(data);
+    ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102456-35453-1' to examine bug reports.
+./415_23.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_23.c:67:9: warning: Attempt to free released memory
+        free(data);
+        ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102457-35464-1' to examine bug reports.
+./415_45.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_45.c:70:9: warning: Attempt to free released memory
+        free(data);
+        ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102457-35475-1' to examine bug reports.
+./415_37.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_37.c:69:9: warning: Attempt to free released memory
+        free(data);
+        ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102458-35486-1' to examine bug reports.
+./415_12.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_12.c:67:9: warning: Attempt to free released memory
+        free(data);
+        ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102458-35497-1' to examine bug reports.
+./415_5.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_5.c:70:9: warning: Attempt to free released memory
+        free(data);
+        ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102459-35508-1' to examine bug reports.
+./415_50.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_50.c:67:9: warning: Attempt to free released memory
+        free(data);
+        ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102459-35519-1' to examine bug reports.
+./415_24.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_24.c:70:9: warning: Attempt to free released memory
+        free(data);
+        ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102500-35530-1' to examine bug reports.
+./415_27.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_27.c:69:9: warning: Attempt to free released memory
+        free(data);
+        ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102500-35541-1' to examine bug reports.
+./415_30.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_30.c:67:9: warning: Attempt to free released memory
+        free(data);
+        ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102501-35552-1' to examine bug reports.
+./415_3.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_3.c:67:9: warning: Attempt to free released memory
+        free(data);
+        ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102501-35563-1' to examine bug reports.
+./415_17.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_17.c:69:9: warning: Attempt to free released memory
+        free(data);
+        ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102502-35574-1' to examine bug reports.
+./415_21.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_21.c:62:5: warning: Attempt to free released memory
+    free(data);
+    ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102502-35585-1' to examine bug reports.
+./415_29.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_29.c:67:9: warning: Attempt to free released memory
+        free(data);
+        ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102503-35596-1' to examine bug reports.
+./415_22.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_22.c:67:9: warning: Attempt to free released memory
+        free(data);
+        ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102503-35607-1' to examine bug reports.
+./415_1.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_1.c:62:5: warning: Attempt to free released memory
+    free(data);
+    ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102503-35618-1' to examine bug reports.
+./415_15.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_15.c:70:9: warning: Attempt to free released memory
+        free(data);
+        ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102504-35629-1' to examine bug reports.
+./415_28.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_28.c:77:9: warning: Attempt to free released memory
+        free(data);
+        ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102504-35640-1' to examine bug reports.
+./415_10.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_10.c:67:9: warning: Attempt to free released memory
+        free(data);
+        ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102505-35651-1' to examine bug reports.
+./415_4.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_4.c:70:9: warning: Attempt to free released memory
+        free(data);
+        ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102505-35662-1' to examine bug reports.
+./415_48.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_48.c:77:9: warning: Attempt to free released memory
+        free(data);
+        ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102506-35675-1' to examine bug reports.
+./415_49.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_49.c:67:9: warning: Attempt to free released memory
+        free(data);
+        ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102506-35686-1' to examine bug reports.
+./415_16.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_16.c:69:9: warning: Attempt to free released memory
+        free(data);
+        ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102507-35697-1' to examine bug reports.
+./415_33.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_33.c:67:9: warning: Attempt to free released memory
+        free(data);
+        ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102507-35709-1' to examine bug reports.
+./415_7.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_7.c:69:9: warning: Attempt to free released memory
+        free(data);
+        ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102508-35720-1' to examine bug reports.
+./415_35.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_35.c:70:9: warning: Attempt to free released memory
+        free(data);
+        ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102508-35731-1' to examine bug reports.
+./415_25.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_25.c:70:9: warning: Attempt to free released memory
+        free(data);
+        ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102509-35819-1' to examine bug reports.
+./415_39.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_39.c:67:9: warning: Attempt to free released memory
+        free(data);
+        ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102510-35840-1' to examine bug reports.
+./415_32.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_32.c:67:9: warning: Attempt to free released memory
+        free(data);
+        ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102511-35863-1' to examine bug reports.
+./415_20.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_20.c:67:9: warning: Attempt to free released memory
+        free(data);
+        ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102511-35966-1' to examine bug reports.
+./415_46.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_46.c:69:9: warning: Attempt to free released memory
+        free(data);
+        ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102512-36036-1' to examine bug reports.
+./415_47.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_47.c:69:9: warning: Attempt to free released memory
+        free(data);
+        ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102513-36050-1' to examine bug reports.
+./415_18.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_18.c:77:9: warning: Attempt to free released memory
+        free(data);
+        ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102514-36062-1' to examine bug reports.
+./415_8.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_8.c:77:9: warning: Attempt to free released memory
+        free(data);
+        ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102514-36089-1' to examine bug reports.
+./415_40.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_40.c:67:9: warning: Attempt to free released memory
+        free(data);
+        ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102515-36100-1' to examine bug reports.
+./415_36.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_36.c:69:9: warning: Attempt to free released memory
+        free(data);
+        ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102516-36111-1' to examine bug reports.
+./415_9.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_9.c:67:9: warning: Attempt to free released memory
+        free(data);
+        ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102517-36123-1' to examine bug reports.
+./415_38.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_38.c:77:9: warning: Attempt to free released memory
+        free(data);
+        ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102517-36137-1' to examine bug reports.
+./415_43.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_43.c:67:9: warning: Attempt to free released memory
+        free(data);
+        ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102518-36148-1' to examine bug reports.
+./415_13.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_13.c:67:9: warning: Attempt to free released memory
+        free(data);
+        ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102519-36159-1' to examine bug reports.
+./415_19.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_19.c:67:9: warning: Attempt to free released memory
+        free(data);
+        ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102519-36170-1' to examine bug reports.
+./415_26.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_26.c:69:9: warning: Attempt to free released memory
+        free(data);
+        ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102520-36181-1' to examine bug reports.
+./415_34.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_34.c:70:9: warning: Attempt to free released memory
+        free(data);
+        ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102520-36192-1' to examine bug reports.
+./415_11.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./415_11.c:62:5: warning: Attempt to free released memory
+    free(data);
+    ^~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102521-36203-1' to examine bug reports.

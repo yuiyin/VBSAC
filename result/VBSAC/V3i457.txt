@@ -1,0 +1,159 @@
+[/home/guzuxing/Documents/benchmark/CWE/itc/457/457_uninit_memory_access_1.ll]
+CWE_457(Use of Uninitialized Variable): 1
+	[./457_uninit_memory_access_1.c 9] uninit_memory_access_001_bad 		[N14 -{store i64* %a, i64** %ret, align 8}-> N15]	(use of uninitialized variable)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/457/457_uninit_memory_access_2.ll]
+CWE_457(Use of Uninitialized Variable): 2
+	[./457_uninit_memory_access_2.c 14] uninit_memory_access_003_bad 		[N47 -{%2 = load i8*, i8** %str2, align 8}-> N48]	(use of uninitialized variable)
+	[./457_uninit_memory_access_2.c 14] uninit_memory_access_003_bad 		[N48 -{%call1 = call i8* @strcpy(i8* %1, i8* %2, i8* @strcpy)}-> N49]	(use of uninitialized variable)
+Found 2 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/457/457_uninit_memory_access_3.ll]
+CWE_457(Use of Uninitialized Variable): 1
+	[./457_uninit_memory_access_3.c 14] bad 		[N109 -{%0 = load i8*, i8** %str, align 8}-> N110]	(use of uninitialized variable)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/457/457_uninit_memory_access_4.ll]
+CWE_457(Use of Uninitialized Variable): 1
+	[457_uninit_memory_access_4.c 21] uninit_memory_access_005_bad 		[N189 -{%10 = load i32, i32* %arrayidx14, align 4}-> N190]	(use of uninitialized variable)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/457/457_uninit_memory_access_5.ll]
+CWE_457(Use of Uninitialized Variable): 2
+	[./457_uninit_memory_access_5.c 28] uninit_memory_access_006_bad 		[N274 -{%1 = load i8*, i8** %str2, align 8}-> N275]	(use of uninitialized variable)
+	[./457_uninit_memory_access_5.c 15] uninit_memory_access_006_func_001_bad 		[N292 -{%2 = load i8, i8* %1, align 1}-> N293]	(use of uninitialized variable)
+CWE_476(Null Pointer Dereference): 2
+	[./457_uninit_memory_access_5.c 45] uninit_memory_access_006_func_001_good 		[N337 -{store i8 %4, i8* %5, align 1}-> N338]	(null pointer dereference)
+	[./457_uninit_memory_access_5.c 17] uninit_memory_access_006_func_001_bad 		[N299 -{store i8 %4, i8* %5, align 1}-> N300]	(null pointer dereference)
+CWE_401(Memory Leak): 1
+	[./457_uninit_memory_access_5.c 60] uninit_memory_access_006_good 		[N354 -{Return edge from uninit_memory_access_006_good to main}-> N262]	(the heap object @H(uninit_memory_access_006_good::call) is not referenced any more)
+Found 5 defects in all (21 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/457/457_uninit_memory_access_6.ll]
+CWE_457(Use of Uninitialized Variable): 1
+	[./457_uninit_memory_access_6.c 27] uninit_memory_access_007_func_002_bad 		[N437 -{%3 = load i32, i32* %arrayidx, align 4}-> N438]	(use of uninitialized variable)
+Found 1 defects in all (9 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/457/457_uninit_memory_access_7.ll]
+CWE_195(Signed to Unsigned Conversion Error): 1
+	[./457_uninit_memory_access_7.c 22] uninit_memory_access_008_bad 		[N579 -{%4 = trunc i32 %bf.cast to i16}-> N580]	(Signed to Unsigned Conversion Error)
+CWE_457(Use of Uninitialized Variable): 2
+	[./457_uninit_memory_access_7.c 35] uninit_memory_access_008_func_001_good 		[N613 -{%bf.load = load i16, i16* %3, align 4}-> N614]	(use of uninitialized variable)
+	[./457_uninit_memory_access_7.c 22] uninit_memory_access_008_bad 		[N573 -{%bf.load = load i16, i16* %1, align 4}-> N574]	(use of uninitialized variable)
+CWE_476(Null Pointer Dereference): 1
+	[./457_uninit_memory_access_7.c 22] uninit_memory_access_008_bad 		[N573 -{%bf.load = load i16, i16* %1, align 4}-> N574]	(null pointer dereference)
+CWE_401(Memory Leak): 1
+	[./457_uninit_memory_access_7.c 54] uninit_memory_access_008_bad 		[N564 -{Return edge from uninit_memory_access_008_bad to main}-> N562]	(the heap object @H(uninit_memory_access_008_func_001_bad::call) is not referenced any more)
+Found 5 defects in all (8 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/457/457_uninit_memory_access_8.ll]
+CWE_416(Use After Free): 2
+	[./457_uninit_memory_access_8.c 90] good 		[N895 -{%8 = load i64, i64* %arrayidx8, align 8}-> N896]	(the memory is already freed)
+	[./457_uninit_memory_access_8.c 90] good 		[N897 -{store i64 %add, i64* %arrayidx8, align 8}-> N899]	(the memory is already freed)
+CWE_457(Use of Uninitialized Variable): 1
+	[./457_uninit_memory_access_8.c 90] good 		[N895 -{%8 = load i64, i64* %arrayidx8, align 8}-> N896]	(use of uninitialized variable)
+CWE_476(Null Pointer Dereference): 7
+	[./457_uninit_memory_access_8.c 65] _002_good 		[N739 -{%arrayidx = getelementptr inbounds i64*, i64** %4, i64 %idxprom}-> N740]	(null pointer dereference)
+	[./457_uninit_memory_access_8.c 71] _002_good 		[N765 -{%arrayidx11 = getelementptr inbounds i64, i64* %12, i64 %idxprom8}-> N766]	(null pointer dereference)
+	[./457_uninit_memory_access_8.c 71] _002_good 		[N766 -{store i64 %conv, i64* %arrayidx11, align 8}-> N768]	(null pointer dereference)
+	[./457_uninit_memory_access_8.c 90] good 		[N894 -{%arrayidx8 = getelementptr inbounds i64, i64* %7, i64 %idxprom}-> N895]	(null pointer dereference)
+	[./457_uninit_memory_access_8.c 90] good 		[N895 -{%8 = load i64, i64* %arrayidx8, align 8}-> N896]	(null pointer dereference)
+	[./457_uninit_memory_access_8.c 90] good 		[N897 -{store i64 %add, i64* %arrayidx8, align 8}-> N899]	(null pointer dereference)
+	[./457_uninit_memory_access_8.c 92] good 		[N909 -{call void @free(i8* %13, i8* @free)}-> N910]	(null pointer dereference)
+Found 10 defects in all (94 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/457/457_uninit_var_10.ll]
+CWE_457(Use of Uninitialized Variable): 1
+	[./457_uninit_var_10.c 9] uninit_var_011_func_001_bad 		[N985 -{%4 = load i32, i32* %arrayidx1, align 4}-> N986]	(use of uninitialized variable)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/457/457_uninit_var_11.ll]
+CWE_457(Use of Uninitialized Variable): 1
+	[./457_uninit_var_11.c 15] uninit_var_012_bad 		[N1055 -{%1 = load i32, i32* %uninit, align 4}-> N1056]	(use of uninitialized variable)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/457/457_uninit_var_12.ll]
+CWE_457(Use of Uninitialized Variable): 1
+	[./457_uninit_var_12.c 9] uninit_var_013_func_001_bad 		[N1100 -{%0 = load i32, i32* %val, align 4}-> N1101]	(use of uninitialized variable)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/457/457_uninit_var_13.ll]
+CWE_457(Use of Uninitialized Variable): 1
+	[./457_uninit_var_13.c 16] uninit_var_015_bad 		[N1136 -{%0 = load i32, i32* %arrayidx, align 4}-> N1137]	(use of uninitialized variable)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/457/457_uninit_var_14.ll]
+CWE_457(Use of Uninitialized Variable): 3
+	[./457_uninit_var_14.c 33] uninit_var_014_func_001_good 		[N1281 -{%5 = load i32, i32* %b, align 4}-> N1282]	(use of uninitialized variable)
+	[./457_uninit_var_14.c 23] uninit_var_014_bad 		[N1204 -{%5 = load i32, i32* %4, align 4}-> N1205]	(use of uninitialized variable)
+	[./457_uninit_var_14.c 14] uninit_var_014_func_001_bad 		[N1238 -{%5 = load i32, i32* %b, align 4}-> N1239]	(use of uninitialized variable)
+Found 3 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/457/457_uninit_var_1.ll]
+CWE_457(Use of Uninitialized Variable): 1
+	[./457_uninit_var_1.c 8] uninit_var_001_bad 		[N1349 -{%0 = load i32, i32* %a, align 4}-> N1350]	(use of uninitialized variable)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/457/457_uninit_var_2.ll]
+CWE_457(Use of Uninitialized Variable): 1
+	[./457_uninit_var_2.c 8] uninit_var_002_bad 		[N1379 -{%0 = load i32, i32* %arrayidx, align 4}-> N1380]	(use of uninitialized variable)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/457/457_uninit_var_3.ll]
+CWE_457(Use of Uninitialized Variable): 1
+	[./457_uninit_var_3.c 8] uninit_var_003_bad 		[N1413 -{%0 = load i32, i32* %arrayidx1, align 4}-> N1414]	(use of uninitialized variable)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/457/457_uninit_var_4.ll]
+CWE_457(Use of Uninitialized Variable): 1
+	[./457_uninit_var_4.c 9] uninit_var_005_func_001_bad 		[N1452 -{%0 = load i32, i32* %ret, align 4}-> N1453]	(use of uninitialized variable)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/457/457_uninit_var_5.ll]
+CWE_457(Use of Uninitialized Variable): 1
+	[./457_uninit_var_5.c 8] uninit_var_006_bad 		[N1499 -{%1 = load i64, i64* %a, align 8}-> N1492]	(use of uninitialized variable)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/457/457_uninit_var_6.ll]
+CWE_457(Use of Uninitialized Variable): 1
+	[./457_uninit_var_6.c 16] uninit_var_007_bad 		[N1541 -{%0 = load i32, i32* %uninit, align 4}-> N1542]	(use of uninitialized variable)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/457/457_uninit_var_7.ll]
+CWE_457(Use of Uninitialized Variable): 1
+	[./457_uninit_var_7.c 36] u_bad 		[N1594 -{%2 = load i32, i32* %data, align 4}-> N1595]	(use of uninitialized variable)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/457/457_uninit_var_8.ll]
+CWE_457(Use of Uninitialized Variable): 1
+	[./457_uninit_var_8.c 9] uninit_var_009_func_001_bad 		[N1628 -{%call = call i8* @strcpy(i8* %0, i8* %arraydecay, i8* @strcpy)}-> N1629]	(use of uninitialized variable)
+Found 1 defects in all (0 duplicates ignored).
+
+
+[/home/guzuxing/Documents/benchmark/CWE/itc/457/457_uninit_var_9.ll]
+CWE_457(Use of Uninitialized Variable): 1
+	[457_uninit_var_9.c 10] uninit_var_010_func_001_bad 		[N1697 -{%4 = load i32, i32* %arrayidx5, align 4}-> N1698]	(use of uninitialized variable)
+Found 1 defects in all (11 duplicates ignored).
+
+

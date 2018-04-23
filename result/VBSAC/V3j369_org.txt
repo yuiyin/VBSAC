@@ -1,0 +1,6316 @@
+/usr/lib/jvm/java-1.8.0-openjdk-amd64/bin/java -ea -Didea.test.cyclic.buffer.size=1048576 -javaagent:/home/guzuxing/Downloads/idea-IU-171.4424.56/lib/idea_rt.jar=33986:/home/guzuxing/Downloads/idea-IU-171.4424.56/bin -Dfile.encoding=UTF-8 -classpath /home/guzuxing/Downloads/idea-IU-171.4424.56/lib/idea_rt.jar:/home/guzuxing/Downloads/idea-IU-171.4424.56/plugins/junit/lib/junit-rt.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/cldrdata.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/icedtea-sound.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/jaccess.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/nashorn.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/sunec.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/management-agent.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar:/home/guzuxing/Documents/tsmart-v3/engine/out/test/classes:/home/guzuxing/Documents/tsmart-v3/engine/build/resources/test:/home/guzuxing/Documents/tsmart-v3/engine/out/production/classes:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/llvm-macosx-x86_64.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/guava.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/java-cup-runtime.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/llvm-linux-x86_64.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/org.osgi.core.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/com.microsoft.z3.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/jopt-simple.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/javasmt.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/javacpp.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/scala-library.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/princess-assertionless.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/org.osgi.compendium.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/smtinterpol.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/llvm-linux-x86.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/llvm.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/llvm-platform.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/smt-parser.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/common.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/javolution-core-java.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/runtime/jsr305.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/XMLReport.jar:/home/guzuxing/Documents/tsmart-v3/engine/libs/build-capture.jar:/home/guzuxing/Documents/tsmart-v3/mod-commons/out/production/classes:/home/guzuxing/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/4e031bb61df09069aeb2bffb4019e7a5034a4ee0/junit-4.11.jar:/home/guzuxing/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/19.0/6ce200f6b23222af3d8abb6b6459e6c44f4bb0e9/guava-19.0.jar:/home/guzuxing/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar:/home/guzuxing/.gradle/caches/modules-2/files-2.1/com.google.truth/truth/0.30/9d591b5a66eda81f0b88cf1c748ab8853d99b18b/truth-0.30.jar:/home/guzuxing/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar:/home/guzuxing/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.0.8/54e2d56cb157df08cbf183149bcf50c9f5151ed4/error_prone_annotations-2.0.8.jar com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 cn.edu.thu.tsmart.integrated.Juliet_369_Test
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_1.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+5 SCCs to deal with
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [bad1]
+ +bad1
+SCC(1): [printLine]
+ +printLine
+SCC(1): [good1]
+ +good1
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [bad1, good1, main, printIntLine, printLine]
+Loops     []
+----
+function: bad1
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: good1
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.379s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N33): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N8
+On edge  : N8 -{%div = sdiv i32 100, %1}-> N9
+Message  : Divide By Zero
+> Start from entry function: main, At N33 of Function main
+> Entering function: good1, On N62 -> N13 (call good1)
+> takes the false branch, At N21 of Function good1
+> Entering function: printLine, On N31 -> N48 (call printLine)
+> takes the true branch, At N54 of Function printLine
+> Leaving function: printLine, On N47 -> N28 (Return edge from printLine to good1)
+> Leaving function: good1, On N12 -> N35 (Return edge from good1 to main)
+> Entering function: bad1, On N35 -> N1 (call bad1)
+<Defect> : N8 -> N9: [%div = sdiv i32 100, %1]
+N8 -> N9: [%div = sdiv i32 100, %1] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_1.c 34] bad1 		[N8 -{%div = sdiv i32 100, %1}-> N9]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_2.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+5 SCCs to deal with
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [bad2]
+ +bad2
+SCC(1): [printLine]
+ +printLine
+SCC(1): [good2]
+ +good2
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [main, printIntLine, printLine, bad2, good2]
+Loops     []
+----
+function: bad2
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: good2
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.04s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N100): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N75
+On edge  : N75 -{%div = sdiv i32 100, %1}-> N76
+Message  : Divide By Zero
+> Start from entry function: main, At N100 of Function main
+> Entering function: good2, On N129 -> N80 (call good2)
+> takes the false branch, At N88 of Function good2
+> Entering function: printLine, On N98 -> N115 (call printLine)
+> takes the true branch, At N121 of Function printLine
+> Leaving function: printLine, On N114 -> N95 (Return edge from printLine to good2)
+> Leaving function: good2, On N79 -> N102 (Return edge from good2 to main)
+> Entering function: bad2, On N102 -> N68 (call bad2)
+<Defect> : N75 -> N76: [%div = sdiv i32 100, %1]
+N75 -> N76: [%div = sdiv i32 100, %1] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_2.c 39] bad2 		[N75 -{%div = sdiv i32 100, %1}-> N76]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_3.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+6 SCCs to deal with
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [bad3]
+ +bad3
+SCC(1): [goodG2B]
+ +goodG2B
+SCC(1): [good3]
+ +good3
+SCC(1): [main]
+ +main
+SCC(1): [printLine]
+ +printLine
+<begin of summary store (POINTER_AP)>
+Functions [bad3, good3, goodG2B, main, printIntLine, printLine]
+Loops     []
+----
+function: bad3
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: good3
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: goodG2B
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.052s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N163): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N142
+On edge  : N142 -{%div = sdiv i32 100, %1}-> N143
+Message  : Divide By Zero
+> Start from entry function: main, At N163 of Function main
+> Entering function: good3, On N192 -> N147 (call good3)
+> Entering function: goodG2B, On N147 -> N152 (call goodG2B)
+> Entering function: printIntLine, On N159 -> N169 (call printIntLine)
+> Leaving function: printIntLine, On N168 -> N160 (Return edge from printIntLine to goodG2B)
+> Leaving function: goodG2B, On N151 -> N149 (Return edge from goodG2B to good3)
+> Leaving function: good3, On N146 -> N165 (Return edge from good3 to main)
+> Entering function: bad3, On N165 -> N135 (call bad3)
+<Defect> : N142 -> N143: [%div = sdiv i32 100, %1]
+N142 -> N143: [%div = sdiv i32 100, %1] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_3.c 42] bad3 		[N142 -{%div = sdiv i32 100, %1}-> N143]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_4.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+5 SCCs to deal with
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [bad4]
+ +bad4
+SCC(1): [good4]
+ +good4
+SCC(1): [main]
+ +main
+SCC(1): [printLine]
+ +printLine
+<begin of summary store (POINTER_AP)>
+Functions [printIntLine, printLine, bad4, good4, main]
+Loops     []
+----
+function: bad4
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: good4
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.053s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N220): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N204
+On edge  : N204 -{%div = sdiv i32 100, %1}-> N205
+Message  : Divide By Zero
+> Start from entry function: main, At N220 of Function main
+> Entering function: good4, On N249 -> N209 (call good4)
+> Entering function: printIntLine, On N216 -> N226 (call printIntLine)
+> Leaving function: printIntLine, On N225 -> N217 (Return edge from printIntLine to good4)
+> Leaving function: good4, On N208 -> N222 (Return edge from good4 to main)
+> Entering function: bad4, On N222 -> N197 (call bad4)
+<Defect> : N204 -> N205: [%div = sdiv i32 100, %1]
+N204 -> N205: [%div = sdiv i32 100, %1] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_4.c 45] bad4 		[N204 -{%div = sdiv i32 100, %1}-> N205]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_5.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+6 SCCs to deal with
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [bad5]
+ +bad5
+SCC(1): [printLine]
+ +printLine
+SCC(1): [goodG2B]
+ +goodG2B
+SCC(1): [good5]
+ +good5
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [bad5, good5, goodG2B, main, printIntLine, printLine]
+Loops     []
+----
+function: bad5
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: good5
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: goodG2B
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.03s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N308): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N268
+On edge  : N268 -{%div = sdiv i32 100, %3}-> N269
+Message  : Divide By Zero
+> Start from entry function: main, At N308 of Function main
+> Entering function: bad5, On N337 -> N254 (call bad5)
+> takes the true branch, At N260 of Function bad5
+> takes the true branch, At N266 of Function bad5
+<Defect> : N268 -> N269: [%div = sdiv i32 100, %3]
+N268 -> N269: [%div = sdiv i32 100, %3] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_5.c 44] bad5 		[N268 -{%div = sdiv i32 100, %3}-> N269]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_6.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+5 SCCs to deal with
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [bad6]
+ +bad6
+SCC(1): [good6]
+ +good6
+SCC(1): [main]
+ +main
+SCC(1): [printLine]
+ +printLine
+<begin of summary store (POINTER_AP)>
+Functions [good6, main, printIntLine, printLine, bad6]
+Loops     []
+----
+function: bad6
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: good6
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.015s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N368): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N352
+On edge  : N352 -{%div = sdiv i32 100, %1}-> N353
+Message  : Divide By Zero
+> Start from entry function: main, At N368 of Function main
+> Entering function: bad6, On N397 -> N345 (call bad6)
+<Defect> : N352 -> N353: [%div = sdiv i32 100, %1]
+N352 -> N353: [%div = sdiv i32 100, %1] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_6.c 43] bad6 		[N352 -{%div = sdiv i32 100, %1}-> N353]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_7.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+5 SCCs to deal with
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [bad7]
+ +bad7
+SCC(1): [printLine]
+ +printLine
+SCC(1): [good7]
+ +good7
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [bad7, good7, main, printIntLine, printLine]
+Loops     []
+----
+function: bad7
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: good7
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.015s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N460): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N416
+On edge  : N416 -{%div = sdiv i32 100, %3}-> N417
+Message  : Divide By Zero
+> Start from entry function: main, At N460 of Function main
+> Entering function: bad7, On N489 -> N402 (call bad7)
+> takes the true branch, At N408 of Function bad7
+> takes the true branch, At N414 of Function bad7
+<Defect> : N416 -> N417: [%div = sdiv i32 100, %3]
+N416 -> N417: [%div = sdiv i32 100, %3] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_7.c 43] bad7 		[N416 -{%div = sdiv i32 100, %3}-> N417]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_8.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+7 SCCs to deal with
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [staticReturnsTrue]
+ +staticReturnsTrue
+SCC(1): [bad8]
+ +bad8
+SCC(1): [printLine]
+ +printLine
+SCC(1): [staticReturnsFalse]
+ +staticReturnsFalse
+SCC(1): [good8]
+ +good8
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [bad8, good8, main, printIntLine, printLine, staticReturnsFalse, staticReturnsTrue]
+Loops     []
+----
+function: bad8
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: good8
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: staticReturnsFalse
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: staticReturnsTrue
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.024s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N555): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N511
+On edge  : N511 -{%div = sdiv i32 100, %1}-> N512
+Message  : Divide By Zero
+> Start from entry function: main, At N555 of Function main
+> Entering function: bad8, On N592 -> N497 (call bad8)
+> Entering function: staticReturnsTrue, On N501 -> N589 (call staticReturnsTrue)
+> Leaving function: staticReturnsTrue, On N588 -> N502 (Return edge from staticReturnsTrue to bad8)
+> takes the true branch, At N503 of Function bad8
+> Entering function: staticReturnsTrue, On N507 -> N589 (call staticReturnsTrue)
+> Leaving function: staticReturnsTrue, On N588 -> N508 (Return edge from staticReturnsTrue to bad8)
+> takes the true branch, At N509 of Function bad8
+<Defect> : N511 -> N512: [%div = sdiv i32 100, %1]
+N511 -> N512: [%div = sdiv i32 100, %1] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_8.c 56] bad8 		[N511 -{%div = sdiv i32 100, %1}-> N512]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_9.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+5 SCCs to deal with
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [bad9]
+ +bad9
+SCC(1): [printLine]
+ +printLine
+SCC(1): [good9]
+ +good9
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [good9, main, printIntLine, printLine, bad9]
+Loops     []
+----
+function: bad9
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: good9
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.02s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N631): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N606
+On edge  : N606 -{%div = sdiv i32 100, %1}-> N607
+Message  : Divide By Zero
+> Start from entry function: main, At N631 of Function main
+> Entering function: bad9, On N660 -> N599 (call bad9)
+<Defect> : N606 -> N607: [%div = sdiv i32 100, %1]
+N606 -> N607: [%div = sdiv i32 100, %1] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_9.c 45] bad9 		[N606 -{%div = sdiv i32 100, %1}-> N607]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_10.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+5 SCCs to deal with
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [bad10]
+ +bad10
+SCC(1): [printLine]
+ +printLine
+SCC(1): [good10]
+ +good10
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [printLine, bad10, good10, main, printIntLine]
+Loops     []
+----
+function: bad10
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: good10
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.049s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N727): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N683
+On edge  : N683 -{%div = sdiv i32 100, %3}-> N684
+Message  : Divide By Zero
+> Start from entry function: main, At N727 of Function main
+> Entering function: good10, On N756 -> N693 (call good10)
+> takes the true branch, At N699 of Function good10
+> takes the false branch, At N705 of Function good10
+> takes the false branch, At N710 of Function good10
+> Entering function: printLine, On N725 -> N742 (call printLine)
+> takes the true branch, At N748 of Function printLine
+> Leaving function: printLine, On N741 -> N718 (Return edge from printLine to good10)
+> Leaving function: good10, On N692 -> N729 (Return edge from good10 to main)
+> Entering function: bad10, On N729 -> N669 (call bad10)
+> takes the true branch, At N675 of Function bad10
+> takes the true branch, At N681 of Function bad10
+<Defect> : N683 -> N684: [%div = sdiv i32 100, %3]
+N683 -> N684: [%div = sdiv i32 100, %3] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_10.c 58] bad10 		[N683 -{%div = sdiv i32 100, %3}-> N684]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_11.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+7 SCCs to deal with
+SCC(1): [globalReturnsTrue]
+ +globalReturnsTrue
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [bad11]
+ +bad11
+SCC(1): [globalReturnsFalse]
+ +globalReturnsFalse
+SCC(1): [printLine]
+ +printLine
+SCC(1): [good11]
+ +good11
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [bad11, globalReturnsFalse, globalReturnsTrue, good11, main, printIntLine, printLine]
+Loops     []
+----
+function: bad11
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: globalReturnsFalse
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: globalReturnsTrue
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: good11
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.009s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N832): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N780
+On edge  : N780 -{%div = sdiv i32 100, %1}-> N781
+Message  : Divide By Zero
+> Start from entry function: main, At N832 of Function main
+> Entering function: good11, On N861 -> N798 (call good11)
+> Entering function: globalReturnsTrue, On N802 -> N794 (call globalReturnsTrue)
+> Leaving function: globalReturnsTrue, On N793 -> N803 (Return edge from globalReturnsTrue to good11)
+> takes the true branch, At N804 of Function good11
+> Entering function: globalReturnsFalse, On N808 -> N790 (call globalReturnsFalse)
+> Leaving function: globalReturnsFalse, On N789 -> N809 (Return edge from globalReturnsFalse to good11)
+> takes the false branch, At N810 of Function good11
+> takes the false branch, At N815 of Function good11
+> Entering function: printLine, On N830 -> N847 (call printLine)
+> takes the true branch, At N853 of Function printLine
+> Leaving function: printLine, On N846 -> N823 (Return edge from printLine to good11)
+> Leaving function: good11, On N797 -> N834 (Return edge from good11 to main)
+> Entering function: bad11, On N834 -> N766 (call bad11)
+> Entering function: globalReturnsTrue, On N770 -> N794 (call globalReturnsTrue)
+> Leaving function: globalReturnsTrue, On N793 -> N771 (Return edge from globalReturnsTrue to bad11)
+> takes the true branch, At N772 of Function bad11
+> Entering function: globalReturnsTrue, On N776 -> N794 (call globalReturnsTrue)
+> Leaving function: globalReturnsTrue, On N793 -> N777 (Return edge from globalReturnsTrue to bad11)
+> takes the true branch, At N778 of Function bad11
+<Defect> : N780 -> N781: [%div = sdiv i32 100, %1]
+N780 -> N781: [%div = sdiv i32 100, %1] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_11.c 60] bad11 		[N780 -{%div = sdiv i32 100, %1}-> N781]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_12.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+6 SCCs to deal with
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [printLine]
+ +printLine
+SCC(1): [globalReturnsTrueOrFalse]
+ +globalReturnsTrueOrFalse
+SCC(1): [bad12]
+ +bad12
+SCC(1): [good12]
+ +good12
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [bad12, globalReturnsTrueOrFalse, good12, main, printIntLine, printLine]
+Loops     []
+----
+function: bad12
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: globalReturnsTrueOrFalse
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: good12
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.006s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N965): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N890
+On edge  : N890 -{%div = sdiv i32 100, %1}-> N891
+Message  : Divide By Zero
+> Start from entry function: main, At N965 of Function main
+> Entering function: good12, On N994 -> N918 (call good12)
+> Entering function: globalReturnsTrueOrFalse, On N922 -> N912 (call globalReturnsTrueOrFalse)
+> Leaving function: globalReturnsTrueOrFalse, On N911 -> N923 (Return edge from globalReturnsTrueOrFalse to good12)
+> takes the false branch, At N924 of Function good12
+> Entering function: globalReturnsTrueOrFalse, On N931 -> N912 (call globalReturnsTrueOrFalse)
+> Leaving function: globalReturnsTrueOrFalse, On N911 -> N932 (Return edge from globalReturnsTrueOrFalse to good12)
+> takes the false branch, At N933 of Function good12
+> takes the false branch, At N946 of Function good12
+> Entering function: printLine, On N963 -> N980 (call printLine)
+> takes the true branch, At N986 of Function printLine
+> Leaving function: printLine, On N979 -> N954 (Return edge from printLine to good12)
+> Leaving function: good12, On N917 -> N967 (Return edge from good12 to main)
+> Entering function: bad12, On N967 -> N874 (call bad12)
+> Entering function: globalReturnsTrueOrFalse, On N878 -> N912 (call globalReturnsTrueOrFalse)
+> Leaving function: globalReturnsTrueOrFalse, On N911 -> N879 (Return edge from globalReturnsTrueOrFalse to bad12)
+> takes the false branch, At N880 of Function bad12
+> Entering function: globalReturnsTrueOrFalse, On N886 -> N912 (call globalReturnsTrueOrFalse)
+> Leaving function: globalReturnsTrueOrFalse, On N911 -> N887 (Return edge from globalReturnsTrueOrFalse to bad12)
+> takes the true branch, At N888 of Function bad12
+<Defect> : N890 -> N891: [%div = sdiv i32 100, %1]
+N890 -> N891: [%div = sdiv i32 100, %1] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_12.c 60] bad12 		[N890 -{%div = sdiv i32 100, %1}-> N891]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_13.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+6 SCCs to deal with
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [bad13]
+ +bad13
+SCC(1): [globalReturnsTrueOrFalse]
+ +globalReturnsTrueOrFalse
+SCC(1): [printLine]
+ +printLine
+SCC(1): [good13]
+ +good13
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [bad13, globalReturnsTrueOrFalse, good13, main, printIntLine, printLine]
+Loops     []
+----
+function: bad13
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: globalReturnsTrueOrFalse
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: good13
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.009s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N1044): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N1013
+On edge  : N1013 -{%div = sdiv i32 100, %1}-> N1014
+Message  : Divide By Zero
+> Start from entry function: main, At N1044 of Function main
+> Entering function: good13, On N1073 -> N1024 (call good13)
+> takes the false branch, At N1032 of Function good13
+> Entering function: printLine, On N1042 -> N1059 (call printLine)
+> takes the true branch, At N1065 of Function printLine
+> Leaving function: printLine, On N1058 -> N1039 (Return edge from printLine to good13)
+> Leaving function: good13, On N1023 -> N1046 (Return edge from good13 to main)
+> Entering function: bad13, On N1046 -> N1006 (call bad13)
+<Defect> : N1013 -> N1014: [%div = sdiv i32 100, %1]
+N1013 -> N1014: [%div = sdiv i32 100, %1] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_13.c 55] bad13 		[N1013 -{%div = sdiv i32 100, %1}-> N1014]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_14.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+6 SCCs to deal with
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [bad14]
+ +bad14
+SCC(1): [globalReturnsTrueOrFalse]
+ +globalReturnsTrueOrFalse
+SCC(1): [printLine]
+ +printLine
+SCC(1): [good14]
+ +good14
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [main, printIntLine, printLine, bad14, globalReturnsTrueOrFalse, good14]
+Loops     []
+----
+function: bad14
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: globalReturnsTrueOrFalse
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: good14
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.015s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N1149): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N1099
+On edge  : N1099 -{%div = sdiv i32 100, %3}-> N1100
+Message  : Divide By Zero
+> Start from entry function: main, At N1149 of Function main
+> Entering function: good14, On N1178 -> N1115 (call good14)
+> takes the true branch, At N1121 of Function good14
+> takes the false branch, At N1127 of Function good14
+> takes the false branch, At N1132 of Function good14
+> Entering function: printLine, On N1147 -> N1164 (call printLine)
+> takes the true branch, At N1170 of Function printLine
+> Leaving function: printLine, On N1163 -> N1140 (Return edge from printLine to good14)
+> Leaving function: good14, On N1114 -> N1151 (Return edge from good14 to main)
+> Entering function: bad14, On N1151 -> N1085 (call bad14)
+> takes the true branch, At N1091 of Function bad14
+> takes the true branch, At N1097 of Function bad14
+<Defect> : N1099 -> N1100: [%div = sdiv i32 100, %3]
+N1099 -> N1100: [%div = sdiv i32 100, %3] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_14.c 56] bad14 		[N1099 -{%div = sdiv i32 100, %3}-> N1100]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_15.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+6 SCCs to deal with
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [bad15]
+ +bad15
+SCC(1): [globalReturnsTrueOrFalse]
+ +globalReturnsTrueOrFalse
+SCC(1): [printLine]
+ +printLine
+SCC(1): [good15]
+ +good15
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [bad15, globalReturnsTrueOrFalse, good15, main, printIntLine, printLine]
+Loops     []
+----
+function: bad15
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: globalReturnsTrueOrFalse
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: good15
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.005s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N1229): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N1198
+On edge  : N1198 -{%div = sdiv i32 100, %1}-> N1199
+Message  : Divide By Zero
+> Start from entry function: main, At N1229 of Function main
+> Entering function: good15, On N1258 -> N1209 (call good15)
+> takes the false branch, At N1217 of Function good15
+> Entering function: printLine, On N1227 -> N1244 (call printLine)
+> takes the true branch, At N1250 of Function printLine
+> Leaving function: printLine, On N1243 -> N1224 (Return edge from printLine to good15)
+> Leaving function: good15, On N1208 -> N1231 (Return edge from good15 to main)
+> Entering function: bad15, On N1231 -> N1191 (call bad15)
+<Defect> : N1198 -> N1199: [%div = sdiv i32 100, %1]
+N1198 -> N1199: [%div = sdiv i32 100, %1] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_15.c 64] bad15 		[N1198 -{%div = sdiv i32 100, %1}-> N1199]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_16.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+6 SCCs to deal with
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [bad16]
+ +bad16
+SCC(1): [globalReturnsTrueOrFalse]
+ +globalReturnsTrueOrFalse
+SCC(1): [printLine]
+ +printLine
+SCC(1): [good16]
+ +good16
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [bad16, globalReturnsTrueOrFalse, good16, main, printIntLine, printLine]
+Loops     []
+----
+function: bad16
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: globalReturnsTrueOrFalse
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: good16
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.011s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N1316): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N1280
+On edge  : N1280 -{%div = sdiv i32 100, %1}-> N1281
+Message  : Divide By Zero
+> Start from entry function: main, At N1316 of Function main
+> Entering function: good16, On N1345 -> N1292 (call good16)
+> takes the false branch, At N1303 of Function good16
+> Entering function: printLine, On N1314 -> N1331 (call printLine)
+> takes the true branch, At N1337 of Function printLine
+> Leaving function: printLine, On N1330 -> N1311 (Return edge from printLine to good16)
+> Leaving function: good16, On N1291 -> N1318 (Return edge from good16 to main)
+> Entering function: bad16, On N1318 -> N1270 (call bad16)
+<Defect> : N1280 -> N1281: [%div = sdiv i32 100, %1]
+N1280 -> N1281: [%div = sdiv i32 100, %1] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_16.c 56] bad16 		[N1280 -{%div = sdiv i32 100, %1}-> N1281]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_17.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+8 SCCs to deal with
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [bad17]
+ +bad17
+SCC(1): [globalReturnsFalse]
+ +globalReturnsFalse
+SCC(1): [globalReturnsTrue]
+ +globalReturnsTrue
+SCC(1): [globalReturnsTrueOrFalse]
+ +globalReturnsTrueOrFalse
+SCC(1): [printLine]
+ +printLine
+SCC(1): [good17]
+ +good17
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [bad17, globalReturnsFalse, globalReturnsTrue, globalReturnsTrueOrFalse, good17, main, printIntLine, printLine]
+Loops     [N1421, N1367, N1446, N1379]
+----
+function: bad17
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: globalReturnsFalse
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: globalReturnsTrue
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: globalReturnsTrueOrFalse
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: good17
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+loop N1367 in bad17: 
+N1367 -> P+ = [], P- = [] Point-To: 
+N1369 -> P+ = [], P- = [] Point-To: 
+----
+loop N1379 in bad17: 
+N1379 -> P+ = [], P- = [] Point-To: 
+N1381 -> P+ = [], P- = [] Point-To: 
+----
+loop N1421 in good17: 
+N1421 -> P+ = [], P- = [] Point-To: 
+N1423 -> P+ = [], P- = [] Point-To: 
+----
+loop N1446 in good17: 
+N1433 -> P+ = [], P- = [] Point-To: 
+N1435 -> P+ = [], P- = [] Point-To: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.016s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N1459): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N1383
+On edge  : N1383 -{%div = sdiv i32 100, %4}-> N1384
+Message  : Divide By Zero
+> Start from entry function: main, At N1459 of Function main
+> Entering function: good17, On N1488 -> N1411 (call good17)
+> takes the true branch, At N1423 of Function good17
+> takes the false branch, At N1423 of Function good17
+> takes the true branch, At N1435 of Function good17
+> takes the false branch, At N1438 of Function good17
+> Entering function: printLine, On N1457 -> N1474 (call printLine)
+> takes the true branch, At N1480 of Function printLine
+> Leaving function: printLine, On N1473 -> N1446 (Return edge from printLine to good17)
+> takes the false branch, At N1435 of Function good17
+> Leaving function: good17, On N1410 -> N1461 (Return edge from good17 to main)
+> Entering function: bad17, On N1461 -> N1357 (call bad17)
+> takes the true branch, At N1369 of Function bad17
+> takes the false branch, At N1369 of Function bad17
+> takes the true branch, At N1381 of Function bad17
+<Defect> : N1383 -> N1384: [%div = sdiv i32 100, %4]
+N1383 -> N1384: [%div = sdiv i32 100, %4] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_17.c 68] bad17 		[N1383 -{%div = sdiv i32 100, %4}-> N1384]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_18.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+8 SCCs to deal with
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [bad18]
+ +bad18
+SCC(1): [globalReturnsFalse]
+ +globalReturnsFalse
+SCC(1): [globalReturnsTrue]
+ +globalReturnsTrue
+SCC(1): [globalReturnsTrueOrFalse]
+ +globalReturnsTrueOrFalse
+SCC(1): [printLine]
+ +printLine
+SCC(1): [good18]
+ +good18
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [globalReturnsFalse, globalReturnsTrue, globalReturnsTrueOrFalse, good18, main, printIntLine, printLine, bad18]
+Loops     []
+----
+function: bad18
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: globalReturnsFalse
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: globalReturnsTrue
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: globalReturnsTrueOrFalse
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: good18
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.007s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N1550): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N1509
+On edge  : N1509 -{%div = sdiv i32 100, %1}-> N1510
+Message  : Divide By Zero
+> Start from entry function: main, At N1550 of Function main
+> Entering function: good18, On N1579 -> N1528 (call good18)
+> takes the false branch, At N1538 of Function good18
+> Entering function: printLine, On N1548 -> N1565 (call printLine)
+> takes the true branch, At N1571 of Function printLine
+> Leaving function: printLine, On N1564 -> N1545 (Return edge from printLine to good18)
+> Leaving function: good18, On N1527 -> N1552 (Return edge from good18 to main)
+> Entering function: bad18, On N1552 -> N1500 (call bad18)
+<Defect> : N1509 -> N1510: [%div = sdiv i32 100, %1]
+N1509 -> N1510: [%div = sdiv i32 100, %1] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_18.c 66] bad18 		[N1509 -{%div = sdiv i32 100, %1}-> N1510]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_19.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+10 SCCs to deal with
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [badSink]
+ +badSink
+SCC(1): [bad19]
+ +bad19
+SCC(1): [globalReturnsFalse]
+ +globalReturnsFalse
+SCC(1): [globalReturnsTrue]
+ +globalReturnsTrue
+SCC(1): [globalReturnsTrueOrFalse]
+ +globalReturnsTrueOrFalse
+SCC(1): [printLine]
+ +printLine
+SCC(1): [goodB2G1Sink]
+ +goodB2G1Sink
+SCC(1): [good19]
+ +good19
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [good19, goodB2G1Sink, main, printIntLine, printLine, bad19, badSink, globalReturnsFalse, globalReturnsTrue, globalReturnsTrueOrFalse]
+Loops     []
+----
+function: bad19
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: badSink
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: globalReturnsFalse
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: globalReturnsTrue
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: globalReturnsTrueOrFalse
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: good19
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: goodB2G1Sink
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.006s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N1671): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N1611
+On edge  : N1611 -{%div = sdiv i32 100, %1}-> N1612
+Message  : Divide By Zero
+> Start from entry function: main, At N1671 of Function main
+> Entering function: good19, On N1700 -> N1633 (call good19)
+> Entering function: goodB2G1Sink, On N1641 -> N1645 (call goodB2G1Sink)
+> takes the false branch, At N1651 of Function goodB2G1Sink
+> takes the false branch, At N1656 of Function goodB2G1Sink
+> Entering function: printLine, On N1669 -> N1686 (call printLine)
+> takes the true branch, At N1692 of Function printLine
+> Leaving function: printLine, On N1685 -> N1664 (Return edge from printLine to goodB2G1Sink)
+> Leaving function: goodB2G1Sink, On N1644 -> N1642 (Return edge from goodB2G1Sink to good19)
+> Leaving function: good19, On N1632 -> N1673 (Return edge from good19 to main)
+> Entering function: bad19, On N1673 -> N1591 (call bad19)
+> Entering function: badSink, On N1599 -> N1603 (call badSink)
+> takes the true branch, At N1609 of Function badSink
+<Defect> : N1611 -> N1612: [%div = sdiv i32 100, %1]
+N1611 -> N1612: [%div = sdiv i32 100, %1] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_19.c 59] badSink 		[N1611 -{%div = sdiv i32 100, %1}-> N1612]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_20.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+8 SCCs to deal with
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [bad20]
+ +bad20
+SCC(1): [globalReturnsFalse]
+ +globalReturnsFalse
+SCC(1): [globalReturnsTrue]
+ +globalReturnsTrue
+SCC(1): [globalReturnsTrueOrFalse]
+ +globalReturnsTrueOrFalse
+SCC(1): [good20]
+ +good20
+SCC(1): [main]
+ +main
+SCC(1): [printLine]
+ +printLine
+<begin of summary store (POINTER_AP)>
+Functions [main, printIntLine, printLine, bad20, globalReturnsFalse, globalReturnsTrue, globalReturnsTrueOrFalse, good20]
+Loops     []
+----
+function: bad20
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: globalReturnsFalse
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: globalReturnsTrue
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: globalReturnsTrueOrFalse
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: good20
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.006s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N1768): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N1730
+On edge  : N1730 -{%div = sdiv i32 100, %3}-> N1731
+Message  : Divide By Zero
+> Start from entry function: main, At N1768 of Function main
+> Entering function: good20, On N1797 -> N1749 (call good20)
+> Entering function: printIntLine, On N1764 -> N1774 (call printIntLine)
+> Leaving function: printIntLine, On N1773 -> N1765 (Return edge from printIntLine to good20)
+> Leaving function: good20, On N1748 -> N1770 (Return edge from good20 to main)
+> Entering function: bad20, On N1770 -> N1715 (call bad20)
+<Defect> : N1730 -> N1731: [%div = sdiv i32 100, %3]
+N1730 -> N1731: [%div = sdiv i32 100, %3] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_20.c 67] bad20 		[N1730 -{%div = sdiv i32 100, %3}-> N1731]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_21.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+5 SCCs to deal with
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [bad21]
+ +bad21
+SCC(1): [good21]
+ +good21
+SCC(1): [main]
+ +main
+SCC(1): [printLine]
+ +printLine
+<begin of summary store (POINTER_AP)>
+Functions [bad21, good21, main, printIntLine, printLine]
+Loops     []
+----
+function: bad21
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: good21
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.012s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N1869): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Use of Uninitialized Variable
+At node  : N1847
+On edge  : N1847 -{store i32* %data, i32** %dataPtr1, align 8}-> N1849
+Message  : use of uninitialized variable
+> Start from entry function: main, At N1869 of Function main
+> Entering function: good21, On N1898 -> N1839 (call good21)
+<Defect> : N1847 -> N1849: [store i32* %data, i32** %dataPtr1, align 8]
+N1847 -> N1849: [store i32* %data, i32** %dataPtr1, align 8] <--
+-- end of trace --
+-- start of trace --
+Weakness : Use of Uninitialized Variable
+At node  : N1849
+On edge  : N1849 -{store i32* %data, i32** %dataPtr2, align 8}-> N1850
+Message  : use of uninitialized variable
+> Start from entry function: main, At N1869 of Function main
+> Entering function: good21, On N1898 -> N1839 (call good21)
+<Defect> : N1849 -> N1850: [store i32* %data, i32** %dataPtr2, align 8]
+N1849 -> N1850: [store i32* %data, i32** %dataPtr2, align 8] <--
+-- end of trace --
+-- start of trace --
+Weakness : Use of Uninitialized Variable
+At node  : N1816
+On edge  : N1816 -{store i32* %data, i32** %dataPtr1, align 8}-> N1818
+Message  : use of uninitialized variable
+> Start from entry function: main, At N1869 of Function main
+> Entering function: good21, On N1898 -> N1839 (call good21)
+> Entering function: printIntLine, On N1865 -> N1875 (call printIntLine)
+> Leaving function: printIntLine, On N1874 -> N1866 (Return edge from printIntLine to good21)
+> Leaving function: good21, On N1838 -> N1871 (Return edge from good21 to main)
+> Entering function: bad21, On N1871 -> N1808 (call bad21)
+<Defect> : N1816 -> N1818: [store i32* %data, i32** %dataPtr1, align 8]
+N1816 -> N1818: [store i32* %data, i32** %dataPtr1, align 8] <--
+-- end of trace --
+-- start of trace --
+Weakness : Use of Uninitialized Variable
+At node  : N1818
+On edge  : N1818 -{store i32* %data, i32** %dataPtr2, align 8}-> N1819
+Message  : use of uninitialized variable
+> Start from entry function: main, At N1869 of Function main
+> Entering function: good21, On N1898 -> N1839 (call good21)
+> Entering function: printIntLine, On N1865 -> N1875 (call printIntLine)
+> Leaving function: printIntLine, On N1874 -> N1866 (Return edge from printIntLine to good21)
+> Leaving function: good21, On N1838 -> N1871 (Return edge from good21 to main)
+> Entering function: bad21, On N1871 -> N1808 (call bad21)
+<Defect> : N1818 -> N1819: [store i32* %data, i32** %dataPtr2, align 8]
+N1818 -> N1819: [store i32* %data, i32** %dataPtr2, align 8] <--
+-- end of trace --
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N1834
+On edge  : N1834 -{%div = sdiv i32 100, %7}-> N1835
+Message  : Divide By Zero
+> Start from entry function: main, At N1869 of Function main
+> Entering function: good21, On N1898 -> N1839 (call good21)
+> Entering function: printIntLine, On N1865 -> N1875 (call printIntLine)
+> Leaving function: printIntLine, On N1874 -> N1866 (Return edge from printIntLine to good21)
+> Leaving function: good21, On N1838 -> N1871 (Return edge from good21 to main)
+> Entering function: bad21, On N1871 -> N1808 (call bad21)
+<Defect> : N1834 -> N1835: [%div = sdiv i32 100, %7]
+N1834 -> N1835: [%div = sdiv i32 100, %7] <--
+-- end of trace --
+=====================================================
+CWE_457(Use of Uninitialized Variable): 4
+	[./369_21.c 56] good21 		[N1847 -{store i32* %data, i32** %dataPtr1, align 8}-> N1849]	(use of uninitialized variable)
+	[./369_21.c 57] good21 		[N1849 -{store i32* %data, i32** %dataPtr2, align 8}-> N1850]	(use of uninitialized variable)
+	[./369_21.c 31] bad21 		[N1816 -{store i32* %data, i32** %dataPtr1, align 8}-> N1818]	(use of uninitialized variable)
+	[./369_21.c 32] bad21 		[N1818 -{store i32* %data, i32** %dataPtr2, align 8}-> N1819]	(use of uninitialized variable)
+
+CWE_369(Divide By Zero): 1
+	[./369_21.c 44] bad21 		[N1834 -{%div = sdiv i32 100, %7}-> N1835]	(Divide By Zero)
+
+Found 5 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_22.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+5 SCCs to deal with
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [bad22]
+ +bad22
+SCC(1): [good22]
+ +good22
+SCC(1): [main]
+ +main
+SCC(1): [printLine]
+ +printLine
+<begin of summary store (POINTER_AP)>
+Functions [bad22, good22, main, printIntLine, printLine]
+Loops     []
+----
+function: bad22
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: good22
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.006s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N1946): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N1920
+On edge  : N1920 -{%div = sdiv i32 100, %3}-> N1921
+Message  : Divide By Zero
+> Start from entry function: main, At N1946 of Function main
+> Entering function: good22, On N1975 -> N1925 (call good22)
+> Entering function: printIntLine, On N1942 -> N1952 (call printIntLine)
+> Leaving function: printIntLine, On N1951 -> N1943 (Return edge from printIntLine to good22)
+> Leaving function: good22, On N1924 -> N1948 (Return edge from good22 to main)
+> Entering function: bad22, On N1948 -> N1903 (call bad22)
+<Defect> : N1920 -> N1921: [%div = sdiv i32 100, %3]
+N1920 -> N1921: [%div = sdiv i32 100, %3] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_22.c 47] bad22 		[N1920 -{%div = sdiv i32 100, %3}-> N1921]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_23.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+7 SCCs to deal with
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [badSink]
+ +badSink
+SCC(1): [bad23]
+ +bad23
+SCC(1): [goodG2BSink]
+ +goodG2BSink
+SCC(1): [good23]
+ +good23
+SCC(1): [main]
+ +main
+SCC(1): [printLine]
+ +printLine
+<begin of summary store (POINTER_AP)>
+Functions [main, printIntLine, printLine, bad23, badSink, good23, goodG2BSink]
+Loops     []
+----
+function: bad23
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: badSink
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: good23
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: goodG2BSink
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.006s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N2021): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N1996
+On edge  : N1996 -{%div = sdiv i32 100, %0}-> N1997
+Message  : Divide By Zero
+> Start from entry function: main, At N2021 of Function main
+> Entering function: good23, On N2050 -> N2001 (call good23)
+> Entering function: goodG2BSink, On N2007 -> N2011 (call goodG2BSink)
+> Entering function: printIntLine, On N2017 -> N2027 (call printIntLine)
+> Leaving function: printIntLine, On N2026 -> N2018 (Return edge from printIntLine to goodG2BSink)
+> Leaving function: goodG2BSink, On N2010 -> N2008 (Return edge from goodG2BSink to good23)
+> Leaving function: good23, On N2000 -> N2023 (Return edge from good23 to main)
+> Entering function: bad23, On N2023 -> N1980 (call bad23)
+> Entering function: badSink, On N1987 -> N1991 (call badSink)
+<Defect> : N1996 -> N1997: [%div = sdiv i32 100, %0]
+N1996 -> N1997: [%div = sdiv i32 100, %0] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_23.c 30] badSink 		[N1996 -{%div = sdiv i32 100, %0}-> N1997]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_24.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+7 SCCs to deal with
+SCC(1): [badSource]
+ +badSource
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [bad24]
+ +bad24
+SCC(1): [goodG2BSource]
+ +goodG2BSource
+SCC(1): [good24]
+ +good24
+SCC(1): [main]
+ +main
+SCC(1): [printLine]
+ +printLine
+<begin of summary store (POINTER_AP)>
+Functions [bad24, badSource, good24, goodG2BSource, main, printIntLine, printLine]
+Loops     []
+----
+function: bad24
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: badSource
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: good24
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: goodG2BSource
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.006s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N2100): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N2063
+On edge  : N2063 -{%div = sdiv i32 100, %1}-> N2064
+Message  : Divide By Zero
+> Start from entry function: main, At N2100 of Function main
+> Entering function: good24, On N2129 -> N2078 (call good24)
+> Entering function: goodG2BSource, On N2083 -> N2091 (call goodG2BSource)
+> Leaving function: goodG2BSource, On N2090 -> N2084 (Return edge from goodG2BSource to good24)
+> Entering function: printIntLine, On N2087 -> N2106 (call printIntLine)
+> Leaving function: printIntLine, On N2105 -> N2088 (Return edge from printIntLine to good24)
+> Leaving function: good24, On N2077 -> N2102 (Return edge from good24 to main)
+> Entering function: bad24, On N2102 -> N2055 (call bad24)
+> Entering function: badSource, On N2060 -> N2068 (call badSource)
+> Leaving function: badSource, On N2067 -> N2061 (Return edge from badSource to bad24)
+<Defect> : N2063 -> N2064: [%div = sdiv i32 100, %1]
+N2063 -> N2064: [%div = sdiv i32 100, %1] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_24.c 43] bad24 		[N2063 -{%div = sdiv i32 100, %1}-> N2064]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_25.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+7 SCCs to deal with
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [badSink]
+ +badSink
+SCC(1): [bad25]
+ +bad25
+SCC(1): [goodG2BSink]
+ +goodG2BSink
+SCC(1): [good25]
+ +good25
+SCC(1): [main]
+ +main
+SCC(1): [printLine]
+ +printLine
+<begin of summary store (POINTER_AP)>
+Functions [badSink, good25, goodG2BSink, main, printIntLine, printLine, bad25]
+Loops     []
+----
+function: bad25
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: badSink
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: good25
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: goodG2BSink
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.003s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N2179): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N2152
+On edge  : N2152 -{%div = sdiv i32 100, %1}-> N2153
+Message  : Divide By Zero
+> Start from entry function: main, At N2179 of Function main
+> Entering function: good25, On N2208 -> N2157 (call good25)
+> Entering function: goodG2BSink, On N2164 -> N2168 (call goodG2BSink)
+> Entering function: printIntLine, On N2175 -> N2185 (call printIntLine)
+> Leaving function: printIntLine, On N2184 -> N2176 (Return edge from printIntLine to goodG2BSink)
+> Leaving function: goodG2BSink, On N2167 -> N2165 (Return edge from goodG2BSink to good25)
+> Leaving function: good25, On N2156 -> N2181 (Return edge from good25 to main)
+> Entering function: bad25, On N2181 -> N2134 (call bad25)
+> Entering function: badSink, On N2142 -> N2146 (call badSink)
+<Defect> : N2152 -> N2153: [%div = sdiv i32 100, %1]
+N2152 -> N2153: [%div = sdiv i32 100, %1] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_25.c 36] badSink 		[N2152 -{%div = sdiv i32 100, %1}-> N2153]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_26.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+5 SCCs to deal with
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [bad26]
+ +bad26
+SCC(1): [printLine]
+ +printLine
+SCC(1): [good26]
+ +good26
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [bad26, good26, main, printIntLine, printLine]
+Loops     []
+----
+function: bad26
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: good26
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.007s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N2247): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N2222
+On edge  : N2222 -{%rem = srem i32 100, %1}-> N2223
+Message  : Divide By Zero
+> Start from entry function: main, At N2247 of Function main
+> Entering function: good26, On N2276 -> N2227 (call good26)
+> takes the false branch, At N2235 of Function good26
+> Entering function: printLine, On N2245 -> N2262 (call printLine)
+> takes the true branch, At N2268 of Function printLine
+> Leaving function: printLine, On N2261 -> N2242 (Return edge from printLine to good26)
+> Leaving function: good26, On N2226 -> N2249 (Return edge from good26 to main)
+> Entering function: bad26, On N2249 -> N2215 (call bad26)
+<Defect> : N2222 -> N2223: [%rem = srem i32 100, %1]
+N2222 -> N2223: [%rem = srem i32 100, %1] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_26.c 38] bad26 		[N2222 -{%rem = srem i32 100, %1}-> N2223]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_27.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+5 SCCs to deal with
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [bad27]
+ +bad27
+SCC(1): [printLine]
+ +printLine
+SCC(1): [good27]
+ +good27
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [bad27, good27, main, printIntLine, printLine]
+Loops     []
+----
+function: bad27
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: good27
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.007s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N2314): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N2289
+On edge  : N2289 -{%rem = srem i32 100, %1}-> N2290
+Message  : Divide By Zero
+> Start from entry function: main, At N2314 of Function main
+> Entering function: good27, On N2343 -> N2294 (call good27)
+> takes the false branch, At N2302 of Function good27
+> Entering function: printLine, On N2312 -> N2329 (call printLine)
+> takes the true branch, At N2335 of Function printLine
+> Leaving function: printLine, On N2328 -> N2309 (Return edge from printLine to good27)
+> Leaving function: good27, On N2293 -> N2316 (Return edge from good27 to main)
+> Entering function: bad27, On N2316 -> N2282 (call bad27)
+<Defect> : N2289 -> N2290: [%rem = srem i32 100, %1]
+N2289 -> N2290: [%rem = srem i32 100, %1] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_27.c 43] bad27 		[N2289 -{%rem = srem i32 100, %1}-> N2290]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_28.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+5 SCCs to deal with
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [bad28]
+ +bad28
+SCC(1): [good28]
+ +good28
+SCC(1): [main]
+ +main
+SCC(1): [printLine]
+ +printLine
+<begin of summary store (POINTER_AP)>
+Functions [bad28, good28, main, printIntLine, printLine]
+Loops     []
+----
+function: bad28
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: good28
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.003s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N2372): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N2356
+On edge  : N2356 -{%rem = srem i32 100, %1}-> N2357
+Message  : Divide By Zero
+> Start from entry function: main, At N2372 of Function main
+> Entering function: good28, On N2401 -> N2361 (call good28)
+> Entering function: printIntLine, On N2368 -> N2378 (call printIntLine)
+> Leaving function: printIntLine, On N2377 -> N2369 (Return edge from printIntLine to good28)
+> Leaving function: good28, On N2360 -> N2374 (Return edge from good28 to main)
+> Entering function: bad28, On N2374 -> N2349 (call bad28)
+<Defect> : N2356 -> N2357: [%rem = srem i32 100, %1]
+N2356 -> N2357: [%rem = srem i32 100, %1] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_28.c 46] bad28 		[N2356 -{%rem = srem i32 100, %1}-> N2357]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_29.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+8 SCCs to deal with
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [bad29]
+ +bad29
+SCC(1): [globalReturnsFalse]
+ +globalReturnsFalse
+SCC(1): [globalReturnsTrue]
+ +globalReturnsTrue
+SCC(1): [globalReturnsTrueOrFalse]
+ +globalReturnsTrueOrFalse
+SCC(1): [good29]
+ +good29
+SCC(1): [main]
+ +main
+SCC(1): [printLine]
+ +printLine
+<begin of summary store (POINTER_AP)>
+Functions [bad29, globalReturnsFalse, globalReturnsTrue, globalReturnsTrueOrFalse, good29, main, printIntLine, printLine]
+Loops     []
+----
+function: bad29
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: globalReturnsFalse
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: globalReturnsTrue
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: globalReturnsTrueOrFalse
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: good29
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.005s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N2443): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N2413
+On edge  : N2413 -{%rem = srem i32 100, %1}-> N2414
+Message  : Divide By Zero
+> Start from entry function: main, At N2443 of Function main
+> Entering function: good29, On N2472 -> N2432 (call good29)
+> Entering function: printIntLine, On N2439 -> N2449 (call printIntLine)
+> Leaving function: printIntLine, On N2448 -> N2440 (Return edge from printIntLine to good29)
+> Leaving function: good29, On N2431 -> N2445 (Return edge from good29 to main)
+> Entering function: bad29, On N2445 -> N2406 (call bad29)
+<Defect> : N2413 -> N2414: [%rem = srem i32 100, %1]
+N2413 -> N2414: [%rem = srem i32 100, %1] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_29.c 66] bad29 		[N2413 -{%rem = srem i32 100, %1}-> N2414]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_30.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+6 SCCs to deal with
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [bad30]
+ +bad30
+SCC(1): [printLine]
+ +printLine
+SCC(1): [goodG2B]
+ +goodG2B
+SCC(1): [good30]
+ +good30
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [main, printIntLine, printLine, bad30, good30, goodG2B]
+Loops     []
+----
+function: bad30
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: good30
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: goodG2B
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.005s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N2537): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N2497
+On edge  : N2497 -{%rem = srem i32 100, %3}-> N2498
+Message  : Divide By Zero
+> Start from entry function: main, At N2537 of Function main
+> Entering function: good30, On N2566 -> N2507 (call good30)
+> Entering function: goodG2B, On N2507 -> N2512 (call goodG2B)
+> takes the false branch, At N2518 of Function goodG2B
+> takes the true branch, At N2525 of Function goodG2B
+> Entering function: printIntLine, On N2528 -> N2543 (call printIntLine)
+> Leaving function: printIntLine, On N2542 -> N2530 (Return edge from printIntLine to goodG2B)
+> Leaving function: goodG2B, On N2511 -> N2509 (Return edge from goodG2B to good30)
+> Leaving function: good30, On N2506 -> N2539 (Return edge from good30 to main)
+> Entering function: bad30, On N2539 -> N2483 (call bad30)
+> takes the true branch, At N2489 of Function bad30
+> takes the true branch, At N2495 of Function bad30
+<Defect> : N2497 -> N2498: [%rem = srem i32 100, %3]
+N2497 -> N2498: [%rem = srem i32 100, %3] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_30.c 44] bad30 		[N2497 -{%rem = srem i32 100, %3}-> N2498]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_31.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+5 SCCs to deal with
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [bad31]
+ +bad31
+SCC(1): [good31]
+ +good31
+SCC(1): [main]
+ +main
+SCC(1): [printLine]
+ +printLine
+<begin of summary store (POINTER_AP)>
+Functions [main, printIntLine, printLine, bad31, good31]
+Loops     []
+----
+function: bad31
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: good31
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.005s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N2597): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N2581
+On edge  : N2581 -{%rem = srem i32 100, %1}-> N2582
+Message  : Divide By Zero
+> Start from entry function: main, At N2597 of Function main
+> Entering function: good31, On N2626 -> N2586 (call good31)
+> Entering function: printIntLine, On N2593 -> N2603 (call printIntLine)
+> Leaving function: printIntLine, On N2602 -> N2594 (Return edge from printIntLine to good31)
+> Leaving function: good31, On N2585 -> N2599 (Return edge from good31 to main)
+> Entering function: bad31, On N2599 -> N2574 (call bad31)
+<Defect> : N2581 -> N2582: [%rem = srem i32 100, %1]
+N2581 -> N2582: [%rem = srem i32 100, %1] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_31.c 48] bad31 		[N2581 -{%rem = srem i32 100, %1}-> N2582]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_32.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+5 SCCs to deal with
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [bad32]
+ +bad32
+SCC(1): [printLine]
+ +printLine
+SCC(1): [good32]
+ +good32
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [main, printIntLine, printLine, bad32, good32]
+Loops     []
+----
+function: bad32
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: good32
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.004s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N2689): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N2645
+On edge  : N2645 -{%rem = srem i32 100, %3}-> N2646
+Message  : Divide By Zero
+> Start from entry function: main, At N2689 of Function main
+> Entering function: good32, On N2718 -> N2655 (call good32)
+> takes the true branch, At N2661 of Function good32
+> takes the false branch, At N2667 of Function good32
+> takes the false branch, At N2672 of Function good32
+> Entering function: printLine, On N2687 -> N2704 (call printLine)
+> takes the true branch, At N2710 of Function printLine
+> Leaving function: printLine, On N2703 -> N2680 (Return edge from printLine to good32)
+> Leaving function: good32, On N2654 -> N2691 (Return edge from good32 to main)
+> Entering function: bad32, On N2691 -> N2631 (call bad32)
+> takes the true branch, At N2637 of Function bad32
+> takes the true branch, At N2643 of Function bad32
+<Defect> : N2645 -> N2646: [%rem = srem i32 100, %3]
+N2645 -> N2646: [%rem = srem i32 100, %3] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_32.c 49] bad32 		[N2645 -{%rem = srem i32 100, %3}-> N2646]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_33.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+7 SCCs to deal with
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [staticReturnsTrue]
+ +staticReturnsTrue
+SCC(1): [bad33]
+ +bad33
+SCC(1): [printLine]
+ +printLine
+SCC(1): [staticReturnsFalse]
+ +staticReturnsFalse
+SCC(1): [good33]
+ +good33
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [printIntLine, printLine, staticReturnsFalse, staticReturnsTrue, bad33, good33, main]
+Loops     []
+----
+function: bad33
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: good33
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: staticReturnsFalse
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: staticReturnsTrue
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.003s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N2784): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N2740
+On edge  : N2740 -{%rem = srem i32 100, %1}-> N2741
+Message  : Divide By Zero
+> Start from entry function: main, At N2784 of Function main
+> Entering function: good33, On N2821 -> N2750 (call good33)
+> Entering function: staticReturnsTrue, On N2754 -> N2818 (call staticReturnsTrue)
+> Leaving function: staticReturnsTrue, On N2817 -> N2755 (Return edge from staticReturnsTrue to good33)
+> takes the true branch, At N2756 of Function good33
+> Entering function: staticReturnsFalse, On N2760 -> N2814 (call staticReturnsFalse)
+> Leaving function: staticReturnsFalse, On N2813 -> N2761 (Return edge from staticReturnsFalse to good33)
+> takes the false branch, At N2762 of Function good33
+> takes the false branch, At N2767 of Function good33
+> Entering function: printLine, On N2782 -> N2799 (call printLine)
+> takes the true branch, At N2805 of Function printLine
+> Leaving function: printLine, On N2798 -> N2775 (Return edge from printLine to good33)
+> Leaving function: good33, On N2749 -> N2786 (Return edge from good33 to main)
+> Entering function: bad33, On N2786 -> N2726 (call bad33)
+> Entering function: staticReturnsTrue, On N2730 -> N2818 (call staticReturnsTrue)
+> Leaving function: staticReturnsTrue, On N2817 -> N2731 (Return edge from staticReturnsTrue to bad33)
+> takes the true branch, At N2732 of Function bad33
+> Entering function: staticReturnsTrue, On N2736 -> N2818 (call staticReturnsTrue)
+> Leaving function: staticReturnsTrue, On N2817 -> N2737 (Return edge from staticReturnsTrue to bad33)
+> takes the true branch, At N2738 of Function bad33
+<Defect> : N2740 -> N2741: [%rem = srem i32 100, %1]
+N2740 -> N2741: [%rem = srem i32 100, %1] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_33.c 49] bad33 		[N2740 -{%rem = srem i32 100, %1}-> N2741]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_34.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+5 SCCs to deal with
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [bad34]
+ +bad34
+SCC(1): [printLine]
+ +printLine
+SCC(1): [good34]
+ +good34
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [bad34, good34, main, printIntLine, printLine]
+Loops     []
+----
+function: bad34
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: good34
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.003s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N2860): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N2835
+On edge  : N2835 -{%rem = srem i32 100, %1}-> N2836
+Message  : Divide By Zero
+> Start from entry function: main, At N2860 of Function main
+> Entering function: good34, On N2889 -> N2840 (call good34)
+> takes the false branch, At N2848 of Function good34
+> Entering function: printLine, On N2858 -> N2875 (call printLine)
+> takes the true branch, At N2881 of Function printLine
+> Leaving function: printLine, On N2874 -> N2855 (Return edge from printLine to good34)
+> Leaving function: good34, On N2839 -> N2862 (Return edge from good34 to main)
+> Entering function: bad34, On N2862 -> N2828 (call bad34)
+<Defect> : N2835 -> N2836: [%rem = srem i32 100, %1]
+N2835 -> N2836: [%rem = srem i32 100, %1] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_34.c 50] bad34 		[N2835 -{%rem = srem i32 100, %1}-> N2836]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_35.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+5 SCCs to deal with
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [bad35]
+ +bad35
+SCC(1): [printLine]
+ +printLine
+SCC(1): [good35]
+ +good35
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [good35, main, printIntLine, printLine, bad35]
+Loops     []
+----
+function: bad35
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: good35
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.004s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N2956): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N2912
+On edge  : N2912 -{%rem = srem i32 100, %3}-> N2913
+Message  : Divide By Zero
+> Start from entry function: main, At N2956 of Function main
+> Entering function: good35, On N2985 -> N2922 (call good35)
+> takes the true branch, At N2928 of Function good35
+> takes the false branch, At N2934 of Function good35
+> takes the false branch, At N2939 of Function good35
+> Entering function: printLine, On N2954 -> N2971 (call printLine)
+> takes the true branch, At N2977 of Function printLine
+> Leaving function: printLine, On N2970 -> N2947 (Return edge from printLine to good35)
+> Leaving function: good35, On N2921 -> N2958 (Return edge from good35 to main)
+> Entering function: bad35, On N2958 -> N2898 (call bad35)
+> takes the true branch, At N2904 of Function bad35
+> takes the true branch, At N2910 of Function bad35
+<Defect> : N2912 -> N2913: [%rem = srem i32 100, %3]
+N2912 -> N2913: [%rem = srem i32 100, %3] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_35.c 61] bad35 		[N2912 -{%rem = srem i32 100, %3}-> N2913]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_36.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+7 SCCs to deal with
+SCC(1): [globalReturnsTrue]
+ +globalReturnsTrue
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [bad36]
+ +bad36
+SCC(1): [globalReturnsFalse]
+ +globalReturnsFalse
+SCC(1): [printLine]
+ +printLine
+SCC(1): [good36]
+ +good36
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [main, printIntLine, printLine, bad36, globalReturnsFalse, globalReturnsTrue, good36]
+Loops     []
+----
+function: bad36
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: globalReturnsFalse
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: globalReturnsTrue
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: good36
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.005s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N3061): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N3009
+On edge  : N3009 -{%rem = srem i32 100, %1}-> N3010
+Message  : Divide By Zero
+> Start from entry function: main, At N3061 of Function main
+> Entering function: good36, On N3090 -> N3027 (call good36)
+> Entering function: globalReturnsTrue, On N3031 -> N3023 (call globalReturnsTrue)
+> Leaving function: globalReturnsTrue, On N3022 -> N3032 (Return edge from globalReturnsTrue to good36)
+> takes the true branch, At N3033 of Function good36
+> Entering function: globalReturnsFalse, On N3037 -> N3019 (call globalReturnsFalse)
+> Leaving function: globalReturnsFalse, On N3018 -> N3038 (Return edge from globalReturnsFalse to good36)
+> takes the false branch, At N3039 of Function good36
+> takes the false branch, At N3044 of Function good36
+> Entering function: printLine, On N3059 -> N3076 (call printLine)
+> takes the true branch, At N3082 of Function printLine
+> Leaving function: printLine, On N3075 -> N3052 (Return edge from printLine to good36)
+> Leaving function: good36, On N3026 -> N3063 (Return edge from good36 to main)
+> Entering function: bad36, On N3063 -> N2995 (call bad36)
+> Entering function: globalReturnsTrue, On N2999 -> N3023 (call globalReturnsTrue)
+> Leaving function: globalReturnsTrue, On N3022 -> N3000 (Return edge from globalReturnsTrue to bad36)
+> takes the true branch, At N3001 of Function bad36
+> Entering function: globalReturnsTrue, On N3005 -> N3023 (call globalReturnsTrue)
+> Leaving function: globalReturnsTrue, On N3022 -> N3006 (Return edge from globalReturnsTrue to bad36)
+> takes the true branch, At N3007 of Function bad36
+<Defect> : N3009 -> N3010: [%rem = srem i32 100, %1]
+N3009 -> N3010: [%rem = srem i32 100, %1] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_36.c 58] bad36 		[N3009 -{%rem = srem i32 100, %1}-> N3010]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_37.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+6 SCCs to deal with
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [printLine]
+ +printLine
+SCC(1): [globalReturnsTrueOrFalse]
+ +globalReturnsTrueOrFalse
+SCC(1): [bad37]
+ +bad37
+SCC(1): [good37]
+ +good37
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [main, printIntLine, printLine, bad37, globalReturnsTrueOrFalse, good37]
+Loops     []
+----
+function: bad37
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: globalReturnsTrueOrFalse
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: good37
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.005s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N3191): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N3116
+On edge  : N3116 -{%rem = srem i32 100, %1}-> N3117
+Message  : Divide By Zero
+> Start from entry function: main, At N3191 of Function main
+> Entering function: good37, On N3220 -> N3144 (call good37)
+> Entering function: globalReturnsTrueOrFalse, On N3148 -> N3138 (call globalReturnsTrueOrFalse)
+> Leaving function: globalReturnsTrueOrFalse, On N3137 -> N3149 (Return edge from globalReturnsTrueOrFalse to good37)
+> takes the false branch, At N3150 of Function good37
+> Entering function: globalReturnsTrueOrFalse, On N3157 -> N3138 (call globalReturnsTrueOrFalse)
+> Leaving function: globalReturnsTrueOrFalse, On N3137 -> N3158 (Return edge from globalReturnsTrueOrFalse to good37)
+> takes the false branch, At N3159 of Function good37
+> takes the false branch, At N3172 of Function good37
+> Entering function: printLine, On N3189 -> N3206 (call printLine)
+> takes the true branch, At N3212 of Function printLine
+> Leaving function: printLine, On N3205 -> N3180 (Return edge from printLine to good37)
+> Leaving function: good37, On N3143 -> N3193 (Return edge from good37 to main)
+> Entering function: bad37, On N3193 -> N3100 (call bad37)
+> Entering function: globalReturnsTrueOrFalse, On N3104 -> N3138 (call globalReturnsTrueOrFalse)
+> Leaving function: globalReturnsTrueOrFalse, On N3137 -> N3105 (Return edge from globalReturnsTrueOrFalse to bad37)
+> takes the false branch, At N3106 of Function bad37
+> Entering function: globalReturnsTrueOrFalse, On N3112 -> N3138 (call globalReturnsTrueOrFalse)
+> Leaving function: globalReturnsTrueOrFalse, On N3137 -> N3113 (Return edge from globalReturnsTrueOrFalse to bad37)
+> takes the true branch, At N3114 of Function bad37
+<Defect> : N3116 -> N3117: [%rem = srem i32 100, %1]
+N3116 -> N3117: [%rem = srem i32 100, %1] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_37.c 61] bad37 		[N3116 -{%rem = srem i32 100, %1}-> N3117]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_38.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+8 SCCs to deal with
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [bad38]
+ +bad38
+SCC(1): [globalReturnsFalse]
+ +globalReturnsFalse
+SCC(1): [globalReturnsTrue]
+ +globalReturnsTrue
+SCC(1): [globalReturnsTrueOrFalse]
+ +globalReturnsTrueOrFalse
+SCC(1): [printLine]
+ +printLine
+SCC(1): [good38]
+ +good38
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [bad38, globalReturnsFalse, globalReturnsTrue, globalReturnsTrueOrFalse, good38, main, printIntLine, printLine]
+Loops     []
+----
+function: bad38
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: globalReturnsFalse
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: globalReturnsTrue
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: globalReturnsTrueOrFalse
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: good38
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.007s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N3278): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N3239
+On edge  : N3239 -{%rem = srem i32 100, %1}-> N3240
+Message  : Divide By Zero
+> Start from entry function: main, At N3278 of Function main
+> Entering function: good38, On N3307 -> N3258 (call good38)
+> takes the false branch, At N3266 of Function good38
+> Entering function: printLine, On N3276 -> N3293 (call printLine)
+> takes the true branch, At N3299 of Function printLine
+> Leaving function: printLine, On N3292 -> N3273 (Return edge from printLine to good38)
+> Leaving function: good38, On N3257 -> N3280 (Return edge from good38 to main)
+> Entering function: bad38, On N3280 -> N3232 (call bad38)
+<Defect> : N3239 -> N3240: [%rem = srem i32 100, %1]
+N3239 -> N3240: [%rem = srem i32 100, %1] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_38.c 67] bad38 		[N3239 -{%rem = srem i32 100, %1}-> N3240]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_39.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+8 SCCs to deal with
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [bad39]
+ +bad39
+SCC(1): [globalReturnsFalse]
+ +globalReturnsFalse
+SCC(1): [globalReturnsTrue]
+ +globalReturnsTrue
+SCC(1): [globalReturnsTrueOrFalse]
+ +globalReturnsTrueOrFalse
+SCC(1): [printLine]
+ +printLine
+SCC(1): [good39]
+ +good39
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [bad39, globalReturnsFalse, globalReturnsTrue, globalReturnsTrueOrFalse, good39, main, printIntLine, printLine]
+Loops     []
+----
+function: bad39
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: globalReturnsFalse
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: globalReturnsTrue
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: globalReturnsTrueOrFalse
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: good39
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.008s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N3391): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N3333
+On edge  : N3333 -{%rem = srem i32 100, %3}-> N3334
+Message  : Divide By Zero
+> Start from entry function: main, At N3391 of Function main
+> Entering function: good39, On N3420 -> N3357 (call good39)
+> takes the true branch, At N3363 of Function good39
+> takes the false branch, At N3369 of Function good39
+> takes the false branch, At N3374 of Function good39
+> Entering function: printLine, On N3389 -> N3406 (call printLine)
+> takes the true branch, At N3412 of Function printLine
+> Leaving function: printLine, On N3405 -> N3382 (Return edge from printLine to good39)
+> Leaving function: good39, On N3356 -> N3393 (Return edge from good39 to main)
+> Entering function: bad39, On N3393 -> N3319 (call bad39)
+> takes the true branch, At N3325 of Function bad39
+> takes the true branch, At N3331 of Function bad39
+<Defect> : N3333 -> N3334: [%rem = srem i32 100, %3]
+N3333 -> N3334: [%rem = srem i32 100, %3] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_39.c 67] bad39 		[N3333 -{%rem = srem i32 100, %3}-> N3334]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_40.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+8 SCCs to deal with
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [bad40]
+ +bad40
+SCC(1): [globalReturnsFalse]
+ +globalReturnsFalse
+SCC(1): [globalReturnsTrue]
+ +globalReturnsTrue
+SCC(1): [globalReturnsTrueOrFalse]
+ +globalReturnsTrueOrFalse
+SCC(1): [printLine]
+ +printLine
+SCC(1): [good40]
+ +good40
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [bad40, globalReturnsFalse, globalReturnsTrue, globalReturnsTrueOrFalse, good40, main, printIntLine, printLine]
+Loops     []
+----
+function: bad40
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: globalReturnsFalse
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: globalReturnsTrue
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: globalReturnsTrueOrFalse
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: good40
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.005s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N3479): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N3440
+On edge  : N3440 -{%rem = srem i32 100, %1}-> N3441
+Message  : Divide By Zero
+> Start from entry function: main, At N3479 of Function main
+> Entering function: good40, On N3508 -> N3459 (call good40)
+> takes the false branch, At N3467 of Function good40
+> Entering function: printLine, On N3477 -> N3494 (call printLine)
+> takes the true branch, At N3500 of Function printLine
+> Leaving function: printLine, On N3493 -> N3474 (Return edge from printLine to good40)
+> Leaving function: good40, On N3458 -> N3481 (Return edge from good40 to main)
+> Entering function: bad40, On N3481 -> N3433 (call bad40)
+<Defect> : N3440 -> N3441: [%rem = srem i32 100, %1]
+N3440 -> N3441: [%rem = srem i32 100, %1] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_40.c 74] bad40 		[N3440 -{%rem = srem i32 100, %1}-> N3441]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_41.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+8 SCCs to deal with
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [bad41]
+ +bad41
+SCC(1): [globalReturnsFalse]
+ +globalReturnsFalse
+SCC(1): [globalReturnsTrue]
+ +globalReturnsTrue
+SCC(1): [globalReturnsTrueOrFalse]
+ +globalReturnsTrueOrFalse
+SCC(1): [printLine]
+ +printLine
+SCC(1): [good41]
+ +good41
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [main, printIntLine, printLine, bad41, globalReturnsFalse, globalReturnsTrue, globalReturnsTrueOrFalse, good41]
+Loops     []
+----
+function: bad41
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: globalReturnsFalse
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: globalReturnsTrue
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: globalReturnsTrueOrFalse
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: good41
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.007s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N3574): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N3530
+On edge  : N3530 -{%rem = srem i32 100, %1}-> N3531
+Message  : Divide By Zero
+> Start from entry function: main, At N3574 of Function main
+> Entering function: good41, On N3603 -> N3550 (call good41)
+> takes the false branch, At N3561 of Function good41
+> Entering function: printLine, On N3572 -> N3589 (call printLine)
+> takes the true branch, At N3595 of Function printLine
+> Leaving function: printLine, On N3588 -> N3569 (Return edge from printLine to good41)
+> Leaving function: good41, On N3549 -> N3576 (Return edge from good41 to main)
+> Entering function: bad41, On N3576 -> N3520 (call bad41)
+<Defect> : N3530 -> N3531: [%rem = srem i32 100, %1]
+N3530 -> N3531: [%rem = srem i32 100, %1] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_41.c 68] bad41 		[N3530 -{%rem = srem i32 100, %1}-> N3531]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_42.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+8 SCCs to deal with
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [bad42]
+ +bad42
+SCC(1): [globalReturnsFalse]
+ +globalReturnsFalse
+SCC(1): [globalReturnsTrue]
+ +globalReturnsTrue
+SCC(1): [globalReturnsTrueOrFalse]
+ +globalReturnsTrueOrFalse
+SCC(1): [printLine]
+ +printLine
+SCC(1): [good42]
+ +good42
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [bad42, globalReturnsFalse, globalReturnsTrue, globalReturnsTrueOrFalse, good42, main, printIntLine, printLine]
+Loops     [N3679, N3704, N3637, N3625]
+----
+function: bad42
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: globalReturnsFalse
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: globalReturnsTrue
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: globalReturnsTrueOrFalse
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: good42
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+loop N3625 in bad42: 
+N3625 -> P+ = [], P- = [] Point-To: 
+N3627 -> P+ = [], P- = [] Point-To: 
+----
+loop N3637 in bad42: 
+N3637 -> P+ = [], P- = [] Point-To: 
+N3639 -> P+ = [], P- = [] Point-To: 
+----
+loop N3679 in good42: 
+N3679 -> P+ = [], P- = [] Point-To: 
+N3681 -> P+ = [], P- = [] Point-To: 
+----
+loop N3704 in good42: 
+N3691 -> P+ = [], P- = [] Point-To: 
+N3693 -> P+ = [], P- = [] Point-To: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.02s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N3717): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N3641
+On edge  : N3641 -{%rem = srem i32 100, %4}-> N3642
+Message  : Divide By Zero
+> Start from entry function: main, At N3717 of Function main
+> Entering function: good42, On N3746 -> N3669 (call good42)
+> takes the true branch, At N3681 of Function good42
+> takes the false branch, At N3681 of Function good42
+> takes the true branch, At N3693 of Function good42
+> takes the true branch, At N3696 of Function good42
+> Entering function: printIntLine, On N3699 -> N3723 (call printIntLine)
+> Leaving function: printIntLine, On N3722 -> N3704 (Return edge from printIntLine to good42)
+> takes the false branch, At N3693 of Function good42
+> Leaving function: good42, On N3668 -> N3719 (Return edge from good42 to main)
+> Entering function: bad42, On N3719 -> N3615 (call bad42)
+> takes the true branch, At N3627 of Function bad42
+> takes the false branch, At N3627 of Function bad42
+> takes the true branch, At N3639 of Function bad42
+<Defect> : N3641 -> N3642: [%rem = srem i32 100, %4]
+N3641 -> N3642: [%rem = srem i32 100, %4] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_42.c 68] bad42 		[N3641 -{%rem = srem i32 100, %4}-> N3642]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_43.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+8 SCCs to deal with
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [bad43]
+ +bad43
+SCC(1): [globalReturnsFalse]
+ +globalReturnsFalse
+SCC(1): [globalReturnsTrue]
+ +globalReturnsTrue
+SCC(1): [globalReturnsTrueOrFalse]
+ +globalReturnsTrueOrFalse
+SCC(1): [printLine]
+ +printLine
+SCC(1): [good43]
+ +good43
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [printIntLine, printLine, bad43, globalReturnsFalse, globalReturnsTrue, globalReturnsTrueOrFalse, good43, main]
+Loops     []
+----
+function: bad43
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: globalReturnsFalse
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: globalReturnsTrue
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: globalReturnsTrueOrFalse
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: good43
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.016s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N3808): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N3767
+On edge  : N3767 -{%rem = srem i32 100, %1}-> N3768
+Message  : Divide By Zero
+> Start from entry function: main, At N3808 of Function main
+> Entering function: good43, On N3837 -> N3786 (call good43)
+> takes the false branch, At N3796 of Function good43
+> Entering function: printLine, On N3806 -> N3823 (call printLine)
+> takes the true branch, At N3829 of Function printLine
+> Leaving function: printLine, On N3822 -> N3803 (Return edge from printLine to good43)
+> Leaving function: good43, On N3785 -> N3810 (Return edge from good43 to main)
+> Entering function: bad43, On N3810 -> N3758 (call bad43)
+<Defect> : N3767 -> N3768: [%rem = srem i32 100, %1]
+N3767 -> N3768: [%rem = srem i32 100, %1] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_43.c 66] bad43 		[N3767 -{%rem = srem i32 100, %1}-> N3768]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_44.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+10 SCCs to deal with
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [badSink]
+ +badSink
+SCC(1): [bad44]
+ +bad44
+SCC(1): [globalReturnsFalse]
+ +globalReturnsFalse
+SCC(1): [globalReturnsTrue]
+ +globalReturnsTrue
+SCC(1): [globalReturnsTrueOrFalse]
+ +globalReturnsTrueOrFalse
+SCC(1): [printLine]
+ +printLine
+SCC(1): [goodB2G1Sink]
+ +goodB2G1Sink
+SCC(1): [good44]
+ +good44
+SCC(1): [main]
+ +main
+<begin of summary store (POINTER_AP)>
+Functions [printLine, bad44, badSink, globalReturnsFalse, globalReturnsTrue, globalReturnsTrueOrFalse, good44, goodB2G1Sink, main, printIntLine]
+Loops     []
+----
+function: bad44
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: badSink
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: globalReturnsFalse
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: globalReturnsTrue
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: globalReturnsTrueOrFalse
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: good44
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: goodB2G1Sink
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.005s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N3929): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N3869
+On edge  : N3869 -{%rem = srem i32 100, %1}-> N3870
+Message  : Divide By Zero
+> Start from entry function: main, At N3929 of Function main
+> Entering function: good44, On N3958 -> N3891 (call good44)
+> Entering function: goodB2G1Sink, On N3899 -> N3903 (call goodB2G1Sink)
+> takes the false branch, At N3909 of Function goodB2G1Sink
+> takes the false branch, At N3914 of Function goodB2G1Sink
+> Entering function: printLine, On N3927 -> N3944 (call printLine)
+> takes the true branch, At N3950 of Function printLine
+> Leaving function: printLine, On N3943 -> N3922 (Return edge from printLine to goodB2G1Sink)
+> Leaving function: goodB2G1Sink, On N3902 -> N3900 (Return edge from goodB2G1Sink to good44)
+> Leaving function: good44, On N3890 -> N3931 (Return edge from good44 to main)
+> Entering function: bad44, On N3931 -> N3849 (call bad44)
+> Entering function: badSink, On N3857 -> N3861 (call badSink)
+> takes the true branch, At N3867 of Function badSink
+<Defect> : N3869 -> N3870: [%rem = srem i32 100, %1]
+N3869 -> N3870: [%rem = srem i32 100, %1] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_44.c 59] badSink 		[N3869 -{%rem = srem i32 100, %1}-> N3870]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_45.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+8 SCCs to deal with
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [bad45]
+ +bad45
+SCC(1): [globalReturnsFalse]
+ +globalReturnsFalse
+SCC(1): [globalReturnsTrue]
+ +globalReturnsTrue
+SCC(1): [globalReturnsTrueOrFalse]
+ +globalReturnsTrueOrFalse
+SCC(1): [good45]
+ +good45
+SCC(1): [main]
+ +main
+SCC(1): [printLine]
+ +printLine
+<begin of summary store (POINTER_AP)>
+Functions [bad45, globalReturnsFalse, globalReturnsTrue, globalReturnsTrueOrFalse, good45, main, printIntLine, printLine]
+Loops     []
+----
+function: bad45
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: globalReturnsFalse
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: globalReturnsTrue
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: globalReturnsTrueOrFalse
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: good45
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.005s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N4026): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N3988
+On edge  : N3988 -{%rem = srem i32 100, %3}-> N3989
+Message  : Divide By Zero
+> Start from entry function: main, At N4026 of Function main
+> Entering function: good45, On N4055 -> N4007 (call good45)
+> Entering function: printIntLine, On N4022 -> N4032 (call printIntLine)
+> Leaving function: printIntLine, On N4031 -> N4023 (Return edge from printIntLine to good45)
+> Leaving function: good45, On N4006 -> N4028 (Return edge from good45 to main)
+> Entering function: bad45, On N4028 -> N3973 (call bad45)
+<Defect> : N3988 -> N3989: [%rem = srem i32 100, %3]
+N3988 -> N3989: [%rem = srem i32 100, %3] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_45.c 72] bad45 		[N3988 -{%rem = srem i32 100, %3}-> N3989]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_46.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+5 SCCs to deal with
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [bad46]
+ +bad46
+SCC(1): [good46]
+ +good46
+SCC(1): [main]
+ +main
+SCC(1): [printLine]
+ +printLine
+<begin of summary store (POINTER_AP)>
+Functions [bad46, good46, main, printIntLine, printLine]
+Loops     []
+----
+function: bad46
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: good46
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.01s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N4127): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Use of Uninitialized Variable
+At node  : N4105
+On edge  : N4105 -{store i32* %data, i32** %dataPtr1, align 8}-> N4107
+Message  : use of uninitialized variable
+> Start from entry function: main, At N4127 of Function main
+> Entering function: good46, On N4156 -> N4097 (call good46)
+<Defect> : N4105 -> N4107: [store i32* %data, i32** %dataPtr1, align 8]
+N4105 -> N4107: [store i32* %data, i32** %dataPtr1, align 8] <--
+-- end of trace --
+-- start of trace --
+Weakness : Use of Uninitialized Variable
+At node  : N4107
+On edge  : N4107 -{store i32* %data, i32** %dataPtr2, align 8}-> N4108
+Message  : use of uninitialized variable
+> Start from entry function: main, At N4127 of Function main
+> Entering function: good46, On N4156 -> N4097 (call good46)
+<Defect> : N4107 -> N4108: [store i32* %data, i32** %dataPtr2, align 8]
+N4107 -> N4108: [store i32* %data, i32** %dataPtr2, align 8] <--
+-- end of trace --
+-- start of trace --
+Weakness : Use of Uninitialized Variable
+At node  : N4074
+On edge  : N4074 -{store i32* %data, i32** %dataPtr1, align 8}-> N4076
+Message  : use of uninitialized variable
+> Start from entry function: main, At N4127 of Function main
+> Entering function: good46, On N4156 -> N4097 (call good46)
+> Entering function: printIntLine, On N4123 -> N4133 (call printIntLine)
+> Leaving function: printIntLine, On N4132 -> N4124 (Return edge from printIntLine to good46)
+> Leaving function: good46, On N4096 -> N4129 (Return edge from good46 to main)
+> Entering function: bad46, On N4129 -> N4066 (call bad46)
+<Defect> : N4074 -> N4076: [store i32* %data, i32** %dataPtr1, align 8]
+N4074 -> N4076: [store i32* %data, i32** %dataPtr1, align 8] <--
+-- end of trace --
+-- start of trace --
+Weakness : Use of Uninitialized Variable
+At node  : N4076
+On edge  : N4076 -{store i32* %data, i32** %dataPtr2, align 8}-> N4077
+Message  : use of uninitialized variable
+> Start from entry function: main, At N4127 of Function main
+> Entering function: good46, On N4156 -> N4097 (call good46)
+> Entering function: printIntLine, On N4123 -> N4133 (call printIntLine)
+> Leaving function: printIntLine, On N4132 -> N4124 (Return edge from printIntLine to good46)
+> Leaving function: good46, On N4096 -> N4129 (Return edge from good46 to main)
+> Entering function: bad46, On N4129 -> N4066 (call bad46)
+<Defect> : N4076 -> N4077: [store i32* %data, i32** %dataPtr2, align 8]
+N4076 -> N4077: [store i32* %data, i32** %dataPtr2, align 8] <--
+-- end of trace --
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N4092
+On edge  : N4092 -{%rem = srem i32 100, %7}-> N4093
+Message  : Divide By Zero
+> Start from entry function: main, At N4127 of Function main
+> Entering function: good46, On N4156 -> N4097 (call good46)
+> Entering function: printIntLine, On N4123 -> N4133 (call printIntLine)
+> Leaving function: printIntLine, On N4132 -> N4124 (Return edge from printIntLine to good46)
+> Leaving function: good46, On N4096 -> N4129 (Return edge from good46 to main)
+> Entering function: bad46, On N4129 -> N4066 (call bad46)
+<Defect> : N4092 -> N4093: [%rem = srem i32 100, %7]
+N4092 -> N4093: [%rem = srem i32 100, %7] <--
+-- end of trace --
+=====================================================
+CWE_457(Use of Uninitialized Variable): 4
+	[./369_46.c 56] good46 		[N4105 -{store i32* %data, i32** %dataPtr1, align 8}-> N4107]	(use of uninitialized variable)
+	[./369_46.c 57] good46 		[N4107 -{store i32* %data, i32** %dataPtr2, align 8}-> N4108]	(use of uninitialized variable)
+	[./369_46.c 31] bad46 		[N4074 -{store i32* %data, i32** %dataPtr1, align 8}-> N4076]	(use of uninitialized variable)
+	[./369_46.c 32] bad46 		[N4076 -{store i32* %data, i32** %dataPtr2, align 8}-> N4077]	(use of uninitialized variable)
+
+CWE_369(Divide By Zero): 1
+	[./369_46.c 44] bad46 		[N4092 -{%rem = srem i32 100, %7}-> N4093]	(Divide By Zero)
+
+Found 5 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_47.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+5 SCCs to deal with
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [bad47]
+ +bad47
+SCC(1): [good47]
+ +good47
+SCC(1): [main]
+ +main
+SCC(1): [printLine]
+ +printLine
+<begin of summary store (POINTER_AP)>
+Functions [main, printIntLine, printLine, bad47, good47]
+Loops     []
+----
+function: bad47
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: good47
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.005s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N4204): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N4178
+On edge  : N4178 -{%rem = srem i32 100, %3}-> N4179
+Message  : Divide By Zero
+> Start from entry function: main, At N4204 of Function main
+> Entering function: good47, On N4233 -> N4183 (call good47)
+> Entering function: printIntLine, On N4200 -> N4210 (call printIntLine)
+> Leaving function: printIntLine, On N4209 -> N4201 (Return edge from printIntLine to good47)
+> Leaving function: good47, On N4182 -> N4206 (Return edge from good47 to main)
+> Entering function: bad47, On N4206 -> N4161 (call bad47)
+<Defect> : N4178 -> N4179: [%rem = srem i32 100, %3]
+N4178 -> N4179: [%rem = srem i32 100, %3] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_47.c 47] bad47 		[N4178 -{%rem = srem i32 100, %3}-> N4179]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_48.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+7 SCCs to deal with
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [badSink]
+ +badSink
+SCC(1): [bad48]
+ +bad48
+SCC(1): [goodG2BSink]
+ +goodG2BSink
+SCC(1): [good48]
+ +good48
+SCC(1): [main]
+ +main
+SCC(1): [printLine]
+ +printLine
+<begin of summary store (POINTER_AP)>
+Functions [bad48, badSink, good48, goodG2BSink, main, printIntLine, printLine]
+Loops     []
+----
+function: bad48
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: badSink
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: good48
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: goodG2BSink
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.005s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N4279): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N4254
+On edge  : N4254 -{%rem = srem i32 100, %0}-> N4255
+Message  : Divide By Zero
+> Start from entry function: main, At N4279 of Function main
+> Entering function: good48, On N4308 -> N4259 (call good48)
+> Entering function: goodG2BSink, On N4265 -> N4269 (call goodG2BSink)
+> Entering function: printIntLine, On N4275 -> N4285 (call printIntLine)
+> Leaving function: printIntLine, On N4284 -> N4276 (Return edge from printIntLine to goodG2BSink)
+> Leaving function: goodG2BSink, On N4268 -> N4266 (Return edge from goodG2BSink to good48)
+> Leaving function: good48, On N4258 -> N4281 (Return edge from good48 to main)
+> Entering function: bad48, On N4281 -> N4238 (call bad48)
+> Entering function: badSink, On N4245 -> N4249 (call badSink)
+<Defect> : N4254 -> N4255: [%rem = srem i32 100, %0]
+N4254 -> N4255: [%rem = srem i32 100, %0] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_48.c 30] badSink 		[N4254 -{%rem = srem i32 100, %0}-> N4255]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_49.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+7 SCCs to deal with
+SCC(1): [badSource]
+ +badSource
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [bad49]
+ +bad49
+SCC(1): [goodG2BSource]
+ +goodG2BSource
+SCC(1): [good49]
+ +good49
+SCC(1): [main]
+ +main
+SCC(1): [printLine]
+ +printLine
+<begin of summary store (POINTER_AP)>
+Functions [badSource, good49, goodG2BSource, main, printIntLine, printLine, bad49]
+Loops     []
+----
+function: bad49
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: badSource
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: good49
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: goodG2BSource
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.003s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N4358): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N4321
+On edge  : N4321 -{%rem = srem i32 100, %1}-> N4322
+Message  : Divide By Zero
+> Start from entry function: main, At N4358 of Function main
+> Entering function: good49, On N4387 -> N4336 (call good49)
+> Entering function: goodG2BSource, On N4341 -> N4349 (call goodG2BSource)
+> Leaving function: goodG2BSource, On N4348 -> N4342 (Return edge from goodG2BSource to good49)
+> Entering function: printIntLine, On N4345 -> N4364 (call printIntLine)
+> Leaving function: printIntLine, On N4363 -> N4346 (Return edge from printIntLine to good49)
+> Leaving function: good49, On N4335 -> N4360 (Return edge from good49 to main)
+> Entering function: bad49, On N4360 -> N4313 (call bad49)
+> Entering function: badSource, On N4318 -> N4326 (call badSource)
+> Leaving function: badSource, On N4325 -> N4319 (Return edge from badSource to bad49)
+<Defect> : N4321 -> N4322: [%rem = srem i32 100, %1]
+N4321 -> N4322: [%rem = srem i32 100, %1] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_49.c 43] bad49 		[N4321 -{%rem = srem i32 100, %1}-> N4322]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/369_50.ll]
+Finish creating ll file
+Finish parsing file
+Finish parsing to Cfa
+Finish inserting global variables
+Finish removing unreachable nodes
+Finish simplifying
+Finish labeling reverse post order id
+Finish labeling flood order
+Finish inserting fun call return
+Finish building
+Finish post process
+CFA exported to: output/cfa-merged/cfa.dot
+Function CFA exported to: output/cfa-separate/
+Call graph exported to: output/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/cfa-merged/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+7 SCCs to deal with
+SCC(1): [printIntLine]
+ +printIntLine
+SCC(1): [badSink]
+ +badSink
+SCC(1): [bad50]
+ +bad50
+SCC(1): [goodG2BSink]
+ +goodG2BSink
+SCC(1): [good50]
+ +good50
+SCC(1): [main]
+ +main
+SCC(1): [printLine]
+ +printLine
+<begin of summary store (POINTER_AP)>
+Functions [printLine, bad50, badSink, good50, goodG2BSink, main, printIntLine]
+Loops     []
+----
+function: bad50
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: badSink
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: good50
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: goodG2BSink
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: main
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: R
+----
+function: printIntLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+----
+function: printLine
+P+ = [] 
+P- = [] 
+Point-To:
+
+Ret-Value: 
+<end of summary store>
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.004s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N4437): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N4410
+On edge  : N4410 -{%rem = srem i32 100, %1}-> N4411
+Message  : Divide By Zero
+> Start from entry function: main, At N4437 of Function main
+> Entering function: good50, On N4466 -> N4415 (call good50)
+> Entering function: goodG2BSink, On N4422 -> N4426 (call goodG2BSink)
+> Entering function: printIntLine, On N4433 -> N4443 (call printIntLine)
+> Leaving function: printIntLine, On N4442 -> N4434 (Return edge from printIntLine to goodG2BSink)
+> Leaving function: goodG2BSink, On N4425 -> N4423 (Return edge from goodG2BSink to good50)
+> Leaving function: good50, On N4414 -> N4439 (Return edge from good50 to main)
+> Entering function: bad50, On N4439 -> N4392 (call bad50)
+> Entering function: badSink, On N4400 -> N4404 (call badSink)
+<Defect> : N4410 -> N4411: [%rem = srem i32 100, %1]
+N4410 -> N4411: [%rem = srem i32 100, %1] <--
+-- end of trace --
+=====================================================
+CWE_369(Divide By Zero): 1
+	[./369_50.c 36] badSink 		[N4410 -{%rem = srem i32 100, %1}-> N4411]	(Divide By Zero)
+
+Found 1 defects in all (0 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+
+
+Process finished with exit code 0

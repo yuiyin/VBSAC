@@ -1,0 +1,483 @@
+./369_zero_division_6.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/itc/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.....
+
+Found 2 issues
+
+369_zero_division_6.c:25: error: DEAD_STORE
+  The value written to &ret is never used.
+  23.   	int ret;
+  24.   	zero_division_007_func_001_bad();
+  25. > 	ret = dividend / zero_division_007_s_gbl_bad.divisor;/*Tool should detect this line as error*/ /* ERROR:division by zero */
+  26.   }
+  27.   
+
+369_zero_division_6.c:40: error: DEAD_STORE
+  The value written to &ret is never used.
+  38.   	int ret;
+  39.   	zero_division_007_func_001_good();
+  40. > 	ret = dividend / zero_division_007_s_gbl_good.divisor; /*Tool should not detect this line as error*/ /* No ERROR:division by zero */
+  41.   }
+  42.   
+
+
+Summary of the reports
+
+  DEAD_STORE: 2
+./369_zero_division_14.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/itc/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.......
+
+Found 4 issues
+
+369_zero_division_14.c:14: error: NULL_DEREFERENCE
+  pointer `zero_division_016_gbl_divisor_bad` last assigned on line 13 could be null and is dereferenced at line 14, column 2.
+  12.   {
+  13.   	zero_division_016_gbl_divisor_bad = malloc(1*sizeof(int));
+  14. > 	*zero_division_016_gbl_divisor_bad = -1;
+  15.   }
+  16.   
+
+369_zero_division_14.c:32: error: DEAD_STORE
+  The value written to &ret is never used.
+  30.   	divisor1 = *zero_division_016_gbl_divisor_bad;
+  31.   	divisor2 = divisor1;
+  32. > 	ret = dividend / divisor2;/*Tool should detect this line as error*/ /* ERROR:division by zero */
+  33.   }
+  34.   
+
+369_zero_division_14.c:44: error: NULL_DEREFERENCE
+  pointer `zero_division_016_gbl_divisor_good` last assigned on line 43 could be null and is dereferenced at line 44, column 2.
+  42.   {
+  43.   	zero_division_016_gbl_divisor_good = malloc(1*sizeof(int));
+  44. > 	*zero_division_016_gbl_divisor_good= 1;
+  45.   }
+  46.   
+
+369_zero_division_14.c:62: error: DEAD_STORE
+  The value written to &ret is never used.
+  60.   	divisor1 = *zero_division_016_gbl_divisor_good;
+  61.   	divisor2 = divisor1;
+  62. > 	ret = dividend / divisor2; /*Tool should not detect this line as error*/ /* No ERROR:division by zero */
+  63.   }
+  64.   
+
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 2
+        DEAD_STORE: 2
+./369_zero_division_9.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/itc/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F...
+
+Found 2 issues
+
+369_zero_division_9.c:12: error: DEAD_STORE
+  The value written to &ret is never used.
+  10.   	int divisor = 2;
+  11.   	int ret;
+  12. > 	ret = dividend / (2 * divisor - 4);/*Tool should detect this line as error*/ /* ERROR:division by zero */
+  13.   }
+  14.   
+
+369_zero_division_9.c:24: error: DEAD_STORE
+  The value written to &ret is never used.
+  22.   	int divisor = 2;
+  23.   	int ret;
+  24. > 	ret = dividend / (2 * divisor - 3); /*Tool should not detect this line as error*/ /* No ERROR:division by zero */
+  25.   }
+  26.   
+
+
+Summary of the reports
+
+  DEAD_STORE: 2
+./369_zero_division_1.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/itc/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F...
+
+Found 2 issues
+
+369_zero_division_1.c:11: error: DEAD_STORE
+  The value written to &ret is never used.
+  9.   	int dividend = 1000;
+  10.   	int ret;
+  11. > 	ret = dividend / 0;/*Tool should detect this line as error*/ /* ERROR:division by zero */
+  12.   }
+  13.   
+
+369_zero_division_1.c:22: error: DEAD_STORE
+  The value written to &ret is never used.
+  20.   	int dividend = 1000;
+  21.   	int ret;
+  22. > 	ret = dividend / 1; /*Tool should not detect this line as error*/ /* No ERROR:division by zero */
+  23.   }
+  24.   
+
+
+Summary of the reports
+
+  DEAD_STORE: 2
+./369_zero_division_4.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/itc/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F........
+
+  No issues found  
+./369_zero_division_12.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/itc/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F....
+
+Found 1 issue
+
+369_zero_division_12.c:11: error: DEAD_STORE
+  The value written to &ret is never used.
+  9.   	int dividend = 1000;
+  10.   	int ret;
+  11. > 	ret = dividend / divisor;/*Tool should detect this line as error*/ /* ERROR:division by zero */
+  12.   }
+  13.   
+
+
+Summary of the reports
+
+  DEAD_STORE: 1
+./369_zero_division_13.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/itc/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F...
+
+Found 2 issues
+
+369_zero_division_13.c:14: error: DEAD_STORE
+  The value written to &ret is never used.
+  12.   	int ret;
+  13.   	divisor1 = divisor;
+  14. > 	ret = dividend / divisor1;/*Tool should detect this line as error*/ /* ERROR:division by zero */
+  15.   }
+  16.   
+
+369_zero_division_13.c:28: error: DEAD_STORE
+  The value written to &ret is never used.
+  26.   	int ret;
+  27.   	divisor1 = divisor;
+  28. > 	ret = dividend / divisor1; /*Tool should not detect this line as error*/ /* No ERROR:division by zero */
+  29.   }
+  30.   
+
+
+Summary of the reports
+
+  DEAD_STORE: 2
+./369_zero_division_8.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/itc/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F...
+
+Found 2 issues
+
+369_zero_division_8.c:17: error: DEAD_STORE
+  The value written to &ret is never used.
+  15.   	int ret;
+  16.   	divisor = rand();
+  17. > 	ret = dividend / divisor;/*Tool should detect this line as error*/ /* ERROR:division by zero */
+  18.   }
+  19.   
+
+369_zero_division_8.c:32: error: DEAD_STORE
+  The value written to &ret is never used.
+  30.   	if (divisor != 0)
+  31.   	{
+  32. > 		ret = dividend / divisor; /*Tool should not detect this line as error*/ /* No ERROR:division by zero */
+  33.   	}
+  34.   }
+
+
+Summary of the reports
+
+  DEAD_STORE: 2
+./369_zero_division_10.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/itc/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F...
+
+Found 2 issues
+
+369_zero_division_10.c:12: error: DEAD_STORE
+  The value written to &ret is never used.
+  10.   	int divisor = 2;
+  11.   	int ret;
+  12. > 	ret = dividend / (divisor * divisor - 4);/*Tool should detect this line as error*/ /* ERROR:division by zero */
+  13.   
+  14.   }
+
+369_zero_division_10.c:25: error: DEAD_STORE
+  The value written to &ret is never used.
+  23.   	int divisor = 2;
+  24.   	int ret;
+  25. > 	ret = dividend / (divisor * divisor - 3); /*Tool should not detect this line as error*/ /* No ERROR:division by zero */
+  26.   
+  27.   }
+
+
+Summary of the reports
+
+  DEAD_STORE: 2
+./369_zero_division_7.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/itc/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F...
+
+Found 2 issues
+
+369_zero_division_7.c:12: error: DEAD_STORE
+  The value written to &ret is never used.
+  10.   	int divisor = 0;
+  11.   	int ret;
+  12. > 	ret = dividend / divisor;/*Tool should detect this line as error*/ /* ERROR:division by zero */
+  13.   }
+  14.   
+
+369_zero_division_7.c:24: error: DEAD_STORE
+  The value written to &ret is never used.
+  22.   	int divisor = 1;
+  23.   	int ret;
+  24. > 	ret = dividend / divisor; /*Tool should not detect this line as error*/ /* No ERROR:division by zero */
+  25.   }
+  26.   
+
+
+Summary of the reports
+
+  DEAD_STORE: 2
+./369_zero_division_5.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/itc/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.....
+
+Found 2 issues
+
+369_zero_division_5.c:15: error: DEAD_STORE
+  The value written to &ret is never used.
+  13.   	int ret;
+  14.   	p = &zero_division_006_gbl_divisor_bad;
+  15. > 	ret = dividend / *p;/*Tool should detect this line as error*/ /* ERROR:division by zero */
+  16.   }
+  17.   
+
+369_zero_division_5.c:31: error: DEAD_STORE
+  The value written to &ret is never used.
+  29.   	int ret;
+  30.   	p = &zero_division_006_gbl_divisor_good;
+  31. > 	ret = dividend / *p; /*Tool should not detect this line as error*/ /* No ERROR:division by zero */
+  32.   }
+  33.   
+
+
+Summary of the reports
+
+  DEAD_STORE: 2
+./369_zero_division_15.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/itc/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F...
+
+Found 2 issues
+
+369_zero_division_15.c:16: error: DEAD_STORE
+  The value written to &ret is never used.
+  14.   	int divisors[5] = {2, 1, 0, 3, 4};
+  15.   	int ret;
+  16. > 	ret = dividend / divisors[2];/*Tool should detect this line as error*/ /* ERROR:division by zero */
+  17.   }
+  18.   
+
+369_zero_division_15.c:28: error: DEAD_STORE
+  The value written to &ret is never used.
+  26.   	int divisors[5] = {2, 1, 3, 0, 4};
+  27.   	int ret;
+  28. > 	ret = dividend / divisors[2]; /*Tool should not detect this line as error*/ /* No ERROR:division by zero */
+  29.   }
+  30.   
+
+
+Summary of the reports
+
+  DEAD_STORE: 2
+./369_zero_division_11.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/itc/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.....
+
+Found 2 issues
+
+369_zero_division_11.c:16: error: DEAD_STORE
+  The value written to &ret is never used.
+  14.   	int dividend = 1000;
+  15.   	int ret;
+  16. > 	ret = dividend / zero_division_013_func_001_bad();/*Tool should detect this line as error*/ /* ERROR:division by zero */
+  17.   }
+  18.   
+
+369_zero_division_11.c:32: error: DEAD_STORE
+  The value written to &ret is never used.
+  30.   	int dividend = 1000;
+  31.   	int ret;
+  32. > 	ret = dividend / zero_division_013_func_001_good(); /*Tool should not detect this line as error*/ /* No ERROR:division by zero */
+  33.   }
+  34.   
+
+
+Summary of the reports
+
+  DEAD_STORE: 2
+./369_zero_division_3.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/itc/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F...
+
+Found 2 issues
+
+369_zero_division_3.c:11: error: DEAD_STORE
+  The value written to &ret is never used.
+  9.   	int dividend = 1000;
+  10.   	int ret;
+  11. > 	ret = dividend % 0;/*Tool should detect this line as error*/ /* ERROR:division by zero */
+  12.   }
+  13.   
+
+369_zero_division_3.c:22: error: DEAD_STORE
+  The value written to &ret is never used.
+  20.   	int dividend = 1000;
+  21.   	int ret;
+  22. > 	ret = dividend % 1; /*Tool should not detect this line as error*/ /* No ERROR:division by zero */
+  23.   }
+  24.   
+
+
+Summary of the reports
+
+  DEAD_STORE: 2
+./369_zero_division_2.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/itc/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F...
+
+Found 2 issues
+
+369_zero_division_2.c:12: error: DEAD_STORE
+  The value written to &ret is never used.
+  10.   	int ret;
+  11.   	dividend /= 0;/*Tool should detect this line as error*/ /* ERROR:division by zero */
+  12. > 	ret = dividend;
+  13.   }
+  14.   
+
+369_zero_division_2.c:24: error: DEAD_STORE
+  The value written to &ret is never used.
+  22.   	int ret;
+  23.   	dividend /= 1; /*Tool should not detect this line as error*/ /* No ERROR:division by zero */
+  24. > 	ret = dividend;
+  25.   }
+  26.   
+
+
+Summary of the reports
+
+  DEAD_STORE: 2

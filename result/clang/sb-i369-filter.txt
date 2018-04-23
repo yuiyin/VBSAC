@@ -1,0 +1,12 @@
+./369_zero_division_1.c:9:17: warning: Division by zero
+./369_zero_division_10.c:10:17: warning: Division by zero
+./369_zero_division_11.c:14:17: warning: Division by zero
+./369_zero_division_12.c:9:17: warning: Division by zero
+./369_zero_division_13.c:12:17: warning: Division by zero
+./369_zero_division_14.c:30:17: warning: Division by zero
+./369_zero_division_15.c:14:17: warning: Division by zero
+./369_zero_division_2.c:9:11: warning: Division by zero
+./369_zero_division_3.c:9:17: warning: Division by zero
+./369_zero_division_6.c:23:17: warning: Division by zero
+./369_zero_division_7.c:10:17: warning: Division by zero
+./369_zero_division_9.c:10:17: warning: Division by zero

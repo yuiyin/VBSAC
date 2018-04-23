@@ -1,0 +1,229 @@
+rm: cannot remove '*.o': No such file or directory
+./416_29.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-102542-36244-1' because it contains no reports.
+scan-build: No bugs found.
+./416_7.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-102543-36255-1' because it contains no reports.
+scan-build: No bugs found.
+./416_20.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-102543-36266-1' because it contains no reports.
+scan-build: No bugs found.
+./416_45.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-102544-36277-1' because it contains no reports.
+scan-build: No bugs found.
+./416_9.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-102544-36288-1' because it contains no reports.
+scan-build: No bugs found.
+./416_44.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-102545-36299-1' because it contains no reports.
+scan-build: No bugs found.
+./416_22.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-102545-36310-1' because it contains no reports.
+scan-build: No bugs found.
+./416_16.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-102546-36321-1' because it contains no reports.
+scan-build: No bugs found.
+./416_48.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-102547-36332-1' because it contains no reports.
+scan-build: No bugs found.
+./416_39.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-102547-36343-1' because it contains no reports.
+scan-build: No bugs found.
+./416_28.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-102548-36354-1' because it contains no reports.
+scan-build: No bugs found.
+./416_11.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-102548-36366-1' because it contains no reports.
+scan-build: No bugs found.
+./416_40.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-102549-36377-1' because it contains no reports.
+scan-build: No bugs found.
+./416_36.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-102550-36389-1' because it contains no reports.
+scan-build: No bugs found.
+./416_1.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./416_1.c:68:5: warning: Use of memory after it is freed
+    printLine(data);
+    ^~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102551-36400-1' to examine bug reports.
+./416_33.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-102551-36411-1' because it contains no reports.
+scan-build: No bugs found.
+./416_24.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-102552-36422-1' because it contains no reports.
+scan-build: No bugs found.
+./416_32.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-102552-36445-1' because it contains no reports.
+scan-build: No bugs found.
+./416_47.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-102553-36482-1' because it contains no reports.
+scan-build: No bugs found.
+./416_19.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-102554-36494-1' because it contains no reports.
+scan-build: No bugs found.
+./416_42.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-102554-36505-1' because it contains no reports.
+scan-build: No bugs found.
+./416_4.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./416_4.c:72:9: warning: Use of memory after it is freed
+        printLine(data);
+        ^~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102555-36518-1' to examine bug reports.
+./416_35.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-102556-36529-1' because it contains no reports.
+scan-build: No bugs found.
+./416_23.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-102556-36540-1' because it contains no reports.
+scan-build: No bugs found.
+./416_31.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-102557-36551-1' because it contains no reports.
+scan-build: No bugs found.
+./416_6.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./416_6.c:71:9: warning: Use of memory after it is freed
+        printLine(data);
+        ^~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102557-36562-1' to examine bug reports.
+./416_27.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-102558-36573-1' because it contains no reports.
+scan-build: No bugs found.
+./416_21.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-102558-36584-1' because it contains no reports.
+scan-build: No bugs found.
+./416_38.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-102559-36595-1' because it contains no reports.
+scan-build: No bugs found.
+./416_50.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-102600-36606-1' because it contains no reports.
+scan-build: No bugs found.
+./416_12.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-102600-36617-1' because it contains no reports.
+scan-build: No bugs found.
+./416_46.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-102601-36628-1' because it contains no reports.
+scan-build: No bugs found.
+./416_34.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-102601-36639-1' because it contains no reports.
+scan-build: No bugs found.
+./416_30.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-102602-36650-1' because it contains no reports.
+scan-build: No bugs found.
+./416_37.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-102602-36661-1' because it contains no reports.
+scan-build: No bugs found.
+./416_10.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-102603-36672-1' because it contains no reports.
+scan-build: No bugs found.
+./416_5.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./416_5.c:72:9: warning: Use of memory after it is freed
+        printLine(data);
+        ^~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102603-36683-1' to examine bug reports.
+./416_41.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-102604-36694-1' because it contains no reports.
+scan-build: No bugs found.
+./416_8.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-102604-36705-1' because it contains no reports.
+scan-build: No bugs found.
+./416_2.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./416_2.c:69:9: warning: Use of memory after it is freed
+        printLine(data);
+        ^~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102605-36716-1' to examine bug reports.
+./416.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-102605-36727-1' because it contains no reports.
+scan-build: No bugs found.
+./416_43.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-102606-36738-1' because it contains no reports.
+scan-build: No bugs found.
+./416_13.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-102606-36751-1' because it contains no reports.
+scan-build: No bugs found.
+./416_17.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-102607-36762-1' because it contains no reports.
+scan-build: No bugs found.
+./416_14.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-102607-36773-1' because it contains no reports.
+scan-build: No bugs found.
+./416_18.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-102608-36784-1' because it contains no reports.
+scan-build: No bugs found.
+./416_15.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-102609-36797-1' because it contains no reports.
+scan-build: No bugs found.
+./416_3.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+./416_3.c:69:9: warning: Use of memory after it is freed
+        printLine(data);
+        ^~~~~~~~~~~~~~~
+1 warning generated.
+scan-build: 1 bug found.
+scan-build: Run 'scan-view /tmp/scan-build-2018-04-09-102609-36820-1' to examine bug reports.
+./416_49.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-102610-36831-1' because it contains no reports.
+scan-build: No bugs found.
+./416_25.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-102610-36842-1' because it contains no reports.
+scan-build: No bugs found.
+./416_26.c
+scan-build: Using '/usr/local/bin/clang-3.9' for static analysis
+scan-build: Removing directory '/tmp/scan-build-2018-04-09-102611-36853-1' because it contains no reports.
+scan-build: No bugs found.

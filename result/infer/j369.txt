@@ -1,0 +1,774 @@
+./369_33.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.......
+
+  No issues found  
+./369_40.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..............
+
+  No issues found  
+./369_22.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.....
+
+Found 1 issue
+
+369_22.c:62: error: DEAD_STORE
+  The value written to &data is never used.
+  60.       CWE369_Divide_by_Zero__int_fscanf_divide_34_unionType myUnion;
+  61.       /* Initialize data */
+  62. >     data = -1;
+  63.       /* FIX: Use a value not equal to zero */
+  64.       data = 7;
+
+
+Summary of the reports
+
+  DEAD_STORE: 1
+./369_23.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.......
+
+Found 1 issue
+
+369_23.c:56: error: DEAD_STORE
+  The value written to &data is never used.
+  54.       int data;
+  55.       /* Initialize data */
+  56. >     data = -1;
+  57.       /* FIX: Use a value not equal to zero */
+  58.       data = 7;
+
+
+Summary of the reports
+
+  DEAD_STORE: 1
+./369_37.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F............
+
+  No issues found  
+./369_5.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F........
+
+  No issues found  
+./369_4.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.......
+
+  No issues found  
+./369_46.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.....
+
+Found 3 issues
+
+369_46.c:36: error: DEAD_STORE
+  The value written to &data is never used.
+  34.       int *dataPtr2 = &data;
+  35.       /* Initialize data */
+  36. >     data = -1;
+  37.       {
+  38.           int data = *dataPtr1;
+
+369_46.c:61: error: DEAD_STORE
+  The value written to &data is never used.
+  59.       int *dataPtr2 = &data;
+  60.       /* Initialize data */
+  61. >     data = -1;
+  62.       {
+  63.           int data = *dataPtr1;
+
+369_46.c:63: error: DEAD_STORE
+  The value written to &data is never used.
+  61.       data = -1;
+  62.       {
+  63. >         int data = *dataPtr1;
+  64.           /* FIX: Use a value not equal to zero */
+  65.           data = 7;
+
+
+Summary of the reports
+
+  DEAD_STORE: 3
+./369_35.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..........
+
+  No issues found  
+./369_42.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..............
+
+  No issues found  
+./369_25.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.......
+
+Found 1 issue
+
+369_25.c:66: error: DEAD_STORE
+  The value written to &data is never used.
+  64.       int data;
+  65.       /* Initialize data */
+  66. >     data = -1;
+  67.       /* FIX: Use a value not equal to zero */
+  68.       data = 7;
+
+
+Summary of the reports
+
+  DEAD_STORE: 1
+./369_30.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F........
+
+  No issues found  
+./369_44.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..................
+
+  No issues found  
+./369_7.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F......
+
+  No issues found  
+./369_2.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.....
+
+  No issues found  
+./369_10.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..........
+
+  No issues found  
+./369_20.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..............
+
+Found 1 issue
+
+369_20.c:81: error: DEAD_STORE
+  The value written to &data is never used.
+  79.       int data;
+  80.       /* Initialize data */
+  81. >     data = -1;
+  82.       /* FIX: Use a value not equal to zero */
+  83.       data = 7;
+
+
+Summary of the reports
+
+  DEAD_STORE: 1
+./369_48.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.......
+
+Found 1 issue
+
+369_48.c:56: error: DEAD_STORE
+  The value written to &data is never used.
+  54.       int data;
+  55.       /* Initialize data */
+  56. >     data = -1;
+  57.       /* FIX: Use a value not equal to zero */
+  58.       data = 7;
+
+
+Summary of the reports
+
+  DEAD_STORE: 1
+./369_19.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..................
+
+  No issues found  
+./369_43.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..............
+
+  No issues found  
+./369_39.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..............
+
+  No issues found  
+./369_24.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.........
+
+  No issues found  
+./369_17.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..............
+
+  No issues found  
+./369_31.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F........
+
+  No issues found  
+./369_28.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F......
+
+  No issues found  
+./369_29.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F................
+
+  No issues found  
+./369_47.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.....
+
+Found 1 issue
+
+369_47.c:62: error: DEAD_STORE
+  The value written to &data is never used.
+  60.       CWE369_Divide_by_Zero__int_fscanf_divide_34_unionType myUnion;
+  61.       /* Initialize data */
+  62. >     data = -1;
+  63.       /* FIX: Use a value not equal to zero */
+  64.       data = 7;
+
+
+Summary of the reports
+
+  DEAD_STORE: 1
+./369_15.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F............
+
+  No issues found  
+./369_49.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.........
+
+  No issues found  
+./369_9.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F........
+
+  No issues found  
+./369_27.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F......
+
+  No issues found  
+./369_32.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F........
+
+  No issues found  
+./369_16.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F............
+
+  No issues found  
+./369_6.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F......
+
+  No issues found  
+./369_18.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..............
+
+  No issues found  
+./369_21.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.....
+
+Found 3 issues
+
+369_21.c:36: error: DEAD_STORE
+  The value written to &data is never used.
+  34.       int *dataPtr2 = &data;
+  35.       /* Initialize data */
+  36. >     data = -1;
+  37.       {
+  38.           int data = *dataPtr1;
+
+369_21.c:61: error: DEAD_STORE
+  The value written to &data is never used.
+  59.       int *dataPtr2 = &data;
+  60.       /* Initialize data */
+  61. >     data = -1;
+  62.       {
+  63.           int data = *dataPtr1;
+
+369_21.c:63: error: DEAD_STORE
+  The value written to &data is never used.
+  61.       data = -1;
+  62.       {
+  63. >         int data = *dataPtr1;
+  64.           /* FIX: Use a value not equal to zero */
+  65.           data = 7;
+
+
+Summary of the reports
+
+  DEAD_STORE: 3
+./369_12.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F............
+
+  No issues found  
+./369_50.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.......
+
+Found 1 issue
+
+369_50.c:66: error: DEAD_STORE
+  The value written to &data is never used.
+  64.       int data;
+  65.       /* Initialize data */
+  66. >     data = -1;
+  67.       /* FIX: Use a value not equal to zero */
+  68.       data = 7;
+
+
+Summary of the reports
+
+  DEAD_STORE: 1
+./369_26.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F......
+
+  No issues found  
+./369_38.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..............
+
+  No issues found  
+./369_3.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F......
+
+  No issues found  
+./369_13.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F............
+
+  No issues found  
+./369_1.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.....
+
+  No issues found  
+./369.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..
+
+  No issues found  
+./369_36.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..........
+
+  No issues found  
+./369_14.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F............
+
+  No issues found  
+./369_11.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.............
+
+  No issues found  
+./369_34.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F.........
+
+  No issues found  
+./369_8.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F........
+
+  No issues found  
+./369_41.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F..............
+
+  No issues found  
+./369_45.c
+Capturing in make/cc mode...
+Found 1 source file to analyze in /home/guzuxing/Documents/benchmark/CWE/Juliet_Test_Suite/369/infer-out
+Starting analysis...
+
+legend:
+  "F" analyzing a file
+  "." analyzing a procedure
+
+F...............
+
+Found 1 issue
+
+369_45.c:86: error: DEAD_STORE
+  The value written to &data is never used.
+  84.       int data;
+  85.       /* Initialize data */
+  86. >     data = -1;
+  87.       /* FIX: Use a value not equal to zero */
+  88.       data = 7;
+
+
+Summary of the reports
+
+  DEAD_STORE: 1
