@@ -2,7 +2,7 @@
 // PVS-Studio Static Code Analyzer for C, C++ and C#: http://www.viva64.com
 /*
  * Types of defects: underflow
- * Complexity: int	Decrement	-
+ * Complexity: int	Decrement	--
  */
 void data_underflow_003_bad ()
 {

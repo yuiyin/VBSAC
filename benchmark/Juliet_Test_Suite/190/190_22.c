@@ -3,11 +3,6 @@
 /*
  * @description
  * CWE: 190 Integer Overflow
- * Feature:
- * 1. type: int32
- * 2. generator: rand
- * 3. arithmatic: add
- * 4. program structure: union
  */
 
 #include "190.h"
@@ -88,4 +83,5 @@ void good22()
 int main(){
     good22();
     bad22();
+    return 1;
 }

@@ -3,11 +3,6 @@
 /*
  * @description
  * CWE: 191 Integer Underflow
- * Feature:
- * 1. type: int32
- * 2. generator: min
- * 3. arithmatic: sub
- * 4. program structure: if constant expression
  */
 
 #include "191.h"
@@ -89,4 +84,5 @@ void good3()
 int main(){
     good3();
 	bad3();
+    return 1;
 }

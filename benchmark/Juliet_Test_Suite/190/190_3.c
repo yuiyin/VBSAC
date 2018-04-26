@@ -3,11 +3,6 @@
 /*
  * @description
  * CWE: 190 Integer Overflow
- * Feature:
- * 1. type: char
- * 2. generator: fscanf
- * 3. arithmatic: square
- * 4. program structure: if-const-expression
  */
 
 #include "190.h"
@@ -87,7 +82,7 @@ void good3()
 }
 
 int main(){
-    // square
     good3();
     bad3();
+    return 1;
 }

@@ -3,11 +3,6 @@
 /*
  * @description
  * CWE: 190 Integer Overflow
- * Feature:
- * 1. type: char
- * 2. generator: rand
- * 3. arithmatic: sqr
- * 4. program structure: if-global-const
  */
 
 #include "190.h"
@@ -99,4 +94,5 @@ void good9()
 int main(){
     good9();
     bad9();
+    return 1;
 }

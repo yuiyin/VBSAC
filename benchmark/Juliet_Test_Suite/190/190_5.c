@@ -3,11 +3,6 @@
 /*
  * @description
  * CWE: 190 Integer Overflow
- * Feature:
- * 1. type: char
- * 2. generator: max
- * 3. arithmatic: mul
- * 4. program structure: if-static-variable
  */
 
 #include "190.h"
@@ -94,4 +89,5 @@ void good5()
 int main(){
     good5();
     bad5();
+    return 1;
 }

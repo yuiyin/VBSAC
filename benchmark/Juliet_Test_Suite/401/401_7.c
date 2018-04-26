@@ -2,12 +2,7 @@
 // PVS-Studio Static Code Analyzer for C, C++ and C#: http://www.viva64.com
 /*
  * @description
- * CWE: 369 Divide by Zero
- * Feature:
- * 1. type: int32
- * 2. generator: fscanf
- * 3. Arithmatic: div
- * 4. program structure: sequence
+ * CWE: 401 Memory Leak
  */
 
 #include "401.h"
@@ -108,4 +103,5 @@ void good7()
 int main(){
     good7();
 	bad7();
+    return 1;
 }

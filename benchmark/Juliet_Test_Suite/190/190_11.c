@@ -3,11 +3,6 @@
 /*
  * @description
  * CWE: 190 Integer Overflow
- * Feature:
- * 1. type: int64
- * 2. generator: fscanf
- * 3. arithmatic: mul
- * 4. program structure: if-functionCall
  */
 
 #include "190.h"
@@ -117,4 +112,5 @@ void good11()
 int main(){
     good11();
     bad11();
+    return 1;
 }

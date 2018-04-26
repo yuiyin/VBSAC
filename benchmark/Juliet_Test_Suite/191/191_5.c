@@ -3,11 +3,6 @@
 /*
  * @description
  * CWE: 191 Integer Underflow
- * Feature:
- * 1. type: unsigned int32
- * 2. generator: fscanf
- * 3. arithmatic: sub
- * 4. program structure: if static variable
  */
 
 #include "191.h"
@@ -93,4 +88,5 @@ void good5()
 int main(){
     good5();
 	bad5();
+    return 1;
 }

@@ -3,11 +3,6 @@
 /*
  * @description
  * CWE: 190 Integer Overflow
- * Feature:
- * 1. type: char
- * 2. generator: rand
- * 3. arithmatic: add
- * 4. program structure: if-static-expression
  */
 
 #include "190.h"
@@ -100,4 +95,5 @@ void good7()
 int main(){
     good7();
     bad7();
+    return 1;
 }

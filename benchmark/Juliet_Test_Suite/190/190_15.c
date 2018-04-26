@@ -3,11 +3,6 @@
 /*
  * @description
  * CWE: 190 Integer Overflow
- * Feature:
- * 1. type: int64
- * 2. generator: max
- * 3. arithmatic: sqr
- * 4. program structure: switch-constant
  */
 
 #include "190.h"
@@ -132,4 +127,5 @@ void good15()
 int main(){
     good15();
     bad15();
+    return 1;
 }

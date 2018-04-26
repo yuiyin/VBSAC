@@ -1,6 +1,11 @@
 // This is an open source non-commercial project. Dear PVS-Studio, please check it.
 // PVS-Studio Static Code Analyzer for C, C++ and C#: http://www.viva64.com
+ /*
+ * @description
+ * CWE: 457 Use Uninitialized Variable
+ */
 #include "457.h"
+
 
 const int GLOBAL_CONST_TRUE = 1; /* true */
 const int GLOBAL_CONST_FALSE = 0; /* false */
@@ -94,4 +99,5 @@ void good17()
 int main(){
     good17();
 	bad17();
+    return 1;
 }

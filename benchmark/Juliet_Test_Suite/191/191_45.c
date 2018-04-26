@@ -3,11 +3,6 @@
 /*
  * @description
  * CWE: 191 Integer Underflow
- * Feature:
- * 1. type: short
- * 2. generator: min
- * 3. arithmatic: mul
- * 4. program structure: sequence
  */
 
 #include "191.h"
@@ -108,4 +103,5 @@ void good45()
 int main(){
 	good45();
     bad45();
+    return 1;
 }

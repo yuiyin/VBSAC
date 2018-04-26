@@ -3,11 +3,6 @@
 /*
  * @description
  * CWE: 190 Integer Overflow
- * Feature:
- * 1. type: char
- * 2. generator: fscanf
- * 3. arithmatic: add
- * 4. program structure: sequence
  */
 
 #include "190.h"
@@ -91,4 +86,5 @@ void good2()
 int main(){
     good2();
     bad2();
+    return 1;
 }

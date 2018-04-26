@@ -3,11 +3,6 @@
 /*
  * @description
  * CWE: 190 Integer Overflow
- * Feature:
- * 1. type: int32
- * 2. generator: max
- * 3. arithmatic: sqr
- * 4. program structure: local-pointerVariable-copy
  */
 
 #include "190.h"
@@ -85,4 +80,5 @@ void good21()
 int main(){
     good21();
     bad21();
+    return 1;
 }

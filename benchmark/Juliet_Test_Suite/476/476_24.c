@@ -1,6 +1,11 @@
 // This is an open source non-commercial project. Dear PVS-Studio, please check it.
 // PVS-Studio Static Code Analyzer for C, C++ and C#: http://www.viva64.com
+ /*
+ * @description
+ * CWE: 476 Null Pointer Dereference
+ */
 #include "476.h"
+
 
 const int GLOBAL_CONST_TRUE = 1; /* true */
 const int GLOBAL_CONST_FALSE = 0; /* false */
@@ -104,4 +109,5 @@ void good24()
 int main(){
     good24();
 	bad24();
+    return 1;
 }

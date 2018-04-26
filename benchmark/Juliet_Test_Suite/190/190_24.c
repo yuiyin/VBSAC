@@ -3,11 +3,6 @@
 /*
  * @description
  * CWE: 190 Integer Overflow
- * Feature:
- * 1. type: int32
- * 2. generator: rand
- * 3. arithmatic: sqr
- * 4. program structure: function return value
  */
 
 #include "190.h"
@@ -77,4 +72,5 @@ void good24()
 int main(){
     good24();
     bad24();
+    return 1;
 }

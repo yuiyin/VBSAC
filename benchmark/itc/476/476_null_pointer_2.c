@@ -1,8 +1,6 @@
 // This is an open source non-commercial project. Dear PVS-Studio, please check it.
 // PVS-Studio Static Code Analyzer for C, C++ and C#: http://www.viva64.com
-/********Software Analysis - FY2013*************/
 /*
-* File Name: null_pointer.c
 * Defect Classification
 * ---------------------
 * Defect Type: Pointer related defects

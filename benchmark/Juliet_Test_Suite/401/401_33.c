@@ -2,14 +2,8 @@
 // PVS-Studio Static Code Analyzer for C, C++ and C#: http://www.viva64.com
 /*
  * @description
- * CWE: 369 Divide by Zero
- * Feature:
- * 1. type: int32
- * 2. generator: fscanf
- * 3. Arithmatic: div
- * 4. program structure: sequence
+ * CWE: 401 Memory Leak
  */
-
 #include "401.h"
 
 const int GLOBAL_CONST_TRUE = 1; /* true */
@@ -105,4 +99,5 @@ void good33()
 int main(){
     good33();
 	bad33();
+    return 1;
 }

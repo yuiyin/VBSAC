@@ -3,11 +3,6 @@
 /*
  * @description
  * CWE: 190 Integer Overflow
- * Feature:
- * 1. type: int64
- * 2. generator: max
- * 3. arithmatic: mul
- * 4. program structure: if-global-variable-expression
  */
 
 #include "190.h"
@@ -117,4 +112,5 @@ void good14()
 int main(){
     good14();
     bad14();
+    return 1;
 }

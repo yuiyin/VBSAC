@@ -1,5 +1,10 @@
 // This is an open source non-commercial project. Dear PVS-Studio, please check it.
 // PVS-Studio Static Code Analyzer for C, C++ and C#: http://www.viva64.com
+ /*
+ * @description
+ * CWE: 416 Use After Free
+ */
+
 #include "416.h"
 
 const int GLOBAL_CONST_TRUE = 1; /* true */
@@ -112,4 +117,5 @@ void good5()
 int main(){
     good5();
 	bad5();
+    return 1;
 }

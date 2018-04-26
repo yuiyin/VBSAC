@@ -3,11 +3,6 @@
 /*
  * @description
  * CWE: 369 Divide by Zero
- * Feature:
- * 1. type: int32
- * 2. generator: fscanf
- * 3. Arithmatic: mod
- * 4. program structure: sequence
  */
 
 #include "369.h"
@@ -74,4 +69,5 @@ void good2()
 int main(){
 	good2();
     bad2();
+    return 1;
 }

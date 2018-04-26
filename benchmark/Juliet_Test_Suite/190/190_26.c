@@ -86,4 +86,5 @@ void good26()
 int main(){
     good26();
     bad26();
+    return 1;
 }

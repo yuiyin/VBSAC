@@ -3,11 +3,6 @@
 /*
  * @description
  * CWE: 190 Integer Overflow
- * Feature:
- * 1. type: int32
- * 2. generator: fscanf
- * 3. arithmatic: add
- * 4. program structure: while-const
  */
 
 #include "190.h"
@@ -114,4 +109,5 @@ void good16()
 int main(){
     good16();
     bad16();
+    return 1;
 }

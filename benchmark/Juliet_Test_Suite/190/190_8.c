@@ -3,11 +3,6 @@
 /*
  * @description
  * CWE: 190 Integer Overflow
- * Feature:
- * 1. type: char
- * 2. generator: rand
- * 3. arithmatic: mul
- * 4. program structure: if-functionCall
  */
 
 #include "190.h"
@@ -110,4 +105,5 @@ void good8()
 int main(){
     good8();
     bad8();
+    return 1;
 }

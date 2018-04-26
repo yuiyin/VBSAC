@@ -3,11 +3,6 @@
 /*
  * @description
  * CWE: 190 Integer Overflow
- * Feature:
- * 1. type: int32
- * 2. generator: fscanf
- * 3. arithmatic: mul
- * 4. program structure: for-const
  */
 
 #include "190.h"
@@ -110,4 +105,5 @@ void good17()
 int main(){
     good17();
     bad17();
+    return 1;
 }

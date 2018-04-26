@@ -3,11 +3,6 @@
 /*
  * @description
  * CWE: 190 Integer Overflow
- * Feature:
- * 1. type: int32
- * 2. generator: max
- * 3. arithmatic: add
- * 4. program structure: function-sink
  */
 
 #include "190.h"
@@ -124,4 +119,5 @@ void good19()
 int main(){
     good19();
     bad19();
+    return 1;
 }

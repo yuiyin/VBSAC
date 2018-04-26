@@ -3,11 +3,6 @@
 /*
  * @description
  * CWE: 190 Integer Overflow
- * Feature:
- * 1. type: int32
- * 2. generator: fscanf
- * 3. arithmatic: sqr
- * 4. program structure: goto
  */
 
 #include "190.h"
@@ -111,4 +106,5 @@ sink:
 int main(){
     good46();
     bad46();
+    return 1;
 }

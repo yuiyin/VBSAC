@@ -3,11 +3,6 @@
 /*
  * @description
  * CWE: 190 Integer Overflow
- * Feature:
- * 1. type: int64
- * 2. generator: fscanf
- * 3. arithmatic: add
- * 4. program structure: if-global-variable
  */
 
 #include "190.h"
@@ -20,27 +15,6 @@ int globalTrue = 1; /* true */
 int globalFalse = 0; /* false */
 int globalFive = 5; 
 
-/* The two functions always return 1 or 0, so a tool should be able to 
-   identify that uses of these functions will always return these values */
-int globalReturnsTrue() 
-{
-    return 1;
-}
-
-int globalReturnsFalse() 
-{
-    return 0;
-}
-
-int globalReturnsTrueOrFalse() 
-{
-    return (rand() % 2);
-}
-
-void printHexCharLine (char charHex)
-{
-    printf("%d\n", (int)charHex);
-}
 
 void printLine (const char * line)
 {
@@ -48,11 +22,6 @@ void printLine (const char * line)
     {
         printf("%s\n", line);
     }
-}
-
-void printIntLine (int intNumber)
-{
-    printf("%d\n", intNumber);
 }
 
 void printLongLine (int64_t longIntNumber)
@@ -112,4 +81,5 @@ void good10()
 int main(){
     good10();
     bad10();
+    return 1;
 }

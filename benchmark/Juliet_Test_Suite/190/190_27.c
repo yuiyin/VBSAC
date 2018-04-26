@@ -3,11 +3,6 @@
 /*
  * @description
  * CWE: 190 Integer Overflow
- * Feature:
- * 1. type: short
- * 2. generator: max
- * 3. arithmatic: add
- * 4. program structure: struct
  */
 
 #include "190.h"
@@ -91,4 +86,5 @@ void good27()
 int main(){
     good27();
     bad27();
+    return 1;
 }

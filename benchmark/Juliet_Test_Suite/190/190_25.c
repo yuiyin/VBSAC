@@ -3,11 +3,6 @@
 /*
  * @description
  * CWE: 190 Integer Overflow
- * Feature:
- * 1. type: short
- * 2. generator: fscanf
- * 3. arithmatic: add
- * 4. program structure: pointer function argument
  */
 
 #include "190.h"
@@ -82,4 +77,5 @@ void good25()
 int main(){
     good25();
     bad25();
+    return 1;
 }
