@@ -1,6 +1,0 @@
-./416_1.c:68:5: warning: Use of memory after it is freed
-./416_2.c:69:9: warning: Use of memory after it is freed
-./416_3.c:69:9: warning: Use of memory after it is freed
-./416_4.c:72:9: warning: Use of memory after it is freed
-./416_5.c:72:9: warning: Use of memory after it is freed
-./416_6.c:71:9: warning: Use of memory after it is freed

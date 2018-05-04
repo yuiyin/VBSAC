@@ -4,11 +4,11 @@ import os
 content = []
 fileWrite = open("pvs-result.txt", 'w')
 
-for file in os.listdir("./pvs"):
+for file in os.listdir("./pvs-original"):
     if file.endswith(".tasks"):
         print(os.path.join("./pvs", file))
 
-    fileRead = open(os.path.join("./pvs", file),'r')
+    fileRead = open(os.path.join("./pvs-original", file),'r')
     for x in fileRead.readlines():
     	if "www.viva64.com/en/w" in x:
     		continue
