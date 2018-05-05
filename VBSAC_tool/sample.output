@@ -1,0 +1,129 @@
+Using Tsmart-VBSAC Static Analyzer:...
+<< Starting CFACreatePhase(cfa) Phase >>
+[/home/guzuxing/Documents/VBSAC/VBSAC_tool/engine-3.0/../example/example.ll]
+Start merging IR files...done
+Start parsing IR files...done
+Start creating CFA...done
+Start inserting global variables...done
+Start removing unreachable CFA nodes...done
+Start simplifying CFA...done
+Start labeling reverse post order id...done
+Start labeling exploration priority...done
+Start inserting function call/return edges...done
+Start post process...done
+CFA exported to: output/phase-cfa/cfa-merged/cfa.dot
+Function CFA exported to: output/phase-cfa/cfa-separate/
+Call graph exported to: output/phase-cfa/cfa-merged/call-graph.dot
+Used instruction types are exported to: output/phase-cfa/instructions.txt
+Phase status: SUCCESS
+
+<< Starting SummaryComputationPhase(summary) Phase >>
+Computing summary >>> 
+Running summary: cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer
+2 SCCs to deal with
+SCC(1): [callFree]
+ +callFree
+SCC(1): [main]
+ +main
+AP summary saved to: output/phase-summary/ap/summary.txt
+Finish summary: (Configuration: [summary=POINTER_AP, ARGCPA.cpa=cpa.composite.CompositeCPA, computer=cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer, analysis.traversal.controlled.maxWaitingSize=100, cpa=cpa.arg.ARGCPA, analysis.traversal.useDominationOrder=true, analysis.traversal.order=bfs, CompositeCPA.cpas=cpa.location.LocationCPA, cpa.accesspath.AccessPathAnalysisCPA], cn.edu.thu.tsmart.core.summary.computer.PointerAccessSummaryComputer)
+Finish summary >>> 
+Used time: 0.138s
+Phase status: SUCCESS
+
+<< Starting MultiEntryAlgorithmRunPhase(basic) Phase >>
+Using 1 entries: [main(N11): +oo]
+> [1/1] entry: main ()
+finish entry: main
+Phase status: SUCCESS
+
+<< Starting AnalyzingResultPhase(result) Phase >>
+== Reports ==
+-- start of trace --
+Weakness : Null Pointer Dereference
+At node  : N56
+On edge  : N56 -{%add.ptr = getelementptr inbounds i32, i32* %6, i64 %idx.ext}-> N57
+Message  : null pointer dereference
+> Start from entry function: main, At N11 of Function main
+> takes the false branch, At N42 of Function main
+> takes the true branch, At N50 of Function main
+<Defect> : N56 -> N57: [%add.ptr = getelementptr inbounds i32, i32* %6, i64 %idx.ext]
+N56 -> N57: [%add.ptr = getelementptr inbounds i32, i32* %6, i64 %idx.ext] <--
+-- end of trace --
+-- start of trace --
+Weakness : Memory Leak
+At node  : N74
+On edge  : N74 -{ret i32 1}-> N10
+Message  : the heap object @H(main::call1) is not referenced any more
+> Start from entry function: main, At N11 of Function main
+> takes the true branch, At N42 of Function main
+<Defect> : N74 -> N10: [ret i32 1]
+N74 -> N10: [ret i32 1] <--
+-- end of trace --
+-- start of trace --
+Weakness : Use After Free
+At node  : N72
+On edge  : N72 -{call void @free(i8* %13, i8* @free)}-> N74
+Message  : the memory is already freed
+> Start from entry function: main, At N11 of Function main
+> takes the false branch, At N42 of Function main
+> takes the true branch, At N50 of Function main
+> takes the true branch, At N50 of Function main
+> takes the true branch, At N50 of Function main
+> takes the true branch, At N50 of Function main
+> takes the true branch, At N50 of Function main
+> takes the false branch, At N50 of Function main
+> takes the true branch, At N66 of Function main
+> Entering function: callFree, On N68 -> N1 (call callFree)
+> Leaving function: callFree, On N0 -> N70 (Return edge from callFree to main)
+<Defect> : N72 -> N74: [call void @free(i8* %13, i8* @free)]
+N72 -> N74: [call void @free(i8* %13, i8* @free)] <--
+-- end of trace --
+-- start of trace --
+Weakness : Divide By Zero
+At node  : N40
+On edge  : N40 -{%rem = srem i32 %1, %2}-> N41
+Message  : Divide By Zero
+> Start from entry function: main, At N11 of Function main
+<Defect> : N40 -> N41: [%rem = srem i32 %1, %2]
+N40 -> N41: [%rem = srem i32 %1, %2] <--
+-- end of trace --
+-- start of trace --
+Weakness : Double Free
+At node  : N72
+On edge  : N72 -{call void @free(i8* %13, i8* @free)}-> N74
+Message  : the memory is already freed
+> Start from entry function: main, At N11 of Function main
+> takes the false branch, At N42 of Function main
+> takes the true branch, At N50 of Function main
+> takes the true branch, At N50 of Function main
+> takes the true branch, At N50 of Function main
+> takes the true branch, At N50 of Function main
+> takes the true branch, At N50 of Function main
+> takes the false branch, At N50 of Function main
+> takes the true branch, At N66 of Function main
+> Entering function: callFree, On N68 -> N1 (call callFree)
+> Leaving function: callFree, On N0 -> N70 (Return edge from callFree to main)
+<Defect> : N72 -> N74: [call void @free(i8* %13, i8* @free)]
+N72 -> N74: [call void @free(i8* %13, i8* @free)] <--
+-- end of trace --
+=====================================================
+CWE_476(Null Pointer Dereference): 1
+	[example.c 22] main 		[N56 -{%add.ptr = getelementptr inbounds i32, i32* %6, i64 %idx.ext}-> N57]	(null pointer dereference)
+
+CWE_401(Memory Leak): 1
+	[example.c 28] main 		[N74 -{ret i32 1}-> N10]	(the heap object @H(main::call1) is not referenced any more)
+
+CWE_416(Use After Free): 1
+	[example.c 26] main 		[N72 -{call void @free(i8* %13, i8* @free)}-> N74]	(the memory is already freed)
+
+CWE_369(Divide By Zero): 1
+	[example.c 17] main 		[N40 -{%rem = srem i32 %1, %2}-> N41]	(Divide By Zero)
+
+CWE_415(Double Free): 1
+	[example.c 26] main 		[N72 -{call void @free(i8* %13, i8* @free)}-> N74]	(the memory is already freed)
+
+Found 5 defects in all (1 duplicates ignored).
+=====================================================
+Phase status: SUCCESS
+

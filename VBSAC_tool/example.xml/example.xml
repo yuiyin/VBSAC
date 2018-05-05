@@ -1,0 +1,217 @@
+<codeAnalysisReport version="17.06.20.0001">
+   <weakness class="java.util.ArrayList">
+      <weaknessInfo name="" desc=""/>
+   </weakness>
+   <target>
+      <base></base>
+      <originalLines>0</originalLines>
+      <preprocessedLines>0</preprocessedLines>
+   </target>
+   <execution>
+      <timestamp>0</timestamp>
+      <consumedTime>0</consumedTime>
+   </execution>
+   <results>
+      <result weakness="Null Pointer Dereference" category="" desc="" severity="" confidence="">
+         <cweIds class="java.util.ArrayList">
+            <integer>476</integer>
+         </cweIds>
+         <location>
+            <hint>takes the false branch</hint>
+            <position file="example.c" function="main">
+               <coordinate line="17" offset="0"/>
+            </position>
+         </location>
+         <location>
+            <hint>takes the true branch</hint>
+            <position file="example.c" function="main">
+               <coordinate line="21" offset="0"/>
+            </position>
+         </location>
+         <location>
+            <hint>null pointer dereference</hint>
+            <position file="example.c" function="main">
+               <coordinate line="22" offset="0"/>
+            </position>
+         </location>
+      </result>
+      <result weakness="Memory Leak" category="" desc="" severity="" confidence="">
+         <cweIds class="java.util.ArrayList">
+            <integer>401</integer>
+         </cweIds>
+         <location>
+            <hint>takes the true branch</hint>
+            <position file="example.c" function="main">
+               <coordinate line="17" offset="0"/>
+            </position>
+         </location>
+         <location>
+            <hint>the heap object @H(main::call1) is not referenced any more</hint>
+            <position file="example.c" function="main">
+               <coordinate line="28" offset="0"/>
+            </position>
+         </location>
+      </result>
+      <result weakness="Use After Free" category="" desc="" severity="" confidence="">
+         <cweIds class="java.util.ArrayList">
+            <integer>416</integer>
+         </cweIds>
+         <location>
+            <hint>takes the false branch</hint>
+            <position file="example.c" function="main">
+               <coordinate line="17" offset="0"/>
+            </position>
+         </location>
+         <location>
+            <hint>takes the true branch</hint>
+            <position file="example.c" function="main">
+               <coordinate line="21" offset="0"/>
+            </position>
+         </location>
+         <location>
+            <hint>takes the true branch</hint>
+            <position file="example.c" function="main">
+               <coordinate line="21" offset="0"/>
+            </position>
+         </location>
+         <location>
+            <hint>takes the true branch</hint>
+            <position file="example.c" function="main">
+               <coordinate line="21" offset="0"/>
+            </position>
+         </location>
+         <location>
+            <hint>takes the true branch</hint>
+            <position file="example.c" function="main">
+               <coordinate line="21" offset="0"/>
+            </position>
+         </location>
+         <location>
+            <hint>takes the true branch</hint>
+            <position file="example.c" function="main">
+               <coordinate line="21" offset="0"/>
+            </position>
+         </location>
+         <location>
+            <hint>takes the false branch</hint>
+            <position file="example.c" function="main">
+               <coordinate line="21" offset="0"/>
+            </position>
+         </location>
+         <location>
+            <hint>takes the true branch</hint>
+            <position file="example.c" function="main">
+               <coordinate line="24" offset="0"/>
+            </position>
+         </location>
+         <transfer>
+            <hint>Entering function: callFree</hint>
+            <area file="example.c" function="main">
+               <start line="25" offset="0"/>
+               <end line="25" offset="0"/>
+            </area>
+            <code>call void @callFree(i32* %11, i32* @callFree)</code>
+         </transfer>
+         <transfer>
+            <hint>Leaving function: callFree</hint>
+            <area file="example.c" function="callFree">
+               <start line="25" offset="0"/>
+               <end line="25" offset="0"/>
+            </area>
+            <code></code>
+         </transfer>
+         <location>
+            <hint>the memory is already freed</hint>
+            <position file="example.c" function="main">
+               <coordinate line="26" offset="0"/>
+            </position>
+         </location>
+      </result>
+      <result weakness="Divide By Zero" category="" desc="" severity="" confidence="">
+         <cweIds class="java.util.ArrayList">
+            <integer>369</integer>
+         </cweIds>
+         <location>
+            <hint>Divide By Zero</hint>
+            <position file="example.c" function="main">
+               <coordinate line="17" offset="0"/>
+            </position>
+         </location>
+      </result>
+      <result weakness="Double Free" category="" desc="" severity="" confidence="">
+         <cweIds class="java.util.ArrayList">
+            <integer>415</integer>
+         </cweIds>
+         <location>
+            <hint>takes the false branch</hint>
+            <position file="example.c" function="main">
+               <coordinate line="17" offset="0"/>
+            </position>
+         </location>
+         <location>
+            <hint>takes the true branch</hint>
+            <position file="example.c" function="main">
+               <coordinate line="21" offset="0"/>
+            </position>
+         </location>
+         <location>
+            <hint>takes the true branch</hint>
+            <position file="example.c" function="main">
+               <coordinate line="21" offset="0"/>
+            </position>
+         </location>
+         <location>
+            <hint>takes the true branch</hint>
+            <position file="example.c" function="main">
+               <coordinate line="21" offset="0"/>
+            </position>
+         </location>
+         <location>
+            <hint>takes the true branch</hint>
+            <position file="example.c" function="main">
+               <coordinate line="21" offset="0"/>
+            </position>
+         </location>
+         <location>
+            <hint>takes the true branch</hint>
+            <position file="example.c" function="main">
+               <coordinate line="21" offset="0"/>
+            </position>
+         </location>
+         <location>
+            <hint>takes the false branch</hint>
+            <position file="example.c" function="main">
+               <coordinate line="21" offset="0"/>
+            </position>
+         </location>
+         <location>
+            <hint>takes the true branch</hint>
+            <position file="example.c" function="main">
+               <coordinate line="24" offset="0"/>
+            </position>
+         </location>
+         <transfer>
+            <hint>Entering function: callFree</hint>
+            <area file="example.c" function="main">
+               <start line="25" offset="0"/>
+               <end line="25" offset="0"/>
+            </area>
+            <code>call void @callFree(i32* %11, i32* @callFree)</code>
+         </transfer>
+         <transfer>
+            <hint>Leaving function: callFree</hint>
+            <area file="example.c" function="callFree">
+               <start line="25" offset="0"/>
+               <end line="25" offset="0"/>
+            </area>
+            <code></code>
+         </transfer>
+         <location>
+            <hint>the memory is already freed</hint>
+            <position file="example.c" function="main">
+               <coordinate line="26" offset="0"/>
+            </position>
+         </location>
+      </result>
+   </results>
+</codeAnalysisReport>
